@@ -128,6 +128,39 @@ export default async function DocPage({ params }: DocPageProps) {
                 <ExternalLinkIcon className="h-3 w-3" />
               </Link>
             )}
+            {doc.links?.Storybook && ( // 新增 Storybook 链接
+              <Link
+                href={doc.links.Storybook}
+                target="_blank"
+                rel="noreferrer"
+                className={cn(badgeVariants({ variant: "secondary" }), "gap-1")}
+              >
+                Storybook
+                <ExternalLinkIcon className="h-3 w-3" />
+              </Link>
+            )}
+            {doc.links?.["Design Guideline"] && ( // 新增 Design Guideline 链接
+              <Link
+                href={doc.links["Design Guideline"]}
+                target="_blank"
+                rel="noreferrer"
+                className={cn(badgeVariants({ variant: "secondary" }), "gap-1")}
+              >
+                Design Guideline
+                <ExternalLinkIcon className="h-3 w-3" />
+              </Link>
+            )}
+            {doc.links?.Accessibility && ( // 新增 Accessibility 链接
+              <Link
+                href={doc.links.Accessibility}
+                target="_blank"
+                rel="noreferrer"
+                className={cn(badgeVariants({ variant: "secondary" }), "gap-1")}
+              >
+                Accessibility
+                <ExternalLinkIcon className="h-3 w-3" />
+              </Link>
+            )}
           </div>
         ) : null}
         <div className="pb-12 pt-8">

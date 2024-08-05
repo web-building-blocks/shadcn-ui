@@ -98,6 +98,12 @@ export const examples: Registry = [
     files: ["example/breadcrumb-responsive.tsx"],
   },
   {
+    name: "breadcrumb-without-border",
+    type: "components:example",
+    registryDependencies: ["breadcrumb"],
+    files: ["example/breadcrumb-without-border.tsx"],
+  },
+  {
     name: "button-demo",
     type: "components:example",
     registryDependencies: ["button"],
