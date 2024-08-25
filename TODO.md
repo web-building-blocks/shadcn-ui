@@ -1,0 +1,7 @@
+- [ ] add a theme switcher next to style switcher in component-preview
+- [ ] support that different styles will come with different theems by default
+- [ ] reorganize the page layout
+- [ ] change the site theme to usyd style
+- [ ] rebase package cli to wbb domain
+- [ ] move examples to template with package cli support
+- [ ] make all components can be used out-of-box (i.e., with React functionalities and guidance)

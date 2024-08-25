@@ -40,12 +40,12 @@ export function ComponentPreview({
 }: ComponentPreviewProps) {
   const [config] = useConfig()
   const index = styles.findIndex((style) => style.name === config.style)
-
+  // console.log(Index);
   const Codes = React.Children.toArray(children) as React.ReactElement[]
   const Code = Codes[index]
 
   const Preview = React.useMemo(() => {
-    const Component = Index[config.style][name]?.component
+    const Component = Index[config.style]?.[name]?.component
 
     if (!Component) {
       return (
@@ -118,7 +118,7 @@ export function ComponentPreview({
               />
             </div>
           </div>
-          <ThemeWrapper defaultTheme="zinc">
+          <ThemeWrapper defaultTheme="rose">
             <div
               className={cn(
                 "preview flex min-h-[350px] w-full justify-center p-10",

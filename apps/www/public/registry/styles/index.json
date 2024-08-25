@@ -6,5 +6,13 @@
   {
     "name": "new-york",
     "label": "New York"
+  },
+  {
+    "name": "sydney",
+    "label": "Sydney"
+  },
+  {
+    "name": "unsw",
+    "label": "UNSW"
   }
 ]
