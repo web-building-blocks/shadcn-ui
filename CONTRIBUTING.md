@@ -247,7 +247,7 @@ usually we only need to modify the displayed theme, i.e, in `component-preview.t
    - add a commit message as per the format **mentioned above**: `git commit -m "message"`
    - push the changes to remote repo: `git push origin comp/Hunter_checkbox`
    - go to github and initate a pull request, select me (Hunter) as the reviewer
-   - 
+   - [important] sometimes when you run `git merge` or `git rebase`, git will switch to a new window ask you to attach a commit message, that's usually in a vim editor, you can move your cursor with arrow keys and press `i` to enter editing mode, type your message, and then press `esc` to exit editing mode, then `:wq` to save the content and quit the editor.
 2. Add the missing features / examples (variants) in the existing components based on WBB project
 3. Add new components and corresponding examples to this project based on WBB project
 4. Write test cases for the new added components
