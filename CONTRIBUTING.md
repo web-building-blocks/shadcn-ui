@@ -232,7 +232,22 @@ usually we only need to modify the displayed theme, i.e, in `component-preview.t
 
 ### A general workflow
 
-1. Create a new branch with `[name]_[component-name]_c` (e.g., Hunter_checkbox, or Hunter_file-upload), and `[name]_[page-title]_p`, and work there
+1. Create a new branch with `comp/[name]_[component-name]` (e.g., comp/Hunter_checkbox, or comp/Hunter_file-upload), or `page/[name]_[page-title]`, and work there
+   1. e.g. `git checkout -b comp/Hunter_checkbox` to create a new branch
+   2. Everytime when you complete a component, follow the following worlflow to submit a commit and pull request:
+   - Fetch the remote main branch to see if there's any update [important]: 
+     - switch to main branch: `git checkout main`
+     - fetch the lastest update from remote main branch: `git fetch origin main`
+     - merge the lastest update to local main branch (if any): `git merge origin/main`
+     - go back to your own branch: `git checkout yourbranch`
+     - merge the lastest update to your own branch: `git rebase main`
+     - or simply `git fetch origin`, then `git rebase origin/main` to merge the updates from main branch to your **current** branch, but you gotta constantly pull the updates from remote main branch to your local main branch to keep your local main branch up-to-date, that's a best practice. 
+     - usually, we don't switch back to main branch and merge the content from your own branch, instead we stay at our own branch and merge any updates from local main - remote main branch, that's because your commit will always be seen as a new commit (a step forward) to main branch.
+   - add `.` (all) files you changed to stage area, or specific files: `git add .`, or `git add [file1] [file2] ...`
+   - add a commit message as per the format **mentioned above**: `git commit -m "message"`
+   - push the changes to remote repo: `git push origin comp/Hunter_checkbox`
+   - go to github and initate a pull request, select me (Hunter) as the reviewer
+   - 
 2. Add the missing features / examples (variants) in the existing components based on WBB project
 3. Add new components and corresponding examples to this project based on WBB project
 4. Write test cases for the new added components
