@@ -1,17 +1,44 @@
 "use client"
 
+import React from 'react';
 import { Checkbox } from "@/registry/default/ui/checkbox"
+import { useToast } from "@/registry/default/ui/use-toast"
+import { Toaster } from "@/registry/default/ui/toaster"
 
 export default function CheckboxDemo() {
+  const { toast } = useToast();
+
+  function handleCheckboxClick(checkboxId: string) {
+    toast({
+      title: "Checkbox Clicked",
+      description: `You clicked on the checkbox with ${checkboxId}`,
+    });
+  }
+
   return (
-    <div className="flex items-center space-x-2">
-      <Checkbox id="terms" />
-      <label
-        htmlFor="terms"
-        className="text-sm font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70"
-      >
-        Accept terms and conditions
-      </label>
-    </div>
+    <>
+      <Toaster />
+      <div className="flex flex-col space-y-4">
+        <div className="flex items-center space-x-2">
+          <Checkbox id="Default checkbox" onClick={() => handleCheckboxClick('Default checkbox')} />
+          <label
+            htmlFor="Default checkbox"
+            className="text-sm font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70"
+          >
+            Default checkbox
+          </label>
+        </div>
+
+        <div className="flex items-center space-x-2">
+          <Checkbox id="Checked State" onClick={() => handleCheckboxClick('Checked State')} />
+          <label
+            htmlFor="Checked State"
+            className="text-sm font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70"
+          >
+            Checked State
+          </label>
+        </div>
+      </div>
+    </>
   )
 }
