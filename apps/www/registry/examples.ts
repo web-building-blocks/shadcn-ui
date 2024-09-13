@@ -668,6 +668,11 @@ export const examples: Registry = [
     files: ["example/menubar-demo.tsx"],
   },
   {
+    name: "modal-demo",
+    type: "components:example",
+    files: ["example/modal-demo.tsx"],
+  },
+  {
     name: "navigation-menu-demo",
     type: "components:example",
     registryDependencies: ["navigation-menu"],
