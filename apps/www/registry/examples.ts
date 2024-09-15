@@ -128,6 +128,12 @@ export const examples: Registry = [
     files: ["example/button-ghost.tsx"],
   },
   {
+    name: "button-hover",
+    type: "components:example",
+    registryDependencies: ["button"],
+    files: ["example/button-hover.tsx"],
+  },
+  {
     name: "button-link",
     type: "components:example",
     registryDependencies: ["button"],
@@ -454,6 +460,24 @@ export const examples: Registry = [
     type: "components:example",
     registryDependencies: ["input-otp", "form"],
     files: ["example/input-otp-form.tsx"],
+  },
+  {
+    name: "input-with-mention",
+    type: "components:example",
+    registryDependencies: ["input", "dropdown-menu"],
+    files: ["example/input-with-mention.tsx"],
+  },
+  {
+    name: "input-with-number",
+    type: "components:example",
+    registryDependencies: ["input", "button", "dropdown-menu"],
+    files: ["example/input-with-number.tsx"],
+  },
+  {
+    name: "input-with-phonenumber",
+    type: "components:example",
+    registryDependencies: ["input", "button", "dropdown-menu"],
+    files: ["example/input-with-phonenumber.tsx"],
   },
   {
     name: "label-demo",
