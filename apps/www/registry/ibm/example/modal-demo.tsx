@@ -1,3 +1,5 @@
+import React from "react"
+
 import { Button } from "@/registry/default/ui/button"
 import {
   Dialog,
@@ -12,19 +14,21 @@ import {
 import { Toaster } from "@/registry/default/ui/toaster"
 import { useToast } from "@/registry/default/ui/use-toast"
 
-export default function ModalDemo() {
+export default function NormalModal() {
   const { toast } = useToast()
-
   return (
     <>
       <Toaster />
       <Dialog>
         <DialogTrigger asChild>
-          <Button variant="outline">Open Modal</Button>
+          <Button variant="outline">Open Model</Button>
         </DialogTrigger>
-        <DialogContent className="p-6 rounded-md bg-white">
+        <DialogContent
+          style={{ backgroundColor: "white" }}
+          className="rounded-md p-6"
+        >
           <DialogHeader>
-            <DialogTitle>About Personal Information</DialogTitle>
+            <DialogTitle>About personal information</DialogTitle>
           </DialogHeader>
           <DialogDescription>
             Under NSW privacy laws, you have the right to request access to and
@@ -47,7 +51,9 @@ export default function ModalDemo() {
           <DialogFooter>
             <Button
               variant="default"
-              onClick={() => toast({ description: "Already Accepted." })}
+              onClick={() => {
+                toast({ description: "Already Accepted." })
+              }}
             >
               Accept
             </Button>
