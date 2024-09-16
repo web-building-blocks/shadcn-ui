@@ -13,7 +13,7 @@ import {
 } from "@/registry/sydney/ui/dropdown-menu"
 
 export function DropdownMenuwithHeader() {
-  const userEmail = 'nzha9876@uni.sydney.edu.au';
+  const userEmail = "nzha9876@uni.sydney.edu.au"
 
   const [selectedOptions, setSelectedOptions] = React.useState([])
 
