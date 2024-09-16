@@ -882,4 +882,29 @@ export const examples: Registry = [
     type: "components:example",
     files: ["example/modal-demo.tsx"],
   },
+  {
+    name: "modal-confirm",
+    type: "components:example",
+    files: ["example/modal-confirm.tsx"],
+  },
+  {
+    name: "modal-login",
+    type: "components:example",
+    files: ["example/modal-login.tsx"],
+  },
+  {
+    name: "modal-notice",
+    type: "components:example",
+    files: ["example/modal-notice.tsx"],
+  },
+  {
+    name: "modal-pic",
+    type: "components:example",
+    files: ["example/modal-pic.tsx"],
+  },
+  {
+    name: "modal-signup",
+    type: "components:example",
+    files: ["example/modal-signup.tsx"],
+  },
 ]

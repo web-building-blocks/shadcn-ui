@@ -233,6 +233,11 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
+          title: "Modal",
+          href: "/docs/components/modal",
+          items: [],
+        },
+        {
           title: "Navigation Menu",
           href: "/docs/components/navigation-menu",
           items: [],

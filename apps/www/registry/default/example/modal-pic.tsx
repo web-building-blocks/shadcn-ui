@@ -1,3 +1,5 @@
+import React, { useState } from "react"
+
 import { Button } from "@/registry/default/ui/button"
 import {
   Dialog,
@@ -12,7 +14,7 @@ import {
 import { Toaster } from "@/registry/default/ui/toaster"
 import { useToast } from "@/registry/default/ui/use-toast"
 
-export default function ModalDemo() {
+export default function PictureModal() {
   const { toast } = useToast()
 
   return (
@@ -20,12 +22,21 @@ export default function ModalDemo() {
       <Toaster />
       <Dialog>
         <DialogTrigger asChild>
-          <Button variant="outline">Open Modal</Button>
+          <Button variant="outline">Open Model</Button>
         </DialogTrigger>
-        <DialogContent className="p-6 rounded-md bg-white">
+        <DialogContent
+          style={{ backgroundColor: "white" }}
+          className="p-6 rounded-md"
+        >
           <DialogHeader>
-            <DialogTitle>About Personal Information</DialogTitle>
+            <DialogTitle>About personal information</DialogTitle>
           </DialogHeader>
+
+          <img
+            src="https://www.woodsbagot.com/wp-content/uploads/legacy/93/0-2048x1739.jpg"
+            alt="University building"
+            className="rounded-md"
+          />
           <DialogDescription>
             Under NSW privacy laws, you have the right to request access to and
             correct any personal information concerning you held by the
@@ -47,12 +58,14 @@ export default function ModalDemo() {
           <DialogFooter>
             <Button
               variant="default"
-              onClick={() => toast({ description: "Already Accepted." })}
+              onClick={() => {
+                toast({ description: "Already Accepted." })
+              }}
             >
               Accept
             </Button>
             <DialogClose asChild>
-              <Button variant="secondary">Decline</Button>
+              <Button variant="secondary">Cancel</Button>
             </DialogClose>
           </DialogFooter>
         </DialogContent>
