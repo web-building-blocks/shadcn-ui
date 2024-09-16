@@ -2150,6 +2150,39 @@ export const Index: Record<string, any> = {
       subcategory: "undefined",
       chunks: []
     },
+    "fileUpload-demo": {
+      name: "fileUpload-demo",
+      type: "components:example",
+      registryDependencies: undefined,
+      component: React.lazy(() => import("@/registry/default/example/fileUpload-demo")),
+      source: "",
+      files: ["registry/default/example/fileUpload-demo.tsx"],
+      category: "undefined",
+      subcategory: "undefined",
+      chunks: []
+    },
+    "fileUpload-format": {
+      name: "fileUpload-format",
+      type: "components:example",
+      registryDependencies: undefined,
+      component: React.lazy(() => import("@/registry/default/example/fileUpload-format")),
+      source: "",
+      files: ["registry/default/example/fileUpload-format.tsx"],
+      category: "undefined",
+      subcategory: "undefined",
+      chunks: []
+    },
+    "fileUpload-preview": {
+      name: "fileUpload-preview",
+      type: "components:example",
+      registryDependencies: undefined,
+      component: React.lazy(() => import("@/registry/default/example/fileUpload-preview")),
+      source: "",
+      files: ["registry/default/example/fileUpload-preview.tsx"],
+      category: "undefined",
+      subcategory: "undefined",
+      chunks: []
+    },
     "charts-01": {
       name: "charts-01",
       type: "components:block",
@@ -5458,6 +5491,39 @@ export const Index: Record<string, any> = {
       component: React.lazy(() => import("@/registry/new-york/example/chart-tooltip-demo")),
       source: "",
       files: ["registry/new-york/example/chart-tooltip-demo.tsx"],
+      category: "undefined",
+      subcategory: "undefined",
+      chunks: []
+    },
+    "fileUpload-demo": {
+      name: "fileUpload-demo",
+      type: "components:example",
+      registryDependencies: undefined,
+      component: React.lazy(() => import("@/registry/new-york/example/fileUpload-demo")),
+      source: "",
+      files: ["registry/new-york/example/fileUpload-demo.tsx"],
+      category: "undefined",
+      subcategory: "undefined",
+      chunks: []
+    },
+    "fileUpload-format": {
+      name: "fileUpload-format",
+      type: "components:example",
+      registryDependencies: undefined,
+      component: React.lazy(() => import("@/registry/new-york/example/fileUpload-format")),
+      source: "",
+      files: ["registry/new-york/example/fileUpload-format.tsx"],
+      category: "undefined",
+      subcategory: "undefined",
+      chunks: []
+    },
+    "fileUpload-preview": {
+      name: "fileUpload-preview",
+      type: "components:example",
+      registryDependencies: undefined,
+      component: React.lazy(() => import("@/registry/new-york/example/fileUpload-preview")),
+      source: "",
+      files: ["registry/new-york/example/fileUpload-preview.tsx"],
       category: "undefined",
       subcategory: "undefined",
       chunks: []
@@ -8774,6 +8840,39 @@ export const Index: Record<string, any> = {
       subcategory: "undefined",
       chunks: []
     },
+    "fileUpload-demo": {
+      name: "fileUpload-demo",
+      type: "components:example",
+      registryDependencies: undefined,
+      component: React.lazy(() => import("@/registry/sydney/example/fileUpload-demo")),
+      source: "",
+      files: ["registry/sydney/example/fileUpload-demo.tsx"],
+      category: "undefined",
+      subcategory: "undefined",
+      chunks: []
+    },
+    "fileUpload-format": {
+      name: "fileUpload-format",
+      type: "components:example",
+      registryDependencies: undefined,
+      component: React.lazy(() => import("@/registry/sydney/example/fileUpload-format")),
+      source: "",
+      files: ["registry/sydney/example/fileUpload-format.tsx"],
+      category: "undefined",
+      subcategory: "undefined",
+      chunks: []
+    },
+    "fileUpload-preview": {
+      name: "fileUpload-preview",
+      type: "components:example",
+      registryDependencies: undefined,
+      component: React.lazy(() => import("@/registry/sydney/example/fileUpload-preview")),
+      source: "",
+      files: ["registry/sydney/example/fileUpload-preview.tsx"],
+      category: "undefined",
+      subcategory: "undefined",
+      chunks: []
+    },
     "charts-01": {
       name: "charts-01",
       type: "components:block",
@@ -12082,6 +12181,39 @@ export const Index: Record<string, any> = {
       component: React.lazy(() => import("@/registry/unsw/example/chart-tooltip-demo")),
       source: "",
       files: ["registry/unsw/example/chart-tooltip-demo.tsx"],
+      category: "undefined",
+      subcategory: "undefined",
+      chunks: []
+    },
+    "fileUpload-demo": {
+      name: "fileUpload-demo",
+      type: "components:example",
+      registryDependencies: undefined,
+      component: React.lazy(() => import("@/registry/unsw/example/fileUpload-demo")),
+      source: "",
+      files: ["registry/unsw/example/fileUpload-demo.tsx"],
+      category: "undefined",
+      subcategory: "undefined",
+      chunks: []
+    },
+    "fileUpload-format": {
+      name: "fileUpload-format",
+      type: "components:example",
+      registryDependencies: undefined,
+      component: React.lazy(() => import("@/registry/unsw/example/fileUpload-format")),
+      source: "",
+      files: ["registry/unsw/example/fileUpload-format.tsx"],
+      category: "undefined",
+      subcategory: "undefined",
+      chunks: []
+    },
+    "fileUpload-preview": {
+      name: "fileUpload-preview",
+      type: "components:example",
+      registryDependencies: undefined,
+      component: React.lazy(() => import("@/registry/unsw/example/fileUpload-preview")),
+      source: "",
+      files: ["registry/unsw/example/fileUpload-preview.tsx"],
       category: "undefined",
       subcategory: "undefined",
       chunks: []
