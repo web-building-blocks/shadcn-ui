@@ -468,6 +468,18 @@ export const examples: Registry = [
     files: ["example/input-otp-form.tsx"],
   },
   {
+    name: "links-demo",
+    type: "components:example",
+    registryDependencies: ["button"],
+    files: ["example/links-demo.tsx"],
+  },
+  {
+    name: "links-expand",
+    type: "components:example",
+    registryDependencies: ["button"],
+    files: ["example/links-demo.tsx"],
+  },
+  {
     name: "label-demo",
     type: "components:example",
     registryDependencies: ["label"],
@@ -630,10 +642,22 @@ export const examples: Registry = [
     files: ["example/table-demo.tsx"],
   },
   {
+    name: "table-colorful",
+    type: "components:example",
+    registryDependencies: ["table"],
+    files: ["example/table-colorful.tsx"],
+  },
+  {
     name: "tabs-demo",
     type: "components:example",
     registryDependencies: ["tabs"],
     files: ["example/tabs-demo.tsx"],
+  },
+  {
+    name: "tabs-variant",
+    type: "components:example",
+    registryDependencies: ["tabs"],
+    files: ["example/tabs-variant.tsx"],
   },
   {
     name: "textarea-demo",
@@ -853,6 +877,31 @@ export const examples: Registry = [
     name: "mode-toggle",
     type: "components:example",
     files: ["example/mode-toggle.tsx"],
+  },
+  {
+    name: "message-demo",
+    type: "components:example",
+    files: ["example/message-demo.tsx"],
+  },
+  {
+    name: "message-duration",
+    type: "components:example",
+    files: ["example/message-duration.tsx"],
+  },
+  {
+    name: "message-error",
+    type: "components:example",
+    files: ["example/message-error.tsx"],
+  },
+  {
+    name: "message-success",
+    type: "components:example",
+    files: ["example/message-success.tsx"],
+  },
+  {
+    name: "message-warning",
+    type: "components:example",
+    files: ["example/message-warning.tsx"],
   },
   {
     name: "cards",
