@@ -1,11 +1,11 @@
-import { ComponentMeta, ComponentStory } from "@storybook/react";
-import DropdownMenuCheckboxes from "@/registry/default/example/dropdown-menu-checkboxes";
-import DropdownMenuDemo from "@/registry/default/example/dropdown-menu-demo";
-import DropdownMenuRadioGroupDemo from "@/registry/default/example/dropdown-menu-radio-group";
-import DropdownMenuwithDividers from "@/registry/default/example/dropdown-menu-with-divider";
-import DropdownMenuwithHeader from "@/registry/default/example/dropdown-menu-with-header";
-import DropdownMenuwithIcon from "@/registry/default/example/dropdown-menu-with-icon";
-import DropdownMenuSelect from "@/registry/default/example/dropdown-menu-with-search";
+import { ComponentMeta, ComponentStory } from "@storybook/react"
+import DropdownMenuCheckboxes from "@/registry/default/example/dropdown-menu-checkboxes"
+import DropdownMenuDemo from "@/registry/default/example/dropdown-menu-demo"
+import DropdownMenuRadioGroupDemo from "@/registry/default/example/dropdown-menu-radio-group"
+import DropdownMenuwithDividers from "@/registry/default/example/dropdown-menu-with-divider"
+import DropdownMenuwithHeader from "@/registry/default/example/dropdown-menu-with-header"
+import DropdownMenuwithIcon from "@/registry/default/example/dropdown-menu-with-icon"
+import DropdownMenuSelect from "@/registry/default/example/dropdown-menu-with-search"
 
 export default {
   title: "Components/DropdownMenu",
@@ -27,21 +27,21 @@ export default {
       defaultValue: false,
     },
   },
-} as ComponentMeta<typeof DropdownMenuDemo>;
+} as ComponentMeta<typeof DropdownMenuDemo>
 
 const Template: ComponentStory<typeof DropdownMenuDemo> = (args) => (
   <DropdownMenuDemo {...args} />
-);
+)
 
-export const Demo = Template.bind({});
+export const Demo = Template.bind({})
 Demo.args = {
   selectedOption: "Option 1",
   disabled: false,
-};
+}
 
-export const WithIcon = () => <DropdownMenuwithIcon />;
-export const WithCheckboxes = () => <DropdownMenuCheckboxes />;
-export const WithDividers = () => <DropdownMenuwithDividers />;
-export const RadioGroup = () => <DropdownMenuRadioGroupDemo />;
-export const WithHeader = () => <DropdownMenuwithHeader />;
-export const WithSearch = () => <DropdownMenuSelect />;
+export const WithIcon = () => <DropdownMenuwithIcon />
+export const WithCheckboxes = () => <DropdownMenuCheckboxes />
+export const WithDividers = () => <DropdownMenuwithDividers />
+export const RadioGroup = () => <DropdownMenuRadioGroupDemo />
+export const WithHeader = () => <DropdownMenuwithHeader />
+export const WithSearch = () => <DropdownMenuSelect />
