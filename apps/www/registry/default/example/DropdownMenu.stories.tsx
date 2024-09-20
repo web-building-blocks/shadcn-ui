@@ -1,4 +1,3 @@
-import { ComponentMeta, ComponentStory } from "@storybook/react"
 import DropdownMenuCheckboxes from "@/registry/default/example/dropdown-menu-checkboxes"
 import DropdownMenuDemo from "@/registry/default/example/dropdown-menu-demo"
 import DropdownMenuRadioGroupDemo from "@/registry/default/example/dropdown-menu-radio-group"
