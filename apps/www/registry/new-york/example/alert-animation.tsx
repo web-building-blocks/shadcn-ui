@@ -12,7 +12,7 @@ import { AlertCircle, Terminal } from "lucide-react"
 
 import { Alert, AlertDescription, AlertTitle } from "@/registry/sydney/ui/alert"
 
-// 定义动画变体对象
+
 const variantAnimations = {
   default: {
     initial: { opacity: 0, y: 20 },
