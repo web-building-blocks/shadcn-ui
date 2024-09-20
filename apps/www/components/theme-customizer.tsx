@@ -166,7 +166,7 @@ function Customizer() {
 
   return (
     <ThemeWrapper
-      defaultTheme="zinc"
+      defaultTheme="rose"
       className="flex flex-col space-y-4 md:space-y-6"
     >
       <div className="flex items-start pt-4 md:pt-0">
@@ -451,7 +451,7 @@ function CustomizerCode() {
   const activeTheme = themes.find((theme) => theme.name === config.theme)
 
   return (
-    <ThemeWrapper defaultTheme="zinc" className="relative space-y-4">
+    <ThemeWrapper defaultTheme="rose" className="relative space-y-4">
       <div data-rehype-pretty-code-fragment="">
         <pre className="max-h-[450px] overflow-x-auto rounded-lg border bg-zinc-950 py-4 dark:bg-zinc-900">
           <code className="relative rounded bg-muted px-[0.3rem] py-[0.2rem] font-mono text-sm">
