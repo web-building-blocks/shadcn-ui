@@ -233,8 +233,18 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
+          title: "Links",
+          href: "/docs/components/links",
+          items: [],
+        },
+        {
           title: "Menubar",
           href: "/docs/components/menubar",
+          items: [],
+        },
+        {
+          title: "Message",
+          href: "/docs/components/message",
           items: [],
         },
         {
