@@ -2,8 +2,8 @@ import React, { useState } from "react"
 
 import { Button } from "@/registry/default/ui/button"
 import {
+  BottomTooltipContent,
   Tooltip,
-  TooltipContent,
   TooltipProvider,
   TooltipTrigger,
 } from "@/registry/default/ui/tooltip"
@@ -29,9 +29,9 @@ export function DisableTooltip() {
             Hover
           </Button>
         </TooltipTrigger>
-        <TooltipContent side="bottom">
+        <BottomTooltipContent>
           <p>Disabled Tooltip</p>
-        </TooltipContent>
+        </BottomTooltipContent>
       </Tooltip>
     </TooltipProvider>
   )

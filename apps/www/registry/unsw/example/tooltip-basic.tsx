@@ -2,8 +2,8 @@ import React, { useState } from "react"
 
 import { Button } from "@/registry/default/ui/button"
 import {
-  RightTooltipContent,
   Tooltip,
+  TooltipContent,
   TooltipProvider,
   TooltipTrigger,
 } from "@/registry/default/ui/tooltip"
@@ -24,9 +24,9 @@ export function BasicTooltip() {
         <TooltipTrigger asChild>
           <Button variant="outline">Hover</Button>
         </TooltipTrigger>
-        <RightTooltipContent>
+        <TooltipContent>
           <p>Add to library</p>
-        </RightTooltipContent>
+        </TooltipContent>
       </Tooltip>
     </TooltipProvider>
   )

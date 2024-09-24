@@ -254,6 +254,24 @@ export const examples: Registry = [
     files: ["example/carousel-plugin.tsx"],
   },
   {
+    name: "carousel-basic",
+    type: "components:example",
+    registryDependencies: ["carousel"],
+    files: ["example/carousel-basic.tsx"],
+  },
+  {
+    name: "carousel-auto",
+    type: "components:example",
+    registryDependencies: ["carousel"],
+    files: ["example/carousel-auto.tsx"],
+  },
+  {
+    name: "carousel-images",
+    type: "components:example",
+    registryDependencies: ["carousel"],
+    files: ["example/carousel-images.tsx"],
+  },
+  {
     name: "checkbox-demo",
     type: "components:example",
     registryDependencies: ["checkbox"],
@@ -658,6 +676,12 @@ export const examples: Registry = [
     type: "components:example",
     registryDependencies: ["tabs"],
     files: ["example/tabs-demo.tsx"],
+  },
+  {
+    name: "tags-innovativetags",
+    type: "components:example",
+    registryDependencies: ["tags"],
+    files: ["example/tags-innovativetags.tsx"],
   },
   {
     name: "textarea-demo",
