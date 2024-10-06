@@ -1,26 +1,26 @@
-import React, { useRef, useState } from "react"
+import React, { useRef, useState } from "react";
 
-import { Button } from "@/registry/default/ui/button"
-import { CardContent, CardHeader, CardTitle } from "@/registry/default/ui/card"
-import Overlay from "@/registry/default/ui/overlay"
+import { Button } from "@/registry/default/ui/button";
+import { CardContent, CardHeader, CardTitle } from "@/registry/default/ui/card";
+import Overlay from "@/registry/default/ui/overlay";
 
 interface TourComponentProps {
   overlayProps: {
-    isOpen: boolean
-    usePortal: boolean
-    hasBackdrop: boolean
-    unmountOnExit: boolean
-    transitionName: string
-    className: string
-    style: React.CSSProperties
-  }
-  cardTitle: string
+    isOpen: boolean;
+    usePortal: boolean;
+    hasBackdrop: boolean;
+    unmountOnExit: boolean;
+    transitionName: string;
+    className: string;
+    style: React.CSSProperties;
+  };
+  cardTitle: string;
   steps: Array<{
-    title: string
-    description: string
-    target: React.RefObject<HTMLElement>
-  }>
-  buttonNames: { begin: string; upload: string; save: string; others: string }
+    title: string;
+    description: string;
+    target: React.RefObject<HTMLElement>;
+  }>;
+  buttonNames: { begin: string; upload: string; save: string; others: string };
 }
 
 const TourComponent: React.FC<TourComponentProps> = ({
@@ -29,45 +29,44 @@ const TourComponent: React.FC<TourComponentProps> = ({
   steps,
   buttonNames,
 }) => {
-  const ref1 = useRef(null)
-  const ref2 = useRef(null)
-  const ref3 = useRef(null)
-  const [tourStep, setTourStep] = useState(0)
-  const [isTourActive, setIsTourActive] = useState(false)
+  const ref1 = useRef(null);
+  const ref2 = useRef(null);
+  const ref3 = useRef(null);
+  const [tourStep, setTourStep] = useState(0);
+  const [isTourActive, setIsTourActive] = useState(false);
 
-  const stepRefs = [ref1, ref2, ref3]
+  const stepRefs = [ref1, ref2, ref3];
 
   const handleNext = () => {
-    setTourStep((prev) => (prev < steps.length ? prev + 1 : 0))
-  }
+    setTourStep((prev) => (prev < steps.length ? prev + 1 : 0));
+  };
 
   const handlePrevious = () => {
-    setTourStep((prev) => (prev > 0 ? prev - 1 : steps.length - 1))
-  }
+    setTourStep((prev) => (prev > 0 ? prev - 1 : steps.length - 1));
+  };
 
   const handleFinish = () => {
-    setTourStep(0)
-    setIsTourActive(false)
-  }
+    setTourStep(0);
+    setIsTourActive(false);
+  };
 
   const beginTour = () => {
-    setIsTourActive(true)
-    setTourStep(1)
-  }
+    setIsTourActive(true);
+    setTourStep(1);
+  };
 
-  // 根据当前步骤计算弹出框的位置
   const getTourPopupPosition = () => {
     if (tourStep > 0 && steps[tourStep - 1].target?.current) {
-      const rect = steps[tourStep - 1].target.current.getBoundingClientRect() // 使用可选链
+      const rect = steps[tourStep - 1].target.current?.getBoundingClientRect();
       return {
         top: rect.bottom + window.scrollY + 8,
         left: rect.left + window.scrollX,
-      }
+      };
     }
-    return { top: 0, left: 0 }
-  }
+    return { top: 0, left: 0 };
+  };
 
-  const { top, left } = getTourPopupPosition()
+  const { top, left } = getTourPopupPosition();
 
   return (
     <div className="p-4 relative">
@@ -146,7 +145,7 @@ const TourComponent: React.FC<TourComponentProps> = ({
         </>
       )}
     </div>
-  )
-}
+  );
+};
 
-export default TourComponent
+export default TourComponent;
