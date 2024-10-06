@@ -41,7 +41,7 @@ export const DefaultTour = Template.bind({})
 DefaultTour.args = {
   isOpen: true,
   cardTitle: "Tour component",
-  beginButtonText: "Begin Tour",
+  buttonText: "Begin Tour",
   buttonNames: {
     upload: "Upload",
     save: "Save",

@@ -160,7 +160,7 @@ export default function Overlay(props: OverlayProps) {
       nodeRef={overlay}
       {...otherProps}
     >
-      {(status: string) => (
+      {(status) => (
         <div
           style={style}
           ref={overlay}
