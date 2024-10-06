@@ -4,55 +4,61 @@ import { Button } from "@/registry/default/ui/button"
 import { CardContent, CardHeader, CardTitle } from "@/registry/default/ui/card"
 import Overlay from "@/registry/default/ui/overlay"
 
-// 引入 Overlay 组件
+interface TourComponentProps {
+  overlayProps: {
+    isOpen: boolean
+    usePortal: boolean
+    hasBackdrop: boolean
+    unmountOnExit: boolean
+    transitionName: string
+    className: string
+    style: React.CSSProperties
+  }
+  cardTitle: string
+  steps: Array<{
+    title: string
+    description: string
+    target: React.RefObject<HTMLElement>
+  }>
+  buttonNames: { begin: string; upload: string; save: string; others: string }
+}
 
-const TourComponent = () => {
+const TourComponent: React.FC<TourComponentProps> = ({
+  overlayProps,
+  cardTitle,
+  steps,
+  buttonNames,
+}) => {
   const ref1 = useRef(null)
   const ref2 = useRef(null)
   const ref3 = useRef(null)
   const [tourStep, setTourStep] = useState(0)
   const [isTourActive, setIsTourActive] = useState(false)
 
-  const steps = [
-    {
-      title: "Upload File",
-      description: "Put your files here.",
-      target: ref1,
-    },
-    {
-      title: "Save",
-      description: "Save your changes.",
-      target: ref2,
-    },
-    {
-      title: "Other Actions",
-      description: "Click to see other actions.",
-      target: ref3,
-    },
-  ]
+  const stepRefs = [ref1, ref2, ref3]
 
   const handleNext = () => {
     setTourStep((prev) => (prev < steps.length ? prev + 1 : 0))
   }
 
   const handlePrevious = () => {
-    setTourStep((prev) => (prev > 0 ? prev - 1 : steps.length - 1)) // 循环回到最后一个
+    setTourStep((prev) => (prev > 0 ? prev - 1 : steps.length - 1))
   }
 
   const handleFinish = () => {
     setTourStep(0)
-    setIsTourActive(false) // 关闭 tour
+    setIsTourActive(false)
   }
 
   const beginTour = () => {
     setIsTourActive(true)
-    setTourStep(1) // 开始 tour
+    setTourStep(1)
   }
 
   // 根据当前步骤计算弹出框的位置
   const getTourPopupPosition = () => {
-    if (tourStep > 0 && steps[tourStep - 1].target.current) {
-      const rect = steps[tourStep - 1].target.current.getBoundingClientRect()
+    if (tourStep > 0 && steps[tourStep - 1].target?.current) {
+      const rect = steps[tourStep - 1].target.current.getBoundingClientRect() // 使用可选链
       return {
         top: rect.bottom + window.scrollY + 8,
         left: rect.left + window.scrollX,
@@ -67,15 +73,15 @@ const TourComponent = () => {
     <div className="p-4 relative">
       <div className="w-full p-4 border rounded-lg shadow-lg">
         <CardHeader>
-          <CardTitle>Tour component</CardTitle>
+          <CardTitle>{cardTitle}</CardTitle>
         </CardHeader>
         <CardContent className="flex flex-col gap-4">
           <div className="flex">
-            <Button onClick={beginTour} className="w-2/3">
-              Begin Tour
+            <Button onClick={beginTour} className="w-full">
+              {buttonNames.begin}
             </Button>
           </div>
-          <div className="flex gap-2">
+          <div className="flex gap-3">
             <Button
               ref={ref1}
               style={
@@ -84,7 +90,7 @@ const TourComponent = () => {
                   : {}
               }
             >
-              Upload
+              {buttonNames.upload}
             </Button>
             <Button
               ref={ref2}
@@ -94,7 +100,7 @@ const TourComponent = () => {
                   : {}
               }
             >
-              Save
+              {buttonNames.save}
             </Button>
             <Button
               ref={ref3}
@@ -104,7 +110,7 @@ const TourComponent = () => {
                   : {}
               }
             >
-              ...
+              {buttonNames.others}
             </Button>
           </div>
         </CardContent>
@@ -117,13 +123,9 @@ const TourComponent = () => {
 
           {/* Position the tour overlay */}
           <Overlay
-            isOpen={tourStep > 0}
-            usePortal={true}
-            hasBackdrop={false}
-            unmountOnExit={true}
-            transitionName="tour-popup"
-            className="absolute p-4 border bg-white rounded-lg shadow-lg text-center z-1050"
-            style={{ top, left }}
+            {...overlayProps}
+            className={overlayProps.className}
+            style={{ ...overlayProps.style, top, left }}
           >
             <div className="p-4">
               <h3 className="text-lg font-bold">{steps[tourStep - 1].title}</h3>
