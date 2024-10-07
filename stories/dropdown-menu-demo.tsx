@@ -13,7 +13,19 @@ import {
   DropdownMenuTrigger,
 } from "@/registry/sydney/ui/dropdown-menu"
 
-export function DropdownMenuCheckboxes() {
+interface DropdownMenuCheckboxesProps {
+  option1: string
+  option2: string
+  option3: string
+  option4: string
+}
+
+export function DropdownMenuCheckboxes({
+  option1 = "Account Settings",
+  option2 = "Support",
+  option3 = "License",
+  option4 = "Signout",
+}: DropdownMenuCheckboxesProps) {
   const [selectedOptions, setSelectedOptions] = React.useState([])
 
   const toggleOption = (option) => {
@@ -37,28 +49,36 @@ export function DropdownMenuCheckboxes() {
       <DropdownMenuContent className="w-56">
         <DropdownMenuSeparator />
         <DropdownMenuCheckboxItem
-          checked={selectedOptions.includes("Account Settings")}
-          onCheckedChange={() => toggleOption("Account Settings")}
+          className="pl-8"
+          checked={selectedOptions.includes(option1)}
+          onCheckedChange={() => toggleOption(option1)}
         >
-          Account Settings
+          <span className="absolute left-2"></span> {}
+          {option1}
         </DropdownMenuCheckboxItem>
         <DropdownMenuCheckboxItem
-          checked={selectedOptions.includes("Support")}
-          onCheckedChange={() => toggleOption("Support")}
+          className="pl-8"
+          checked={selectedOptions.includes(option2)}
+          onCheckedChange={() => toggleOption(option2)}
         >
-          Support
+          <span className="absolute left-2"></span> {}
+          {option2}
         </DropdownMenuCheckboxItem>
         <DropdownMenuCheckboxItem
-          checked={selectedOptions.includes("License")}
-          onCheckedChange={() => toggleOption("License")}
+          className="pl-8"
+          checked={selectedOptions.includes(option3)}
+          onCheckedChange={() => toggleOption(option3)}
         >
-          License
+          <span className="absolute left-2"></span> {}
+          {option3}
         </DropdownMenuCheckboxItem>
         <DropdownMenuCheckboxItem
-          checked={selectedOptions.includes("Signout")}
-          onCheckedChange={() => toggleOption("Signout")}
+          className="pl-8"
+          checked={selectedOptions.includes(option4)}
+          onCheckedChange={() => toggleOption(option4)}
         >
-          Signout
+          <span className="absolute left-2"></span> {}
+          {option4}
         </DropdownMenuCheckboxItem>
       </DropdownMenuContent>
     </DropdownMenu>
