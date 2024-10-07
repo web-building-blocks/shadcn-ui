@@ -47,7 +47,7 @@ function AvatarDemo({ username, email, avatarSrc, size }) {
               style={{
                 width: '100%',
                 height: '100%',
-                objectFit: 'cover'  // 确保图片按比例填满容器
+                objectFit: 'cover'
               }}
             />
             <AvatarFallback>CN</AvatarFallback>

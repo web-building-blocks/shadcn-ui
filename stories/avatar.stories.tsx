@@ -2,7 +2,7 @@ import React from "react";
 import { Meta, Story } from "@storybook/react";
 import AvatarDemo from "./avatar-demo";
 
-// Storybook Meta configuration for AvatarDemo
+// Storybook: Meta configuration for AvatarDemo
 export default {
   title: "Components/Avatar",
   component: AvatarDemo,
