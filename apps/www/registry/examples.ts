@@ -426,6 +426,30 @@ export const examples: Registry = [
     files: ["example/dropdown-menu-radio-group.tsx"],
   },
   {
+    name: "dropdown-menu-with-divider",
+    type: "components:example",
+    registryDependencies: ["dropdown-menu", "with-divider"],
+    files: ["example/dropdown-menu-with-divider.tsx"],
+  },
+  {
+    name: "dropdown-menu-with-header",
+    type: "components:example",
+    registryDependencies: ["dropdown-menu", "with-header"],
+    files: ["example/dropdown-menu-with-header.tsx"],
+  },
+  {
+    name: "dropdown-menu-with-icon",
+    type: "components:example",
+    registryDependencies: ["dropdown-menu", "with-icon"],
+    files: ["example/dropdown-menu-with-icon.tsx"],
+  },
+  {
+    name: "dropdown-menu-with-search",
+    type: "components:example",
+    registryDependencies: ["dropdown-menu", "with-search"],
+    files: ["example/dropdown-menu-with-search.tsx"],
+  },
+  {
     name: "hover-card-demo",
     type: "components:example",
     registryDependencies: ["hover-card"],
@@ -838,6 +862,12 @@ export const examples: Registry = [
     type: "components:example",
     registryDependencies: ["tooltip"],
     files: ["example/tooltip-demo.tsx"],
+  },
+  {
+    name: "tour-demo",
+    type: "components:example",
+    registryDependencies: ["tour"],
+    files: ["example/tour-demo.tsx"],
   },
   {
     name: "typography-blockquote",
