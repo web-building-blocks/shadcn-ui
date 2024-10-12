@@ -57,7 +57,10 @@ export function PaginationDemo() {
   }
 
   // Handle page click.
-  const handlePageChange = (event: React.MouseEvent<HTMLAnchorElement>, page: number) => {
+  const handlePageChange = (
+    event: React.MouseEvent<HTMLAnchorElement>,
+    page: number
+  ) => {
     event.preventDefault()
     setCurrentPage(page)
   }
