@@ -15,7 +15,7 @@ import {
 export function DropdownMenuwithDividers() {
   const [selectedCar, setSelectedCar] = React.useState("Select a car")
 
-  const handleCarSelect = (car) => {
+  const handleCarSelect = (car: string) => {
     setSelectedCar(car)
   }
 

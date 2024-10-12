@@ -12,11 +12,11 @@ import {
 } from "@/registry/sydney/ui/dropdown-menu"
 
 export function DropdownMenuSelect() {
-  const [selectedOptions, setSelectedOptions] = React.useState([])
-  const [searchTerm, setSearchTerm] = React.useState("")
-  const [open, setOpen] = React.useState(false)
+  const [selectedOptions, setSelectedOptions] = React.useState<string[]>([])
+  const [searchTerm, setSearchTerm] = React.useState<string>("")
+  const [open, setOpen] = React.useState<boolean>(false)
 
-  const toggleOption = (option) => {
+  const toggleOption = (option: string) => {
     setSelectedOptions((prev) =>
       prev.includes(option)
         ? prev.filter((item) => item !== option)
@@ -29,7 +29,7 @@ export function DropdownMenuSelect() {
     return `Selected: ${selectedOptions.join(", ")}`
   }
 
-  const handleSearchChange = (event) => {
+  const handleSearchChange = (event: React.ChangeEvent<HTMLInputElement>) => {
     setSearchTerm(event.target.value.toLowerCase())
   }
 
