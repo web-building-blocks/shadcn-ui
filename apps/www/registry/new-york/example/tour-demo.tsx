@@ -4,12 +4,10 @@ import { Button } from "@/registry/default/ui/button"
 import { CardContent, CardHeader, CardTitle } from "@/registry/default/ui/card"
 import Overlay from "@/registry/default/ui/overlay"
 
-// 引入 Overlay 组件
-
 const TourComponent = () => {
-  const ref1 = useRef(null)
-  const ref2 = useRef(null)
-  const ref3 = useRef(null)
+  const ref1 = useRef<HTMLButtonElement>(null)
+  const ref2 = useRef<HTMLButtonElement>(null)
+  const ref3 = useRef<HTMLButtonElement>(null)
   const [tourStep, setTourStep] = useState(0)
   const [isTourActive, setIsTourActive] = useState(false)
 
@@ -36,30 +34,30 @@ const TourComponent = () => {
   }
 
   const handlePrevious = () => {
-    setTourStep((prev) => (prev > 0 ? prev - 1 : steps.length - 1)) // 循环回到最后一个
+    setTourStep((prev) => (prev > 0 ? prev - 1 : steps.length - 1)) 
   }
 
   const handleFinish = () => {
     setTourStep(0)
-    setIsTourActive(false) // 关闭 tour
+    setIsTourActive(false) 
   }
 
   const beginTour = () => {
     setIsTourActive(true)
-    setTourStep(1) // 开始 tour
+    setTourStep(1) 
   }
 
-  // 根据当前步骤计算弹出框的位置
   const getTourPopupPosition = () => {
-    if (tourStep > 0 && steps[tourStep - 1].target.current) {
-      const rect = steps[tourStep - 1].target.current.getBoundingClientRect()
+    const currentStep = steps[tourStep - 1];
+    if (tourStep > 0 && currentStep?.target?.current) {
+      const rect = currentStep.target.current.getBoundingClientRect();
       return {
         top: rect.bottom + window.scrollY + 8,
         left: rect.left + window.scrollX,
-      }
+      };
     }
-    return { top: 0, left: 0 }
-  }
+    return { top: 0, left: 0 };
+  };
 
   const { top, left } = getTourPopupPosition()
 
