@@ -2337,6 +2337,17 @@ export const Index: Record<string, any> = {
       subcategory: "undefined",
       chunks: []
     },
+    "watermark-demo": {
+      name: "watermark-demo",
+      type: "components:example",
+      registryDependencies: undefined,
+      component: React.lazy(() => import("@/registry/default/example/watermark-demo")),
+      source: "",
+      files: ["registry/default/example/watermark-demo.tsx"],
+      category: "undefined",
+      subcategory: "undefined",
+      chunks: []
+    },
     "modal-demo": {
       name: "modal-demo",
       type: "components:example",
@@ -5898,6 +5909,17 @@ export const Index: Record<string, any> = {
       component: React.lazy(() => import("@/registry/new-york/example/chart-tooltip-demo")),
       source: "",
       files: ["registry/new-york/example/chart-tooltip-demo.tsx"],
+      category: "undefined",
+      subcategory: "undefined",
+      chunks: []
+    },
+    "watermark-demo": {
+      name: "watermark-demo",
+      type: "components:example",
+      registryDependencies: undefined,
+      component: React.lazy(() => import("@/registry/new-york/example/watermark-demo")),
+      source: "",
+      files: ["registry/new-york/example/watermark-demo.tsx"],
       category: "undefined",
       subcategory: "undefined",
       chunks: []
@@ -9467,6 +9489,17 @@ export const Index: Record<string, any> = {
       subcategory: "undefined",
       chunks: []
     },
+    "watermark-demo": {
+      name: "watermark-demo",
+      type: "components:example",
+      registryDependencies: undefined,
+      component: React.lazy(() => import("@/registry/sydney/example/watermark-demo")),
+      source: "",
+      files: ["registry/sydney/example/watermark-demo.tsx"],
+      category: "undefined",
+      subcategory: "undefined",
+      chunks: []
+    },
     "modal-demo": {
       name: "modal-demo",
       type: "components:example",
@@ -13028,6 +13061,17 @@ export const Index: Record<string, any> = {
       component: React.lazy(() => import("@/registry/unsw/example/chart-tooltip-demo")),
       source: "",
       files: ["registry/unsw/example/chart-tooltip-demo.tsx"],
+      category: "undefined",
+      subcategory: "undefined",
+      chunks: []
+    },
+    "watermark-demo": {
+      name: "watermark-demo",
+      type: "components:example",
+      registryDependencies: undefined,
+      component: React.lazy(() => import("@/registry/unsw/example/watermark-demo")),
+      source: "",
+      files: ["registry/unsw/example/watermark-demo.tsx"],
       category: "undefined",
       subcategory: "undefined",
       chunks: []

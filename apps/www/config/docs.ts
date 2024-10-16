@@ -238,13 +238,13 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-<<<<<<< HEAD
           title: "Modal",
           href: "/docs/components/modal",
-=======
+          items: [],
+        },
+        {
           title: "Message",
           href: "/docs/components/message",
->>>>>>> upstream/usyd
           items: [],
         },
         {
