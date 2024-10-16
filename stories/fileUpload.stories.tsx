@@ -1,122 +1,144 @@
-import { Button } from "@/registry/default/ui/button"
-import React from 'react';
-import { ComponentMeta, ComponentStory } from '@storybook/react';
-import FileUploadComponent from './fileUpload-demo';
+import { ComponentMeta, ComponentStory } from "@storybook/react";
+import React, { useState } from "react";
+import FileUploadComponent from "./fileUpload-demo"; // 根据路径调整
+import { Button } from "@/registry/default/ui/button"; // 确保路径正确
+import { toast } from "@/registry/default/ui/use-toast"; // 确保路径正确
 
 export default {
-  title: 'Components/FileUploadComponent',
+  title: "Components/FileUpload",
   component: FileUploadComponent,
   argTypes: {
-    // Text of the file selection button
+    fileType: {
+      control: { type: "select" },
+      options: ["image/*", "application/pdf", "text/plain", "audio/*", "video/*", "*/*"],
+      description: "The type of file allowed for upload",
+      defaultValue: "image/*",
+    },
     chooseFileText: {
-      control: 'text',
-      description: 'Text displayed on the file choose button',
-      defaultValue: 'Choose File',
+      control: "text",
+      description: "Text displayed on the file choose button",
+      defaultValue: "Choose File",
     },
-    // Text of the upload button
-    uploadButtonText: {
-      control: 'text',
-      description: 'Text displayed on the upload button',
-      defaultValue: 'Upload File',
-    },
-    // Text when no file is selected
     noFileChosenText: {
-      control: 'text',
-      description: 'Text displayed when no file is selected',
-      defaultValue: 'No file chosen',
+      control: "text",
+      description: "Text displayed when no file is selected",
+      defaultValue: "No file chosen",
     },
-    // Button background colour
     buttonBackgroundColor: {
-      control: 'color',
-      description: 'Background color of the buttons',
-      defaultValue: '#007bff', 
+      control: "color",
+      description: "Background color of the buttons",
+      defaultValue: "#007bff",
     },
-    // Button Text Colour
     buttonTextColor: {
-      control: 'color',
-      description: 'Text color of the buttons',
-      defaultValue: '#ffffff', 
+      control: "color",
+      description: "Text color of the buttons",
+      defaultValue: "#ffffff",
     },
   },
 } as ComponentMeta<typeof FileUploadComponent>;
 
-
-const Template: ComponentStory<typeof FileUploadComponent> = ({ 
-  chooseFileText, 
-  uploadButtonText, 
-  noFileChosenText, 
-  buttonBackgroundColor, 
-  buttonTextColor 
+const Template: ComponentStory<typeof FileUploadComponent> = ({
+  fileType,
+  chooseFileText,
+  noFileChosenText,
+  buttonBackgroundColor,
+  buttonTextColor,
 }) => {
-  const [selectedFile, setSelectedFile] = React.useState("");
+  const [selectedFileName, setSelectedFileName] = useState("");
+  const [previewUrl, setPreviewUrl] = useState<string | null>(null);
 
-  const handleFileChange = (event: any) => {
-    const file = event.target.files[0];
-    setSelectedFile(file ? file.name : "");
+  const handleFileChange = (event: React.ChangeEvent<HTMLInputElement>) => {
+    if (event.target.files && event.target.files[0]) {
+      const file = event.target.files[0];
+      if (file.type.match(fileType)) {
+        setSelectedFileName(file.name);
+        setPreviewUrl(URL.createObjectURL(file));
+      } else {
+        toast({
+          title: "Error",
+          description: `Please select a valid file of type: ${fileType}`,
+          duration: 3000,
+        });
+        setSelectedFileName("");
+        setPreviewUrl(null);
+      }
+    }
   };
 
   const triggerFileInputClick = () => {
-    const fileInput = document.getElementById("file-upload");
+    const fileInput = document.getElementById("file-upload") as HTMLInputElement;
     if (fileInput) {
-      fileInput.click(); // trigger a click event
+      fileInput.click();
     }
   };
 
   return (
     <div className="file-upload-wrapper">
-      <div className="file-upload-content">
-        <input
-          type="file"
-          id="file-upload"
-          onChange={handleFileChange}
-          className="file-upload-input"
-          style={{ display: "none" }} // Hide the default file input box
-        />
-        <div className="file-upload-control">
-          <button
+      <label htmlFor="file-upload" className="file-upload-label">
+        Please upload a file:
+      </label>
+      <input
+        type="file"
+        id="file-upload"
+        onChange={handleFileChange}
+        className="file-upload-input"
+        style={{ display: "none" }}
+        accept={fileType}
+      />
+      <div className="file-upload-control">
+        <label htmlFor="file-upload" className="cursor-pointer">
+          <Button
+            asChild
+            variant="outline"
+            size="default"
             style={{
-              backgroundColor: buttonBackgroundColor, 
-              color: buttonTextColor, 
-              border: '1px solid #ccc', 
-              padding: '0.5rem 1rem',
-              borderRadius: '0.25rem',
-              cursor: 'pointer',
+              backgroundColor: buttonBackgroundColor,
+              color: buttonTextColor,
             }}
-            onClick={triggerFileInputClick}
           >
-            {chooseFileText}
-          </button>
-          <span className="file-name px-3">
-            {selectedFile || noFileChosenText}
-          </span>
-        </div>
+            <span>{chooseFileText}</span>
+          </Button>
+        </label>
+        <span className="file-name px-3">
+          {selectedFileName || noFileChosenText}
+        </span>
       </div>
-      {selectedFile && (
-        <div className="file-display-container mt-4">
-          <button
-            style={{
-              backgroundColor: buttonBackgroundColor, 
-              color: buttonTextColor, 
-              border: '1px solid #ccc', 
-              padding: '0.5rem 1rem',
-              borderRadius: '0.25rem',
-              cursor: 'pointer',
-            }}
-          >
-            {uploadButtonText}
-          </button>
+      {previewUrl && (
+        <div className="file-preview mt-4">
+          <img
+            src={previewUrl}
+            alt="File Preview"
+            style={{ maxWidth: "100%", maxHeight: "200px" }}
+          />
         </div>
       )}
     </div>
   );
 };
 
-
 export const Default = Template.bind({});
 Default.args = {
-  chooseFileText: 'Choose File',
-  uploadButtonText: 'Upload File',
-  noFileChosenText: 'No file chosen',
-  buttonBackgroundColor: '#000000',
-  buttonTextColor: '#ffffff',
+  fileType: "image/*",
+  chooseFileText: "Choose File",
+  noFileChosenText: "No file chosen",
+  buttonBackgroundColor: "#000000",
+  buttonTextColor: "#ffffff",
+};
+
+export const FormatRestricted = Template.bind({});
+FormatRestricted.args = {
+  fileType: "*/*",
+  chooseFileText: "Select File",
+  noFileChosenText: "No restricted format file selected",
+  buttonBackgroundColor: "#000000",
+  buttonTextColor: "#ffffff",
+};
+
+export const PreviewUpload = Template.bind({});
+PreviewUpload.args = {
+  fileType: "image/*",
+  chooseFileText: "Upload and Preview",
+  noFileChosenText: "No image selected for preview",
+  buttonBackgroundColor: "#000000",
+  buttonTextColor: "#ffffff",
 };
