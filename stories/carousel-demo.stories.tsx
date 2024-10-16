@@ -6,7 +6,7 @@ const meta: Meta<typeof CarouselDemo> = {
   component: CarouselDemo,
   argTypes: {
     items: {
-      table: { disable: true },  // 隐藏 items 控件
+      table: { disable: true },
     },
     width: {
       control: { type: 'select' },
