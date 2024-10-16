@@ -11,7 +11,7 @@ import {
 export function DisableTooltip() {
   const [isOpen, setIsOpen] = useState(false)
 
-  const handleOpenChange = (open) => {
+  const handleOpenChange = (open: boolean) => {
     setIsOpen(open)
     if (open) {
       console.log("Disabled Tooltip is now visible")
