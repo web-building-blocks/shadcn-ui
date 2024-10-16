@@ -899,6 +899,7 @@ export const examples: Registry = [
     registryDependencies: ["tooltip"],
     files: ["example/tooltip-demo.tsx"],
   },
+<<<<<<< HEAD
   {
     name: "tooltip-basic",
     type: "components:example",
