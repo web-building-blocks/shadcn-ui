@@ -1,7 +1,7 @@
 import type { Meta, StoryObj } from '@storybook/react';
 import CheckboxDemo from './checkbox-demo';
 
-// 预定义的复选框数组
+
 const checkboxOptions = {
   default: [
     { id: 'default-1', label: 'Default checkbox' },
