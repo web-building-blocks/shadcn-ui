@@ -1,8 +1,8 @@
 import { ComponentMeta, ComponentStory } from "@storybook/react";
 import React, { useState } from "react";
-import FileUploadComponent from "./fileUpload-demo"; // 根据路径调整
-import { Button } from "@/registry/default/ui/button"; // 确保路径正确
-import { toast } from "@/registry/default/ui/use-toast"; // 确保路径正确
+import FileUploadComponent from "./fileUpload-demo"; 
+import { Button } from "@/registry/default/ui/button"; 
+import { toast } from "@/registry/default/ui/use-toast"; 
 
 export default {
   title: "Components/FileUpload",
