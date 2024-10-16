@@ -228,13 +228,23 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
+          title: "Links",
+          href: "/docs/components/links",
+          items: [],
+        },
+        {
           title: "Menubar",
           href: "/docs/components/menubar",
           items: [],
         },
         {
+<<<<<<< HEAD
           title: "Modal",
           href: "/docs/components/modal",
+=======
+          title: "Message",
+          href: "/docs/components/message",
+>>>>>>> upstream/usyd
           items: [],
         },
         {
@@ -340,6 +350,16 @@ export const docsConfig: DocsConfig = {
         {
           title: "Tooltip",
           href: "/docs/components/tooltip",
+          items: [],
+        },
+        {
+          title: "Tour",
+          href: "/docs/components/tour",
+          items: [],
+        },
+        {
+          title: "Watermark",
+          href: "/docs/components/watermark",
           items: [],
         },
       ],
