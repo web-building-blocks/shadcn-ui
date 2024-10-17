@@ -660,6 +660,24 @@ export const examples: Registry = [
     files: ["example/sonner-demo.tsx"],
   },
   {
+    name: "statistic-countdown",
+    type: "components:example",
+    registryDependencies: ["countdown", "card"],
+    files: ["example/statistic-countdown.tsx"],
+  },
+  {
+    name: "statistic-demo",
+    type: "components:example",
+    registryDependencies: ["statistic", "button"],
+    files: ["example/statistic-demo.tsx"],
+  },
+  {
+    name: "statistic-incard",
+    type: "components:example",
+    registryDependencies: ["statistic", "card", "icons"],
+    files: ["example/statistic-incard.tsx"],
+  },
+  {
     name: "switch-demo",
     type: "components:example",
     registryDependencies: ["switch"],
