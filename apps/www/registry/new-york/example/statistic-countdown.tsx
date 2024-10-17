@@ -8,7 +8,6 @@ import {
   CardHeader,
   CardTitle,
 } from "@/registry/default/ui/card"
-// Importing your custom Card components
 import { Countdown, Scountdown } from "@/registry/default/ui/countdown"
 
 function CountdownStatistic() {

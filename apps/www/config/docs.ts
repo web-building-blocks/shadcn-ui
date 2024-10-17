@@ -308,8 +308,8 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "statistic",
-          href: "/docs/components/statistic",
+          title: "Statistic",
+          href: "/docs/components/statistic.stories.tsx",
           items: [],
         },
         {
