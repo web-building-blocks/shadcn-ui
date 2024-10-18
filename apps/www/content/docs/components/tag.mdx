@@ -1,0 +1,56 @@
+---
+title: Tags
+description: A component that categorizes content with interactive labels.
+component: true
+---
+
+## Installation
+
+<Tabs defaultValue="cli">
+  <TabsList>
+    <TabsTrigger value="cli">CLI</TabsTrigger>
+    <TabsTrigger value="manual">Manual</TabsTrigger>
+  </TabsList>
+  <TabsContent value="cli">
+    <p>npx shadcn-ui@latest add badge</p>
+  </TabsContent>
+  <TabsContent value="manual">
+    <Steps>
+      <Step>Install the following dependencies:</Step>
+      <p>npm install @radix-ui/react-badge</p>
+      <Step>Copy and paste the following code into your project.</Step>
+      <ComponentSource name="badge" />
+      <Step>Update the import paths to match your project setup.</Step>
+    </Steps>
+  </TabsContent>
+</Tabs>
+
+## Usage
+
+```tsx
+import { Badge } from "@/components/ui/badge"
+```
+
+```tsx
+<div>
+  <Badge variant="default">Badge</Badge>
+  <Badge variant="secondary" style={{ marginLeft: "10px" }}>
+    Secondary
+  </Badge>
+  <Badge variant="destructive" style={{ marginLeft: "10px" }}>
+    Destructive
+  </Badge>
+  <Badge variant="outline" style={{ marginLeft: "10px" }}>
+    Outline
+  </Badge>
+</div>
+```
+
+Developers can customize the badge styles and content by adjusting the variant and style properties, enabling flexible usage across various contexts.
+
+## InnovativeTags
+
+<ComponentPreview
+  name="tags-innovativetags"
+  description="A card showing notifications settings with image."
+/>

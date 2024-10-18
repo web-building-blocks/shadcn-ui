@@ -50,18 +50,6 @@ export const examples: Registry = [
     files: ["example/alert-destructive.tsx"],
   },
   {
-    name: "alert-hover",
-    type: "components:example",
-    registryDependencies: ["alert"],
-    files: ["example/alert-hover.tsx"],
-  },
-  {
-    name: "alert-animation",
-    type: "components:example",
-    registryDependencies: ["alert"],
-    files: ["example/alert-animation.tsx"],
-  },
-  {
     name: "alert-dialog-demo",
     type: "components:example",
     registryDependencies: ["alert-dialog", "button"],
@@ -300,6 +288,24 @@ export const examples: Registry = [
     type: "components:example",
     registryDependencies: ["carousel"],
     files: ["example/carousel-plugin.tsx"],
+  },
+  {
+    name: "carousel-basic",
+    type: "components:example",
+    registryDependencies: ["carousel"],
+    files: ["example/carousel-basic.tsx"],
+  },
+  {
+    name: "carousel-auto",
+    type: "components:example",
+    registryDependencies: ["carousel"],
+    files: ["example/carousel-auto.tsx"],
+  },
+  {
+    name: "carousel-images",
+    type: "components:example",
+    registryDependencies: ["carousel"],
+    files: ["example/carousel-images.tsx"],
   },
   {
     name: "checkbox-demo",
@@ -576,18 +582,6 @@ export const examples: Registry = [
     files: ["example/input-otp-form.tsx"],
   },
   {
-    name: "links-demo",
-    type: "components:example",
-    registryDependencies: ["button"],
-    files: ["example/links-demo.tsx"],
-  },
-  {
-    name: "links-expand",
-    type: "components:example",
-    registryDependencies: ["button"],
-    files: ["example/links-demo.tsx"],
-  },
-  {
     name: "label-demo",
     type: "components:example",
     registryDependencies: ["label"],
@@ -750,22 +744,16 @@ export const examples: Registry = [
     files: ["example/table-demo.tsx"],
   },
   {
-    name: "table-colorful",
-    type: "components:example",
-    registryDependencies: ["table"],
-    files: ["example/table-colorful.tsx"],
-  },
-  {
     name: "tabs-demo",
     type: "components:example",
     registryDependencies: ["tabs"],
     files: ["example/tabs-demo.tsx"],
   },
   {
-    name: "tabs-variant",
+    name: "tags-innovativetags",
     type: "components:example",
-    registryDependencies: ["tabs"],
-    files: ["example/tabs-variant.tsx"],
+    registryDependencies: ["tags"],
+    files: ["example/tags-innovativetags.tsx"],
   },
   {
     name: "textarea-demo",
@@ -912,10 +900,16 @@ export const examples: Registry = [
     files: ["example/tooltip-demo.tsx"],
   },
   {
-    name: "tour-demo",
+    name: "tooltip-basic",
     type: "components:example",
-    registryDependencies: ["tour"],
-    files: ["example/tour-demo.tsx"],
+    registryDependencies: ["tooltip"],
+    files: ["example/tooltip-basic.tsx"],
+  },
+  {
+    name: "tooltip-disabled",
+    type: "components:example",
+    registryDependencies: ["tooltip"],
+    files: ["example/tooltip-disabled.tsx"],
   },
   {
     name: "typography-blockquote",
@@ -991,31 +985,6 @@ export const examples: Registry = [
     name: "mode-toggle",
     type: "components:example",
     files: ["example/mode-toggle.tsx"],
-  },
-  {
-    name: "message-demo",
-    type: "components:example",
-    files: ["example/message-demo.tsx"],
-  },
-  {
-    name: "message-duration",
-    type: "components:example",
-    files: ["example/message-duration.tsx"],
-  },
-  {
-    name: "message-error",
-    type: "components:example",
-    files: ["example/message-error.tsx"],
-  },
-  {
-    name: "message-success",
-    type: "components:example",
-    files: ["example/message-success.tsx"],
-  },
-  {
-    name: "message-warning",
-    type: "components:example",
-    files: ["example/message-warning.tsx"],
   },
   {
     name: "cards",
