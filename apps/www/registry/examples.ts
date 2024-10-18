@@ -870,12 +870,6 @@ export const examples: Registry = [
     files: ["example/tooltip-demo.tsx"],
   },
   {
-    name: "tour-demo",
-    type: "components:example",
-    registryDependencies: ["tour"],
-    files: ["example/tour-demo.tsx"],
-  },
-  {
     name: "typography-blockquote",
     type: "components:example",
     files: ["example/typography-blockquote.tsx"],
