@@ -8,6 +8,36 @@ export const examples: Registry = [
     files: ["example/accordion-demo.tsx"],
   },
   {
+    name: "accordion-button",
+    type: "components:example",
+    registryDependencies: ["accordion"],
+    files: ["example/accordion-button.tsx"],
+  },
+  {
+    name: "accordion-list",
+    type: "components:example",
+    registryDependencies: ["accordion"],
+    files: ["example/accordion-list.tsx"],
+  },
+  {
+    name: "accordion-list-avatar",
+    type: "components:example",
+    registryDependencies: ["accordion"],
+    files: ["example/accordion-list-avatar.tsx"],
+  },
+  {
+    name: "accordion-picture-button",
+    type: "components:example",
+    registryDependencies: ["accordion"],
+    files: ["example/accordion-picture-button.tsx"],
+  },
+  {
+    name: "accordion-mix",
+    type: "components:example",
+    registryDependencies: ["accordion"],
+    files: ["example/accordion-picture-mix.tsx"],
+  },
+  {
     name: "alert-demo",
     type: "components:example",
     registryDependencies: ["alert"],
@@ -96,6 +126,12 @@ export const examples: Registry = [
     type: "components:example",
     registryDependencies: ["breadcrumb"],
     files: ["example/breadcrumb-responsive.tsx"],
+  },
+  {
+    name: "breadcrumb-with-border",
+    type: "components:example",
+    registryDependencies: ["breadcrumb"],
+    files: ["example/breadcrumb-with-border.tsx"],
   },
   {
     name: "button-demo",
@@ -432,6 +468,30 @@ export const examples: Registry = [
     files: ["example/dropdown-menu-radio-group.tsx"],
   },
   {
+    name: "dropdown-menu-with-divider",
+    type: "components:example",
+    registryDependencies: ["dropdown-menu", "with-divider"],
+    files: ["example/dropdown-menu-with-divider.tsx"],
+  },
+  {
+    name: "dropdown-menu-with-header",
+    type: "components:example",
+    registryDependencies: ["dropdown-menu", "with-header"],
+    files: ["example/dropdown-menu-with-header.tsx"],
+  },
+  {
+    name: "dropdown-menu-with-icon",
+    type: "components:example",
+    registryDependencies: ["dropdown-menu", "with-icon"],
+    files: ["example/dropdown-menu-with-icon.tsx"],
+  },
+  {
+    name: "dropdown-menu-with-search",
+    type: "components:example",
+    registryDependencies: ["dropdown-menu", "with-search"],
+    files: ["example/dropdown-menu-with-search.tsx"],
+  },
+  {
     name: "hover-card-demo",
     type: "components:example",
     registryDependencies: ["hover-card"],
@@ -478,6 +538,18 @@ export const examples: Registry = [
     type: "components:example",
     registryDependencies: ["input", "button", "label"],
     files: ["example/input-with-text.tsx"],
+  },
+  {
+    name: "input-with-number",
+    type: "components:example",
+    registryDependencies: ["input"],
+    files: ["example/input-with-number.tsx"],
+  },
+  {
+    name: "input-with-phonenumber",
+    type: "components:example",
+    registryDependencies: ["input", "button", "dropdown-menu"],
+    files: ["example/input-with-phonenumber.tsx"],
   },
   {
     name: "input-otp-demo",
@@ -948,5 +1020,10 @@ export const examples: Registry = [
     name: "chart-tooltip-demo",
     type: "components:example",
     files: ["example/chart-tooltip-demo.tsx"],
+  },
+  {
+    name: "watermark-demo",
+    type: "components:example",
+    files: ["example/watermark-demo.tsx"],
   },
 ]
