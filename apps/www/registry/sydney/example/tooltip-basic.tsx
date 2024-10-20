@@ -11,7 +11,6 @@ import {
 export function BasicTooltip() {
   const [isOpen, setIsOpen] = useState(false)
 
-
   const handleOpenChange = (open: boolean) => {
     setIsOpen(open)
     if (open) {
