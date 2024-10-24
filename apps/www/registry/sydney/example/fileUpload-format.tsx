@@ -36,8 +36,13 @@ export default function FileUploadImage() {
         accept="image/*"
       />
       <div className="image-upload-control">
-        <label htmlFor="image-upload" className="cursor-pointer" >
-          <Button asChild variant="outline" size="default" className="bg-usydOrange hover:bg-usydOrangeDark text-white">
+        <label htmlFor="image-upload" className="cursor-pointer">
+          <Button
+            asChild
+            variant="outline"
+            size="default"
+            className="bg-usydOrange hover:bg-usydOrangeDark text-white"
+          >
             <span>Choose File</span>
           </Button>
         </label>

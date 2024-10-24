@@ -37,7 +37,12 @@ export default function FileUploadPreview() {
       />
       <div className="image-upload-control">
         <label htmlFor="image-upload2" className="cursor-pointer">
-          <Button asChild variant="outline" size="default" className="bg-usydOrange hover:bg-usydOrangeDark text-white">
+          <Button
+            asChild
+            variant="outline"
+            size="default"
+            className="bg-usydOrange hover:bg-usydOrangeDark text-white"
+          >
             <span>Choose File</span>
           </Button>
         </label>
