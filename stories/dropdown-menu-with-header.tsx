@@ -1,7 +1,6 @@
 "use client"
 
 import * as React from "react"
-import { DropdownMenuCheckboxItemProps } from "@radix-ui/react-dropdown-menu"
 
 import { Button } from "@/registry/sydney/ui/button"
 import {
@@ -13,10 +12,26 @@ import {
   DropdownMenuTrigger,
 } from "@/registry/sydney/ui/dropdown-menu"
 
-export function DropdownMenuCheckboxes() {
-  const [selectedOptions, setSelectedOptions] = React.useState<string[]>([])
+interface DropdownMenuWithHeaderProps {
+  headerLabel: string
+  userEmail: string
+  option1: string
+  option2: string
+  option3: string
+  option4: string
+}
 
-  const toggleOption = (option: string) => {
+export function DropdownMenuwithHeader({
+  headerLabel = "Signed in as",
+  userEmail = "nzha9876@uni.sydney.edu.au",
+  option1 = "Account Settings",
+  option2 = "Support",
+  option3 = "License",
+  option4 = "Signout",
+}: DropdownMenuWithHeaderProps) {
+  const [selectedOptions, setSelectedOptions] = React.useState([])
+
+  const toggleOption = (option) => {
     setSelectedOptions((prev) =>
       prev.includes(option)
         ? prev.filter((item) => item !== option)
@@ -35,34 +50,36 @@ export function DropdownMenuCheckboxes() {
         <Button variant="outline">{getButtonLabel()}</Button>
       </DropdownMenuTrigger>
       <DropdownMenuContent className="w-56">
+        <DropdownMenuLabel>{headerLabel}</DropdownMenuLabel>
+        <div className="email">{userEmail}</div>
         <DropdownMenuSeparator />
         <DropdownMenuCheckboxItem
-          checked={selectedOptions.includes("Account Settings")}
-          onCheckedChange={() => toggleOption("Account Settings")}
+          checked={selectedOptions.includes(option1)}
+          onCheckedChange={() => toggleOption(option1)}
         >
-          Account Settings
+          {option1}
         </DropdownMenuCheckboxItem>
         <DropdownMenuCheckboxItem
-          checked={selectedOptions.includes("Support")}
-          onCheckedChange={() => toggleOption("Support")}
+          checked={selectedOptions.includes(option2)}
+          onCheckedChange={() => toggleOption(option2)}
         >
-          Support
+          {option2}
         </DropdownMenuCheckboxItem>
         <DropdownMenuCheckboxItem
-          checked={selectedOptions.includes("License")}
-          onCheckedChange={() => toggleOption("License")}
+          checked={selectedOptions.includes(option3)}
+          onCheckedChange={() => toggleOption(option3)}
         >
-          License
+          {option3}
         </DropdownMenuCheckboxItem>
         <DropdownMenuCheckboxItem
-          checked={selectedOptions.includes("Signout")}
-          onCheckedChange={() => toggleOption("Signout")}
+          checked={selectedOptions.includes(option4)}
+          onCheckedChange={() => toggleOption(option4)}
         >
-          Signout
+          {option4}
         </DropdownMenuCheckboxItem>
       </DropdownMenuContent>
     </DropdownMenu>
   )
 }
 
-export default DropdownMenuCheckboxes
+export default DropdownMenuwithHeader

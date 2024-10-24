@@ -110,6 +110,12 @@ export const examples: Registry = [
     files: ["example/breadcrumb-responsive.tsx"],
   },
   {
+    name: "breadcrumb-with-border",
+    type: "components:example",
+    registryDependencies: ["breadcrumb"],
+    files: ["example/breadcrumb-with-border.tsx"],
+  },
+  {
     name: "button-demo",
     type: "components:example",
     registryDependencies: ["button"],
@@ -424,6 +430,30 @@ export const examples: Registry = [
     type: "components:example",
     registryDependencies: ["dropdown-menu", "radio-group"],
     files: ["example/dropdown-menu-radio-group.tsx"],
+  },
+  {
+    name: "dropdown-menu-with-divider",
+    type: "components:example",
+    registryDependencies: ["dropdown-menu", "with-divider"],
+    files: ["example/dropdown-menu-with-divider.tsx"],
+  },
+  {
+    name: "dropdown-menu-with-header",
+    type: "components:example",
+    registryDependencies: ["dropdown-menu", "with-header"],
+    files: ["example/dropdown-menu-with-header.tsx"],
+  },
+  {
+    name: "dropdown-menu-with-icon",
+    type: "components:example",
+    registryDependencies: ["dropdown-menu", "with-icon"],
+    files: ["example/dropdown-menu-with-icon.tsx"],
+  },
+  {
+    name: "dropdown-menu-with-search",
+    type: "components:example",
+    registryDependencies: ["dropdown-menu", "with-search"],
+    files: ["example/dropdown-menu-with-search.tsx"],
   },
   {
     name: "hover-card-demo",

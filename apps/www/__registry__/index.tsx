@@ -709,6 +709,17 @@ export const Index: Record<string, any> = {
       subcategory: "undefined",
       chunks: []
     },
+    "breadcrumb-with-border": {
+      name: "breadcrumb-with-border",
+      type: "components:example",
+      registryDependencies: ["breadcrumb"],
+      component: React.lazy(() => import("@/registry/default/example/breadcrumb-with-border")),
+      source: "",
+      files: ["registry/default/example/breadcrumb-with-border.tsx"],
+      category: "undefined",
+      subcategory: "undefined",
+      chunks: []
+    },
     "button-demo": {
       name: "button-demo",
       type: "components:example",
@@ -1277,6 +1288,50 @@ export const Index: Record<string, any> = {
       component: React.lazy(() => import("@/registry/default/example/dropdown-menu-radio-group")),
       source: "",
       files: ["registry/default/example/dropdown-menu-radio-group.tsx"],
+      category: "undefined",
+      subcategory: "undefined",
+      chunks: []
+    },
+    "dropdown-menu-with-divider": {
+      name: "dropdown-menu-with-divider",
+      type: "components:example",
+      registryDependencies: ["dropdown-menu","with-divider"],
+      component: React.lazy(() => import("@/registry/default/example/dropdown-menu-with-divider")),
+      source: "",
+      files: ["registry/default/example/dropdown-menu-with-divider.tsx"],
+      category: "undefined",
+      subcategory: "undefined",
+      chunks: []
+    },
+    "dropdown-menu-with-header": {
+      name: "dropdown-menu-with-header",
+      type: "components:example",
+      registryDependencies: ["dropdown-menu","with-header"],
+      component: React.lazy(() => import("@/registry/default/example/dropdown-menu-with-header")),
+      source: "",
+      files: ["registry/default/example/dropdown-menu-with-header.tsx"],
+      category: "undefined",
+      subcategory: "undefined",
+      chunks: []
+    },
+    "dropdown-menu-with-icon": {
+      name: "dropdown-menu-with-icon",
+      type: "components:example",
+      registryDependencies: ["dropdown-menu","with-icon"],
+      component: React.lazy(() => import("@/registry/default/example/dropdown-menu-with-icon")),
+      source: "",
+      files: ["registry/default/example/dropdown-menu-with-icon.tsx"],
+      category: "undefined",
+      subcategory: "undefined",
+      chunks: []
+    },
+    "dropdown-menu-with-search": {
+      name: "dropdown-menu-with-search",
+      type: "components:example",
+      registryDependencies: ["dropdown-menu","with-search"],
+      component: React.lazy(() => import("@/registry/default/example/dropdown-menu-with-search")),
+      source: "",
+      files: ["registry/default/example/dropdown-menu-with-search.tsx"],
       category: "undefined",
       subcategory: "undefined",
       chunks: []
@@ -4252,6 +4307,17 @@ export const Index: Record<string, any> = {
       subcategory: "undefined",
       chunks: []
     },
+    "breadcrumb-with-border": {
+      name: "breadcrumb-with-border",
+      type: "components:example",
+      registryDependencies: ["breadcrumb"],
+      component: React.lazy(() => import("@/registry/new-york/example/breadcrumb-with-border")),
+      source: "",
+      files: ["registry/new-york/example/breadcrumb-with-border.tsx"],
+      category: "undefined",
+      subcategory: "undefined",
+      chunks: []
+    },
     "button-demo": {
       name: "button-demo",
       type: "components:example",
@@ -4820,6 +4886,50 @@ export const Index: Record<string, any> = {
       component: React.lazy(() => import("@/registry/new-york/example/dropdown-menu-radio-group")),
       source: "",
       files: ["registry/new-york/example/dropdown-menu-radio-group.tsx"],
+      category: "undefined",
+      subcategory: "undefined",
+      chunks: []
+    },
+    "dropdown-menu-with-divider": {
+      name: "dropdown-menu-with-divider",
+      type: "components:example",
+      registryDependencies: ["dropdown-menu","with-divider"],
+      component: React.lazy(() => import("@/registry/new-york/example/dropdown-menu-with-divider")),
+      source: "",
+      files: ["registry/new-york/example/dropdown-menu-with-divider.tsx"],
+      category: "undefined",
+      subcategory: "undefined",
+      chunks: []
+    },
+    "dropdown-menu-with-header": {
+      name: "dropdown-menu-with-header",
+      type: "components:example",
+      registryDependencies: ["dropdown-menu","with-header"],
+      component: React.lazy(() => import("@/registry/new-york/example/dropdown-menu-with-header")),
+      source: "",
+      files: ["registry/new-york/example/dropdown-menu-with-header.tsx"],
+      category: "undefined",
+      subcategory: "undefined",
+      chunks: []
+    },
+    "dropdown-menu-with-icon": {
+      name: "dropdown-menu-with-icon",
+      type: "components:example",
+      registryDependencies: ["dropdown-menu","with-icon"],
+      component: React.lazy(() => import("@/registry/new-york/example/dropdown-menu-with-icon")),
+      source: "",
+      files: ["registry/new-york/example/dropdown-menu-with-icon.tsx"],
+      category: "undefined",
+      subcategory: "undefined",
+      chunks: []
+    },
+    "dropdown-menu-with-search": {
+      name: "dropdown-menu-with-search",
+      type: "components:example",
+      registryDependencies: ["dropdown-menu","with-search"],
+      component: React.lazy(() => import("@/registry/new-york/example/dropdown-menu-with-search")),
+      source: "",
+      files: ["registry/new-york/example/dropdown-menu-with-search.tsx"],
       category: "undefined",
       subcategory: "undefined",
       chunks: []
@@ -7795,6 +7905,17 @@ export const Index: Record<string, any> = {
       subcategory: "undefined",
       chunks: []
     },
+    "breadcrumb-with-border": {
+      name: "breadcrumb-with-border",
+      type: "components:example",
+      registryDependencies: ["breadcrumb"],
+      component: React.lazy(() => import("@/registry/sydney/example/breadcrumb-with-border")),
+      source: "",
+      files: ["registry/sydney/example/breadcrumb-with-border.tsx"],
+      category: "undefined",
+      subcategory: "undefined",
+      chunks: []
+    },
     "button-demo": {
       name: "button-demo",
       type: "components:example",
@@ -8363,6 +8484,50 @@ export const Index: Record<string, any> = {
       component: React.lazy(() => import("@/registry/sydney/example/dropdown-menu-radio-group")),
       source: "",
       files: ["registry/sydney/example/dropdown-menu-radio-group.tsx"],
+      category: "undefined",
+      subcategory: "undefined",
+      chunks: []
+    },
+    "dropdown-menu-with-divider": {
+      name: "dropdown-menu-with-divider",
+      type: "components:example",
+      registryDependencies: ["dropdown-menu","with-divider"],
+      component: React.lazy(() => import("@/registry/sydney/example/dropdown-menu-with-divider")),
+      source: "",
+      files: ["registry/sydney/example/dropdown-menu-with-divider.tsx"],
+      category: "undefined",
+      subcategory: "undefined",
+      chunks: []
+    },
+    "dropdown-menu-with-header": {
+      name: "dropdown-menu-with-header",
+      type: "components:example",
+      registryDependencies: ["dropdown-menu","with-header"],
+      component: React.lazy(() => import("@/registry/sydney/example/dropdown-menu-with-header")),
+      source: "",
+      files: ["registry/sydney/example/dropdown-menu-with-header.tsx"],
+      category: "undefined",
+      subcategory: "undefined",
+      chunks: []
+    },
+    "dropdown-menu-with-icon": {
+      name: "dropdown-menu-with-icon",
+      type: "components:example",
+      registryDependencies: ["dropdown-menu","with-icon"],
+      component: React.lazy(() => import("@/registry/sydney/example/dropdown-menu-with-icon")),
+      source: "",
+      files: ["registry/sydney/example/dropdown-menu-with-icon.tsx"],
+      category: "undefined",
+      subcategory: "undefined",
+      chunks: []
+    },
+    "dropdown-menu-with-search": {
+      name: "dropdown-menu-with-search",
+      type: "components:example",
+      registryDependencies: ["dropdown-menu","with-search"],
+      component: React.lazy(() => import("@/registry/sydney/example/dropdown-menu-with-search")),
+      source: "",
+      files: ["registry/sydney/example/dropdown-menu-with-search.tsx"],
       category: "undefined",
       subcategory: "undefined",
       chunks: []
@@ -11338,6 +11503,17 @@ export const Index: Record<string, any> = {
       subcategory: "undefined",
       chunks: []
     },
+    "breadcrumb-with-border": {
+      name: "breadcrumb-with-border",
+      type: "components:example",
+      registryDependencies: ["breadcrumb"],
+      component: React.lazy(() => import("@/registry/unsw/example/breadcrumb-with-border")),
+      source: "",
+      files: ["registry/unsw/example/breadcrumb-with-border.tsx"],
+      category: "undefined",
+      subcategory: "undefined",
+      chunks: []
+    },
     "button-demo": {
       name: "button-demo",
       type: "components:example",
@@ -11906,6 +12082,50 @@ export const Index: Record<string, any> = {
       component: React.lazy(() => import("@/registry/unsw/example/dropdown-menu-radio-group")),
       source: "",
       files: ["registry/unsw/example/dropdown-menu-radio-group.tsx"],
+      category: "undefined",
+      subcategory: "undefined",
+      chunks: []
+    },
+    "dropdown-menu-with-divider": {
+      name: "dropdown-menu-with-divider",
+      type: "components:example",
+      registryDependencies: ["dropdown-menu","with-divider"],
+      component: React.lazy(() => import("@/registry/unsw/example/dropdown-menu-with-divider")),
+      source: "",
+      files: ["registry/unsw/example/dropdown-menu-with-divider.tsx"],
+      category: "undefined",
+      subcategory: "undefined",
+      chunks: []
+    },
+    "dropdown-menu-with-header": {
+      name: "dropdown-menu-with-header",
+      type: "components:example",
+      registryDependencies: ["dropdown-menu","with-header"],
+      component: React.lazy(() => import("@/registry/unsw/example/dropdown-menu-with-header")),
+      source: "",
+      files: ["registry/unsw/example/dropdown-menu-with-header.tsx"],
+      category: "undefined",
+      subcategory: "undefined",
+      chunks: []
+    },
+    "dropdown-menu-with-icon": {
+      name: "dropdown-menu-with-icon",
+      type: "components:example",
+      registryDependencies: ["dropdown-menu","with-icon"],
+      component: React.lazy(() => import("@/registry/unsw/example/dropdown-menu-with-icon")),
+      source: "",
+      files: ["registry/unsw/example/dropdown-menu-with-icon.tsx"],
+      category: "undefined",
+      subcategory: "undefined",
+      chunks: []
+    },
+    "dropdown-menu-with-search": {
+      name: "dropdown-menu-with-search",
+      type: "components:example",
+      registryDependencies: ["dropdown-menu","with-search"],
+      component: React.lazy(() => import("@/registry/unsw/example/dropdown-menu-with-search")),
+      source: "",
+      files: ["registry/unsw/example/dropdown-menu-with-search.tsx"],
       category: "undefined",
       subcategory: "undefined",
       chunks: []
