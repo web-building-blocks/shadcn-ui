@@ -1,6 +1,6 @@
 import React, { useState } from "react"
 
-import { Button } from "@/registry/default/ui/button"
+import { Button } from "@/registry/unsw/ui/button"
 
 export default function FileUploadComponent() {
   const [selectedFile, setSelectedFile] = useState("")

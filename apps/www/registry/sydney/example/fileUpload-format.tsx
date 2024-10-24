@@ -1,7 +1,7 @@
 import React, { useState } from "react"
 
-import { Button } from "@/registry/default/ui/button"
-import { toast } from "@/registry/default/ui/use-toast"
+import { Button } from "@/registry/sydney/ui/button"
+import { toast } from "@/registry/sydney/ui/use-toast"
 
 export default function FileUploadImage() {
   const [selectedFileName, setSelectedFileName] = useState("")
@@ -36,8 +36,8 @@ export default function FileUploadImage() {
         accept="image/*"
       />
       <div className="image-upload-control">
-        <label htmlFor="image-upload" className="cursor-pointer">
-          <Button asChild variant="outline" size="default">
+        <label htmlFor="image-upload" className="cursor-pointer" >
+          <Button asChild variant="outline" size="default" className="bg-usydOrange hover:bg-usydOrangeDark text-white">
             <span>Choose File</span>
           </Button>
         </label>

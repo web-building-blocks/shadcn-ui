@@ -1,6 +1,6 @@
 import React, { useState } from "react"
 
-import { Button } from "@/registry/default/ui/button"
+import { Button } from "@/registry/sydney/ui/button"
 
 export default function FileUploadComponent() {
   const [selectedFile, setSelectedFile] = useState("")
@@ -32,6 +32,7 @@ export default function FileUploadComponent() {
             asChild
             variant="outline"
             size="default"
+            className="bg-usydOrange hover:bg-usydOrangeDark text-white"
             onClick={triggerFileInputClick} // Use the trigger function with null check
           >
             <span>Choose File</span>
@@ -43,7 +44,9 @@ export default function FileUploadComponent() {
       </div>
       {selectedFile && (
         <div className="file-display-container mt-4">
-          <Button variant="default">Upload File</Button>
+          <Button className="bg-usydOrange hover:bg-usydOrangeDark text-white">
+            Upload File
+          </Button>
         </div>
       )}
     </div>

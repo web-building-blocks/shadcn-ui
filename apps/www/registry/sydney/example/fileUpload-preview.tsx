@@ -1,6 +1,6 @@
 import React, { useState } from "react"
 
-import { Button } from "@/registry/default/ui/button"
+import { Button } from "@/registry/sydney/ui/button"
 
 export default function FileUploadPreview() {
   const [selectedFileName, setSelectedFileName] = useState<string>("")
@@ -37,7 +37,7 @@ export default function FileUploadPreview() {
       />
       <div className="image-upload-control">
         <label htmlFor="image-upload2" className="cursor-pointer">
-          <Button asChild variant="outline" size="default">
+          <Button asChild variant="outline" size="default" className="bg-usydOrange hover:bg-usydOrangeDark text-white">
             <span>Choose File</span>
           </Button>
         </label>
