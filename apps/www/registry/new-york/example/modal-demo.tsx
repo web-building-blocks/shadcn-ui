@@ -25,7 +25,7 @@ export default function NormalModal() {
         </DialogTrigger>
         <DialogContent
           style={{ backgroundColor: "white" }}
-          className="p-6 rounded-md"
+          className="rounded-md p-6"
         >
           <DialogHeader>
             <DialogTitle>About personal information</DialogTitle>

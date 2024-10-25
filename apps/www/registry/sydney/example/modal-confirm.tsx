@@ -21,11 +21,16 @@ export default function ConfirmModal() {
       <Toaster />
       <Dialog>
         <DialogTrigger asChild>
-          <Button variant="outline">Submit Application</Button>
+          <Button 
+          variant="outline"
+          className="bg-usydOrange hover:bg-usydOrangeDark text-white"
+          >
+          Submit Application
+          </Button>
         </DialogTrigger>
         <DialogContent
           style={{ backgroundColor: "white" }}
-          className="p-6 rounded-md"
+          className="rounded-md p-6"
         >
           <DialogHeader>
             <DialogTitle>Submit Application</DialogTitle>
@@ -34,9 +39,10 @@ export default function ConfirmModal() {
             Are you sure you want to submit your application? You will not be
             able to make changes after that.
           </DialogDescription>
-          <DialogFooter className="flex justify-center space-x-4 mt-4">
+          <DialogFooter className="mt-4 flex justify-center space-x-4">
             <Button
               variant="default"
+              className="bg-usydOrange hover:bg-usydOrangeDark text-white"
               onClick={() => {
                 toast({ description: "Message has been sent." })
               }}
@@ -44,7 +50,9 @@ export default function ConfirmModal() {
               Confirm
             </Button>
             <DialogClose asChild>
-              <Button variant="secondary">Cancel</Button>
+              <Button variant="secondary">
+                Cancel
+              </Button>
             </DialogClose>
           </DialogFooter>
         </DialogContent>

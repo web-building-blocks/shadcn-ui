@@ -1,6 +1,6 @@
 import React from "react"
 
-import { Button } from "@/registry/default/ui/button"
+import { Button } from "@/registry/sydney/ui/button"
 import {
   Dialog,
   DialogClose,
@@ -10,9 +10,9 @@ import {
   DialogHeader,
   DialogTitle,
   DialogTrigger,
-} from "@/registry/default/ui/dialog"
-import { Toaster } from "@/registry/default/ui/toaster"
-import { useToast } from "@/registry/default/ui/use-toast"
+} from "@/registry/sydney/ui/dialog"
+import { Toaster } from "@/registry/sydney/ui/toaster"
+import { useToast } from "@/registry/sydney/ui/use-toast"
 
 export default function NormalModal() {
   const { toast } = useToast()
@@ -21,11 +21,14 @@ export default function NormalModal() {
       <Toaster />
       <Dialog>
         <DialogTrigger asChild>
-          <Button variant="outline">Open Model</Button>
+          <Button 
+          variant="outline"
+          className="bg-usydOrange hover:bg-usydOrangeDark text-white"
+          >Open Modal</Button>
         </DialogTrigger>
         <DialogContent
           style={{ backgroundColor: "white" }}
-          className="p-6 rounded-md"
+          className="rounded-md p-6"
         >
           <DialogHeader>
             <DialogTitle>About personal information</DialogTitle>
@@ -51,6 +54,7 @@ export default function NormalModal() {
           <DialogFooter>
             <Button
               variant="default"
+              className="bg-usydOrange hover:bg-usydOrangeDark text-white"
               onClick={() => {
                 toast({ description: "Already Accepted." })
               }}
@@ -58,7 +62,11 @@ export default function NormalModal() {
               Accept
             </Button>
             <DialogClose asChild>
-              <Button variant="secondary">Decline</Button>
+              <Button
+                variant="secondary"
+              >
+                Decline
+              </Button>
             </DialogClose>
           </DialogFooter>
         </DialogContent>

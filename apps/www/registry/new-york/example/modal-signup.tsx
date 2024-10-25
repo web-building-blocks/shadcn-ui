@@ -55,7 +55,7 @@ export default function SignupModal() {
             />
           </div>
         </div>
-        <DialogFooter className="flex justify-center mt-6">
+        <DialogFooter className="mt-6 flex justify-center">
           <Button variant="destructive" onClick={handleSignUp}>
             Sign Up
           </Button>

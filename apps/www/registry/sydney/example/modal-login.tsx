@@ -1,6 +1,6 @@
 import React, { useState } from "react"
 
-import { Button } from "@/registry/default/ui/button"
+import { Button } from "@/registry/sydney/ui/button"
 import {
   Dialog,
   DialogClose,
@@ -10,11 +10,11 @@ import {
   DialogHeader,
   DialogTitle,
   DialogTrigger,
-} from "@/registry/default/ui/dialog"
-import { Input } from "@/registry/default/ui/input"
-import { Label } from "@/registry/default/ui/label"
-import { Toaster } from "@/registry/default/ui/toaster"
-import { useToast } from "@/registry/default/ui/use-toast"
+} from "@/registry/sydney/ui/dialog"
+import { Input } from "@/registry/sydney/ui/input"
+import { Label } from "@/registry/sydney/ui/label"
+import { Toaster } from "@/registry/sydney/ui/toaster"
+import { useToast } from "@/registry/sydney/ui/use-toast"
 
 export default function LoginModal() {
   const [formMode, setFormMode] = useState("login")
@@ -58,7 +58,10 @@ export default function LoginModal() {
       <Toaster />
       <Dialog>
         <DialogTrigger asChild>
-          <Button variant="outline">
+          <Button 
+          variant="outline"
+          className="bg-usydOrange hover:bg-usydOrangeDark text-white"
+          >
             {formMode === "login" ? "Login" : "Sign Up"}
           </Button>
         </DialogTrigger>
@@ -104,7 +107,10 @@ export default function LoginModal() {
             )}
 
             <DialogFooter>
-              <Button variant="destructive">
+              <Button 
+              variant="destructive"
+              className="bg-usydOrange hover:bg-usydOrangeDark text-white"
+              >
                 {formMode === "signup" ? "Create Account" : "Login"}
               </Button>
             </DialogFooter>
@@ -113,14 +119,24 @@ export default function LoginModal() {
           {formMode === "login" ? (
             <p className="text-center">
               Don’t have an account?{" "}
-              <Button asChild variant="link" onClick={switchToSignUp}>
+              <Button
+                asChild
+                variant="default"
+                className="bg-usydOrange hover:bg-usydOrangeDark text-white"
+                onClick={switchToSignUp}
+              >
                 <span>Sign Up</span>
               </Button>
             </p>
           ) : (
             <p className="text-center">
               Already have an account?{" "}
-              <Button asChild variant="link" onClick={switchToSignIn}>
+              <Button
+                asChild
+                variant="default"
+                className="bg-usydOrange hover:bg-usydOrangeDark text-white"
+                onClick={switchToSignIn}
+              >
                 <span>Login Here</span>
               </Button>
             </p>

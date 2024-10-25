@@ -10,9 +10,9 @@ import {
   DialogHeader,
   DialogTitle,
   DialogTrigger,
-} from "@/registry/default/ui/dialog"
-import { Toaster } from "@/registry/default/ui/toaster"
-import { useToast } from "@/registry/default/ui/use-toast"
+} from "@/registry/sydney/ui/dialog"
+import { Toaster } from "@/registry/sydney/ui/toaster"
+import { useToast } from "@/registry/sydney/ui/use-toast"
 
 export default function PictureModal() {
   const { toast } = useToast()
@@ -22,11 +22,15 @@ export default function PictureModal() {
       <Toaster />
       <Dialog>
         <DialogTrigger asChild>
-          <Button variant="outline">Open Model</Button>
+          <Button 
+          variant="outline"
+          className="bg-usydOrange hover:bg-usydOrangeDark text-white"
+          >
+          Open Model</Button>
         </DialogTrigger>
         <DialogContent
           style={{ backgroundColor: "white" }}
-          className="p-6 rounded-md"
+          className="rounded-md p-6"
         >
           <DialogHeader>
             <DialogTitle>About personal information</DialogTitle>
@@ -58,6 +62,7 @@ export default function PictureModal() {
           <DialogFooter>
             <Button
               variant="default"
+              className="bg-usydOrange hover:bg-usydOrangeDark text-white"
               onClick={() => {
                 toast({ description: "Already Accepted." })
               }}
@@ -65,7 +70,9 @@ export default function PictureModal() {
               Accept
             </Button>
             <DialogClose asChild>
-              <Button variant="secondary">Cancel</Button>
+              <Button variant="secondary">
+                Cancel
+              </Button>
             </DialogClose>
           </DialogFooter>
         </DialogContent>
