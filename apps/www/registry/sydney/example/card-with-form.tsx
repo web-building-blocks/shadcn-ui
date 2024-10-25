@@ -52,9 +52,7 @@ export default function CardWithForm() {
       </CardContent>
       <CardFooter className="flex justify-between">
         <Button variant="outline">Cancel</Button>
-        <Button className="bg-orange-500 hover:bg-orange-700 text-white">
-          Deploy
-        </Button>
+        <Button className="bg-orange-500 hover:bg-orange-700 text-white">Deploy</Button>
       </CardFooter>
     </Card>
   )

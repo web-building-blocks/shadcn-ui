@@ -16,10 +16,7 @@ export default function SheetDemo() {
   return (
     <Sheet>
       <SheetTrigger asChild>
-        <Button
-          variant="outline"
-          className="bg-orange-500 hover:bg-orange-700 text-white hover:text-white"
-        >
+        <Button variant="outline" className="bg-orange-500 hover:bg-orange-700 text-white hover:text-white">
           Open
         </Button>
       </SheetTrigger>
@@ -46,10 +43,7 @@ export default function SheetDemo() {
         </div>
         <SheetFooter>
           <SheetClose asChild>
-            <Button
-              type="submit"
-              className="bg-orange-500 hover:bg-orange-700 text-white hover:text-white"
-            >
+            <Button type="submit" className="bg-orange-500 hover:bg-orange-700 text-white hover:text-white">
               Save changes
             </Button>
           </SheetClose>
