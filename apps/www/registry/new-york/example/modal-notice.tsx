@@ -20,7 +20,7 @@ export default function NoticeModal() {
       </DialogTrigger>
       <DialogContent
         style={{ backgroundColor: "white" }}
-        className="p-6 rounded-md"
+        className="rounded-md p-6"
       >
         <DialogHeader>
           <DialogTitle>Submit Application</DialogTitle>
@@ -29,7 +29,7 @@ export default function NoticeModal() {
           Are you sure you want to submit your application? You will not be able
           to make changes after that.
         </DialogDescription>
-        <DialogFooter className="flex justify-center space-x-4 mt-4">
+        <DialogFooter className="mt-4 flex justify-center space-x-4">
           <DialogClose asChild>
             <Button variant="secondary">Cancel</Button>
           </DialogClose>
