@@ -66,7 +66,9 @@ export default function DrawerDemo() {
   return (
     <Drawer>
       <DrawerTrigger asChild>
-        <Button variant="outline">Open Drawer</Button>
+        <Button variant="outline" className="bg-orange-500 hover:bg-orange-700 text-white hover:text-white">
+          Open Drawer
+        </Button>
       </DrawerTrigger>
       <DrawerContent>
         <div className="mx-auto w-full max-w-sm">
@@ -79,7 +81,7 @@ export default function DrawerDemo() {
               <Button
                 variant="outline"
                 size="icon"
-                className="h-8 w-8 shrink-0 rounded-full"
+                className="h-8 w-8 shrink-0 rounded-full bg-orange-500 hover:bg-orange-700 text-white hover:text-white"
                 onClick={() => onClick(-10)}
                 disabled={goal <= 200}
               >
@@ -97,7 +99,7 @@ export default function DrawerDemo() {
               <Button
                 variant="outline"
                 size="icon"
-                className="h-8 w-8 shrink-0 rounded-full"
+                className="h-8 w-8 shrink-0 rounded-full bg-orange-500 hover:bg-orange-700 text-white hover:text-white"
                 onClick={() => onClick(10)}
                 disabled={goal >= 400}
               >
@@ -122,9 +124,11 @@ export default function DrawerDemo() {
             </div>
           </div>
           <DrawerFooter>
-            <Button>Submit</Button>
+            <Button className="bg-orange-500 hover:bg-orange-700 text-white hover:text-white">Submit</Button>
             <DrawerClose asChild>
-              <Button variant="outline">Cancel</Button>
+              <Button variant="outline" className="bg-orange-500 hover:bg-orange-700 text-white hover:text-white">
+                Cancel
+              </Button>
             </DrawerClose>
           </DrawerFooter>
         </div>
