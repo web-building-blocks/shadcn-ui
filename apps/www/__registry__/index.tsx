@@ -14506,6 +14506,17 @@ export const Index: Record<string, any> = {
       subcategory: "undefined",
       chunks: []
     },
+    "watermark-demo": {
+      name: "watermark-demo",
+      type: "components:example",
+      registryDependencies: undefined,
+      component: React.lazy(() => import("@/registry/unsw/example/watermark-demo")),
+      source: "",
+      files: ["registry/unsw/example/watermark-demo.tsx"],
+      category: "undefined",
+      subcategory: "undefined",
+      chunks: []
+    },
     "charts-01": {
       name: "charts-01",
       type: "components:block",
