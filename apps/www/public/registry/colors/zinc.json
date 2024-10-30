@@ -19,7 +19,9 @@
       "destructive-foreground": "zinc-50",
       "border": "zinc-200",
       "input": "zinc-200",
-      "ring": "zinc-950"
+      "ring": "zinc-950",
+      "usydochre": "10 79% 53%",
+      "usydchoredark": "13 81% 36%"
     },
     "dark": {
       "background": "zinc-950",
@@ -40,7 +42,9 @@
       "destructive-foreground": "zinc-50",
       "border": "zinc-800",
       "input": "zinc-800",
-      "ring": "zinc-300"
+      "ring": "zinc-300",
+      "usydochre": "10 79% 53%",
+      "usydchoredark": "13 81% 36%"
     }
   },
   "cssVars": {

@@ -19,7 +19,9 @@
       "destructive-foreground": "gray-50",
       "border": "gray-200",
       "input": "gray-200",
-      "ring": "gray-950"
+      "ring": "gray-950",
+      "usydochre": "10 79% 53%",
+      "usydchoredark": "13 81% 36%"
     },
     "dark": {
       "background": "gray-950",
@@ -40,7 +42,9 @@
       "destructive-foreground": "gray-50",
       "border": "gray-800",
       "input": "gray-800",
-      "ring": "gray-300"
+      "ring": "gray-300",
+      "usydochre": "10 79% 53%",
+      "usydchoredark": "13 81% 36%"
     }
   },
   "cssVars": {

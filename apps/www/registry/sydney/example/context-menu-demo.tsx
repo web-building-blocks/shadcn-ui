@@ -12,7 +12,7 @@ import {
   ContextMenuSubContent,
   ContextMenuSubTrigger,
   ContextMenuTrigger,
-} from "@/registry/default/ui/context-menu"
+} from "@/registry/sydney/ui/context-menu"
 
 export default function ContextMenuDemo() {
   return (
@@ -34,7 +34,12 @@ export default function ContextMenuDemo() {
           <ContextMenuShortcut>⌘R</ContextMenuShortcut>
         </ContextMenuItem>
         <ContextMenuSub>
-          <ContextMenuSubTrigger inset>More Tools</ContextMenuSubTrigger>
+          <ContextMenuSubTrigger
+            inset
+            className="hover:bg-usydochre focus:bg-usydochre"
+          >
+            More Tools
+          </ContextMenuSubTrigger>
           <ContextMenuSubContent className="w-48">
             <ContextMenuItem>
               Save Page As...

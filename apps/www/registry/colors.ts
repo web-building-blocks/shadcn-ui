@@ -1508,6 +1508,20 @@ export const colors = {
       hsl: "hsl(343.1,87.7%,15.9%)",
     },
   ],
+  usyd: [
+    {
+      scale: 100,
+      hex: "#e64626",
+      rgb: "rgb(230,70,38)",
+      hsl: "hsl(10,79%,53%)",
+    },
+    {
+      scale: 200,
+      hex: "#a83212",
+      rgb: "rgb(168,50,18)",
+      hsl: "hsl(13,81%,36%)",
+    },
+  ],
 }
 
 export const colorMapping = {
@@ -1536,6 +1550,8 @@ export const colorMapping = {
     "chart-3": "197 37% 24%",
     "chart-4": "43 74% 66%",
     "chart-5": "27 87% 67%",
+    usydochre: "10 79% 53%",
+    usydchoredark: "13 81% 36%",
   },
   dark: {
     background: "{{base}}-950",
@@ -1562,5 +1578,7 @@ export const colorMapping = {
     "chart-3": "30 80% 55%",
     "chart-4": "280 65% 60%",
     "chart-5": "340 75% 55%",
+    usydochre: "10 79% 53%",
+    usydchoredark: "13 81% 36%",
   },
 } as const

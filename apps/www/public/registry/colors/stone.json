@@ -19,7 +19,9 @@
       "destructive-foreground": "stone-50",
       "border": "stone-200",
       "input": "stone-200",
-      "ring": "stone-950"
+      "ring": "stone-950",
+      "usydochre": "10 79% 53%",
+      "usydchoredark": "13 81% 36%"
     },
     "dark": {
       "background": "stone-950",
@@ -40,7 +42,9 @@
       "destructive-foreground": "stone-50",
       "border": "stone-800",
       "input": "stone-800",
-      "ring": "stone-300"
+      "ring": "stone-300",
+      "usydochre": "10 79% 53%",
+      "usydchoredark": "13 81% 36%"
     }
   },
   "cssVars": {

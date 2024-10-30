@@ -47,6 +47,8 @@ module.exports = {
           DEFAULT: "hsl(var(--card))",
           foreground: "hsl(var(--card-foreground))",
         },
+        usydochre: 'hsl(var(--usydochre) / <alpha-value>)',
+        usydchoredark: 'hsl(var(--usydchoredark) / <alpha-value>)',       
       }, 
       spacing: {
         '1/12': '8.333333%',
