@@ -20,7 +20,7 @@ export default function NormalChat() {
   const handleSent = () => {
     toast({
       description: (
-        <div className="w-[340px] rounded-md bg-slate-950 p-4 text-black">
+        <div className="w-[340px] rounded-md bg-orange-600 p-4 text-black">
           The Message is: {newMessage}
         </div>
       ),
@@ -93,6 +93,7 @@ export default function NormalChat() {
             />
             <Button
               variant="destructive"
+              className="bg-orange-600"
               disabled={!newMessage.trim()}
               style={{ marginRight: "8px", padding: "4px 6px" }}
               onClick={sendMessage}

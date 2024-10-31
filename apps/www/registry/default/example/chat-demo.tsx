@@ -20,7 +20,7 @@ export default function NormalChat() {
   const handleSent = () => {
     toast({
       description: (
-        <div className="w-[340px] rounded-md bg-slate-950 p-4 text-black">
+        <div className="w-[340px] rounded-md bg-white p-4 text-black">
           The Message is: {newMessage}
         </div>
       ),

@@ -27,7 +27,7 @@ export default function AttachmentChat() {
   const handleSent = (message: string) => {
     toast({
       description: (
-        <div className="w-[340px] rounded-md bg-slate-950 p-4 text-black">
+        <div className="w-[340px] rounded-md bg-orange-600 p-4 text-black">
           Message sent: {message}
         </div>
       ),
@@ -136,6 +136,7 @@ export default function AttachmentChat() {
             />
             <Button
               variant="destructive"
+              className="bg-orange-600"
               style={{ marginRight: "8px", padding: "4px 6px" }}
               onClick={() => document.getElementById("file-upload").click()}
             >
@@ -154,6 +155,7 @@ export default function AttachmentChat() {
 
             <Button
               variant="destructive"
+              className="bg-orange-600"
               disabled={!newMessage.trim()}
               style={{ marginRight: "8px", padding: "4px 6px" }}
               onClick={() => {

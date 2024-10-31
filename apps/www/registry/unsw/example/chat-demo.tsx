@@ -93,6 +93,7 @@ export default function NormalChat() {
             />
             <Button
               variant="destructive"
+              className="bg-blue-600"
               disabled={!newMessage.trim()}
               style={{ marginRight: "8px", padding: "4px 6px" }}
               onClick={sendMessage}

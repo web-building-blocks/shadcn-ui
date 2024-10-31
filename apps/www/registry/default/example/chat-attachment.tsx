@@ -27,7 +27,7 @@ export default function AttachmentChat() {
   const handleSent = (message: string) => {
     toast({
       description: (
-        <div className="w-[340px] rounded-md bg-slate-950 p-4 text-black">
+        <div className="w-[340px] rounded-md bg-slate-950 p-4 text-white">
           Message sent: {message}
         </div>
       ),
