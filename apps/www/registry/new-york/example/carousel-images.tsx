@@ -19,7 +19,6 @@ const images = [
   "/examples/USYD.jpeg",
 ]
 
-
 export function CarouselImage() {
   const plugin = React.useRef(
     Autoplay({ delay: 4000, stopOnInteraction: true })
