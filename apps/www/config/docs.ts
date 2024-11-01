@@ -173,6 +173,11 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
+          title: "Comment",
+          href: "/docs/components/comment",
+          items: [],
+        },
+        {
           title: "Context Menu",
           href: "/docs/components/context-menu",
           items: [],
@@ -210,6 +215,11 @@ export const docsConfig: DocsConfig = {
         {
           title: "Hover Card",
           href: "/docs/components/hover-card",
+          items: [],
+        },
+        {
+          title: "Image Gallery",
+          href: "/docs/components/image-gallery",
           items: [],
         },
         {
@@ -295,6 +305,11 @@ export const docsConfig: DocsConfig = {
         {
           title: "Sonner",
           href: "/docs/components/sonner",
+          items: [],
+        },
+        {
+          title: "Statistic",
+          href: "/docs/components/statistic",
           items: [],
         },
         {

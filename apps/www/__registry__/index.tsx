@@ -1160,6 +1160,17 @@ export const Index: Record<string, any> = {
       subcategory: "undefined",
       chunks: []
     },
+    "comment-demo": {
+      name: "comment-demo",
+      type: "components:example",
+      registryDependencies: ["card","button","use-toast","toaster","avatar","label","textarea"],
+      component: React.lazy(() => import("@/registry/default/example/comment-demo")),
+      source: "",
+      files: ["registry/default/example/comment-demo.tsx"],
+      category: "undefined",
+      subcategory: "undefined",
+      chunks: []
+    },
     "context-menu-demo": {
       name: "context-menu-demo",
       type: "components:example",
@@ -1354,6 +1365,61 @@ export const Index: Record<string, any> = {
       component: React.lazy(() => import("@/registry/default/example/hover-card-demo")),
       source: "",
       files: ["registry/default/example/hover-card-demo.tsx"],
+      category: "undefined",
+      subcategory: "undefined",
+      chunks: []
+    },
+    "image-gallery-demo": {
+      name: "image-gallery-demo",
+      type: "components:example",
+      registryDependencies: ["image-gallery"],
+      component: React.lazy(() => import("@/registry/default/example/image-gallery-demo")),
+      source: "",
+      files: ["registry/default/example/image-gallery-demo.tsx"],
+      category: "undefined",
+      subcategory: "undefined",
+      chunks: []
+    },
+    "image-gallery-masonry-grid": {
+      name: "image-gallery-masonry-grid",
+      type: "components:example",
+      registryDependencies: ["image-gallery","masonry-grid"],
+      component: React.lazy(() => import("@/registry/default/example/image-gallery-masonry-grid")),
+      source: "",
+      files: ["registry/default/example/image-gallery-masonry-grid.tsx"],
+      category: "undefined",
+      subcategory: "undefined",
+      chunks: []
+    },
+    "image-gallery-with-carousel": {
+      name: "image-gallery-with-carousel",
+      type: "components:example",
+      registryDependencies: ["image-gallery","with-carousel"],
+      component: React.lazy(() => import("@/registry/default/example/image-gallery-with-carousel")),
+      source: "",
+      files: ["registry/default/image-gallery-with-carousel.tsx"],
+      category: "undefined",
+      subcategory: "undefined",
+      chunks: []
+    },
+    "image-gallery-with-preview": {
+      name: "image-gallery-with-preview",
+      type: "components:example",
+      registryDependencies: ["image-gallery","with-preview"],
+      component: React.lazy(() => import("@/registry/default/example/image-gallery-with-preview")),
+      source: "",
+      files: ["registry/default/example/image-gallery-with-preview.tsx"],
+      category: "undefined",
+      subcategory: "undefined",
+      chunks: []
+    },
+    "image-gallery-with-tab": {
+      name: "image-gallery-with-tab",
+      type: "components:example",
+      registryDependencies: ["image-gallery","with-tab"],
+      component: React.lazy(() => import("@/registry/default/example/image-gallery-with-tab")),
+      source: "",
+      files: ["registry/default/image-gallery-with-tab.tsx"],
       category: "undefined",
       subcategory: "undefined",
       chunks: []
@@ -1772,6 +1838,28 @@ export const Index: Record<string, any> = {
       component: React.lazy(() => import("@/registry/default/example/sonner-demo")),
       source: "",
       files: ["registry/default/example/sonner-demo.tsx"],
+      category: "undefined",
+      subcategory: "undefined",
+      chunks: []
+    },
+    "statistic-demo": {
+      name: "statistic-demo",
+      type: "components:example",
+      registryDependencies: ["statistic","button"],
+      component: React.lazy(() => import("@/registry/default/example/statistic-demo")),
+      source: "",
+      files: ["registry/default/example/statistic-demo.tsx"],
+      category: "undefined",
+      subcategory: "undefined",
+      chunks: []
+    },
+    "statistic-incard": {
+      name: "statistic-incard",
+      type: "components:example",
+      registryDependencies: ["statistic","card","icons"],
+      component: React.lazy(() => import("@/registry/default/example/statistic-incard")),
+      source: "",
+      files: ["registry/default/example/statistic-incard.tsx"],
       category: "undefined",
       subcategory: "undefined",
       chunks: []
@@ -4692,6 +4780,17 @@ export const Index: Record<string, any> = {
       subcategory: "undefined",
       chunks: []
     },
+    "comment-demo": {
+      name: "comment-demo",
+      type: "components:example",
+      registryDependencies: ["card","button","use-toast","toaster","avatar","label","textarea"],
+      component: React.lazy(() => import("@/registry/new-york/example/comment-demo")),
+      source: "",
+      files: ["registry/new-york/example/comment-demo.tsx"],
+      category: "undefined",
+      subcategory: "undefined",
+      chunks: []
+    },
     "context-menu-demo": {
       name: "context-menu-demo",
       type: "components:example",
@@ -4886,6 +4985,61 @@ export const Index: Record<string, any> = {
       component: React.lazy(() => import("@/registry/new-york/example/hover-card-demo")),
       source: "",
       files: ["registry/new-york/example/hover-card-demo.tsx"],
+      category: "undefined",
+      subcategory: "undefined",
+      chunks: []
+    },
+    "image-gallery-demo": {
+      name: "image-gallery-demo",
+      type: "components:example",
+      registryDependencies: ["image-gallery"],
+      component: React.lazy(() => import("@/registry/new-york/example/image-gallery-demo")),
+      source: "",
+      files: ["registry/new-york/example/image-gallery-demo.tsx"],
+      category: "undefined",
+      subcategory: "undefined",
+      chunks: []
+    },
+    "image-gallery-masonry-grid": {
+      name: "image-gallery-masonry-grid",
+      type: "components:example",
+      registryDependencies: ["image-gallery","masonry-grid"],
+      component: React.lazy(() => import("@/registry/new-york/example/image-gallery-masonry-grid")),
+      source: "",
+      files: ["registry/new-york/example/image-gallery-masonry-grid.tsx"],
+      category: "undefined",
+      subcategory: "undefined",
+      chunks: []
+    },
+    "image-gallery-with-carousel": {
+      name: "image-gallery-with-carousel",
+      type: "components:example",
+      registryDependencies: ["image-gallery","with-carousel"],
+      component: React.lazy(() => import("@/registry/new-york/example/image-gallery-with-carousel")),
+      source: "",
+      files: ["registry/new-york/image-gallery-with-carousel.tsx"],
+      category: "undefined",
+      subcategory: "undefined",
+      chunks: []
+    },
+    "image-gallery-with-preview": {
+      name: "image-gallery-with-preview",
+      type: "components:example",
+      registryDependencies: ["image-gallery","with-preview"],
+      component: React.lazy(() => import("@/registry/new-york/example/image-gallery-with-preview")),
+      source: "",
+      files: ["registry/new-york/example/image-gallery-with-preview.tsx"],
+      category: "undefined",
+      subcategory: "undefined",
+      chunks: []
+    },
+    "image-gallery-with-tab": {
+      name: "image-gallery-with-tab",
+      type: "components:example",
+      registryDependencies: ["image-gallery","with-tab"],
+      component: React.lazy(() => import("@/registry/new-york/example/image-gallery-with-tab")),
+      source: "",
+      files: ["registry/new-york/image-gallery-with-tab.tsx"],
       category: "undefined",
       subcategory: "undefined",
       chunks: []
@@ -5304,6 +5458,28 @@ export const Index: Record<string, any> = {
       component: React.lazy(() => import("@/registry/new-york/example/sonner-demo")),
       source: "",
       files: ["registry/new-york/example/sonner-demo.tsx"],
+      category: "undefined",
+      subcategory: "undefined",
+      chunks: []
+    },
+    "statistic-demo": {
+      name: "statistic-demo",
+      type: "components:example",
+      registryDependencies: ["statistic","button"],
+      component: React.lazy(() => import("@/registry/new-york/example/statistic-demo")),
+      source: "",
+      files: ["registry/new-york/example/statistic-demo.tsx"],
+      category: "undefined",
+      subcategory: "undefined",
+      chunks: []
+    },
+    "statistic-incard": {
+      name: "statistic-incard",
+      type: "components:example",
+      registryDependencies: ["statistic","card","icons"],
+      component: React.lazy(() => import("@/registry/new-york/example/statistic-incard")),
+      source: "",
+      files: ["registry/new-york/example/statistic-incard.tsx"],
       category: "undefined",
       subcategory: "undefined",
       chunks: []
@@ -8224,6 +8400,17 @@ export const Index: Record<string, any> = {
       subcategory: "undefined",
       chunks: []
     },
+    "comment-demo": {
+      name: "comment-demo",
+      type: "components:example",
+      registryDependencies: ["card","button","use-toast","toaster","avatar","label","textarea"],
+      component: React.lazy(() => import("@/registry/sydney/example/comment-demo")),
+      source: "",
+      files: ["registry/sydney/example/comment-demo.tsx"],
+      category: "undefined",
+      subcategory: "undefined",
+      chunks: []
+    },
     "context-menu-demo": {
       name: "context-menu-demo",
       type: "components:example",
@@ -8418,6 +8605,61 @@ export const Index: Record<string, any> = {
       component: React.lazy(() => import("@/registry/sydney/example/hover-card-demo")),
       source: "",
       files: ["registry/sydney/example/hover-card-demo.tsx"],
+      category: "undefined",
+      subcategory: "undefined",
+      chunks: []
+    },
+    "image-gallery-demo": {
+      name: "image-gallery-demo",
+      type: "components:example",
+      registryDependencies: ["image-gallery"],
+      component: React.lazy(() => import("@/registry/sydney/example/image-gallery-demo")),
+      source: "",
+      files: ["registry/sydney/example/image-gallery-demo.tsx"],
+      category: "undefined",
+      subcategory: "undefined",
+      chunks: []
+    },
+    "image-gallery-masonry-grid": {
+      name: "image-gallery-masonry-grid",
+      type: "components:example",
+      registryDependencies: ["image-gallery","masonry-grid"],
+      component: React.lazy(() => import("@/registry/sydney/example/image-gallery-masonry-grid")),
+      source: "",
+      files: ["registry/sydney/example/image-gallery-masonry-grid.tsx"],
+      category: "undefined",
+      subcategory: "undefined",
+      chunks: []
+    },
+    "image-gallery-with-carousel": {
+      name: "image-gallery-with-carousel",
+      type: "components:example",
+      registryDependencies: ["image-gallery","with-carousel"],
+      component: React.lazy(() => import("@/registry/sydney/example/image-gallery-with-carousel")),
+      source: "",
+      files: ["registry/sydney/image-gallery-with-carousel.tsx"],
+      category: "undefined",
+      subcategory: "undefined",
+      chunks: []
+    },
+    "image-gallery-with-preview": {
+      name: "image-gallery-with-preview",
+      type: "components:example",
+      registryDependencies: ["image-gallery","with-preview"],
+      component: React.lazy(() => import("@/registry/sydney/example/image-gallery-with-preview")),
+      source: "",
+      files: ["registry/sydney/example/image-gallery-with-preview.tsx"],
+      category: "undefined",
+      subcategory: "undefined",
+      chunks: []
+    },
+    "image-gallery-with-tab": {
+      name: "image-gallery-with-tab",
+      type: "components:example",
+      registryDependencies: ["image-gallery","with-tab"],
+      component: React.lazy(() => import("@/registry/sydney/example/image-gallery-with-tab")),
+      source: "",
+      files: ["registry/sydney/image-gallery-with-tab.tsx"],
       category: "undefined",
       subcategory: "undefined",
       chunks: []
@@ -8836,6 +9078,28 @@ export const Index: Record<string, any> = {
       component: React.lazy(() => import("@/registry/sydney/example/sonner-demo")),
       source: "",
       files: ["registry/sydney/example/sonner-demo.tsx"],
+      category: "undefined",
+      subcategory: "undefined",
+      chunks: []
+    },
+    "statistic-demo": {
+      name: "statistic-demo",
+      type: "components:example",
+      registryDependencies: ["statistic","button"],
+      component: React.lazy(() => import("@/registry/sydney/example/statistic-demo")),
+      source: "",
+      files: ["registry/sydney/example/statistic-demo.tsx"],
+      category: "undefined",
+      subcategory: "undefined",
+      chunks: []
+    },
+    "statistic-incard": {
+      name: "statistic-incard",
+      type: "components:example",
+      registryDependencies: ["statistic","card","icons"],
+      component: React.lazy(() => import("@/registry/sydney/example/statistic-incard")),
+      source: "",
+      files: ["registry/sydney/example/statistic-incard.tsx"],
       category: "undefined",
       subcategory: "undefined",
       chunks: []
@@ -11756,6 +12020,17 @@ export const Index: Record<string, any> = {
       subcategory: "undefined",
       chunks: []
     },
+    "comment-demo": {
+      name: "comment-demo",
+      type: "components:example",
+      registryDependencies: ["card","button","use-toast","toaster","avatar","label","textarea"],
+      component: React.lazy(() => import("@/registry/unsw/example/comment-demo")),
+      source: "",
+      files: ["registry/unsw/example/comment-demo.tsx"],
+      category: "undefined",
+      subcategory: "undefined",
+      chunks: []
+    },
     "context-menu-demo": {
       name: "context-menu-demo",
       type: "components:example",
@@ -11950,6 +12225,61 @@ export const Index: Record<string, any> = {
       component: React.lazy(() => import("@/registry/unsw/example/hover-card-demo")),
       source: "",
       files: ["registry/unsw/example/hover-card-demo.tsx"],
+      category: "undefined",
+      subcategory: "undefined",
+      chunks: []
+    },
+    "image-gallery-demo": {
+      name: "image-gallery-demo",
+      type: "components:example",
+      registryDependencies: ["image-gallery"],
+      component: React.lazy(() => import("@/registry/unsw/example/image-gallery-demo")),
+      source: "",
+      files: ["registry/unsw/example/image-gallery-demo.tsx"],
+      category: "undefined",
+      subcategory: "undefined",
+      chunks: []
+    },
+    "image-gallery-masonry-grid": {
+      name: "image-gallery-masonry-grid",
+      type: "components:example",
+      registryDependencies: ["image-gallery","masonry-grid"],
+      component: React.lazy(() => import("@/registry/unsw/example/image-gallery-masonry-grid")),
+      source: "",
+      files: ["registry/unsw/example/image-gallery-masonry-grid.tsx"],
+      category: "undefined",
+      subcategory: "undefined",
+      chunks: []
+    },
+    "image-gallery-with-carousel": {
+      name: "image-gallery-with-carousel",
+      type: "components:example",
+      registryDependencies: ["image-gallery","with-carousel"],
+      component: React.lazy(() => import("@/registry/unsw/example/image-gallery-with-carousel")),
+      source: "",
+      files: ["registry/unsw/image-gallery-with-carousel.tsx"],
+      category: "undefined",
+      subcategory: "undefined",
+      chunks: []
+    },
+    "image-gallery-with-preview": {
+      name: "image-gallery-with-preview",
+      type: "components:example",
+      registryDependencies: ["image-gallery","with-preview"],
+      component: React.lazy(() => import("@/registry/unsw/example/image-gallery-with-preview")),
+      source: "",
+      files: ["registry/unsw/example/image-gallery-with-preview.tsx"],
+      category: "undefined",
+      subcategory: "undefined",
+      chunks: []
+    },
+    "image-gallery-with-tab": {
+      name: "image-gallery-with-tab",
+      type: "components:example",
+      registryDependencies: ["image-gallery","with-tab"],
+      component: React.lazy(() => import("@/registry/unsw/example/image-gallery-with-tab")),
+      source: "",
+      files: ["registry/unsw/image-gallery-with-tab.tsx"],
       category: "undefined",
       subcategory: "undefined",
       chunks: []
@@ -12368,6 +12698,28 @@ export const Index: Record<string, any> = {
       component: React.lazy(() => import("@/registry/unsw/example/sonner-demo")),
       source: "",
       files: ["registry/unsw/example/sonner-demo.tsx"],
+      category: "undefined",
+      subcategory: "undefined",
+      chunks: []
+    },
+    "statistic-demo": {
+      name: "statistic-demo",
+      type: "components:example",
+      registryDependencies: ["statistic","button"],
+      component: React.lazy(() => import("@/registry/unsw/example/statistic-demo")),
+      source: "",
+      files: ["registry/unsw/example/statistic-demo.tsx"],
+      category: "undefined",
+      subcategory: "undefined",
+      chunks: []
+    },
+    "statistic-incard": {
+      name: "statistic-incard",
+      type: "components:example",
+      registryDependencies: ["statistic","card","icons"],
+      component: React.lazy(() => import("@/registry/unsw/example/statistic-incard")),
+      source: "",
+      files: ["registry/unsw/example/statistic-incard.tsx"],
       category: "undefined",
       subcategory: "undefined",
       chunks: []

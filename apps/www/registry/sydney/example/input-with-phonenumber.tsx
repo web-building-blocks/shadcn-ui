@@ -9,6 +9,7 @@ import {
 } from "@/registry/default/ui/dropdown-menu"
 import { Input } from "@/registry/default/ui/input"
 
+// InputPhoneNumber component styled for Sydney style
 export function InputPhoneNumber() {
   const [selectedCountry, setSelectedCountry] = React.useState("+61")
   const [phoneNumber, setPhoneNumber] = React.useState("")
@@ -40,7 +41,12 @@ export function InputPhoneNumber() {
   return (
     <DropdownMenu>
       <DropdownMenuTrigger asChild>
-        <Button variant="outline">{selectedCountry}</Button>
+        <Button
+          variant="outline"
+          className="border border-orange-600 text-orange-600 hover:bg-orange-600 hover:text-white" // Sydney style for button
+        >
+          {selectedCountry}
+        </Button>
       </DropdownMenuTrigger>
       <DropdownMenuContent className="w-56">
         <DropdownMenuCheckboxItem
@@ -55,7 +61,6 @@ export function InputPhoneNumber() {
         >
           United Kingdom (+44)
         </DropdownMenuCheckboxItem>
-
         <DropdownMenuCheckboxItem
           checked={selectedCountry === "+61"}
           onCheckedChange={() => handleCountrySelect("+61")}
@@ -71,11 +76,11 @@ export function InputPhoneNumber() {
       </DropdownMenuContent>
 
       <Input
-        type="number"
-        placeholder="123-456-7890"
+        type="text" // Change type to text for better formatting
+        placeholder="Enter phone number"
         value={phoneNumber}
         onChange={handlePhoneNumberChange}
-        style={{ width: "50%" }}
+        className="border border-orange-600 bg-white text-gray-900 placeholder-gray-500 focus:outline-none focus:ring-2 focus:ring-orange-600 focus:border-orange-600 w-1/2" // Sydney style for input
       />
     </DropdownMenu>
   )
