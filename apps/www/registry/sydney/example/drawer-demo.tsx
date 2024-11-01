@@ -66,10 +66,7 @@ export default function DrawerDemo() {
   return (
     <Drawer>
       <DrawerTrigger asChild>
-        <Button
-          variant="outline"
-          className="bg-orange-500 hover:bg-orange-700 text-white hover:text-white"
-        >
+        <Button variant="outline" className="bg-orange-500 hover:bg-orange-700 text-white hover:text-white">
           Open Drawer
         </Button>
       </DrawerTrigger>
@@ -127,14 +124,9 @@ export default function DrawerDemo() {
             </div>
           </div>
           <DrawerFooter>
-            <Button className="bg-orange-500 hover:bg-orange-700 text-white hover:text-white">
-              Submit
-            </Button>
+            <Button className="bg-orange-500 hover:bg-orange-700 text-white hover:text-white">Submit</Button>
             <DrawerClose asChild>
-              <Button
-                variant="outline"
-                className="bg-orange-500 hover:bg-orange-700 text-white hover:text-white"
-              >
+              <Button variant="outline" className="bg-orange-500 hover:bg-orange-700 text-white hover:text-white">
                 Cancel
               </Button>
             </DrawerClose>
