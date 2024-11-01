@@ -1,33 +1,47 @@
-import type { Meta, StoryObj } from '@storybook/react';
-import Tags from './tags';
+// tags-innovativetags.stories.tsx
+import type { Meta, StoryObj, ComponentStory } from '@storybook/react';
+import InnovativeTags from './tags-innovativetags';
 
-const meta: Meta<typeof Tags> = {
+const meta: Meta<typeof InnovativeTags> = {
   title: 'Components/Tags',
-  component: Tags,
+  component: InnovativeTags,
   argTypes: {
-    variant: {
-      control: { type: 'select' },
+    variants: {
+      control: { type: 'check' },
       options: ['default', 'secondary', 'destructive', 'outline'],
-      description: 'Set the style variant of the tag',
+      description: 'Array of badge variants to display',
     },
-  },
-  args: {
-    variant: 'default',
+    spacing: {
+      control: { type: 'text' },
+      description: 'Spacing between badges',
+    },
   },
 };
 
 export default meta;
 
-type Story = StoryObj<typeof meta>;
+type Story = StoryObj<InnovativeTagsProps>;
 
+// Default Story
 export const Default: Story = {
   args: {
-    variant: 'default',
+    variants: ['default', 'secondary', 'destructive', 'outline'],
+    spacing: '10px',
   },
 };
 
-export const CustomTags: Story = {
+// Story with Custom Variants
+export const CustomVariants: Story = {
   args: {
-    variant: 'destructive',
+    variants: ['default', 'secondary'],
+    spacing: '15px',
+  },
+};
+
+// Story with Different Spacing
+export const WideSpacing: Story = {
+  args: {
+    variants: ['default', 'outline'],
+    spacing: '20px',
   },
 };

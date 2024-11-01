@@ -46,7 +46,7 @@ export function CardWithDrawer({
           right: 0,
           transition: "transform 0.3s",
           transform: isHovered ? "translateY(0)" : "translateY(100%)",
-          backgroundColor: "black",
+          backgroundColor: "rgba(0, 0, 0, 0.8)",
           color: "white",
           padding: "1rem",
         }}

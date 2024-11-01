@@ -12,17 +12,13 @@ import {
 
 // Example image URLs - replace these with actual URLs of your images
 const images = [
-  "./BondiBeach.jpg?raw=true",
-  "./Chinatown.jpg?raw=true",
-  "./SydneyOperaHouse.png?raw=true",
-  "./SydneyTower.jpg?raw=true",
-  "./USYD.jpeg?raw=true",
-  // "https://github.com/Programming-is-like-breathing-air/PG-Capstone-CS55-2---2024S1/blob/main/public/components/carousel/withImages/react/assets/BondiBeach.jpg?raw=true",
-  // "https://github.com/Programming-is-like-breathing-air/PG-Capstone-CS55-2---2024S1/blob/main/public/components/carousel/withImages/react/assets/Chinatown.jpg?raw=true",
-  // "https://github.com/Programming-is-like-breathing-air/PG-Capstone-CS55-2---2024S1/blob/main/public/components/carousel/withImages/react/assets/SydneyOperaHouse.png?raw=true",
-  // "https://github.com/Programming-is-like-breathing-air/PG-Capstone-CS55-2---2024S1/blob/main/public/components/carousel/withImages/react/assets/SydneyTower.jpg?raw=true",
-  // "https://github.com/Programming-is-like-breathing-air/PG-Capstone-CS55-2---2024S1/blob/main/public/components/carousel/withImages/react/assets/USYD.jpeg?raw=true"
+  "/examples/Chinatown.jpg",
+  "/examples/BondiBeach.jpg",
+  "/examples/SydneyOperaHouse.png",
+  "/examples/SydneyTower.jpg",
+  "/examples/USYD.jpeg",
 ]
+
 
 export function CarouselImage() {
   const plugin = React.useRef(

@@ -1,32 +1,40 @@
-import * as React from "react"
-import Autoplay from "embla-carousel-autoplay"
-
-import { Card, CardContent } from "@/registry/default/ui/card"
+import * as React from "react";
+import Autoplay from "embla-carousel-autoplay";
+import { Card, CardContent } from "@/registry/default/ui/card";
 import {
   Carousel,
   CarouselContent,
   CarouselItem,
   CarouselNext,
   CarouselPrevious,
-} from "@/registry/default/ui/carousel"
+} from "@/registry/default/ui/carousel";
 
-// Example image URLs - replace these with actual URLs of your images
-const images = [
-  "/examples/Chinatown.jpg",
-  "/examples/BondiBeach.jpg",
-  "/examples/SydneyOperaHouse.png",
-  "/examples/SydneyTower.jpg",
-  "/examples/USYD.jpeg",
-]
+type CarouselImageProps = {
+  images?: string[];
+  delay?: number;
+  width?: string;
+  height?: string;
+};
 
-
-export function CarouselImage() {
+export function CarouselImage({
+  images = [
+    "/examples/Chinatown.jpg",
+    "/examples/BondiBeach.jpg",
+    "/examples/SydneyOperaHouse.png",
+    "/examples/SydneyTower.jpg",
+    "/examples/USYD.jpeg",
+  ],
+  delay = 4000,
+  width = "w-full",
+  height = "max-w-xs",
+}: CarouselImageProps) {
   const plugin = React.useRef(
-    Autoplay({ delay: 4000, stopOnInteraction: true })
-  )
+    Autoplay({ delay, stopOnInteraction: true })
+  );
+
   return (
     <Carousel
-      className="w-full max-w-xs "
+      className={`${width} ${height}`}
       plugins={[plugin.current]}
       onMouseEnter={plugin.current.stop}
       onMouseLeave={plugin.current.reset}
@@ -51,7 +59,7 @@ export function CarouselImage() {
       <CarouselPrevious />
       <CarouselNext />
     </Carousel>
-  )
+  );
 }
 
-export default CarouselImage
+export default CarouselImage;

@@ -32,7 +32,10 @@ export default function DrawerDialogDemo() {
     return (
       <Dialog open={open} onOpenChange={setOpen}>
         <DialogTrigger asChild>
-          <Button variant="outline" className="bg-orange-500 hover:bg-orange-700 text-white hover:text-white">
+          <Button
+            variant="outline"
+            className="bg-orange-500 hover:bg-orange-700 text-white hover:text-white"
+          >
             Edit Profile
           </Button>
         </DialogTrigger>
@@ -52,7 +55,10 @@ export default function DrawerDialogDemo() {
   return (
     <Drawer open={open} onOpenChange={setOpen}>
       <DrawerTrigger asChild>
-        <Button variant="outline" className="bg-orange-500 hover:bg-orange-700 text-white hover:text-white">
+        <Button
+          variant="outline"
+          className="bg-orange-500 hover:bg-orange-700 text-white hover:text-white"
+        >
           Edit Profile
         </Button>
       </DrawerTrigger>
@@ -66,7 +72,10 @@ export default function DrawerDialogDemo() {
         <ProfileForm className="px-4" />
         <DrawerFooter className="pt-2">
           <DrawerClose asChild>
-            <Button variant="outline" className="bg-orange-500 hover:bg-orange-700 text-white hover:text-white">
+            <Button
+              variant="outline"
+              className="bg-orange-500 hover:bg-orange-700 text-white hover:text-white"
+            >
               Cancel
             </Button>
           </DrawerClose>
@@ -87,7 +96,10 @@ function ProfileForm({ className }: React.ComponentProps<"form">) {
         <Label htmlFor="username">Username</Label>
         <Input id="username" defaultValue="@shadcn" />
       </div>
-      <Button type="submit" className="bg-orange-500 hover:bg-orange-700 text-white hover:text-white">
+      <Button
+        type="submit"
+        className="bg-orange-500 hover:bg-orange-700 text-white hover:text-white"
+      >
         Save changes
       </Button>
     </form>

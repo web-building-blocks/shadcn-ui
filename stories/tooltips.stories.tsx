@@ -45,6 +45,10 @@ export const Default: Story = {
     buttonVariant: 'outline',
     logOpenChange: true,
   },
+  argTypes: {
+    tooltipText: { table: { disable: true } },
+    logOpenChange: { table: { disable: true } },
+  },
 };
 
 // Story with custom text and variant
@@ -54,5 +58,9 @@ export const CustomTooltip: Story = {
     buttonText: 'Save',
     buttonVariant: 'default',
     logOpenChange: false,
+  },
+  argTypes: {
+    tooltipText: { table: { disable: true } },
+    logOpenChange: { table: { disable: true } },
   },
 };
