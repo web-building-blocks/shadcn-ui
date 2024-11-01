@@ -2,7 +2,7 @@ import type { Meta, StoryObj } from '@storybook/react';
 import CarouselDemo from './carousel-demo';
 
 const meta: Meta<typeof CarouselDemo> = {
-  title: 'Components/CarouselDemo',
+  title: 'Components/Carousel',
   component: CarouselDemo,
   argTypes: {
     items: {

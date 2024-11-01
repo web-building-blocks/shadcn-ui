@@ -1,5 +1,5 @@
 import type { Meta, StoryObj } from '@storybook/react';
-import CheckboxDemo from './checkbox-demo';
+import CheckboxDemo from './checkbox';
 
 
 const checkboxOptions = {
