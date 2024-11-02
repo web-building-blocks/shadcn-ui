@@ -720,6 +720,17 @@ export const Index: Record<string, any> = {
       subcategory: "undefined",
       chunks: []
     },
+    "browserwindow-demo": {
+      name: "browserwindow-demo",
+      type: "components:example",
+      registryDependencies: ["browserwindow"],
+      component: React.lazy(() => import("@/registry/default/example/browserwindow-demo")),
+      source: "",
+      files: ["registry/default/example/browserwindow-demo.tsx"],
+      category: "undefined",
+      subcategory: "undefined",
+      chunks: []
+    },
     "button-demo": {
       name: "button-demo",
       type: "components:example",
@@ -4391,6 +4402,17 @@ export const Index: Record<string, any> = {
       component: React.lazy(() => import("@/registry/new-york/example/breadcrumb-with-border")),
       source: "",
       files: ["registry/new-york/example/breadcrumb-with-border.tsx"],
+      category: "undefined",
+      subcategory: "undefined",
+      chunks: []
+    },
+    "browserwindow-demo": {
+      name: "browserwindow-demo",
+      type: "components:example",
+      registryDependencies: ["browserwindow"],
+      component: React.lazy(() => import("@/registry/new-york/example/browserwindow-demo")),
+      source: "",
+      files: ["registry/new-york/example/browserwindow-demo.tsx"],
       category: "undefined",
       subcategory: "undefined",
       chunks: []
@@ -8070,6 +8092,17 @@ export const Index: Record<string, any> = {
       subcategory: "undefined",
       chunks: []
     },
+    "browserwindow-demo": {
+      name: "browserwindow-demo",
+      type: "components:example",
+      registryDependencies: ["browserwindow"],
+      component: React.lazy(() => import("@/registry/sydney/example/browserwindow-demo")),
+      source: "",
+      files: ["registry/sydney/example/browserwindow-demo.tsx"],
+      category: "undefined",
+      subcategory: "undefined",
+      chunks: []
+    },
     "button-demo": {
       name: "button-demo",
       type: "components:example",
@@ -11741,6 +11774,17 @@ export const Index: Record<string, any> = {
       component: React.lazy(() => import("@/registry/unsw/example/breadcrumb-with-border")),
       source: "",
       files: ["registry/unsw/example/breadcrumb-with-border.tsx"],
+      category: "undefined",
+      subcategory: "undefined",
+      chunks: []
+    },
+    "browserwindow-demo": {
+      name: "browserwindow-demo",
+      type: "components:example",
+      registryDependencies: ["browserwindow"],
+      component: React.lazy(() => import("@/registry/unsw/example/browserwindow-demo")),
+      source: "",
+      files: ["registry/unsw/example/browserwindow-demo.tsx"],
       category: "undefined",
       subcategory: "undefined",
       chunks: []
