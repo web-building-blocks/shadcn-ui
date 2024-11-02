@@ -140,6 +140,12 @@ export const examples: Registry = [
     files: ["example/breadcrumb-responsive.tsx"],
   },
   {
+    name: "breadcrumb-with-border",
+    type: "components:example",
+    registryDependencies: ["breadcrumb"],
+    files: ["example/breadcrumb-with-border.tsx"],
+  },
+  {
     name: "button-demo",
     type: "components:example",
     registryDependencies: ["button"],
@@ -374,6 +380,20 @@ export const examples: Registry = [
     files: ["example/command-dialog.tsx"],
   },
   {
+    name: "comment-demo",
+    type: "components:example",
+    registryDependencies: [
+      "card",
+      "button",
+      "use-toast",
+      "toaster",
+      "avatar",
+      "label",
+      "textarea",
+    ],
+    files: ["example/comment-demo.tsx"],
+  },
+  {
     name: "context-menu-demo",
     type: "components:example",
     registryDependencies: ["context-menu"],
@@ -456,10 +476,64 @@ export const examples: Registry = [
     files: ["example/dropdown-menu-radio-group.tsx"],
   },
   {
+    name: "dropdown-menu-with-divider",
+    type: "components:example",
+    registryDependencies: ["dropdown-menu", "with-divider"],
+    files: ["example/dropdown-menu-with-divider.tsx"],
+  },
+  {
+    name: "dropdown-menu-with-header",
+    type: "components:example",
+    registryDependencies: ["dropdown-menu", "with-header"],
+    files: ["example/dropdown-menu-with-header.tsx"],
+  },
+  {
+    name: "dropdown-menu-with-icon",
+    type: "components:example",
+    registryDependencies: ["dropdown-menu", "with-icon"],
+    files: ["example/dropdown-menu-with-icon.tsx"],
+  },
+  {
+    name: "dropdown-menu-with-search",
+    type: "components:example",
+    registryDependencies: ["dropdown-menu", "with-search"],
+    files: ["example/dropdown-menu-with-search.tsx"],
+  },
+  {
     name: "hover-card-demo",
     type: "components:example",
     registryDependencies: ["hover-card"],
     files: ["example/hover-card-demo.tsx"],
+  },
+  {
+    name: "image-gallery-demo",
+    type: "components:example",
+    registryDependencies: ["image-gallery"],
+    files: ["example/image-gallery-demo.tsx"],
+  },
+  {
+    name: "image-gallery-masonry-grid",
+    type: "components:example",
+    registryDependencies: ["image-gallery", "masonry-grid"],
+    files: ["example/image-gallery-masonry-grid.tsx"],
+  },
+  {
+    name: "image-gallery-with-carousel",
+    type: "components:example",
+    registryDependencies: ["image-gallery", "with-carousel"],
+    files: ["image-gallery-with-carousel.tsx"],
+  },
+  {
+    name: "image-gallery-with-preview",
+    type: "components:example",
+    registryDependencies: ["image-gallery", "with-preview"],
+    files: ["example/image-gallery-with-preview.tsx"],
+  },
+  {
+    name: "image-gallery-with-tab",
+    type: "components:example",
+    registryDependencies: ["image-gallery", "with-tab"],
+    files: ["image-gallery-with-tab.tsx"],
   },
   {
     name: "input-demo",
@@ -502,6 +576,18 @@ export const examples: Registry = [
     type: "components:example",
     registryDependencies: ["input", "button", "label"],
     files: ["example/input-with-text.tsx"],
+  },
+  {
+    name: "input-with-number",
+    type: "components:example",
+    registryDependencies: ["input"],
+    files: ["example/input-with-number.tsx"],
+  },
+  {
+    name: "input-with-phonenumber",
+    type: "components:example",
+    registryDependencies: ["input", "button", "dropdown-menu"],
+    files: ["example/input-with-phonenumber.tsx"],
   },
   {
     name: "input-otp-demo",
@@ -688,6 +774,18 @@ export const examples: Registry = [
     type: "components:example",
     registryDependencies: ["sonner"],
     files: ["example/sonner-demo.tsx"],
+  },
+  {
+    name: "statistic-demo",
+    type: "components:example",
+    registryDependencies: ["statistic", "button"],
+    files: ["example/statistic-demo.tsx"],
+  },
+  {
+    name: "statistic-incard",
+    type: "components:example",
+    registryDependencies: ["statistic", "card", "icons"],
+    files: ["example/statistic-incard.tsx"],
   },
   {
     name: "switch-demo",
