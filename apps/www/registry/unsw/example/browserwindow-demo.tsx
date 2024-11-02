@@ -1,5 +1,5 @@
-import React, { useState } from "react";
-import styled from "styled-components";
+import React, { useState } from "react"
+import styled from "styled-components"
 
 // Carbon-inspired styled components
 const StyledBrowserWindow = styled.div`
@@ -10,7 +10,7 @@ const StyledBrowserWindow = styled.div`
   height: 100vh;
   width: 100vw;
   background-color: #f4f4f4; /* Light gray background for Carbon feel */
-`;
+`
 
 const BrowserWindow = styled.div`
   width: 80%;
@@ -19,7 +19,7 @@ const BrowserWindow = styled.div`
   background-color: #ffffff;
   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
   border-radius: 8px; /* Rounded corners for a modern look */
-`;
+`
 
 const BrowserHeader = styled.div`
   display: flex;
@@ -29,12 +29,12 @@ const BrowserHeader = styled.div`
   color: #f4f4f4; /* Light text for contrast */
   border-top-left-radius: 8px;
   border-top-right-radius: 8px;
-`;
+`
 
 const BrowserButtons = styled.div`
   display: flex;
   gap: 8px;
-`;
+`
 
 const BrowserButton = styled.span`
   width: 10px;
@@ -42,7 +42,7 @@ const BrowserButton = styled.span`
   border-radius: 50%;
   display: inline-block;
   background-color: ${(props) => props.color};
-`;
+`
 
 const BrowserUrlBar = styled.div`
   flex: 1;
@@ -61,7 +61,7 @@ const BrowserUrlBar = styled.div`
       outline: none;
     }
   }
-`;
+`
 
 const BrowserContent = styled.iframe`
   width: 100%;
@@ -73,11 +73,11 @@ const BrowserContent = styled.iframe`
 
 // BrowserMockup Component
 const BrowserMockup = () => {
-  const [url, setUrl] = useState("https://www.example.com");
+  const [url, setUrl] = useState("https://www.example.com")
 
   const handleUrlChange = (event: React.ChangeEvent<HTMLInputElement>) => {
-    setUrl(event.target.value);
-  };
+    setUrl(event.target.value)
+  }
 
   return (
     <StyledBrowserWindow>
@@ -89,13 +89,18 @@ const BrowserMockup = () => {
             <BrowserButton color="#42be65" /> {/* Maximize button - green */}
           </BrowserButtons>
           <BrowserUrlBar>
-            <input type="text" value={url} onChange={handleUrlChange} placeholder="Enter URL" />
+            <input
+              type="text"
+              value={url}
+              onChange={handleUrlChange}
+              placeholder="Enter URL"
+            />
           </BrowserUrlBar>
         </BrowserHeader>
         <BrowserContent src={url} />
       </BrowserWindow>
     </StyledBrowserWindow>
-  );
-};
+  )
+}
 
-export default BrowserMockup;
+export default BrowserMockup
