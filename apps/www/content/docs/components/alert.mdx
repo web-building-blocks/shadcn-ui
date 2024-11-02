@@ -1,84 +1,104 @@
----
-title: Alert
-description: Displays a callout for user attention.
-component: true
----
 
-<ComponentPreview
-  name="alert-demo"
-  title="An alert with an icon, title and description."
-  description="An alert with an icon, title and description. The title says 'Heads up!' and the description is 'You can add components to your app using the cli.'."
-/>
+# Alert
+
+An alert is a UI component that displays a callout message to capture user attention. It is commonly used to convey important information, warnings, errors, or success messages in a visually distinct manner, often accompanied by an icon for added context.
+
+<Docs> <API Reference> <Storybook> <Design Guideline> <Accessibility>
+
+## Introduction
+
+The Alert component in our UI library is designed to deliver clear and accessible notifications that inform users about the system’s current state or guide them through the application flow. The component supports variants such as `default`, `destructive`, `information`, `warning`, and `success`, each with its own unique animation and color scheme to ensure users can quickly recognize the nature of the message. With customizable elements like icons, titles, and descriptions, the Alert component adapts well to various use cases, including system notifications, form validations, and updates.
 
 ## Installation
 
+To install the Alert component, you can either use the CLI command or add it manually:
+
 <Tabs defaultValue="cli">
+  <TabsList>
+    <TabsTrigger value="cli">CLI</TabsTrigger>
+    <TabsTrigger value="manual">Manual</TabsTrigger>
+  </TabsList>
 
-<TabsList>
-  <TabsTrigger value="cli">CLI</TabsTrigger>
-  <TabsTrigger value="manual">Manual</TabsTrigger>
-</TabsList>
-<TabsContent value="cli">
+  <TabsContent value="cli">
+    ```bash
+    npx shadcn-ui@latest add alert
+    ```
+  </TabsContent>
 
-```bash
-npx shadcn-ui@latest add alert
-```
-
-</TabsContent>
-
-<TabsContent value="manual">
-
-<Steps>
-
-<Step>Copy and paste the following code into your project.</Step>
-
-<ComponentSource name="alert" />
-
-<Step>Update the import paths to match your project setup.</Step>
-
-</Steps>
-
-</TabsContent>
-
+  <TabsContent value="manual">
+    <Steps>
+      <Step>Copy and paste the following code into your project.</Step>
+      <ComponentSource name="alert" />
+      <Step>Update the import paths to match your project setup.</Step>
+    </Steps>
+  </TabsContent>
 </Tabs>
 
 ## Usage
 
-```tsx
-import { Alert, AlertDescription, AlertTitle } from "@/components/ui/alert"
-```
+To use the Alert component in your project, import it as follows:
 
 ```tsx
+import { Alert, AlertDescription, AlertTitle } from "@/components/ui/alert";
+
 <Alert>
   <Terminal className="h-4 w-4" />
   <AlertTitle>Heads up!</AlertTitle>
   <AlertDescription>
-    You can add components and dependencies to your app using the cli.
+    You can add components and dependencies to your app using the CLI.
   </AlertDescription>
 </Alert>
 ```
 
-## Examples
+## Variants
 
 ### Default
 
-<ComponentPreview
-  name="alert-demo"
-  title="An alert with an icon, title and description."
-  description="An alert with an icon, title and description. The title says 'Heads up!' and the description is 'You can add components to your app using the cli.'."
-/>
-### WithHover
+The default Alert variant is a general-purpose notification with a neutral design. It is ideal for standard messages that don't require specific attention levels. This variant includes smooth entrance animations for a subtle and professional appearance.
 
-<ComponentPreview
-  name="alert-hover"
-  title="An variant alert for information notice"
-  description="An alert with an icon, title and description. The title says 'Heads up!' and the description is 'You can add components to your app using the cli.'."
-/>
+<ComponentPreview name="alert-demo" title="Default Alert" description="An alert with an icon, title, and description." />
 
-### Animation
+### Success
 
-<ComponentPreview
-  name="alert-animation"
-  title="An variant alert for information notice"
-  description="An alert with an icon, title and description. The title says 'Heads up!' and the description is 'You can add components to your app using the cli.'."
-/>
+The Success Alert is styled with a green color scheme to convey successful operations, such as “Data saved” or “Upload completed.” This variant uses upward animation to capture user attention in a positive context.
+
+<ComponentPreview name="alert-animation" title="Success Alert" description="An alert indicating success with an icon, title, and description." />
+
+### Information
+
+The Information Alert is a blue-colored variant designed to convey informational messages. With a left-to-right slide-in animation, it is ideal for updates or instructions that assist users without signaling urgency.
+
+<ComponentPreview name="alert-animation" title="Information Alert" description="An alert for general information with an icon, title, and description." />
+
+### Warning
+
+The Warning Alert, highlighted with a yellow color scheme, is used to notify users about potential issues. This variant enters from the right side, immediately drawing attention to caution users about potential risks.
+
+<ComponentPreview name="alert-animation" title="Warning Alert" description="An alert for warnings with an icon, title, and description." />
+
+### Destructive
+
+The Destructive Alert variant uses a red color scheme and a scaling animation to indicate critical issues or errors, such as “Delete failed” or “Action cannot be undone.” This variant is best suited for alerts that require immediate user attention to prevent significant issues.
+
+<ComponentPreview name="alert-animation" title="Destructive Alert" description="An alert indicating a critical error with an icon, title, and description." />
+
+## Guidelines
+
+### Design
+
+Ensure that the Alert component follows consistent design principles in line with the existing UI structure. Use established guidelines from resources such as Radix UI, Adobe Spectrum, or W3C to maintain visual hierarchy, readability, and accessibility. The component should be visually distinct to draw user attention, with clear use of icons, colors, and spacing that align with the overall design system.
+
+### Usability / Accessibility
+
+Follow accessibility best practices to make the Alert component usable for all users, including those relying on screen readers and keyboard navigation. Implement ARIA attributes and ensure the component is focusable and provides appropriate feedback during interactions. Reference guidelines from Adobe Spectrum, ARIA, or W3C to verify that the component meets accessibility standards, enhancing usability across various devices and assistive technologies.
+
+## Reference
+
+Document any design or accessibility guidelines used during the development of the Alert component. If specific guidelines from sources like Radix UI or Adobe Spectrum were referenced, list them here. This section ensures transparency in the design and development process, showcasing the adherence to recognized standards in UI and UX design.
+
+
+## Version History
+
+| Version | Editor       | Reviewer    | Date       | Description                        | Status |
+|---------|--------------|-------------|------------|------------------------------------|--------|
+| 1.0.0   | Yibei Li  | [Reviewer]  | [2024-11-2] | Initial version of Alert component documentation | Released |
