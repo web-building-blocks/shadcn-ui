@@ -572,7 +572,7 @@ export const Index: Record<string, any> = {
       registryDependencies: ["accordion"],
       component: React.lazy(() => import("@/registry/default/example/accordion-mix")),
       source: "",
-      files: ["registry/default/example/accordion-picture-mix.tsx"],
+      files: ["registry/default/example/accordion-mix.tsx"],
       category: "undefined",
       subcategory: "undefined",
       chunks: []
@@ -4379,7 +4379,7 @@ export const Index: Record<string, any> = {
       registryDependencies: ["accordion"],
       component: React.lazy(() => import("@/registry/new-york/example/accordion-mix")),
       source: "",
-      files: ["registry/new-york/example/accordion-picture-mix.tsx"],
+      files: ["registry/new-york/example/accordion-mix.tsx"],
       category: "undefined",
       subcategory: "undefined",
       chunks: []
@@ -8186,7 +8186,7 @@ export const Index: Record<string, any> = {
       registryDependencies: ["accordion"],
       component: React.lazy(() => import("@/registry/sydney/example/accordion-mix")),
       source: "",
-      files: ["registry/sydney/example/accordion-picture-mix.tsx"],
+      files: ["registry/sydney/example/accordion-mix.tsx"],
       category: "undefined",
       subcategory: "undefined",
       chunks: []
@@ -11993,7 +11993,7 @@ export const Index: Record<string, any> = {
       registryDependencies: ["accordion"],
       component: React.lazy(() => import("@/registry/ibm/example/accordion-mix")),
       source: "",
-      files: ["registry/ibm/example/accordion-picture-mix.tsx"],
+      files: ["registry/ibm/example/accordion-mix.tsx"],
       category: "undefined",
       subcategory: "undefined",
       chunks: []
