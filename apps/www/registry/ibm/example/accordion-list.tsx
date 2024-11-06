@@ -14,6 +14,12 @@ import {
 } from "@/registry/default/ui/table"
 import { Toaster } from "@/registry/default/ui/toaster"
 import { useToast } from "@/registry/default/ui/use-toast"
+import {
+  Accordion,
+  AccordionContent,
+  AccordionItem,
+  AccordionTrigger,
+} from "@/registry/ibm/ui/accordion"
 
 export default function AccordionList() {
   const { toast } = useToast()

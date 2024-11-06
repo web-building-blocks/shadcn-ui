@@ -26,6 +26,12 @@ import {
   TableCell,
   TableRow,
 } from "@/registry/default/ui/table"
+import {
+  Accordion,
+  AccordionContent,
+  AccordionItem,
+  AccordionTrigger,
+} from "@/registry/ibm/ui/accordion"
 
 export default function AccordionDemo() {
   // Define a state to hold the active dialog's content.

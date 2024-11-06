@@ -1,6 +1,9 @@
 import React, { useState } from "react"
 import Image from "next/image"
 
+import { Button } from "@/registry/default/ui/button"
+import { Toaster } from "@/registry/default/ui/toaster"
+import { useToast } from "@/registry/default/ui/use-toast"
 import {
   Accordion,
   AccordionContent,
