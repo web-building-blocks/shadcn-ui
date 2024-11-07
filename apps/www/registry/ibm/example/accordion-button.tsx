@@ -9,9 +9,6 @@ import {
   AccordionItem,
   AccordionTrigger,
 } from "@/registry/ibm/ui/accordion"
-import { Button } from "@/registry/default/ui/button"
-import { Toaster } from "@/registry/default/ui/toaster"
-import { useToast } from "@/registry/default/ui/use-toast"
 
 export default function AccordionButton() {
   const { toast } = useToast()

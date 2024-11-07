@@ -2,12 +2,6 @@ import React, { useState } from "react"
 import Image from "next/image"
 
 import {
-  Accordion,
-  AccordionContent,
-  AccordionItem,
-  AccordionTrigger,
-} from "@/registry/ibm/ui/accordion"
-import {
   Avatar,
   AvatarFallback,
   AvatarImage,

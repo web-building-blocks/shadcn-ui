@@ -1,12 +1,6 @@
 import React from "react"
 
 import {
-  Accordion,
-  AccordionContent,
-  AccordionItem,
-  AccordionTrigger,
-} from "@/registry/ibm/ui/accordion"
-import {
   Table,
   TableBody,
   TableCell,
