@@ -1,7 +1,6 @@
 import React from "react";
 import { ComponentMeta, ComponentStory } from "@storybook/react";
 
-// 导入你上传的Modal变体
 import ModalDemo from "./modal-demo"; 
 import ModalConfirm from "./modal-confirm";
 import ModalLogin from "./modal-login";

@@ -253,11 +253,6 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Modal",
-          href: "/docs/components/modal",
-          items: [],
-        },
-        {
           title: "Message",
           href: "/docs/components/message",
           items: [],
