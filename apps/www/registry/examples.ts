@@ -673,6 +673,31 @@ export const examples: Registry = [
     files: ["example/modal-demo.tsx"],
   },
   {
+    name: "modal-confirm",
+    type: "components:example",
+    files: ["example/modal-confirm.tsx"],
+  },
+  {
+    name: "modal-login",
+    type: "components:example",
+    files: ["example/modal-login.tsx"],
+  },
+  {
+    name: "modal-notice",
+    type: "components:example",
+    files: ["example/modal-notice.tsx"],
+  },
+  {
+    name: "modal-pic",
+    type: "components:example",
+    files: ["example/modal-pic.tsx"],
+  },
+  {
+    name: "modal-signup",
+    type: "components:example",
+    files: ["example/modal-signup.tsx"],
+  },
+  {
     name: "navigation-menu-demo",
     type: "components:example",
     registryDependencies: ["navigation-menu"],
@@ -1153,30 +1178,5 @@ export const examples: Registry = [
     name: "watermark-demo",
     type: "components:example",
     files: ["example/watermark-demo.tsx"],
-  },
-  {
-    name: "modal-confirm",
-    type: "components:example",
-    files: ["example/modal-confirm.tsx"],
-  },
-  {
-    name: "modal-login",
-    type: "components:example",
-    files: ["example/modal-login.tsx"],
-  },
-  {
-    name: "modal-notice",
-    type: "components:example",
-    files: ["example/modal-notice.tsx"],
-  },
-  {
-    name: "modal-pic",
-    type: "components:example",
-    files: ["example/modal-pic.tsx"],
-  },
-  {
-    name: "modal-signup",
-    type: "components:example",
-    files: ["example/modal-signup.tsx"],
   },
 ]

@@ -58,9 +58,9 @@ export default function LoginModal() {
       <Toaster />
       <Dialog>
         <DialogTrigger asChild>
-          <Button 
-          variant="outline"
-          className="bg-usydOrange hover:bg-usydOrangeDark text-white"
+          <Button
+            variant="outline"
+            className="bg-usydOrange hover:bg-usydOrangeDark text-white"
           >
             {formMode === "login" ? "Login" : "Sign Up"}
           </Button>
@@ -107,9 +107,9 @@ export default function LoginModal() {
             )}
 
             <DialogFooter>
-              <Button 
-              variant="destructive"
-              className="bg-usydOrange hover:bg-usydOrangeDark text-white"
+              <Button
+                variant="destructive"
+                className="bg-usydOrange hover:bg-usydOrangeDark text-white"
               >
                 {formMode === "signup" ? "Create Account" : "Login"}
               </Button>
