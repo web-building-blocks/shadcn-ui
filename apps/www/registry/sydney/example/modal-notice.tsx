@@ -18,7 +18,7 @@ export default function NoticeModal() {
       <DialogTrigger asChild>
         <Button
           variant="outline"
-          className="bg-usydOrange hover:bg-usydOrangeDark text-white"
+          className="bg-orange-600 text-white hover:bg-orange-700"
         >
           Submit Application
         </Button>

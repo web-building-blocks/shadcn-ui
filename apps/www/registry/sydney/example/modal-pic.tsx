@@ -24,7 +24,7 @@ export default function PictureModal() {
         <DialogTrigger asChild>
           <Button
             variant="outline"
-            className="bg-usydOrange hover:bg-usydOrangeDark text-white"
+            className="bg-orange-600 text-white hover:bg-orange-700"
           >
             Open Model
           </Button>
@@ -63,7 +63,7 @@ export default function PictureModal() {
           <DialogFooter>
             <Button
               variant="default"
-              className="bg-usydOrange hover:bg-usydOrangeDark text-white"
+              className="bg-orange-600 text-white hover:bg-orange-700"
               onClick={() => {
                 toast({ description: "Already Accepted." })
               }}
