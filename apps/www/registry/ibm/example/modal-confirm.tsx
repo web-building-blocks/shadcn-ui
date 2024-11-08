@@ -21,7 +21,12 @@ export default function ConfirmModal() {
       <Toaster />
       <Dialog>
         <DialogTrigger asChild>
-          <Button variant="outline">Submit Application</Button>
+          <Button
+            variant="outline"
+            className="rounded-none border border-gray-400 px-4 py-2 text-sm font-medium text-black transition-colors hover:border-blue-600 hover:text-blue-600 focus:outline-none focus:ring-2 focus:ring-blue-600 focus:ring-offset-2"
+          >
+            Submit Application
+          </Button>
         </DialogTrigger>
         <DialogContent
           style={{ backgroundColor: "white" }}
@@ -36,7 +41,8 @@ export default function ConfirmModal() {
           </DialogDescription>
           <DialogFooter className="mt-4 flex justify-center space-x-4">
             <Button
-              variant="default"
+              variant="outline"
+              className="rounded-none border border-gray-400 px-4 py-2 text-sm font-medium text-black transition-colors hover:border-blue-600 hover:text-blue-600 focus:outline-none focus:ring-2 focus:ring-blue-600 focus:ring-offset-2"
               onClick={() => {
                 toast({ description: "Message has been sent." })
               }}

@@ -58,7 +58,10 @@ export default function LoginModal() {
       <Toaster />
       <Dialog>
         <DialogTrigger asChild>
-          <Button variant="outline">
+          <Button
+            variant="outline"
+            className="rounded-none border border-gray-400 px-4 py-2 text-sm font-medium text-black transition-colors hover:border-blue-600 hover:text-blue-600 focus:outline-none focus:ring-2 focus:ring-blue-600 focus:ring-offset-2"
+          >
             {formMode === "login" ? "Login" : "Sign Up"}
           </Button>
         </DialogTrigger>
@@ -104,7 +107,10 @@ export default function LoginModal() {
             )}
 
             <DialogFooter>
-              <Button variant="destructive">
+              <Button
+                variant="outline"
+                className="rounded-none border border-gray-400 px-4 py-2 text-sm font-medium text-black transition-colors hover:border-blue-600 hover:text-blue-600 focus:outline-none focus:ring-2 focus:ring-blue-600 focus:ring-offset-2"
+              >
                 {formMode === "signup" ? "Create Account" : "Login"}
               </Button>
             </DialogFooter>
@@ -113,14 +119,24 @@ export default function LoginModal() {
           {formMode === "login" ? (
             <p className="text-center">
               Don’t have an account?{" "}
-              <Button asChild variant="link" onClick={switchToSignUp}>
+              <Button
+                asChild
+                variant="outline"
+                className="rounded-none border border-gray-400 px-4 py-2 text-sm font-medium text-black transition-colors hover:border-blue-600 hover:text-blue-600 focus:outline-none focus:ring-2 focus:ring-blue-600 focus:ring-offset-2"
+                onClick={switchToSignUp}
+              >
                 <span>Sign Up</span>
               </Button>
             </p>
           ) : (
             <p className="text-center">
               Already have an account?{" "}
-              <Button asChild variant="link" onClick={switchToSignIn}>
+              <Button
+                asChild
+                variant="outline"
+                className="rounded-none border border-gray-400 px-4 py-2 text-sm font-medium text-black transition-colors hover:border-blue-600 hover:text-blue-600 focus:outline-none focus:ring-2 focus:ring-blue-600 focus:ring-offset-2"
+                onClick={switchToSignIn}
+              >
                 <span>Login Here</span>
               </Button>
             </p>
