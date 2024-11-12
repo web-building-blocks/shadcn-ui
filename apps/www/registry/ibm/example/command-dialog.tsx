@@ -19,7 +19,7 @@ import {
   CommandList,
   CommandSeparator,
   CommandShortcut,
-} from "@/registry/ibm/ui/command"
+} from "@/registry/default/ui/command"
 
 export default function CommandDialogDemo() {
   const [open, setOpen] = React.useState(false)
