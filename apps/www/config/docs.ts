@@ -333,6 +333,11 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
+          title: "Steps",
+          href: "/docs/components/steps",
+          items: [],
+        },
+        {
           title: "Switch",
           href: "/docs/components/switch",
           items: [],
@@ -375,11 +380,6 @@ export const docsConfig: DocsConfig = {
         {
           title: "Tooltip",
           href: "/docs/components/tooltip",
-          items: [],
-        },
-        {
-          title: "Tour",
-          href: "/docs/components/tour",
           items: [],
         },
         {

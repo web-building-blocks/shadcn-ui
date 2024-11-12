@@ -2040,6 +2040,50 @@ export const Index: Record<string, any> = {
       subcategory: "undefined",
       chunks: []
     },
+    "steps-demo": {
+      name: "steps-demo",
+      type: "components:example",
+      registryDependencies: ["steps"],
+      component: React.lazy(() => import("@/registry/default/example/steps-demo")),
+      source: "",
+      files: ["registry/default/example/steps-demo.tsx"],
+      category: "undefined",
+      subcategory: "undefined",
+      chunks: []
+    },
+    "steps-with-content": {
+      name: "steps-with-content",
+      type: "components:example",
+      registryDependencies: ["steps","with-content"],
+      component: React.lazy(() => import("@/registry/default/example/steps-with-content")),
+      source: "",
+      files: ["registry/default/example/steps-with-content.tsx"],
+      category: "undefined",
+      subcategory: "undefined",
+      chunks: []
+    },
+    "steps-with-dots": {
+      name: "steps-with-dots",
+      type: "components:example",
+      registryDependencies: ["steps","with-dots"],
+      component: React.lazy(() => import("@/registry/default/example/steps-with-dots")),
+      source: "",
+      files: ["registry/default/example/steps-with-dots.tsx"],
+      category: "undefined",
+      subcategory: "undefined",
+      chunks: []
+    },
+    "steps-with-icon": {
+      name: "steps-with-icon",
+      type: "components:example",
+      registryDependencies: ["steps","with-icon"],
+      component: React.lazy(() => import("@/registry/default/example/steps-with-icon")),
+      source: "",
+      files: ["registry/default/example/steps-with-icon.tsx"],
+      category: "undefined",
+      subcategory: "undefined",
+      chunks: []
+    },
     "switch-demo": {
       name: "switch-demo",
       type: "components:example",
@@ -5909,6 +5953,50 @@ export const Index: Record<string, any> = {
       component: React.lazy(() => import("@/registry/new-york/example/statistic-incard")),
       source: "",
       files: ["registry/new-york/example/statistic-incard.tsx"],
+      category: "undefined",
+      subcategory: "undefined",
+      chunks: []
+    },
+    "steps-demo": {
+      name: "steps-demo",
+      type: "components:example",
+      registryDependencies: ["steps"],
+      component: React.lazy(() => import("@/registry/new-york/example/steps-demo")),
+      source: "",
+      files: ["registry/new-york/example/steps-demo.tsx"],
+      category: "undefined",
+      subcategory: "undefined",
+      chunks: []
+    },
+    "steps-with-content": {
+      name: "steps-with-content",
+      type: "components:example",
+      registryDependencies: ["steps","with-content"],
+      component: React.lazy(() => import("@/registry/new-york/example/steps-with-content")),
+      source: "",
+      files: ["registry/new-york/example/steps-with-content.tsx"],
+      category: "undefined",
+      subcategory: "undefined",
+      chunks: []
+    },
+    "steps-with-dots": {
+      name: "steps-with-dots",
+      type: "components:example",
+      registryDependencies: ["steps","with-dots"],
+      component: React.lazy(() => import("@/registry/new-york/example/steps-with-dots")),
+      source: "",
+      files: ["registry/new-york/example/steps-with-dots.tsx"],
+      category: "undefined",
+      subcategory: "undefined",
+      chunks: []
+    },
+    "steps-with-icon": {
+      name: "steps-with-icon",
+      type: "components:example",
+      registryDependencies: ["steps","with-icon"],
+      component: React.lazy(() => import("@/registry/new-york/example/steps-with-icon")),
+      source: "",
+      files: ["registry/new-york/example/steps-with-icon.tsx"],
       category: "undefined",
       subcategory: "undefined",
       chunks: []
@@ -9786,6 +9874,50 @@ export const Index: Record<string, any> = {
       subcategory: "undefined",
       chunks: []
     },
+    "steps-demo": {
+      name: "steps-demo",
+      type: "components:example",
+      registryDependencies: ["steps"],
+      component: React.lazy(() => import("@/registry/sydney/example/steps-demo")),
+      source: "",
+      files: ["registry/sydney/example/steps-demo.tsx"],
+      category: "undefined",
+      subcategory: "undefined",
+      chunks: []
+    },
+    "steps-with-content": {
+      name: "steps-with-content",
+      type: "components:example",
+      registryDependencies: ["steps","with-content"],
+      component: React.lazy(() => import("@/registry/sydney/example/steps-with-content")),
+      source: "",
+      files: ["registry/sydney/example/steps-with-content.tsx"],
+      category: "undefined",
+      subcategory: "undefined",
+      chunks: []
+    },
+    "steps-with-dots": {
+      name: "steps-with-dots",
+      type: "components:example",
+      registryDependencies: ["steps","with-dots"],
+      component: React.lazy(() => import("@/registry/sydney/example/steps-with-dots")),
+      source: "",
+      files: ["registry/sydney/example/steps-with-dots.tsx"],
+      category: "undefined",
+      subcategory: "undefined",
+      chunks: []
+    },
+    "steps-with-icon": {
+      name: "steps-with-icon",
+      type: "components:example",
+      registryDependencies: ["steps","with-icon"],
+      component: React.lazy(() => import("@/registry/sydney/example/steps-with-icon")),
+      source: "",
+      files: ["registry/sydney/example/steps-with-icon.tsx"],
+      category: "undefined",
+      subcategory: "undefined",
+      chunks: []
+    },
     "switch-demo": {
       name: "switch-demo",
       type: "components:example",
@@ -13655,6 +13787,50 @@ export const Index: Record<string, any> = {
       component: React.lazy(() => import("@/registry/ibm/example/statistic-incard")),
       source: "",
       files: ["registry/ibm/example/statistic-incard.tsx"],
+      category: "undefined",
+      subcategory: "undefined",
+      chunks: []
+    },
+    "steps-demo": {
+      name: "steps-demo",
+      type: "components:example",
+      registryDependencies: ["steps"],
+      component: React.lazy(() => import("@/registry/ibm/example/steps-demo")),
+      source: "",
+      files: ["registry/ibm/example/steps-demo.tsx"],
+      category: "undefined",
+      subcategory: "undefined",
+      chunks: []
+    },
+    "steps-with-content": {
+      name: "steps-with-content",
+      type: "components:example",
+      registryDependencies: ["steps","with-content"],
+      component: React.lazy(() => import("@/registry/ibm/example/steps-with-content")),
+      source: "",
+      files: ["registry/ibm/example/steps-with-content.tsx"],
+      category: "undefined",
+      subcategory: "undefined",
+      chunks: []
+    },
+    "steps-with-dots": {
+      name: "steps-with-dots",
+      type: "components:example",
+      registryDependencies: ["steps","with-dots"],
+      component: React.lazy(() => import("@/registry/ibm/example/steps-with-dots")),
+      source: "",
+      files: ["registry/ibm/example/steps-with-dots.tsx"],
+      category: "undefined",
+      subcategory: "undefined",
+      chunks: []
+    },
+    "steps-with-icon": {
+      name: "steps-with-icon",
+      type: "components:example",
+      registryDependencies: ["steps","with-icon"],
+      component: React.lazy(() => import("@/registry/ibm/example/steps-with-icon")),
+      source: "",
+      files: ["registry/ibm/example/steps-with-icon.tsx"],
       category: "undefined",
       subcategory: "undefined",
       chunks: []
