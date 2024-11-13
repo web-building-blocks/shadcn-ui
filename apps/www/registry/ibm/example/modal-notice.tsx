@@ -1,6 +1,6 @@
 import React, { useState } from "react"
 
-import { Button } from "@/registry/default/ui/button"
+import { Button } from "@/registry/ibm/ui/button"
 import {
   Dialog,
   DialogClose,
@@ -10,7 +10,7 @@ import {
   DialogHeader,
   DialogTitle,
   DialogTrigger,
-} from "@/registry/default/ui/dialog"
+} from "@/registry/ibm/ui/dialog"
 
 export default function NoticeModal() {
   return (
@@ -18,7 +18,7 @@ export default function NoticeModal() {
       <DialogTrigger asChild>
         <Button
           variant="outline"
-          className="rounded-none border border-gray-400 px-4 py-2 text-sm font-medium text-black transition-colors hover:border-blue-600 hover:text-blue-600 focus:outline-none focus:ring-2 focus:ring-blue-600 focus:ring-offset-2"
+          className="rounded-none border border-gray-400 px-4 py-2 text-sm font-medium text-black transition-colors focus:outline-none focus:ring-2 focus:ring-blue-600 focus:ring-offset-2"
         >
           Submit Application
         </Button>

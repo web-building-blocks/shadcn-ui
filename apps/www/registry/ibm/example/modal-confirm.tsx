@@ -1,6 +1,8 @@
 import React from "react"
 
-import { Button } from "@/registry/default/ui/button"
+import { Toaster } from "@/registry/default/ui/toaster"
+import { useToast } from "@/registry/default/ui/use-toast"
+import { Button } from "@/registry/ibm/ui/button"
 import {
   Dialog,
   DialogClose,
@@ -10,9 +12,7 @@ import {
   DialogHeader,
   DialogTitle,
   DialogTrigger,
-} from "@/registry/default/ui/dialog"
-import { Toaster } from "@/registry/default/ui/toaster"
-import { useToast } from "@/registry/default/ui/use-toast"
+} from "@/registry/ibm/ui/dialog"
 
 export default function ConfirmModal() {
   const { toast } = useToast()
@@ -23,15 +23,12 @@ export default function ConfirmModal() {
         <DialogTrigger asChild>
           <Button
             variant="outline"
-            className="rounded-none border border-gray-400 px-4 py-2 text-sm font-medium text-black transition-colors hover:border-blue-600 hover:text-blue-600 focus:outline-none focus:ring-2 focus:ring-blue-600 focus:ring-offset-2"
+            className="rounded-none border border-gray-400 px-4 py-2 text-sm font-medium text-black transition-colors focus:outline-none focus:ring-2 focus:ring-blue-600 focus:ring-offset-2"
           >
             Submit Application
           </Button>
         </DialogTrigger>
-        <DialogContent
-          style={{ backgroundColor: "white" }}
-          className="rounded-md p-6"
-        >
+        <DialogContent className="rounded-none bg-white p-6">
           <DialogHeader>
             <DialogTitle>Submit Application</DialogTitle>
           </DialogHeader>
@@ -42,7 +39,7 @@ export default function ConfirmModal() {
           <DialogFooter className="mt-4 flex justify-center space-x-4">
             <Button
               variant="outline"
-              className="rounded-none border border-gray-400 px-4 py-2 text-sm font-medium text-black transition-colors hover:border-blue-600 hover:text-blue-600 focus:outline-none focus:ring-2 focus:ring-blue-600 focus:ring-offset-2"
+              className="rounded-none border border-gray-400 px-4 py-2 text-sm font-medium text-black transition-colors focus:outline-none focus:ring-2 focus:ring-blue-600 focus:ring-offset-2"
               onClick={() => {
                 toast({ description: "Message has been sent." })
               }}

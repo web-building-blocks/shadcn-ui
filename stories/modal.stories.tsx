@@ -10,7 +10,7 @@ import ModalSignup from "./modal-signup";
 import ModeToggle from "./mode-toggle";
 
 export default {
-  title: "Components/Modals",
+  title: "Components/Modal",
   component: ModalDemo, 
   argTypes: {
     isOpen: {
