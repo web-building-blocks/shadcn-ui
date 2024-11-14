@@ -1,4 +1,4 @@
-import { Button } from "@/registry/default/ui/button"
+import { Button } from "@/registry/sydney/ui/button"
 import {
   Card,
   CardContent,
@@ -6,20 +6,20 @@ import {
   CardFooter,
   CardHeader,
   CardTitle,
-} from "@/registry/default/ui/card"
-import { Input } from "@/registry/default/ui/input"
-import { Label } from "@/registry/default/ui/label"
+} from "@/registry/sydney/ui/card"
+import { Input } from "@/registry/sydney/ui/input"
+import { Label } from "@/registry/sydney/ui/label"
 import {
   Tabs,
   TabsContent,
   TabsList,
   TabsTrigger,
-} from "@/registry/default/ui/tabs"
+} from "@/registry/sydney/ui/tabs"
 
 export default function TabsDemo() {
   return (
     <Tabs defaultValue="account" className="w-[400px]">
-      <TabsList className="grid w-full grid-cols-2">
+      <TabsList className="grid-cols-2">
         <TabsTrigger value="account">Account</TabsTrigger>
         <TabsTrigger value="password">Password</TabsTrigger>
       </TabsList>
@@ -42,7 +42,9 @@ export default function TabsDemo() {
             </div>
           </CardContent>
           <CardFooter>
-            <Button>Save changes</Button>
+            <Button className="bg-orange-600 hover:!bg-orange-700 text-white">
+              Save changes
+            </Button>
           </CardFooter>
         </Card>
       </TabsContent>
@@ -65,7 +67,9 @@ export default function TabsDemo() {
             </div>
           </CardContent>
           <CardFooter>
-            <Button>Save password</Button>
+            <Button className="bg-orange-600 hover:!bg-orange-700 text-white">
+              Save password
+            </Button>
           </CardFooter>
         </Card>
       </TabsContent>
