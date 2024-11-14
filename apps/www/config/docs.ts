@@ -127,6 +127,11 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
+          title: "Browser Window",
+          href: "/docs/components/browserwindow",
+          items: [],
+        },
+        {
           title: "Button",
           href: "/docs/components/button",
           items: [],
@@ -173,6 +178,11 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
+          title: "Comment",
+          href: "/docs/components/comment",
+          items: [],
+        },
+        {
           title: "Context Menu",
           href: "/docs/components/context-menu",
           items: [],
@@ -213,6 +223,11 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
+          title: "Image Gallery",
+          href: "/docs/components/image-gallery",
+          items: [],
+        },
+        {
           title: "Input",
           href: "/docs/components/input",
           items: [],
@@ -240,6 +255,11 @@ export const docsConfig: DocsConfig = {
         {
           title: "Message",
           href: "/docs/components/message",
+          items: [],
+        },
+        {
+          title: "Modal",
+          href: "/docs/components/modal",
           items: [],
         },
         {
@@ -308,6 +328,16 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
+          title: "Statistic",
+          href: "/docs/components/statistic",
+          items: [],
+        },
+        {
+          title: "Steps",
+          href: "/docs/components/steps",
+          items: [],
+        },
+        {
           title: "Switch",
           href: "/docs/components/switch",
           items: [],
@@ -320,6 +350,11 @@ export const docsConfig: DocsConfig = {
         {
           title: "Tabs",
           href: "/docs/components/tabs",
+          items: [],
+        },
+        {
+          title: "Tags",
+          href: "/docs/components/tags",
           items: [],
         },
         {
@@ -345,6 +380,11 @@ export const docsConfig: DocsConfig = {
         {
           title: "Tooltip",
           href: "/docs/components/tooltip",
+          items: [],
+        },
+        {
+          title: "Watermark",
+          href: "/docs/components/watermark",
           items: [],
         },
       ],

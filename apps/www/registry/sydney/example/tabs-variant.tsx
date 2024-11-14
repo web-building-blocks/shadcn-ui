@@ -3,7 +3,6 @@ import * as React from "react"
 import {
   Card,
   CardContent,
-  CardDescription,
   CardFooter,
   CardHeader,
   CardTitle,
@@ -18,16 +17,10 @@ import {
 export function TabsDemo() {
   return (
     <Tabs defaultValue="recent" className="w-[400px] h-[500px]">
-      <TabsList className="flex w-full h-[60px]">
-        <TabsTrigger value="recent" className="w-full text-center text-lg">
-          Recent
-        </TabsTrigger>
-        <TabsTrigger value="popular" className="w-full text-center text-lg">
-          Popular
-        </TabsTrigger>
-        <TabsTrigger value="trending" className="w-full text-center text-lg">
-          Trending
-        </TabsTrigger>
+      <TabsList className="grid-cols-3">
+        <TabsTrigger value="recent">Recent</TabsTrigger>
+        <TabsTrigger value="popular">Popular</TabsTrigger>
+        <TabsTrigger value="trending">Trending</TabsTrigger>
       </TabsList>
       <TabsContent value="recent" className="h-[440px] overflow-y-auto">
         <Card className="mb-4">
