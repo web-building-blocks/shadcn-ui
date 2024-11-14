@@ -1,4 +1,4 @@
-import React from "react"
+import * as React from "react"
 
 import { Avatar, AvatarImage } from "@/registry/default/ui/avatar"
 import { Button } from "@/registry/default/ui/button"
@@ -13,15 +13,16 @@ import { Label } from "@/registry/default/ui/label"
 
 export default function SuccessPanel() {
   return (
-    <Card style={{ width: "350px", backgroundColor: "white" }}>
-      <CardHeader className="bg-gray-100 p-4">
-        <CardTitle className="text-center font-semibold">
+    <Card className="w-[350px] rounded-md bg-white shadow-md">
+      <CardHeader className="rounded-t-md bg-gray-100 p-4">
+        <CardTitle className="text-center text-gray-800">
           Application Complete
         </CardTitle>
       </CardHeader>
       <CardContent className="p-4">
-        <CardDescription className="text-center mb-4">
-          Your Reference Number: KDU3957KF
+        <CardDescription className="mb-4 text-center text-gray-600">
+          Your Reference Number:{" "}
+          <span className="text-gray-800">KDU3957KF</span>
         </CardDescription>
       </CardContent>
     </Card>
