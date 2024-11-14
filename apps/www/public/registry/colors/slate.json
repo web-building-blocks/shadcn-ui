@@ -19,9 +19,7 @@
       "destructive-foreground": "slate-50",
       "border": "slate-200",
       "input": "slate-200",
-      "ring": "slate-950",
-      "usydochre": "10 79% 53%",
-      "usydchoredark": "13 81% 36%"
+      "ring": "slate-950"
     },
     "dark": {
       "background": "slate-950",
@@ -42,9 +40,7 @@
       "destructive-foreground": "slate-50",
       "border": "slate-800",
       "input": "slate-800",
-      "ring": "slate-300",
-      "usydochre": "10 79% 53%",
-      "usydchoredark": "13 81% 36%"
+      "ring": "slate-300"
     }
   },
   "cssVars": {

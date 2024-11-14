@@ -36,7 +36,7 @@ export default function ContextMenuDemo() {
         <ContextMenuSub>
           <ContextMenuSubTrigger
             inset
-            className="hover:bg-usydochre focus:bg-usydochre"
+            className="hover:bg-orange-600 focus:bg-orange-600"
           >
             More Tools
           </ContextMenuSubTrigger>

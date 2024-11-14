@@ -19,9 +19,7 @@
       "destructive-foreground": "neutral-50",
       "border": "neutral-200",
       "input": "neutral-200",
-      "ring": "neutral-950",
-      "usydochre": "10 79% 53%",
-      "usydchoredark": "13 81% 36%"
+      "ring": "neutral-950"
     },
     "dark": {
       "background": "neutral-950",
@@ -42,9 +40,7 @@
       "destructive-foreground": "neutral-50",
       "border": "neutral-800",
       "input": "neutral-800",
-      "ring": "neutral-300",
-      "usydochre": "10 79% 53%",
-      "usydchoredark": "13 81% 36%"
+      "ring": "neutral-300"
     }
   },
   "cssVars": {

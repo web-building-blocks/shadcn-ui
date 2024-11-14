@@ -1995,23 +1995,5 @@
       "rgbChannel": "76 5 25",
       "hslChannel": "343.1 87.7% 15.9%"
     }
-  ],
-  "usyd": [
-    {
-      "scale": 100,
-      "hex": "#e64626",
-      "rgb": "rgb(230,70,38)",
-      "hsl": "hsl(10,79%,53%)",
-      "rgbChannel": "230 70 38",
-      "hslChannel": "10 79% 53%"
-    },
-    {
-      "scale": 200,
-      "hex": "#a83212",
-      "rgb": "rgb(168,50,18)",
-      "hsl": "hsl(13,81%,36%)",
-      "rgbChannel": "168 50 18",
-      "hslChannel": "13 81% 36%"
-    }
   ]
 }
