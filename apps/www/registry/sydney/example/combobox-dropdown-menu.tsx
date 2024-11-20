@@ -3,7 +3,7 @@
 import * as React from "react"
 import { Calendar, MoreHorizontal, Tags, Trash, User } from "lucide-react"
 
-import { Button } from "@/registry/default/ui/button"
+import { Button } from "@/registry/sydney/ui/button"
 import {
   Command,
   CommandEmpty,
@@ -11,7 +11,7 @@ import {
   CommandInput,
   CommandItem,
   CommandList,
-} from "@/registry/default/ui/command"
+} from "@/registry/sydney/ui/command"
 import {
   DropdownMenu,
   DropdownMenuContent,
@@ -24,7 +24,7 @@ import {
   DropdownMenuSubContent,
   DropdownMenuSubTrigger,
   DropdownMenuTrigger,
-} from "@/registry/default/ui/dropdown-menu"
+} from "@/registry/sydney/ui/dropdown-menu"
 
 const labels = [
   "feature",
@@ -43,7 +43,7 @@ export default function ComboboxDropdownMenu() {
   return (
     <div className="flex w-full flex-col items-start justify-between rounded-md border px-4 py-3 sm:flex-row sm:items-center">
       <p className="text-sm font-medium leading-none">
-        <span className="mr-2 rounded-lg bg-primary px-2 py-1 text-xs text-primary-foreground">
+        <span className="mr-2 rounded-lg bg-orange-600 px-2 py-1 text-xs text-primary-foreground">
           {label}
         </span>
         <span className="text-muted-foreground">Create a new project</span>
