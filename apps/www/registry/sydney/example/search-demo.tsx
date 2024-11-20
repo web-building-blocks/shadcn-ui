@@ -2,8 +2,6 @@ import { zodResolver } from "@hookform/resolvers/zod"
 import { useForm } from "react-hook-form"
 import { z } from "zod"
 
-import { Toaster } from "@/registry/sydney/ui/toaster"
-import { useToast } from "@/registry/sydney/ui/use-toast"
 import { Button } from "@/registry/sydney/ui/button"
 import {
   Form,
@@ -15,6 +13,8 @@ import {
   FormMessage,
 } from "@/registry/sydney/ui/form"
 import { Input } from "@/registry/sydney/ui/input"
+import { Toaster } from "@/registry/sydney/ui/toaster"
+import { useToast } from "@/registry/sydney/ui/use-toast"
 
 const FormSchema = z.object({
   searchValue: z.string().min(2, {
