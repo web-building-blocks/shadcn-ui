@@ -728,18 +728,6 @@ export const examples: Registry = [
     files: ["example/popover-demo.tsx"],
   },
   {
-    name: "panel-demo",
-    type: "components:example",
-    registryDependencies: ["card"],
-    files: ["example/panel-demo.tsx"],
-  },
-  {
-    name: "panel-fail",
-    type: "components:example",
-    registryDependencies: ["card"],
-    files: ["example/panel-fail.tsx"],
-  },
-  {
     name: "progress-demo",
     type: "components:example",
     registryDependencies: ["progress"],
@@ -798,6 +786,12 @@ export const examples: Registry = [
     type: "components:example",
     registryDependencies: ["search"],
     files: ["example/search-demo.tsx"],
+  },
+  {
+    name: "search-icon",
+    type: "components:example",
+    registryDependencies: ["search"],
+    files: ["example/search-icon.tsx"],
   },
   {
     name: "select-demo",

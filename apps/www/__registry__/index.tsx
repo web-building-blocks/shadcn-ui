@@ -1831,28 +1831,6 @@ export const Index: Record<string, any> = {
       subcategory: "undefined",
       chunks: []
     },
-    "panel-demo": {
-      name: "panel-demo",
-      type: "components:example",
-      registryDependencies: ["card"],
-      component: React.lazy(() => import("@/registry/default/example/panel-demo")),
-      source: "",
-      files: ["registry/default/example/panel-demo.tsx"],
-      category: "undefined",
-      subcategory: "undefined",
-      chunks: []
-    },
-    "panel-fail": {
-      name: "panel-fail",
-      type: "components:example",
-      registryDependencies: ["card"],
-      component: React.lazy(() => import("@/registry/default/example/panel-fail")),
-      source: "",
-      files: ["registry/default/example/panel-fail.tsx"],
-      category: "undefined",
-      subcategory: "undefined",
-      chunks: []
-    },
     "progress-demo": {
       name: "progress-demo",
       type: "components:example",
@@ -1959,6 +1937,17 @@ export const Index: Record<string, any> = {
       component: React.lazy(() => import("@/registry/default/example/search-demo")),
       source: "",
       files: ["registry/default/example/search-demo.tsx"],
+      category: "undefined",
+      subcategory: "undefined",
+      chunks: []
+    },
+    "search-icon": {
+      name: "search-icon",
+      type: "components:example",
+      registryDependencies: ["search"],
+      component: React.lazy(() => import("@/registry/default/example/search-icon")),
+      source: "",
+      files: ["registry/default/example/search-icon.tsx"],
       category: "undefined",
       subcategory: "undefined",
       chunks: []
@@ -5803,28 +5792,6 @@ export const Index: Record<string, any> = {
       subcategory: "undefined",
       chunks: []
     },
-    "panel-demo": {
-      name: "panel-demo",
-      type: "components:example",
-      registryDependencies: ["card"],
-      component: React.lazy(() => import("@/registry/new-york/example/panel-demo")),
-      source: "",
-      files: ["registry/new-york/example/panel-demo.tsx"],
-      category: "undefined",
-      subcategory: "undefined",
-      chunks: []
-    },
-    "panel-fail": {
-      name: "panel-fail",
-      type: "components:example",
-      registryDependencies: ["card"],
-      component: React.lazy(() => import("@/registry/new-york/example/panel-fail")),
-      source: "",
-      files: ["registry/new-york/example/panel-fail.tsx"],
-      category: "undefined",
-      subcategory: "undefined",
-      chunks: []
-    },
     "progress-demo": {
       name: "progress-demo",
       type: "components:example",
@@ -5931,6 +5898,17 @@ export const Index: Record<string, any> = {
       component: React.lazy(() => import("@/registry/new-york/example/search-demo")),
       source: "",
       files: ["registry/new-york/example/search-demo.tsx"],
+      category: "undefined",
+      subcategory: "undefined",
+      chunks: []
+    },
+    "search-icon": {
+      name: "search-icon",
+      type: "components:example",
+      registryDependencies: ["search"],
+      component: React.lazy(() => import("@/registry/new-york/example/search-icon")),
+      source: "",
+      files: ["registry/new-york/example/search-icon.tsx"],
       category: "undefined",
       subcategory: "undefined",
       chunks: []
@@ -9775,28 +9753,6 @@ export const Index: Record<string, any> = {
       subcategory: "undefined",
       chunks: []
     },
-    "panel-demo": {
-      name: "panel-demo",
-      type: "components:example",
-      registryDependencies: ["card"],
-      component: React.lazy(() => import("@/registry/sydney/example/panel-demo")),
-      source: "",
-      files: ["registry/sydney/example/panel-demo.tsx"],
-      category: "undefined",
-      subcategory: "undefined",
-      chunks: []
-    },
-    "panel-fail": {
-      name: "panel-fail",
-      type: "components:example",
-      registryDependencies: ["card"],
-      component: React.lazy(() => import("@/registry/sydney/example/panel-fail")),
-      source: "",
-      files: ["registry/sydney/example/panel-fail.tsx"],
-      category: "undefined",
-      subcategory: "undefined",
-      chunks: []
-    },
     "progress-demo": {
       name: "progress-demo",
       type: "components:example",
@@ -9903,6 +9859,17 @@ export const Index: Record<string, any> = {
       component: React.lazy(() => import("@/registry/sydney/example/search-demo")),
       source: "",
       files: ["registry/sydney/example/search-demo.tsx"],
+      category: "undefined",
+      subcategory: "undefined",
+      chunks: []
+    },
+    "search-icon": {
+      name: "search-icon",
+      type: "components:example",
+      registryDependencies: ["search"],
+      component: React.lazy(() => import("@/registry/sydney/example/search-icon")),
+      source: "",
+      files: ["registry/sydney/example/search-icon.tsx"],
       category: "undefined",
       subcategory: "undefined",
       chunks: []
@@ -13718,9 +13685,9 @@ export const Index: Record<string, any> = {
       name: "panel-demo",
       type: "components:example",
       registryDependencies: ["panel"],
-      component: React.lazy(() => import("@/registry/unsw/example/panel-demo")),
+      component: React.lazy(() => import("@/registry/ibm/example/panel-demo")),
       source: "",
-      files: ["registry/unsw/example/panel-demo.tsx"],
+      files: ["registry/ibm/example/panel-demo.tsx"],
       category: "undefined",
       subcategory: "undefined",
       chunks: []
@@ -13729,9 +13696,9 @@ export const Index: Record<string, any> = {
       name: "panel-fail",
       type: "components:example",
       registryDependencies: ["panel"],
-      component: React.lazy(() => import("@/registry/unsw/example/panel-fail")),
+      component: React.lazy(() => import("@/registry/ibm/example/panel-fail")),
       source: "",
-      files: ["registry/unsw/example/panel-fail.tsx"],
+      files: ["registry/ibm/example/panel-fail.tsx"],
       category: "undefined",
       subcategory: "undefined",
       chunks: []
@@ -13743,28 +13710,6 @@ export const Index: Record<string, any> = {
       component: React.lazy(() => import("@/registry/ibm/example/popover-demo")),
       source: "",
       files: ["registry/ibm/example/popover-demo.tsx"],
-      category: "undefined",
-      subcategory: "undefined",
-      chunks: []
-    },
-    "panel-demo": {
-      name: "panel-demo",
-      type: "components:example",
-      registryDependencies: ["card"],
-      component: React.lazy(() => import("@/registry/ibm/example/panel-demo")),
-      source: "",
-      files: ["registry/ibm/example/panel-demo.tsx"],
-      category: "undefined",
-      subcategory: "undefined",
-      chunks: []
-    },
-    "panel-fail": {
-      name: "panel-fail",
-      type: "components:example",
-      registryDependencies: ["card"],
-      component: React.lazy(() => import("@/registry/ibm/example/panel-fail")),
-      source: "",
-      files: ["registry/ibm/example/panel-fail.tsx"],
       category: "undefined",
       subcategory: "undefined",
       chunks: []
@@ -13872,9 +13817,20 @@ export const Index: Record<string, any> = {
       name: "search-demo",
       type: "components:example",
       registryDependencies: ["search"],
-      component: React.lazy(() => import("@/registry/unsw/example/search-demo")),
+      component: React.lazy(() => import("@/registry/ibm/example/search-demo")),
       source: "",
-      files: ["registry/unsw/example/search-demo.tsx"],
+      files: ["registry/ibm/example/search-demo.tsx"],
+      category: "undefined",
+      subcategory: "undefined",
+      chunks: []
+    },
+    "search-icon": {
+      name: "search-icon",
+      type: "components:example",
+      registryDependencies: ["search"],
+      component: React.lazy(() => import("@/registry/ibm/example/search-icon")),
+      source: "",
+      files: ["registry/ibm/example/search-icon.tsx"],
       category: "undefined",
       subcategory: "undefined",
       chunks: []
@@ -14722,17 +14678,6 @@ export const Index: Record<string, any> = {
       component: React.lazy(() => import("@/registry/ibm/example/watermark-demo")),
       source: "",
       files: ["registry/ibm/example/watermark-demo.tsx"],
-      category: "undefined",
-      subcategory: "undefined",
-      chunks: []
-    },
-    "watermark-demo": {
-      name: "watermark-demo",
-      type: "components:example",
-      registryDependencies: undefined,
-      component: React.lazy(() => import("@/registry/unsw/example/watermark-demo")),
-      source: "",
-      files: ["registry/unsw/example/watermark-demo.tsx"],
       category: "undefined",
       subcategory: "undefined",
       chunks: []

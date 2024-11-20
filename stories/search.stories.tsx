@@ -1,9 +1,9 @@
 import { Meta, Story } from "@storybook/react";
-import { BasicSearch } from "./search-demo";
+import BasicSearch  from "./search-demo";
+import RadixSearch from "./search-icon";
 import { Button } from "@/registry/default/ui/button";
 import { Input } from "@/registry/default/ui/input";
 
-// This is the default export that defines the metadata for the story
 export default {
   title: "Components/Search",
   component: BasicSearch,
@@ -31,7 +31,6 @@ export default {
   },
 } as Meta;
 
-// Template for rendering BasicSearch with adjustable props
 const Template: Story = ({ buttonColor, placeholderText, formWidth, buttonText }) => {
   return (
     <div className="p-4">
@@ -39,7 +38,7 @@ const Template: Story = ({ buttonColor, placeholderText, formWidth, buttonText }
         <Input placeholder={placeholderText} />
         <Button
           variant="default"
-          style={{ marginTop: '5px', backgroundColor: buttonColor }}
+          style={{ marginTop: "5px", backgroundColor: buttonColor }}
         >
           {buttonText}
         </Button>
@@ -48,11 +47,18 @@ const Template: Story = ({ buttonColor, placeholderText, formWidth, buttonText }
   );
 };
 
-// Default story with customizable controls
 export const Default = Template.bind({});
 Default.args = {
   buttonColor: "#000000",
   placeholderText: "Find Anything...",
   formWidth: "w-2/3",
   buttonText: "Search",
+};
+
+export const RadixSearchVariant: Story = () => {
+  return (
+    <div className="p-4">
+      <RadixSearch />
+    </div>
+  );
 };
