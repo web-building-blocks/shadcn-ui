@@ -1,6 +1,6 @@
 import React, { useState } from "react"
 
-import { Button } from "@/registry/default/ui/button"
+import { Button } from "@/registry/ibm/ui/button"
 
 export default function FileUploadPreview() {
   const [selectedFileName, setSelectedFileName] = useState<string>("")
@@ -24,34 +24,41 @@ export default function FileUploadPreview() {
 
   return (
     <div className="image-upload-wrapper">
-      <label htmlFor="image-upload2" className="image-upload-label">
-        Please upload an image:
-      </label>
-      <input
-        type="file"
-        id="image-upload2"
-        onChange={handleFileChange}
-        className="image-upload-input"
-        style={{ display: "none" }}
-        accept="image/*"
-      />
-      <div className="image-upload-control">
-        <label htmlFor="image-upload2" className="cursor-pointer">
-          <Button asChild variant="outline" size="default">
-            <span>Choose File</span>
-          </Button>
+      <div className="file-upload-content">
+        <label htmlFor="image-upload2" className="image-upload-label">
+          Please upload an image:
         </label>
-        <span className="file-name px-3">
-          {selectedFileName || "No file chosen"}
-        </span>
+        <input
+          type="file"
+          id="image-upload2"
+          onChange={handleFileChange}
+          className="image-upload-input"
+          style={{ display: "none" }}
+          accept="image/*"
+        />
+        <div className="image-upload-control">
+          <label htmlFor="image-upload2" className="cursor-pointer">
+            <Button asChild>
+              <span>Choose File</span>
+            </Button>
+          </label>
+          <span className="file-name px-3">
+            {selectedFileName || "No file chosen"}
+          </span>
+        </div>
+        {previewSrc && (
+          <div className="image-preview">
+            <img
+              src={previewSrc}
+              alt="Image preview"
+              className="image-preview-img h-[500px] w-[500px] object-scale-down"
+            />
+          </div>
+        )}
       </div>
-      {previewSrc && (
-        <div className="image-preview">
-          <img
-            src={previewSrc}
-            alt="Image preview"
-            className="image-preview-img"
-          />
+      {selectedFileName && (
+        <div className="file-display-container mt-4">
+          <Button variant="default">Upload File</Button>
         </div>
       )}
     </div>

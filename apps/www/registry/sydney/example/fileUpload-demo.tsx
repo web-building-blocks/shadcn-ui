@@ -5,15 +5,15 @@ import { Button } from "@/registry/sydney/ui/button"
 export default function FileUploadComponent() {
   const [selectedFile, setSelectedFile] = useState("")
 
-  const handleFileChange = (event: any) => {
-    const file = event.target.files[0]
+  const handleFileChange = (event: React.ChangeEvent<HTMLInputElement>) => {
+    const file = event.target.files?.[0]
     setSelectedFile(file ? file.name : "")
   }
 
   const triggerFileInputClick = () => {
-    const fileInput = document.getElementById("file-upload")
+    const fileInput = document.getElementById("file-upload") as HTMLInputElement
     if (fileInput) {
-      fileInput.click() // Trigger click if the element exists
+      fileInput.click()
     }
   }
 
@@ -25,16 +25,10 @@ export default function FileUploadComponent() {
           id="file-upload"
           onChange={handleFileChange}
           className="file-upload-input"
-          style={{ display: "none" }} // Hide the default input
+          style={{ display: "none" }}
         />
         <div className="file-upload-control">
-          <Button
-            asChild
-            variant="outline"
-            size="default"
-            className="bg-usydOrange hover:bg-usydOrangeDark text-white"
-            onClick={triggerFileInputClick} // Use the trigger function with null check
-          >
+          <Button onClick={triggerFileInputClick}>
             <span>Choose File</span>
           </Button>
           <span className="file-name px-3">
@@ -44,9 +38,7 @@ export default function FileUploadComponent() {
       </div>
       {selectedFile && (
         <div className="file-display-container mt-4">
-          <Button className="bg-usydOrange hover:bg-usydOrangeDark text-white">
-            Upload File
-          </Button>
+          <Button variant="default">Upload File</Button>
         </div>
       )}
     </div>

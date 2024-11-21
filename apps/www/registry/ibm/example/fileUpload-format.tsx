@@ -1,7 +1,7 @@
 import React, { useState } from "react"
 
-import { Button } from "@/registry/unsw/ui/button"
-import { toast } from "@/registry/unsw/ui/use-toast"
+import { Button } from "@/registry/ibm/ui/button"
+import { toast } from "@/registry/ibm/ui/use-toast"
 
 export default function FileUploadImage() {
   const [selectedFileName, setSelectedFileName] = useState("")
@@ -11,7 +11,6 @@ export default function FileUploadImage() {
       if (event.target.files[0].type.startsWith("image/")) {
         setSelectedFileName(event.target.files[0].name)
       } else {
-        // If it is not an image type, use the toast function to display an error message
         toast({
           title: "Error",
           description: "Please select an image file!",
@@ -24,27 +23,34 @@ export default function FileUploadImage() {
 
   return (
     <div className="image-upload-wrapper">
-      <label htmlFor="image-upload" className="image-upload-label">
-        Please upload an image:
-      </label>
-      <input
-        type="file"
-        id="image-upload"
-        onChange={handleFileChange}
-        className="image-upload-input"
-        style={{ display: "none" }}
-        accept="image/*"
-      />
-      <div className="image-upload-control">
-        <label htmlFor="image-upload" className="cursor-pointer">
-          <Button asChild variant="outline" size="default">
-            <span>Choose File</span>
-          </Button>
+      <div className="file-upload-content">
+        <label htmlFor="image-upload" className="image-upload-label">
+          Please upload an image:
         </label>
-        <span className="image-file-name px-3">
-          {selectedFileName || "No file chosen"}
-        </span>
+        <input
+          type="file"
+          id="image-upload"
+          onChange={handleFileChange}
+          className="image-upload-input"
+          style={{ display: "none" }}
+          accept="image/*"
+        />
+        <div className="image-upload-control">
+          <label htmlFor="image-upload" className="cursor-pointer">
+            <Button asChild>
+              <span>Choose File</span>
+            </Button>
+          </label>
+          <span className="image-file-name px-3">
+            {selectedFileName || "No file chosen"}
+          </span>
+        </div>
       </div>
+      {selectedFileName && (
+        <div className="file-display-container mt-4">
+          <Button variant="default">Upload File</Button>
+        </div>
+      )}
     </div>
   )
 }
