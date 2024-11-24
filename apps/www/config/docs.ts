@@ -127,6 +127,11 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
+          title: "Browser Window",
+          href: "/docs/components/browserwindow",
+          items: [],
+        },
+        {
           title: "Button",
           href: "/docs/components/button",
           items: [],
@@ -179,6 +184,11 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
+          title: "Comment",
+          href: "/docs/components/comment",
+          items: [],
+        },
+        {
           title: "Context Menu",
           href: "/docs/components/context-menu",
           items: [],
@@ -209,6 +219,11 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
+          title: "File Upload",
+          href: "/docs/components/fileUpload",
+          items: [],
+        },
+        {
           title: "Form",
           href: "/docs/components/form",
           items: [],
@@ -216,6 +231,11 @@ export const docsConfig: DocsConfig = {
         {
           title: "Hover Card",
           href: "/docs/components/hover-card",
+          items: [],
+        },
+        {
+          title: "Image Gallery",
+          href: "/docs/components/image-gallery",
           items: [],
         },
         {
@@ -249,8 +269,18 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
+          title: "Modal",
+          href: "/docs/components/modal",
+          items: [],
+        },
+        {
           title: "Navigation Menu",
           href: "/docs/components/navigation-menu",
+          items: [],
+        },
+        {
+          title: "Panel",
+          href: "/docs/components/panel",
           items: [],
         },
         {
@@ -284,6 +314,11 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
+          title: "Search",
+          href: "/docs/components/search",
+          items: [],
+        },
+        {
           title: "Select",
           href: "/docs/components/select",
           items: [],
@@ -314,6 +349,16 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
+          title: "Statistic",
+          href: "/docs/components/statistic",
+          items: [],
+        },
+        {
+          title: "Steps",
+          href: "/docs/components/steps",
+          items: [],
+        },
+        {
           title: "Switch",
           href: "/docs/components/switch",
           items: [],
@@ -326,6 +371,11 @@ export const docsConfig: DocsConfig = {
         {
           title: "Tabs",
           href: "/docs/components/tabs",
+          items: [],
+        },
+        {
+          title: "Tags",
+          href: "/docs/components/tags",
           items: [],
         },
         {
@@ -351,11 +401,6 @@ export const docsConfig: DocsConfig = {
         {
           title: "Tooltip",
           href: "/docs/components/tooltip",
-          items: [],
-        },
-        {
-          title: "Tour",
-          href: "/docs/components/tour",
           items: [],
         },
         {
