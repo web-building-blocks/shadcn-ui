@@ -1,15 +1,15 @@
 import React, { useState } from "react"
 import Image from "next/image"
 
-import { Button } from "@/registry/default/ui/button"
-import { Toaster } from "@/registry/default/ui/toaster"
 import { useToast } from "@/registry/default/ui/use-toast"
 import {
   Accordion,
   AccordionContent,
   AccordionItem,
   AccordionTrigger,
-} from "@/registry/ibm/ui/accordion"
+} from "@/registry/sydney/ui/accordion"
+import { Button } from "@/registry/sydney/ui/button"
+import { Toaster } from "@/registry/sydney/ui/toaster"
 
 export default function AccordionMix() {
   const { toast } = useToast()
@@ -47,7 +47,6 @@ export default function AccordionMix() {
               <br />
               <Toaster />
               <Button
-                className="cursor-pointer rounded-none border-2 bg-slate-100 px-4 py-2 text-black focus:border-blue-600"
                 variant="outline"
                 onClick={() => {
                   toast({
