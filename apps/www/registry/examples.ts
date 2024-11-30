@@ -668,6 +668,36 @@ export const examples: Registry = [
     files: ["example/menubar-demo.tsx"],
   },
   {
+    name: "modal-demo",
+    type: "components:example",
+    files: ["example/modal-demo.tsx"],
+  },
+  {
+    name: "modal-confirm",
+    type: "components:example",
+    files: ["example/modal-confirm.tsx"],
+  },
+  {
+    name: "modal-login",
+    type: "components:example",
+    files: ["example/modal-login.tsx"],
+  },
+  {
+    name: "modal-notice",
+    type: "components:example",
+    files: ["example/modal-notice.tsx"],
+  },
+  {
+    name: "modal-pic",
+    type: "components:example",
+    files: ["example/modal-pic.tsx"],
+  },
+  {
+    name: "modal-signup",
+    type: "components:example",
+    files: ["example/modal-signup.tsx"],
+  },
+  {
     name: "navigation-menu-demo",
     type: "components:example",
     registryDependencies: ["navigation-menu"],
@@ -678,6 +708,18 @@ export const examples: Registry = [
     type: "components:example",
     registryDependencies: ["pagination"],
     files: ["example/pagination-demo.tsx"],
+  },
+  {
+    name: "panel-demo",
+    type: "components:example",
+    registryDependencies: ["panel"],
+    files: ["example/panel-demo.tsx"],
+  },
+  {
+    name: "panel-fail",
+    type: "components:example",
+    registryDependencies: ["panel"],
+    files: ["example/panel-fail.tsx"],
   },
   {
     name: "popover-demo",
@@ -738,6 +780,18 @@ export const examples: Registry = [
     type: "components:example",
     registryDependencies: ["scroll-area"],
     files: ["example/scroll-area-horizontal-demo.tsx"],
+  },
+  {
+    name: "search-demo",
+    type: "components:example",
+    registryDependencies: ["search"],
+    files: ["example/search-demo.tsx"],
+  },
+  {
+    name: "search-icon",
+    type: "components:example",
+    registryDependencies: ["search"],
+    files: ["example/search-icon.tsx"],
   },
   {
     name: "select-demo",
@@ -810,6 +864,30 @@ export const examples: Registry = [
     type: "components:example",
     registryDependencies: ["statistic", "card", "icons"],
     files: ["example/statistic-incard.tsx"],
+  },
+  {
+    name: "steps-demo",
+    type: "components:example",
+    registryDependencies: ["steps"],
+    files: ["example/steps-demo.tsx"],
+  },
+  {
+    name: "steps-with-content",
+    type: "components:example",
+    registryDependencies: ["steps", "with-content"],
+    files: ["example/steps-with-content.tsx"],
+  },
+  {
+    name: "steps-with-dots",
+    type: "components:example",
+    registryDependencies: ["steps", "with-dots"],
+    files: ["example/steps-with-dots.tsx"],
+  },
+  {
+    name: "steps-with-icon",
+    type: "components:example",
+    registryDependencies: ["steps", "with-icon"],
+    files: ["example/steps-with-icon.tsx"],
   },
   {
     name: "switch-demo",
@@ -1148,5 +1226,20 @@ export const examples: Registry = [
     name: "watermark-demo",
     type: "components:example",
     files: ["example/watermark-demo.tsx"],
+  },
+  {
+    name: "fileUpload-demo",
+    type: "components:example",
+    files: ["example/fileUpload-demo.tsx"],
+  },
+  {
+    name: "fileUpload-format",
+    type: "components:example",
+    files: ["example/fileUpload-format.tsx"],
+  },
+  {
+    name: "fileUpload-preview",
+    type: "components:example",
+    files: ["example/fileUpload-preview.tsx"],
   },
 ]

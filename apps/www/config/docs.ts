@@ -213,6 +213,11 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
+          title: "File Upload",
+          href: "/docs/components/fileUpload",
+          items: [],
+        },
+        {
           title: "Form",
           href: "/docs/components/form",
           items: [],
@@ -258,8 +263,18 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
+          title: "Modal",
+          href: "/docs/components/modal",
+          items: [],
+        },
+        {
           title: "Navigation Menu",
           href: "/docs/components/navigation-menu",
+          items: [],
+        },
+        {
+          title: "Panel",
+          href: "/docs/components/panel",
           items: [],
         },
         {
@@ -290,6 +305,11 @@ export const docsConfig: DocsConfig = {
         {
           title: "Scroll Area",
           href: "/docs/components/scroll-area",
+          items: [],
+        },
+        {
+          title: "Search",
+          href: "/docs/components/search",
           items: [],
         },
         {
@@ -325,6 +345,11 @@ export const docsConfig: DocsConfig = {
         {
           title: "Statistic",
           href: "/docs/components/statistic",
+          items: [],
+        },
+        {
+          title: "Steps",
+          href: "/docs/components/steps",
           items: [],
         },
         {
@@ -370,11 +395,6 @@ export const docsConfig: DocsConfig = {
         {
           title: "Tooltip",
           href: "/docs/components/tooltip",
-          items: [],
-        },
-        {
-          title: "Tour",
-          href: "/docs/components/tour",
           items: [],
         },
         {

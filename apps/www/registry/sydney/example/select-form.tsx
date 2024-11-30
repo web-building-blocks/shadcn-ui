@@ -5,7 +5,7 @@ import { zodResolver } from "@hookform/resolvers/zod"
 import { useForm } from "react-hook-form"
 import { z } from "zod"
 
-import { Button } from "@/registry/default/ui/button"
+import { Button } from "@/registry/sydney/ui/button"
 import {
   Form,
   FormControl,
@@ -14,15 +14,15 @@ import {
   FormItem,
   FormLabel,
   FormMessage,
-} from "@/registry/default/ui/form"
+} from "@/registry/sydney/ui/form"
 import {
   Select,
   SelectContent,
   SelectItem,
   SelectTrigger,
   SelectValue,
-} from "@/registry/default/ui/select"
-import { toast } from "@/registry/default/ui/use-toast"
+} from "@/registry/sydney/ui/select"
+import { toast } from "@/registry/sydney/ui/use-toast"
 
 const FormSchema = z.object({
   email: z
@@ -77,7 +77,12 @@ export default function SelectForm() {
             </FormItem>
           )}
         />
-        <Button type="submit">Submit</Button>
+        <Button
+          type="submit"
+          className="bg-orange-600 hover:bg-orange-700 text-white  px-4 py-2"
+        >
+          Submit
+        </Button>
       </form>
     </Form>
   )

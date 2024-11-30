@@ -2,7 +2,7 @@
 
 import * as React from "react"
 
-import { Button } from "@/registry/sydney/ui/button"
+import { Button } from "@/registry/ibm/ui/button"
 import {
   DropdownMenu,
   DropdownMenuCheckboxItem,
@@ -10,7 +10,7 @@ import {
   DropdownMenuLabel,
   DropdownMenuSeparator,
   DropdownMenuTrigger,
-} from "@/registry/sydney/ui/dropdown-menu"
+} from "@/registry/ibm/ui/dropdown-menu"
 
 export function DropdownMenuwithDividers() {
   const [selectedCar, setSelectedCar] = React.useState("Select a car")
@@ -22,32 +22,71 @@ export function DropdownMenuwithDividers() {
   return (
     <DropdownMenu>
       <DropdownMenuTrigger asChild>
-        <Button variant="outline">{selectedCar}</Button>
+        <Button
+          variant="outline"
+          className="hover:bg-blue-600 hover:text-white"
+          style={{
+            fontFamily: "Roboto, Helvetica Neue, Arial, sans-serif",
+            fontWeight: 300,
+          }}
+        >
+          {selectedCar}
+        </Button>
       </DropdownMenuTrigger>
       <DropdownMenuContent className="w-56">
-        <DropdownMenuLabel>Chinese Cars</DropdownMenuLabel>
+        <DropdownMenuLabel
+          style={{
+            fontFamily: "Roboto, Helvetica Neue, Arial, sans-serif",
+            fontWeight: 300,
+          }}
+        >
+          Chinese Cars
+        </DropdownMenuLabel>
         <DropdownMenuCheckboxItem
           checked={selectedCar === "BYD"}
           onCheckedChange={() => handleCarSelect("BYD")}
+          style={{
+            fontFamily: "Roboto, Helvetica Neue, Arial, sans-serif",
+            fontWeight: 300,
+          }}
         >
           BYD
         </DropdownMenuCheckboxItem>
         <DropdownMenuCheckboxItem
           checked={selectedCar === "GWM"}
           onCheckedChange={() => handleCarSelect("GWM")}
+          style={{
+            fontFamily: "Roboto, Helvetica Neue, Arial, sans-serif",
+            fontWeight: 300,
+          }}
         >
           GWM
         </DropdownMenuCheckboxItem>
-        <DropdownMenuLabel>German Cars</DropdownMenuLabel>
+        <DropdownMenuLabel
+          style={{
+            fontFamily: "Roboto, Helvetica Neue, Arial, sans-serif",
+            fontWeight: 300,
+          }}
+        >
+          German Cars
+        </DropdownMenuLabel>
         <DropdownMenuCheckboxItem
           checked={selectedCar === "Mercedes"}
           onCheckedChange={() => handleCarSelect("Mercedes")}
+          style={{
+            fontFamily: "Roboto, Helvetica Neue, Arial, sans-serif",
+            fontWeight: 300,
+          }}
         >
           Mercedes
         </DropdownMenuCheckboxItem>
         <DropdownMenuCheckboxItem
           checked={selectedCar === "Audi"}
           onCheckedChange={() => handleCarSelect("Audi")}
+          style={{
+            fontFamily: "Roboto, Helvetica Neue, Arial, sans-serif",
+            fontWeight: 300,
+          }}
         >
           Audi
         </DropdownMenuCheckboxItem>

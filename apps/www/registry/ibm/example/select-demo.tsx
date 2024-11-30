@@ -8,12 +8,12 @@ import {
   SelectLabel,
   SelectTrigger,
   SelectValue,
-} from "@/registry/default/ui/select"
+} from "@/registry/ibm/ui/select"
 
 export default function SelectDemo() {
   return (
     <Select>
-      <SelectTrigger className="w-[180px]">
+      <SelectTrigger>
         <SelectValue placeholder="Select a fruit" />
       </SelectTrigger>
       <SelectContent>
