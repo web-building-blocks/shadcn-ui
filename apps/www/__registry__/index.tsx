@@ -1105,10 +1105,76 @@ export const Index: Record<string, any> = {
       subcategory: "undefined",
       chunks: []
     },
+    "chart-bar-demo": {
+      name: "chart-bar-demo",
+      type: "components:example",
+      registryDependencies: undefined,
+      component: React.lazy(() => import("@/registry/default/example/chart-bar-demo")),
+      source: "",
+      files: ["registry/default/example/chart-bar-demo.tsx"],
+      category: "undefined",
+      subcategory: "undefined",
+      chunks: []
+    },
+    "chart-bar-demo-grid": {
+      name: "chart-bar-demo-grid",
+      type: "components:example",
+      registryDependencies: undefined,
+      component: React.lazy(() => import("@/registry/default/example/chart-bar-demo-grid")),
+      source: "",
+      files: ["registry/default/example/chart-bar-demo-grid.tsx"],
+      category: "undefined",
+      subcategory: "undefined",
+      chunks: []
+    },
+    "chart-bar-demo-axis": {
+      name: "chart-bar-demo-axis",
+      type: "components:example",
+      registryDependencies: undefined,
+      component: React.lazy(() => import("@/registry/default/example/chart-bar-demo-axis")),
+      source: "",
+      files: ["registry/default/example/chart-bar-demo-axis.tsx"],
+      category: "undefined",
+      subcategory: "undefined",
+      chunks: []
+    },
+    "chart-bar-demo-tooltip": {
+      name: "chart-bar-demo-tooltip",
+      type: "components:example",
+      registryDependencies: undefined,
+      component: React.lazy(() => import("@/registry/default/example/chart-bar-demo-tooltip")),
+      source: "",
+      files: ["registry/default/example/chart-bar-demo-tooltip.tsx"],
+      category: "undefined",
+      subcategory: "undefined",
+      chunks: []
+    },
+    "chart-bar-demo-legend": {
+      name: "chart-bar-demo-legend",
+      type: "components:example",
+      registryDependencies: undefined,
+      component: React.lazy(() => import("@/registry/default/example/chart-bar-demo-legend")),
+      source: "",
+      files: ["registry/default/example/chart-bar-demo-legend.tsx"],
+      category: "undefined",
+      subcategory: "undefined",
+      chunks: []
+    },
+    "chart-tooltip-demo": {
+      name: "chart-tooltip-demo",
+      type: "components:example",
+      registryDependencies: undefined,
+      component: React.lazy(() => import("@/registry/default/example/chart-tooltip-demo")),
+      source: "",
+      files: ["registry/default/example/chart-tooltip-demo.tsx"],
+      category: "undefined",
+      subcategory: "undefined",
+      chunks: []
+    },
     "chat-demo": {
       name: "chat-demo",
       type: "components:example",
-      registryDependencies: ["card","button"],
+      registryDependencies: ["card"],
       component: React.lazy(() => import("@/registry/default/example/chat-demo")),
       source: "",
       files: ["registry/default/example/chat-demo.tsx"],
@@ -1119,7 +1185,7 @@ export const Index: Record<string, any> = {
     "chat-attachment": {
       name: "chat-attachment",
       type: "components:example",
-      registryDependencies: ["card","button"],
+      registryDependencies: ["card"],
       component: React.lazy(() => import("@/registry/default/example/chat-attachment")),
       source: "",
       files: ["registry/default/example/chat-attachment.tsx"],
@@ -1468,6 +1534,39 @@ export const Index: Record<string, any> = {
       subcategory: "undefined",
       chunks: []
     },
+    "fileUpload-demo": {
+      name: "fileUpload-demo",
+      type: "components:example",
+      registryDependencies: undefined,
+      component: React.lazy(() => import("@/registry/default/example/fileUpload-demo")),
+      source: "",
+      files: ["registry/default/example/fileUpload-demo.tsx"],
+      category: "undefined",
+      subcategory: "undefined",
+      chunks: []
+    },
+    "fileUpload-format": {
+      name: "fileUpload-format",
+      type: "components:example",
+      registryDependencies: undefined,
+      component: React.lazy(() => import("@/registry/default/example/fileUpload-format")),
+      source: "",
+      files: ["registry/default/example/fileUpload-format.tsx"],
+      category: "undefined",
+      subcategory: "undefined",
+      chunks: []
+    },
+    "fileUpload-preview": {
+      name: "fileUpload-preview",
+      type: "components:example",
+      registryDependencies: undefined,
+      component: React.lazy(() => import("@/registry/default/example/fileUpload-preview")),
+      source: "",
+      files: ["registry/default/example/fileUpload-preview.tsx"],
+      category: "undefined",
+      subcategory: "undefined",
+      chunks: []
+    },
     "hover-card-demo": {
       name: "hover-card-demo",
       type: "components:example",
@@ -1732,6 +1831,61 @@ export const Index: Record<string, any> = {
       subcategory: "undefined",
       chunks: []
     },
+    "message-demo": {
+      name: "message-demo",
+      type: "components:example",
+      registryDependencies: undefined,
+      component: React.lazy(() => import("@/registry/default/example/message-demo")),
+      source: "",
+      files: ["registry/default/example/message-demo.tsx"],
+      category: "undefined",
+      subcategory: "undefined",
+      chunks: []
+    },
+    "message-duration": {
+      name: "message-duration",
+      type: "components:example",
+      registryDependencies: undefined,
+      component: React.lazy(() => import("@/registry/default/example/message-duration")),
+      source: "",
+      files: ["registry/default/example/message-duration.tsx"],
+      category: "undefined",
+      subcategory: "undefined",
+      chunks: []
+    },
+    "message-error": {
+      name: "message-error",
+      type: "components:example",
+      registryDependencies: undefined,
+      component: React.lazy(() => import("@/registry/default/example/message-error")),
+      source: "",
+      files: ["registry/default/example/message-error.tsx"],
+      category: "undefined",
+      subcategory: "undefined",
+      chunks: []
+    },
+    "message-success": {
+      name: "message-success",
+      type: "components:example",
+      registryDependencies: undefined,
+      component: React.lazy(() => import("@/registry/default/example/message-success")),
+      source: "",
+      files: ["registry/default/example/message-success.tsx"],
+      category: "undefined",
+      subcategory: "undefined",
+      chunks: []
+    },
+    "message-warning": {
+      name: "message-warning",
+      type: "components:example",
+      registryDependencies: undefined,
+      component: React.lazy(() => import("@/registry/default/example/message-warning")),
+      source: "",
+      files: ["registry/default/example/message-warning.tsx"],
+      category: "undefined",
+      subcategory: "undefined",
+      chunks: []
+    },
     "modal-demo": {
       name: "modal-demo",
       type: "components:example",
@@ -1794,6 +1948,17 @@ export const Index: Record<string, any> = {
       component: React.lazy(() => import("@/registry/default/example/modal-signup")),
       source: "",
       files: ["registry/default/example/modal-signup.tsx"],
+      category: "undefined",
+      subcategory: "undefined",
+      chunks: []
+    },
+    "mode-toggle": {
+      name: "mode-toggle",
+      type: "components:example",
+      registryDependencies: undefined,
+      component: React.lazy(() => import("@/registry/default/example/mode-toggle")),
+      source: "",
+      files: ["registry/default/example/mode-toggle.tsx"],
       category: "undefined",
       subcategory: "undefined",
       chunks: []
@@ -2667,149 +2832,6 @@ export const Index: Record<string, any> = {
       subcategory: "undefined",
       chunks: []
     },
-    "mode-toggle": {
-      name: "mode-toggle",
-      type: "components:example",
-      registryDependencies: undefined,
-      component: React.lazy(() => import("@/registry/default/example/mode-toggle")),
-      source: "",
-      files: ["registry/default/example/mode-toggle.tsx"],
-      category: "undefined",
-      subcategory: "undefined",
-      chunks: []
-    },
-    "message-demo": {
-      name: "message-demo",
-      type: "components:example",
-      registryDependencies: undefined,
-      component: React.lazy(() => import("@/registry/default/example/message-demo")),
-      source: "",
-      files: ["registry/default/example/message-demo.tsx"],
-      category: "undefined",
-      subcategory: "undefined",
-      chunks: []
-    },
-    "message-duration": {
-      name: "message-duration",
-      type: "components:example",
-      registryDependencies: undefined,
-      component: React.lazy(() => import("@/registry/default/example/message-duration")),
-      source: "",
-      files: ["registry/default/example/message-duration.tsx"],
-      category: "undefined",
-      subcategory: "undefined",
-      chunks: []
-    },
-    "message-error": {
-      name: "message-error",
-      type: "components:example",
-      registryDependencies: undefined,
-      component: React.lazy(() => import("@/registry/default/example/message-error")),
-      source: "",
-      files: ["registry/default/example/message-error.tsx"],
-      category: "undefined",
-      subcategory: "undefined",
-      chunks: []
-    },
-    "message-success": {
-      name: "message-success",
-      type: "components:example",
-      registryDependencies: undefined,
-      component: React.lazy(() => import("@/registry/default/example/message-success")),
-      source: "",
-      files: ["registry/default/example/message-success.tsx"],
-      category: "undefined",
-      subcategory: "undefined",
-      chunks: []
-    },
-    "message-warning": {
-      name: "message-warning",
-      type: "components:example",
-      registryDependencies: undefined,
-      component: React.lazy(() => import("@/registry/default/example/message-warning")),
-      source: "",
-      files: ["registry/default/example/message-warning.tsx"],
-      category: "undefined",
-      subcategory: "undefined",
-      chunks: []
-    },
-    "cards": {
-      name: "cards",
-      type: "components:example",
-      registryDependencies: undefined,
-      component: React.lazy(() => import("@/registry/default/example/cards")),
-      source: "",
-      files: ["registry/default/example/cards/cards.tsx"],
-      category: "undefined",
-      subcategory: "undefined",
-      chunks: []
-    },
-    "chart-bar-demo": {
-      name: "chart-bar-demo",
-      type: "components:example",
-      registryDependencies: undefined,
-      component: React.lazy(() => import("@/registry/default/example/chart-bar-demo")),
-      source: "",
-      files: ["registry/default/example/chart-bar-demo.tsx"],
-      category: "undefined",
-      subcategory: "undefined",
-      chunks: []
-    },
-    "chart-bar-demo-grid": {
-      name: "chart-bar-demo-grid",
-      type: "components:example",
-      registryDependencies: undefined,
-      component: React.lazy(() => import("@/registry/default/example/chart-bar-demo-grid")),
-      source: "",
-      files: ["registry/default/example/chart-bar-demo-grid.tsx"],
-      category: "undefined",
-      subcategory: "undefined",
-      chunks: []
-    },
-    "chart-bar-demo-axis": {
-      name: "chart-bar-demo-axis",
-      type: "components:example",
-      registryDependencies: undefined,
-      component: React.lazy(() => import("@/registry/default/example/chart-bar-demo-axis")),
-      source: "",
-      files: ["registry/default/example/chart-bar-demo-axis.tsx"],
-      category: "undefined",
-      subcategory: "undefined",
-      chunks: []
-    },
-    "chart-bar-demo-tooltip": {
-      name: "chart-bar-demo-tooltip",
-      type: "components:example",
-      registryDependencies: undefined,
-      component: React.lazy(() => import("@/registry/default/example/chart-bar-demo-tooltip")),
-      source: "",
-      files: ["registry/default/example/chart-bar-demo-tooltip.tsx"],
-      category: "undefined",
-      subcategory: "undefined",
-      chunks: []
-    },
-    "chart-bar-demo-legend": {
-      name: "chart-bar-demo-legend",
-      type: "components:example",
-      registryDependencies: undefined,
-      component: React.lazy(() => import("@/registry/default/example/chart-bar-demo-legend")),
-      source: "",
-      files: ["registry/default/example/chart-bar-demo-legend.tsx"],
-      category: "undefined",
-      subcategory: "undefined",
-      chunks: []
-    },
-    "chart-tooltip-demo": {
-      name: "chart-tooltip-demo",
-      type: "components:example",
-      registryDependencies: undefined,
-      component: React.lazy(() => import("@/registry/default/example/chart-tooltip-demo")),
-      source: "",
-      files: ["registry/default/example/chart-tooltip-demo.tsx"],
-      category: "undefined",
-      subcategory: "undefined",
-      chunks: []
-    },
     "watermark-demo": {
       name: "watermark-demo",
       type: "components:example",
@@ -2817,39 +2839,6 @@ export const Index: Record<string, any> = {
       component: React.lazy(() => import("@/registry/default/example/watermark-demo")),
       source: "",
       files: ["registry/default/example/watermark-demo.tsx"],
-      category: "undefined",
-      subcategory: "undefined",
-      chunks: []
-    },
-    "fileUpload-demo": {
-      name: "fileUpload-demo",
-      type: "components:example",
-      registryDependencies: undefined,
-      component: React.lazy(() => import("@/registry/default/example/fileUpload-demo")),
-      source: "",
-      files: ["registry/default/example/fileUpload-demo.tsx"],
-      category: "undefined",
-      subcategory: "undefined",
-      chunks: []
-    },
-    "fileUpload-format": {
-      name: "fileUpload-format",
-      type: "components:example",
-      registryDependencies: undefined,
-      component: React.lazy(() => import("@/registry/default/example/fileUpload-format")),
-      source: "",
-      files: ["registry/default/example/fileUpload-format.tsx"],
-      category: "undefined",
-      subcategory: "undefined",
-      chunks: []
-    },
-    "fileUpload-preview": {
-      name: "fileUpload-preview",
-      type: "components:example",
-      registryDependencies: undefined,
-      component: React.lazy(() => import("@/registry/default/example/fileUpload-preview")),
-      source: "",
-      files: ["registry/default/example/fileUpload-preview.tsx"],
       category: "undefined",
       subcategory: "undefined",
       chunks: []
@@ -5088,6 +5077,127 @@ export const Index: Record<string, any> = {
       subcategory: "undefined",
       chunks: []
     },
+    "carousel-basic": {
+      name: "carousel-basic",
+      type: "components:example",
+      registryDependencies: ["carousel"],
+      component: React.lazy(() => import("@/registry/new-york/example/carousel-basic")),
+      source: "",
+      files: ["registry/new-york/example/carousel-basic.tsx"],
+      category: "undefined",
+      subcategory: "undefined",
+      chunks: []
+    },
+    "carousel-auto": {
+      name: "carousel-auto",
+      type: "components:example",
+      registryDependencies: ["carousel"],
+      component: React.lazy(() => import("@/registry/new-york/example/carousel-auto")),
+      source: "",
+      files: ["registry/new-york/example/carousel-auto.tsx"],
+      category: "undefined",
+      subcategory: "undefined",
+      chunks: []
+    },
+    "carousel-images": {
+      name: "carousel-images",
+      type: "components:example",
+      registryDependencies: ["carousel"],
+      component: React.lazy(() => import("@/registry/new-york/example/carousel-images")),
+      source: "",
+      files: ["registry/new-york/example/carousel-images.tsx"],
+      category: "undefined",
+      subcategory: "undefined",
+      chunks: []
+    },
+    "chart-bar-demo": {
+      name: "chart-bar-demo",
+      type: "components:example",
+      registryDependencies: undefined,
+      component: React.lazy(() => import("@/registry/new-york/example/chart-bar-demo")),
+      source: "",
+      files: ["registry/new-york/example/chart-bar-demo.tsx"],
+      category: "undefined",
+      subcategory: "undefined",
+      chunks: []
+    },
+    "chart-bar-demo-grid": {
+      name: "chart-bar-demo-grid",
+      type: "components:example",
+      registryDependencies: undefined,
+      component: React.lazy(() => import("@/registry/new-york/example/chart-bar-demo-grid")),
+      source: "",
+      files: ["registry/new-york/example/chart-bar-demo-grid.tsx"],
+      category: "undefined",
+      subcategory: "undefined",
+      chunks: []
+    },
+    "chart-bar-demo-axis": {
+      name: "chart-bar-demo-axis",
+      type: "components:example",
+      registryDependencies: undefined,
+      component: React.lazy(() => import("@/registry/new-york/example/chart-bar-demo-axis")),
+      source: "",
+      files: ["registry/new-york/example/chart-bar-demo-axis.tsx"],
+      category: "undefined",
+      subcategory: "undefined",
+      chunks: []
+    },
+    "chart-bar-demo-tooltip": {
+      name: "chart-bar-demo-tooltip",
+      type: "components:example",
+      registryDependencies: undefined,
+      component: React.lazy(() => import("@/registry/new-york/example/chart-bar-demo-tooltip")),
+      source: "",
+      files: ["registry/new-york/example/chart-bar-demo-tooltip.tsx"],
+      category: "undefined",
+      subcategory: "undefined",
+      chunks: []
+    },
+    "chart-bar-demo-legend": {
+      name: "chart-bar-demo-legend",
+      type: "components:example",
+      registryDependencies: undefined,
+      component: React.lazy(() => import("@/registry/new-york/example/chart-bar-demo-legend")),
+      source: "",
+      files: ["registry/new-york/example/chart-bar-demo-legend.tsx"],
+      category: "undefined",
+      subcategory: "undefined",
+      chunks: []
+    },
+    "chart-tooltip-demo": {
+      name: "chart-tooltip-demo",
+      type: "components:example",
+      registryDependencies: undefined,
+      component: React.lazy(() => import("@/registry/new-york/example/chart-tooltip-demo")),
+      source: "",
+      files: ["registry/new-york/example/chart-tooltip-demo.tsx"],
+      category: "undefined",
+      subcategory: "undefined",
+      chunks: []
+    },
+    "chat-demo": {
+      name: "chat-demo",
+      type: "components:example",
+      registryDependencies: ["card"],
+      component: React.lazy(() => import("@/registry/new-york/example/chat-demo")),
+      source: "",
+      files: ["registry/new-york/example/chat-demo.tsx"],
+      category: "undefined",
+      subcategory: "undefined",
+      chunks: []
+    },
+    "chat-attachment": {
+      name: "chat-attachment",
+      type: "components:example",
+      registryDependencies: ["card"],
+      component: React.lazy(() => import("@/registry/new-york/example/chat-attachment")),
+      source: "",
+      files: ["registry/new-york/example/chat-attachment.tsx"],
+      category: "undefined",
+      subcategory: "undefined",
+      chunks: []
+    },
     "checkbox-demo": {
       name: "checkbox-demo",
       type: "components:example",
@@ -5429,6 +5539,39 @@ export const Index: Record<string, any> = {
       subcategory: "undefined",
       chunks: []
     },
+    "fileUpload-demo": {
+      name: "fileUpload-demo",
+      type: "components:example",
+      registryDependencies: undefined,
+      component: React.lazy(() => import("@/registry/new-york/example/fileUpload-demo")),
+      source: "",
+      files: ["registry/new-york/example/fileUpload-demo.tsx"],
+      category: "undefined",
+      subcategory: "undefined",
+      chunks: []
+    },
+    "fileUpload-format": {
+      name: "fileUpload-format",
+      type: "components:example",
+      registryDependencies: undefined,
+      component: React.lazy(() => import("@/registry/new-york/example/fileUpload-format")),
+      source: "",
+      files: ["registry/new-york/example/fileUpload-format.tsx"],
+      category: "undefined",
+      subcategory: "undefined",
+      chunks: []
+    },
+    "fileUpload-preview": {
+      name: "fileUpload-preview",
+      type: "components:example",
+      registryDependencies: undefined,
+      component: React.lazy(() => import("@/registry/new-york/example/fileUpload-preview")),
+      source: "",
+      files: ["registry/new-york/example/fileUpload-preview.tsx"],
+      category: "undefined",
+      subcategory: "undefined",
+      chunks: []
+    },
     "hover-card-demo": {
       name: "hover-card-demo",
       type: "components:example",
@@ -5693,6 +5836,61 @@ export const Index: Record<string, any> = {
       subcategory: "undefined",
       chunks: []
     },
+    "message-demo": {
+      name: "message-demo",
+      type: "components:example",
+      registryDependencies: undefined,
+      component: React.lazy(() => import("@/registry/new-york/example/message-demo")),
+      source: "",
+      files: ["registry/new-york/example/message-demo.tsx"],
+      category: "undefined",
+      subcategory: "undefined",
+      chunks: []
+    },
+    "message-duration": {
+      name: "message-duration",
+      type: "components:example",
+      registryDependencies: undefined,
+      component: React.lazy(() => import("@/registry/new-york/example/message-duration")),
+      source: "",
+      files: ["registry/new-york/example/message-duration.tsx"],
+      category: "undefined",
+      subcategory: "undefined",
+      chunks: []
+    },
+    "message-error": {
+      name: "message-error",
+      type: "components:example",
+      registryDependencies: undefined,
+      component: React.lazy(() => import("@/registry/new-york/example/message-error")),
+      source: "",
+      files: ["registry/new-york/example/message-error.tsx"],
+      category: "undefined",
+      subcategory: "undefined",
+      chunks: []
+    },
+    "message-success": {
+      name: "message-success",
+      type: "components:example",
+      registryDependencies: undefined,
+      component: React.lazy(() => import("@/registry/new-york/example/message-success")),
+      source: "",
+      files: ["registry/new-york/example/message-success.tsx"],
+      category: "undefined",
+      subcategory: "undefined",
+      chunks: []
+    },
+    "message-warning": {
+      name: "message-warning",
+      type: "components:example",
+      registryDependencies: undefined,
+      component: React.lazy(() => import("@/registry/new-york/example/message-warning")),
+      source: "",
+      files: ["registry/new-york/example/message-warning.tsx"],
+      category: "undefined",
+      subcategory: "undefined",
+      chunks: []
+    },
     "modal-demo": {
       name: "modal-demo",
       type: "components:example",
@@ -5755,6 +5953,17 @@ export const Index: Record<string, any> = {
       component: React.lazy(() => import("@/registry/new-york/example/modal-signup")),
       source: "",
       files: ["registry/new-york/example/modal-signup.tsx"],
+      category: "undefined",
+      subcategory: "undefined",
+      chunks: []
+    },
+    "mode-toggle": {
+      name: "mode-toggle",
+      type: "components:example",
+      registryDependencies: undefined,
+      component: React.lazy(() => import("@/registry/new-york/example/mode-toggle")),
+      source: "",
+      files: ["registry/new-york/example/mode-toggle.tsx"],
       category: "undefined",
       subcategory: "undefined",
       chunks: []
@@ -6628,149 +6837,6 @@ export const Index: Record<string, any> = {
       subcategory: "undefined",
       chunks: []
     },
-    "mode-toggle": {
-      name: "mode-toggle",
-      type: "components:example",
-      registryDependencies: undefined,
-      component: React.lazy(() => import("@/registry/new-york/example/mode-toggle")),
-      source: "",
-      files: ["registry/new-york/example/mode-toggle.tsx"],
-      category: "undefined",
-      subcategory: "undefined",
-      chunks: []
-    },
-    "message-demo": {
-      name: "message-demo",
-      type: "components:example",
-      registryDependencies: undefined,
-      component: React.lazy(() => import("@/registry/new-york/example/message-demo")),
-      source: "",
-      files: ["registry/new-york/example/message-demo.tsx"],
-      category: "undefined",
-      subcategory: "undefined",
-      chunks: []
-    },
-    "message-duration": {
-      name: "message-duration",
-      type: "components:example",
-      registryDependencies: undefined,
-      component: React.lazy(() => import("@/registry/new-york/example/message-duration")),
-      source: "",
-      files: ["registry/new-york/example/message-duration.tsx"],
-      category: "undefined",
-      subcategory: "undefined",
-      chunks: []
-    },
-    "message-error": {
-      name: "message-error",
-      type: "components:example",
-      registryDependencies: undefined,
-      component: React.lazy(() => import("@/registry/new-york/example/message-error")),
-      source: "",
-      files: ["registry/new-york/example/message-error.tsx"],
-      category: "undefined",
-      subcategory: "undefined",
-      chunks: []
-    },
-    "message-success": {
-      name: "message-success",
-      type: "components:example",
-      registryDependencies: undefined,
-      component: React.lazy(() => import("@/registry/new-york/example/message-success")),
-      source: "",
-      files: ["registry/new-york/example/message-success.tsx"],
-      category: "undefined",
-      subcategory: "undefined",
-      chunks: []
-    },
-    "message-warning": {
-      name: "message-warning",
-      type: "components:example",
-      registryDependencies: undefined,
-      component: React.lazy(() => import("@/registry/new-york/example/message-warning")),
-      source: "",
-      files: ["registry/new-york/example/message-warning.tsx"],
-      category: "undefined",
-      subcategory: "undefined",
-      chunks: []
-    },
-    "cards": {
-      name: "cards",
-      type: "components:example",
-      registryDependencies: undefined,
-      component: React.lazy(() => import("@/registry/new-york/example/cards")),
-      source: "",
-      files: ["registry/new-york/example/cards/cards.tsx"],
-      category: "undefined",
-      subcategory: "undefined",
-      chunks: []
-    },
-    "chart-bar-demo": {
-      name: "chart-bar-demo",
-      type: "components:example",
-      registryDependencies: undefined,
-      component: React.lazy(() => import("@/registry/new-york/example/chart-bar-demo")),
-      source: "",
-      files: ["registry/new-york/example/chart-bar-demo.tsx"],
-      category: "undefined",
-      subcategory: "undefined",
-      chunks: []
-    },
-    "chart-bar-demo-grid": {
-      name: "chart-bar-demo-grid",
-      type: "components:example",
-      registryDependencies: undefined,
-      component: React.lazy(() => import("@/registry/new-york/example/chart-bar-demo-grid")),
-      source: "",
-      files: ["registry/new-york/example/chart-bar-demo-grid.tsx"],
-      category: "undefined",
-      subcategory: "undefined",
-      chunks: []
-    },
-    "chart-bar-demo-axis": {
-      name: "chart-bar-demo-axis",
-      type: "components:example",
-      registryDependencies: undefined,
-      component: React.lazy(() => import("@/registry/new-york/example/chart-bar-demo-axis")),
-      source: "",
-      files: ["registry/new-york/example/chart-bar-demo-axis.tsx"],
-      category: "undefined",
-      subcategory: "undefined",
-      chunks: []
-    },
-    "chart-bar-demo-tooltip": {
-      name: "chart-bar-demo-tooltip",
-      type: "components:example",
-      registryDependencies: undefined,
-      component: React.lazy(() => import("@/registry/new-york/example/chart-bar-demo-tooltip")),
-      source: "",
-      files: ["registry/new-york/example/chart-bar-demo-tooltip.tsx"],
-      category: "undefined",
-      subcategory: "undefined",
-      chunks: []
-    },
-    "chart-bar-demo-legend": {
-      name: "chart-bar-demo-legend",
-      type: "components:example",
-      registryDependencies: undefined,
-      component: React.lazy(() => import("@/registry/new-york/example/chart-bar-demo-legend")),
-      source: "",
-      files: ["registry/new-york/example/chart-bar-demo-legend.tsx"],
-      category: "undefined",
-      subcategory: "undefined",
-      chunks: []
-    },
-    "chart-tooltip-demo": {
-      name: "chart-tooltip-demo",
-      type: "components:example",
-      registryDependencies: undefined,
-      component: React.lazy(() => import("@/registry/new-york/example/chart-tooltip-demo")),
-      source: "",
-      files: ["registry/new-york/example/chart-tooltip-demo.tsx"],
-      category: "undefined",
-      subcategory: "undefined",
-      chunks: []
-    },
     "watermark-demo": {
       name: "watermark-demo",
       type: "components:example",
@@ -6778,39 +6844,6 @@ export const Index: Record<string, any> = {
       component: React.lazy(() => import("@/registry/new-york/example/watermark-demo")),
       source: "",
       files: ["registry/new-york/example/watermark-demo.tsx"],
-      category: "undefined",
-      subcategory: "undefined",
-      chunks: []
-    },
-    "fileUpload-demo": {
-      name: "fileUpload-demo",
-      type: "components:example",
-      registryDependencies: undefined,
-      component: React.lazy(() => import("@/registry/new-york/example/fileUpload-demo")),
-      source: "",
-      files: ["registry/new-york/example/fileUpload-demo.tsx"],
-      category: "undefined",
-      subcategory: "undefined",
-      chunks: []
-    },
-    "fileUpload-format": {
-      name: "fileUpload-format",
-      type: "components:example",
-      registryDependencies: undefined,
-      component: React.lazy(() => import("@/registry/new-york/example/fileUpload-format")),
-      source: "",
-      files: ["registry/new-york/example/fileUpload-format.tsx"],
-      category: "undefined",
-      subcategory: "undefined",
-      chunks: []
-    },
-    "fileUpload-preview": {
-      name: "fileUpload-preview",
-      type: "components:example",
-      registryDependencies: undefined,
-      component: React.lazy(() => import("@/registry/new-york/example/fileUpload-preview")),
-      source: "",
-      files: ["registry/new-york/example/fileUpload-preview.tsx"],
       category: "undefined",
       subcategory: "undefined",
       chunks: []
@@ -9049,6 +9082,127 @@ export const Index: Record<string, any> = {
       subcategory: "undefined",
       chunks: []
     },
+    "carousel-basic": {
+      name: "carousel-basic",
+      type: "components:example",
+      registryDependencies: ["carousel"],
+      component: React.lazy(() => import("@/registry/sydney/example/carousel-basic")),
+      source: "",
+      files: ["registry/sydney/example/carousel-basic.tsx"],
+      category: "undefined",
+      subcategory: "undefined",
+      chunks: []
+    },
+    "carousel-auto": {
+      name: "carousel-auto",
+      type: "components:example",
+      registryDependencies: ["carousel"],
+      component: React.lazy(() => import("@/registry/sydney/example/carousel-auto")),
+      source: "",
+      files: ["registry/sydney/example/carousel-auto.tsx"],
+      category: "undefined",
+      subcategory: "undefined",
+      chunks: []
+    },
+    "carousel-images": {
+      name: "carousel-images",
+      type: "components:example",
+      registryDependencies: ["carousel"],
+      component: React.lazy(() => import("@/registry/sydney/example/carousel-images")),
+      source: "",
+      files: ["registry/sydney/example/carousel-images.tsx"],
+      category: "undefined",
+      subcategory: "undefined",
+      chunks: []
+    },
+    "chart-bar-demo": {
+      name: "chart-bar-demo",
+      type: "components:example",
+      registryDependencies: undefined,
+      component: React.lazy(() => import("@/registry/sydney/example/chart-bar-demo")),
+      source: "",
+      files: ["registry/sydney/example/chart-bar-demo.tsx"],
+      category: "undefined",
+      subcategory: "undefined",
+      chunks: []
+    },
+    "chart-bar-demo-grid": {
+      name: "chart-bar-demo-grid",
+      type: "components:example",
+      registryDependencies: undefined,
+      component: React.lazy(() => import("@/registry/sydney/example/chart-bar-demo-grid")),
+      source: "",
+      files: ["registry/sydney/example/chart-bar-demo-grid.tsx"],
+      category: "undefined",
+      subcategory: "undefined",
+      chunks: []
+    },
+    "chart-bar-demo-axis": {
+      name: "chart-bar-demo-axis",
+      type: "components:example",
+      registryDependencies: undefined,
+      component: React.lazy(() => import("@/registry/sydney/example/chart-bar-demo-axis")),
+      source: "",
+      files: ["registry/sydney/example/chart-bar-demo-axis.tsx"],
+      category: "undefined",
+      subcategory: "undefined",
+      chunks: []
+    },
+    "chart-bar-demo-tooltip": {
+      name: "chart-bar-demo-tooltip",
+      type: "components:example",
+      registryDependencies: undefined,
+      component: React.lazy(() => import("@/registry/sydney/example/chart-bar-demo-tooltip")),
+      source: "",
+      files: ["registry/sydney/example/chart-bar-demo-tooltip.tsx"],
+      category: "undefined",
+      subcategory: "undefined",
+      chunks: []
+    },
+    "chart-bar-demo-legend": {
+      name: "chart-bar-demo-legend",
+      type: "components:example",
+      registryDependencies: undefined,
+      component: React.lazy(() => import("@/registry/sydney/example/chart-bar-demo-legend")),
+      source: "",
+      files: ["registry/sydney/example/chart-bar-demo-legend.tsx"],
+      category: "undefined",
+      subcategory: "undefined",
+      chunks: []
+    },
+    "chart-tooltip-demo": {
+      name: "chart-tooltip-demo",
+      type: "components:example",
+      registryDependencies: undefined,
+      component: React.lazy(() => import("@/registry/sydney/example/chart-tooltip-demo")),
+      source: "",
+      files: ["registry/sydney/example/chart-tooltip-demo.tsx"],
+      category: "undefined",
+      subcategory: "undefined",
+      chunks: []
+    },
+    "chat-demo": {
+      name: "chat-demo",
+      type: "components:example",
+      registryDependencies: ["card"],
+      component: React.lazy(() => import("@/registry/sydney/example/chat-demo")),
+      source: "",
+      files: ["registry/sydney/example/chat-demo.tsx"],
+      category: "undefined",
+      subcategory: "undefined",
+      chunks: []
+    },
+    "chat-attachment": {
+      name: "chat-attachment",
+      type: "components:example",
+      registryDependencies: ["card"],
+      component: React.lazy(() => import("@/registry/sydney/example/chat-attachment")),
+      source: "",
+      files: ["registry/sydney/example/chat-attachment.tsx"],
+      category: "undefined",
+      subcategory: "undefined",
+      chunks: []
+    },
     "checkbox-demo": {
       name: "checkbox-demo",
       type: "components:example",
@@ -9390,6 +9544,39 @@ export const Index: Record<string, any> = {
       subcategory: "undefined",
       chunks: []
     },
+    "fileUpload-demo": {
+      name: "fileUpload-demo",
+      type: "components:example",
+      registryDependencies: undefined,
+      component: React.lazy(() => import("@/registry/sydney/example/fileUpload-demo")),
+      source: "",
+      files: ["registry/sydney/example/fileUpload-demo.tsx"],
+      category: "undefined",
+      subcategory: "undefined",
+      chunks: []
+    },
+    "fileUpload-format": {
+      name: "fileUpload-format",
+      type: "components:example",
+      registryDependencies: undefined,
+      component: React.lazy(() => import("@/registry/sydney/example/fileUpload-format")),
+      source: "",
+      files: ["registry/sydney/example/fileUpload-format.tsx"],
+      category: "undefined",
+      subcategory: "undefined",
+      chunks: []
+    },
+    "fileUpload-preview": {
+      name: "fileUpload-preview",
+      type: "components:example",
+      registryDependencies: undefined,
+      component: React.lazy(() => import("@/registry/sydney/example/fileUpload-preview")),
+      source: "",
+      files: ["registry/sydney/example/fileUpload-preview.tsx"],
+      category: "undefined",
+      subcategory: "undefined",
+      chunks: []
+    },
     "hover-card-demo": {
       name: "hover-card-demo",
       type: "components:example",
@@ -9654,6 +9841,61 @@ export const Index: Record<string, any> = {
       subcategory: "undefined",
       chunks: []
     },
+    "message-demo": {
+      name: "message-demo",
+      type: "components:example",
+      registryDependencies: undefined,
+      component: React.lazy(() => import("@/registry/sydney/example/message-demo")),
+      source: "",
+      files: ["registry/sydney/example/message-demo.tsx"],
+      category: "undefined",
+      subcategory: "undefined",
+      chunks: []
+    },
+    "message-duration": {
+      name: "message-duration",
+      type: "components:example",
+      registryDependencies: undefined,
+      component: React.lazy(() => import("@/registry/sydney/example/message-duration")),
+      source: "",
+      files: ["registry/sydney/example/message-duration.tsx"],
+      category: "undefined",
+      subcategory: "undefined",
+      chunks: []
+    },
+    "message-error": {
+      name: "message-error",
+      type: "components:example",
+      registryDependencies: undefined,
+      component: React.lazy(() => import("@/registry/sydney/example/message-error")),
+      source: "",
+      files: ["registry/sydney/example/message-error.tsx"],
+      category: "undefined",
+      subcategory: "undefined",
+      chunks: []
+    },
+    "message-success": {
+      name: "message-success",
+      type: "components:example",
+      registryDependencies: undefined,
+      component: React.lazy(() => import("@/registry/sydney/example/message-success")),
+      source: "",
+      files: ["registry/sydney/example/message-success.tsx"],
+      category: "undefined",
+      subcategory: "undefined",
+      chunks: []
+    },
+    "message-warning": {
+      name: "message-warning",
+      type: "components:example",
+      registryDependencies: undefined,
+      component: React.lazy(() => import("@/registry/sydney/example/message-warning")),
+      source: "",
+      files: ["registry/sydney/example/message-warning.tsx"],
+      category: "undefined",
+      subcategory: "undefined",
+      chunks: []
+    },
     "modal-demo": {
       name: "modal-demo",
       type: "components:example",
@@ -9716,6 +9958,17 @@ export const Index: Record<string, any> = {
       component: React.lazy(() => import("@/registry/sydney/example/modal-signup")),
       source: "",
       files: ["registry/sydney/example/modal-signup.tsx"],
+      category: "undefined",
+      subcategory: "undefined",
+      chunks: []
+    },
+    "mode-toggle": {
+      name: "mode-toggle",
+      type: "components:example",
+      registryDependencies: undefined,
+      component: React.lazy(() => import("@/registry/sydney/example/mode-toggle")),
+      source: "",
+      files: ["registry/sydney/example/mode-toggle.tsx"],
       category: "undefined",
       subcategory: "undefined",
       chunks: []
@@ -10589,149 +10842,6 @@ export const Index: Record<string, any> = {
       subcategory: "undefined",
       chunks: []
     },
-    "mode-toggle": {
-      name: "mode-toggle",
-      type: "components:example",
-      registryDependencies: undefined,
-      component: React.lazy(() => import("@/registry/sydney/example/mode-toggle")),
-      source: "",
-      files: ["registry/sydney/example/mode-toggle.tsx"],
-      category: "undefined",
-      subcategory: "undefined",
-      chunks: []
-    },
-    "message-demo": {
-      name: "message-demo",
-      type: "components:example",
-      registryDependencies: undefined,
-      component: React.lazy(() => import("@/registry/sydney/example/message-demo")),
-      source: "",
-      files: ["registry/sydney/example/message-demo.tsx"],
-      category: "undefined",
-      subcategory: "undefined",
-      chunks: []
-    },
-    "message-duration": {
-      name: "message-duration",
-      type: "components:example",
-      registryDependencies: undefined,
-      component: React.lazy(() => import("@/registry/sydney/example/message-duration")),
-      source: "",
-      files: ["registry/sydney/example/message-duration.tsx"],
-      category: "undefined",
-      subcategory: "undefined",
-      chunks: []
-    },
-    "message-error": {
-      name: "message-error",
-      type: "components:example",
-      registryDependencies: undefined,
-      component: React.lazy(() => import("@/registry/sydney/example/message-error")),
-      source: "",
-      files: ["registry/sydney/example/message-error.tsx"],
-      category: "undefined",
-      subcategory: "undefined",
-      chunks: []
-    },
-    "message-success": {
-      name: "message-success",
-      type: "components:example",
-      registryDependencies: undefined,
-      component: React.lazy(() => import("@/registry/sydney/example/message-success")),
-      source: "",
-      files: ["registry/sydney/example/message-success.tsx"],
-      category: "undefined",
-      subcategory: "undefined",
-      chunks: []
-    },
-    "message-warning": {
-      name: "message-warning",
-      type: "components:example",
-      registryDependencies: undefined,
-      component: React.lazy(() => import("@/registry/sydney/example/message-warning")),
-      source: "",
-      files: ["registry/sydney/example/message-warning.tsx"],
-      category: "undefined",
-      subcategory: "undefined",
-      chunks: []
-    },
-    "cards": {
-      name: "cards",
-      type: "components:example",
-      registryDependencies: undefined,
-      component: React.lazy(() => import("@/registry/sydney/example/cards")),
-      source: "",
-      files: ["registry/sydney/example/cards/cards.tsx"],
-      category: "undefined",
-      subcategory: "undefined",
-      chunks: []
-    },
-    "chart-bar-demo": {
-      name: "chart-bar-demo",
-      type: "components:example",
-      registryDependencies: undefined,
-      component: React.lazy(() => import("@/registry/sydney/example/chart-bar-demo")),
-      source: "",
-      files: ["registry/sydney/example/chart-bar-demo.tsx"],
-      category: "undefined",
-      subcategory: "undefined",
-      chunks: []
-    },
-    "chart-bar-demo-grid": {
-      name: "chart-bar-demo-grid",
-      type: "components:example",
-      registryDependencies: undefined,
-      component: React.lazy(() => import("@/registry/sydney/example/chart-bar-demo-grid")),
-      source: "",
-      files: ["registry/sydney/example/chart-bar-demo-grid.tsx"],
-      category: "undefined",
-      subcategory: "undefined",
-      chunks: []
-    },
-    "chart-bar-demo-axis": {
-      name: "chart-bar-demo-axis",
-      type: "components:example",
-      registryDependencies: undefined,
-      component: React.lazy(() => import("@/registry/sydney/example/chart-bar-demo-axis")),
-      source: "",
-      files: ["registry/sydney/example/chart-bar-demo-axis.tsx"],
-      category: "undefined",
-      subcategory: "undefined",
-      chunks: []
-    },
-    "chart-bar-demo-tooltip": {
-      name: "chart-bar-demo-tooltip",
-      type: "components:example",
-      registryDependencies: undefined,
-      component: React.lazy(() => import("@/registry/sydney/example/chart-bar-demo-tooltip")),
-      source: "",
-      files: ["registry/sydney/example/chart-bar-demo-tooltip.tsx"],
-      category: "undefined",
-      subcategory: "undefined",
-      chunks: []
-    },
-    "chart-bar-demo-legend": {
-      name: "chart-bar-demo-legend",
-      type: "components:example",
-      registryDependencies: undefined,
-      component: React.lazy(() => import("@/registry/sydney/example/chart-bar-demo-legend")),
-      source: "",
-      files: ["registry/sydney/example/chart-bar-demo-legend.tsx"],
-      category: "undefined",
-      subcategory: "undefined",
-      chunks: []
-    },
-    "chart-tooltip-demo": {
-      name: "chart-tooltip-demo",
-      type: "components:example",
-      registryDependencies: undefined,
-      component: React.lazy(() => import("@/registry/sydney/example/chart-tooltip-demo")),
-      source: "",
-      files: ["registry/sydney/example/chart-tooltip-demo.tsx"],
-      category: "undefined",
-      subcategory: "undefined",
-      chunks: []
-    },
     "watermark-demo": {
       name: "watermark-demo",
       type: "components:example",
@@ -10739,39 +10849,6 @@ export const Index: Record<string, any> = {
       component: React.lazy(() => import("@/registry/sydney/example/watermark-demo")),
       source: "",
       files: ["registry/sydney/example/watermark-demo.tsx"],
-      category: "undefined",
-      subcategory: "undefined",
-      chunks: []
-    },
-    "fileUpload-demo": {
-      name: "fileUpload-demo",
-      type: "components:example",
-      registryDependencies: undefined,
-      component: React.lazy(() => import("@/registry/sydney/example/fileUpload-demo")),
-      source: "",
-      files: ["registry/sydney/example/fileUpload-demo.tsx"],
-      category: "undefined",
-      subcategory: "undefined",
-      chunks: []
-    },
-    "fileUpload-format": {
-      name: "fileUpload-format",
-      type: "components:example",
-      registryDependencies: undefined,
-      component: React.lazy(() => import("@/registry/sydney/example/fileUpload-format")),
-      source: "",
-      files: ["registry/sydney/example/fileUpload-format.tsx"],
-      category: "undefined",
-      subcategory: "undefined",
-      chunks: []
-    },
-    "fileUpload-preview": {
-      name: "fileUpload-preview",
-      type: "components:example",
-      registryDependencies: undefined,
-      component: React.lazy(() => import("@/registry/sydney/example/fileUpload-preview")),
-      source: "",
-      files: ["registry/sydney/example/fileUpload-preview.tsx"],
       category: "undefined",
       subcategory: "undefined",
       chunks: []
@@ -13043,13 +13120,79 @@ export const Index: Record<string, any> = {
       subcategory: "undefined",
       chunks: []
     },
+    "chart-bar-demo": {
+      name: "chart-bar-demo",
+      type: "components:example",
+      registryDependencies: undefined,
+      component: React.lazy(() => import("@/registry/ibm/example/chart-bar-demo")),
+      source: "",
+      files: ["registry/ibm/example/chart-bar-demo.tsx"],
+      category: "undefined",
+      subcategory: "undefined",
+      chunks: []
+    },
+    "chart-bar-demo-grid": {
+      name: "chart-bar-demo-grid",
+      type: "components:example",
+      registryDependencies: undefined,
+      component: React.lazy(() => import("@/registry/ibm/example/chart-bar-demo-grid")),
+      source: "",
+      files: ["registry/ibm/example/chart-bar-demo-grid.tsx"],
+      category: "undefined",
+      subcategory: "undefined",
+      chunks: []
+    },
+    "chart-bar-demo-axis": {
+      name: "chart-bar-demo-axis",
+      type: "components:example",
+      registryDependencies: undefined,
+      component: React.lazy(() => import("@/registry/ibm/example/chart-bar-demo-axis")),
+      source: "",
+      files: ["registry/ibm/example/chart-bar-demo-axis.tsx"],
+      category: "undefined",
+      subcategory: "undefined",
+      chunks: []
+    },
+    "chart-bar-demo-tooltip": {
+      name: "chart-bar-demo-tooltip",
+      type: "components:example",
+      registryDependencies: undefined,
+      component: React.lazy(() => import("@/registry/ibm/example/chart-bar-demo-tooltip")),
+      source: "",
+      files: ["registry/ibm/example/chart-bar-demo-tooltip.tsx"],
+      category: "undefined",
+      subcategory: "undefined",
+      chunks: []
+    },
+    "chart-bar-demo-legend": {
+      name: "chart-bar-demo-legend",
+      type: "components:example",
+      registryDependencies: undefined,
+      component: React.lazy(() => import("@/registry/ibm/example/chart-bar-demo-legend")),
+      source: "",
+      files: ["registry/ibm/example/chart-bar-demo-legend.tsx"],
+      category: "undefined",
+      subcategory: "undefined",
+      chunks: []
+    },
+    "chart-tooltip-demo": {
+      name: "chart-tooltip-demo",
+      type: "components:example",
+      registryDependencies: undefined,
+      component: React.lazy(() => import("@/registry/ibm/example/chart-tooltip-demo")),
+      source: "",
+      files: ["registry/ibm/example/chart-tooltip-demo.tsx"],
+      category: "undefined",
+      subcategory: "undefined",
+      chunks: []
+    },
     "chat-demo": {
       name: "chat-demo",
       type: "components:example",
-      registryDependencies: ["card","button"],
-      component: React.lazy(() => import("@/registry/unsw/example/chat-demo")),
+      registryDependencies: ["card"],
+      component: React.lazy(() => import("@/registry/ibm/example/chat-demo")),
       source: "",
-      files: ["registry/unsw/example/chat-demo.tsx"],
+      files: ["registry/ibm/example/chat-demo.tsx"],
       category: "undefined",
       subcategory: "undefined",
       chunks: []
@@ -13057,10 +13200,10 @@ export const Index: Record<string, any> = {
     "chat-attachment": {
       name: "chat-attachment",
       type: "components:example",
-      registryDependencies: ["card","button"],
-      component: React.lazy(() => import("@/registry/unsw/example/chat-attachment")),
+      registryDependencies: ["card"],
+      component: React.lazy(() => import("@/registry/ibm/example/chat-attachment")),
       source: "",
-      files: ["registry/unsw/example/chat-attachment.tsx"],
+      files: ["registry/ibm/example/chat-attachment.tsx"],
       category: "undefined",
       subcategory: "undefined",
       chunks: []
@@ -13406,6 +13549,39 @@ export const Index: Record<string, any> = {
       subcategory: "undefined",
       chunks: []
     },
+    "fileUpload-demo": {
+      name: "fileUpload-demo",
+      type: "components:example",
+      registryDependencies: undefined,
+      component: React.lazy(() => import("@/registry/ibm/example/fileUpload-demo")),
+      source: "",
+      files: ["registry/ibm/example/fileUpload-demo.tsx"],
+      category: "undefined",
+      subcategory: "undefined",
+      chunks: []
+    },
+    "fileUpload-format": {
+      name: "fileUpload-format",
+      type: "components:example",
+      registryDependencies: undefined,
+      component: React.lazy(() => import("@/registry/ibm/example/fileUpload-format")),
+      source: "",
+      files: ["registry/ibm/example/fileUpload-format.tsx"],
+      category: "undefined",
+      subcategory: "undefined",
+      chunks: []
+    },
+    "fileUpload-preview": {
+      name: "fileUpload-preview",
+      type: "components:example",
+      registryDependencies: undefined,
+      component: React.lazy(() => import("@/registry/ibm/example/fileUpload-preview")),
+      source: "",
+      files: ["registry/ibm/example/fileUpload-preview.tsx"],
+      category: "undefined",
+      subcategory: "undefined",
+      chunks: []
+    },
     "hover-card-demo": {
       name: "hover-card-demo",
       type: "components:example",
@@ -13670,6 +13846,61 @@ export const Index: Record<string, any> = {
       subcategory: "undefined",
       chunks: []
     },
+    "message-demo": {
+      name: "message-demo",
+      type: "components:example",
+      registryDependencies: undefined,
+      component: React.lazy(() => import("@/registry/ibm/example/message-demo")),
+      source: "",
+      files: ["registry/ibm/example/message-demo.tsx"],
+      category: "undefined",
+      subcategory: "undefined",
+      chunks: []
+    },
+    "message-duration": {
+      name: "message-duration",
+      type: "components:example",
+      registryDependencies: undefined,
+      component: React.lazy(() => import("@/registry/ibm/example/message-duration")),
+      source: "",
+      files: ["registry/ibm/example/message-duration.tsx"],
+      category: "undefined",
+      subcategory: "undefined",
+      chunks: []
+    },
+    "message-error": {
+      name: "message-error",
+      type: "components:example",
+      registryDependencies: undefined,
+      component: React.lazy(() => import("@/registry/ibm/example/message-error")),
+      source: "",
+      files: ["registry/ibm/example/message-error.tsx"],
+      category: "undefined",
+      subcategory: "undefined",
+      chunks: []
+    },
+    "message-success": {
+      name: "message-success",
+      type: "components:example",
+      registryDependencies: undefined,
+      component: React.lazy(() => import("@/registry/ibm/example/message-success")),
+      source: "",
+      files: ["registry/ibm/example/message-success.tsx"],
+      category: "undefined",
+      subcategory: "undefined",
+      chunks: []
+    },
+    "message-warning": {
+      name: "message-warning",
+      type: "components:example",
+      registryDependencies: undefined,
+      component: React.lazy(() => import("@/registry/ibm/example/message-warning")),
+      source: "",
+      files: ["registry/ibm/example/message-warning.tsx"],
+      category: "undefined",
+      subcategory: "undefined",
+      chunks: []
+    },
     "modal-demo": {
       name: "modal-demo",
       type: "components:example",
@@ -13732,6 +13963,17 @@ export const Index: Record<string, any> = {
       component: React.lazy(() => import("@/registry/ibm/example/modal-signup")),
       source: "",
       files: ["registry/ibm/example/modal-signup.tsx"],
+      category: "undefined",
+      subcategory: "undefined",
+      chunks: []
+    },
+    "mode-toggle": {
+      name: "mode-toggle",
+      type: "components:example",
+      registryDependencies: undefined,
+      component: React.lazy(() => import("@/registry/ibm/example/mode-toggle")),
+      source: "",
+      files: ["registry/ibm/example/mode-toggle.tsx"],
       category: "undefined",
       subcategory: "undefined",
       chunks: []
@@ -14605,149 +14847,6 @@ export const Index: Record<string, any> = {
       subcategory: "undefined",
       chunks: []
     },
-    "mode-toggle": {
-      name: "mode-toggle",
-      type: "components:example",
-      registryDependencies: undefined,
-      component: React.lazy(() => import("@/registry/ibm/example/mode-toggle")),
-      source: "",
-      files: ["registry/ibm/example/mode-toggle.tsx"],
-      category: "undefined",
-      subcategory: "undefined",
-      chunks: []
-    },
-    "message-demo": {
-      name: "message-demo",
-      type: "components:example",
-      registryDependencies: undefined,
-      component: React.lazy(() => import("@/registry/ibm/example/message-demo")),
-      source: "",
-      files: ["registry/ibm/example/message-demo.tsx"],
-      category: "undefined",
-      subcategory: "undefined",
-      chunks: []
-    },
-    "message-duration": {
-      name: "message-duration",
-      type: "components:example",
-      registryDependencies: undefined,
-      component: React.lazy(() => import("@/registry/ibm/example/message-duration")),
-      source: "",
-      files: ["registry/ibm/example/message-duration.tsx"],
-      category: "undefined",
-      subcategory: "undefined",
-      chunks: []
-    },
-    "message-error": {
-      name: "message-error",
-      type: "components:example",
-      registryDependencies: undefined,
-      component: React.lazy(() => import("@/registry/ibm/example/message-error")),
-      source: "",
-      files: ["registry/ibm/example/message-error.tsx"],
-      category: "undefined",
-      subcategory: "undefined",
-      chunks: []
-    },
-    "message-success": {
-      name: "message-success",
-      type: "components:example",
-      registryDependencies: undefined,
-      component: React.lazy(() => import("@/registry/ibm/example/message-success")),
-      source: "",
-      files: ["registry/ibm/example/message-success.tsx"],
-      category: "undefined",
-      subcategory: "undefined",
-      chunks: []
-    },
-    "message-warning": {
-      name: "message-warning",
-      type: "components:example",
-      registryDependencies: undefined,
-      component: React.lazy(() => import("@/registry/ibm/example/message-warning")),
-      source: "",
-      files: ["registry/ibm/example/message-warning.tsx"],
-      category: "undefined",
-      subcategory: "undefined",
-      chunks: []
-    },
-    "cards": {
-      name: "cards",
-      type: "components:example",
-      registryDependencies: undefined,
-      component: React.lazy(() => import("@/registry/ibm/example/cards")),
-      source: "",
-      files: ["registry/ibm/example/cards/cards.tsx"],
-      category: "undefined",
-      subcategory: "undefined",
-      chunks: []
-    },
-    "chart-bar-demo": {
-      name: "chart-bar-demo",
-      type: "components:example",
-      registryDependencies: undefined,
-      component: React.lazy(() => import("@/registry/ibm/example/chart-bar-demo")),
-      source: "",
-      files: ["registry/ibm/example/chart-bar-demo.tsx"],
-      category: "undefined",
-      subcategory: "undefined",
-      chunks: []
-    },
-    "chart-bar-demo-grid": {
-      name: "chart-bar-demo-grid",
-      type: "components:example",
-      registryDependencies: undefined,
-      component: React.lazy(() => import("@/registry/ibm/example/chart-bar-demo-grid")),
-      source: "",
-      files: ["registry/ibm/example/chart-bar-demo-grid.tsx"],
-      category: "undefined",
-      subcategory: "undefined",
-      chunks: []
-    },
-    "chart-bar-demo-axis": {
-      name: "chart-bar-demo-axis",
-      type: "components:example",
-      registryDependencies: undefined,
-      component: React.lazy(() => import("@/registry/ibm/example/chart-bar-demo-axis")),
-      source: "",
-      files: ["registry/ibm/example/chart-bar-demo-axis.tsx"],
-      category: "undefined",
-      subcategory: "undefined",
-      chunks: []
-    },
-    "chart-bar-demo-tooltip": {
-      name: "chart-bar-demo-tooltip",
-      type: "components:example",
-      registryDependencies: undefined,
-      component: React.lazy(() => import("@/registry/ibm/example/chart-bar-demo-tooltip")),
-      source: "",
-      files: ["registry/ibm/example/chart-bar-demo-tooltip.tsx"],
-      category: "undefined",
-      subcategory: "undefined",
-      chunks: []
-    },
-    "chart-bar-demo-legend": {
-      name: "chart-bar-demo-legend",
-      type: "components:example",
-      registryDependencies: undefined,
-      component: React.lazy(() => import("@/registry/ibm/example/chart-bar-demo-legend")),
-      source: "",
-      files: ["registry/ibm/example/chart-bar-demo-legend.tsx"],
-      category: "undefined",
-      subcategory: "undefined",
-      chunks: []
-    },
-    "chart-tooltip-demo": {
-      name: "chart-tooltip-demo",
-      type: "components:example",
-      registryDependencies: undefined,
-      component: React.lazy(() => import("@/registry/ibm/example/chart-tooltip-demo")),
-      source: "",
-      files: ["registry/ibm/example/chart-tooltip-demo.tsx"],
-      category: "undefined",
-      subcategory: "undefined",
-      chunks: []
-    },
     "watermark-demo": {
       name: "watermark-demo",
       type: "components:example",
@@ -14755,39 +14854,6 @@ export const Index: Record<string, any> = {
       component: React.lazy(() => import("@/registry/ibm/example/watermark-demo")),
       source: "",
       files: ["registry/ibm/example/watermark-demo.tsx"],
-      category: "undefined",
-      subcategory: "undefined",
-      chunks: []
-    },
-    "fileUpload-demo": {
-      name: "fileUpload-demo",
-      type: "components:example",
-      registryDependencies: undefined,
-      component: React.lazy(() => import("@/registry/ibm/example/fileUpload-demo")),
-      source: "",
-      files: ["registry/ibm/example/fileUpload-demo.tsx"],
-      category: "undefined",
-      subcategory: "undefined",
-      chunks: []
-    },
-    "fileUpload-format": {
-      name: "fileUpload-format",
-      type: "components:example",
-      registryDependencies: undefined,
-      component: React.lazy(() => import("@/registry/ibm/example/fileUpload-format")),
-      source: "",
-      files: ["registry/ibm/example/fileUpload-format.tsx"],
-      category: "undefined",
-      subcategory: "undefined",
-      chunks: []
-    },
-    "fileUpload-preview": {
-      name: "fileUpload-preview",
-      type: "components:example",
-      registryDependencies: undefined,
-      component: React.lazy(() => import("@/registry/ibm/example/fileUpload-preview")),
-      source: "",
-      files: ["registry/ibm/example/fileUpload-preview.tsx"],
       category: "undefined",
       subcategory: "undefined",
       chunks: []

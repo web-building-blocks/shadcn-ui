@@ -224,11 +224,6 @@ export const examples: Registry = [
     files: ["example/calendar-form.tsx"],
   },
   {
-    name: "cards",
-    type: "components:example",
-    files: ["example/cards/cards.tsx"],
-  },
-  {
     name: "card-demo",
     type: "components:example",
     registryDependencies: ["card", "button", "switch"],
@@ -359,6 +354,18 @@ export const examples: Registry = [
     name: "chart-tooltip-demo",
     type: "components:example",
     files: ["example/chart-tooltip-demo.tsx"],
+  },
+  {
+    name: "chat-demo",
+    type: "components:example",
+    registryDependencies: ["card"],
+    files: ["example/chat-demo.tsx"],
+  },
+  {
+    name: "chat-attachment",
+    type: "components:example",
+    registryDependencies: ["card"],
+    files: ["example/chat-attachment.tsx"],
   },
   {
     name: "checkbox-demo",
@@ -1237,7 +1244,7 @@ export const examples: Registry = [
     type: "components:example",
     files: ["example/typography-table.tsx"],
   },
-  
+
   {
     name: "watermark-demo",
     type: "components:example",

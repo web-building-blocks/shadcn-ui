@@ -1,11 +1,11 @@
 import React, { useState } from "react"
 import { SendHorizontal, Upload } from "lucide-react"
 
-import { Button } from "@/registry/default/ui/button"
-import { Card, CardContent, CardHeader } from "@/registry/default/ui/card"
-import { Input } from "@/registry/default/ui/input"
-import { Toaster } from "@/registry/default/ui/toaster"
-import { useToast } from "@/registry/default/ui/use-toast"
+import { Button } from "@/registry/new-york/ui/button"
+import { Card, CardContent, CardHeader } from "@/registry/new-york/ui/card"
+import { Input } from "@/registry/new-york/ui/input"
+import { Toaster } from "@/registry/new-york/ui/toaster"
+import { useToast } from "@/registry/new-york/ui/use-toast"
 
 export default function AttachmentChat() {
   interface IMessage {
@@ -27,7 +27,7 @@ export default function AttachmentChat() {
   const handleSent = (message: string) => {
     toast({
       description: (
-        <div className="w-[340px] rounded-md bg-slate-950 p-4 text-black">
+        <div className="w-[340px] rounded-md bg-orange-600 p-4 text-black">
           Message sent: {message}
         </div>
       ),
@@ -42,12 +42,10 @@ export default function AttachmentChat() {
         <img
           src={fileUrl}
           alt={`Thumbnail of ${file.name}`}
-          style={{ maxWidth: "100px", maxHeight: "100px" }}
+          className="max-h-[100px] max-w-[100px] rounded"
         />
       ) : (
-        <span style={{ textDecoration: "underline", color: "white" }}>
-          {file.name}
-        </span>
+        <span className="text-white underline">{file.name}</span>
       )
       return {
         text: textContent,
@@ -65,108 +63,81 @@ export default function AttachmentChat() {
     sendFiles(files)
   }
 
-  const messageStyles = {
-    sent: {
-      backgroundColor: "black",
-      color: "white",
-      borderRadius: "10px",
-      padding: "12px",
-      margin: "5px 0",
-      wordBreak: "break-word",
-      maxWidth: "300px",
-    },
-    received: {
-      backgroundColor: "lightgrey",
-      color: "black",
-      borderRadius: "10px",
-      padding: "12px",
-      margin: "5px 0",
-      wordBreak: "break-word",
-      maxWidth: "300px",
-    },
-  }
-
   return (
     <>
       <Toaster />
-      <Card
-        className="w-full max-w-md bg-white rounded-lg shadow-sm overflow-hidden"
-        style={{ width: "500px" }}
-      >
-        <CardHeader className="bg-gray-100 p-4 flex justify-between items-left">
-          <div>
-            <div style={{ fontWeight: "bold" }}>Sofia Davis</div>
-            <div style={{ fontSize: "0.875rem", color: "#999999" }}>
-              m@example.com
-            </div>
-          </div>
+      <Card className="w-full max-w-md overflow-hidden rounded-lg bg-white shadow-sm">
+        <CardHeader className="flex flex-col bg-gray-100 p-4">
+          <div className="font-bold">Sofia Davis</div>
+          <div className="text-sm text-gray-500">m@example.com</div>
         </CardHeader>
 
         <CardContent className="p-4">
-          {messages.map((message, index) => (
-            <div
-              key={index}
-              className={`flex ${
-                message.type === "sent" ? "justify-end" : "justify-start"
-              }`}
-            >
-              <span style={messageStyles[message.type]}>
-                {message.fileUrl ? (
-                  <a
-                    href={message.fileUrl}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    style={{ textDecoration: "underline", color: "blue" }}
-                  >
-                    {message.text}
-                  </a>
-                ) : (
-                  message.text
-                )}
-              </span>
-            </div>
-          ))}
-          <form className="flex mt-2">
+          <div className="space-y-2">
+            {messages.map((message, index) => (
+              <div
+                key={index}
+                className={`flex ${
+                  message.type === "sent" ? "justify-end" : "justify-start"
+                }`}
+              >
+                <span
+                  className={`${
+                    message.type === "sent"
+                      ? "bg-black text-white"
+                      : "bg-gray-200 text-black"
+                  } max-w-xs break-words rounded-lg px-4 py-2`}
+                >
+                  {message.fileUrl ? (
+                    <a
+                      href={message.fileUrl}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="text-blue-500 underline"
+                    >
+                      {message.text}
+                    </a>
+                  ) : (
+                    message.text
+                  )}
+                </span>
+              </div>
+            ))}
+          </div>
+          <form
+            className="mt-4 flex items-center space-x-2"
+            onSubmit={(e) => {
+              e.preventDefault()
+              if (newMessage.trim()) {
+                setMessages([...messages, { text: newMessage, type: "sent" }])
+                handleSent(newMessage)
+                setNewMessage("")
+              }
+            }}
+          >
             <input
               type="file"
               multiple
               onChange={handleFileChange}
-              style={{ display: "none" }}
+              className="hidden"
               id="file-upload"
             />
             <Button
-              variant="destructive"
-              style={{ marginRight: "8px", padding: "4px 6px" }}
-              onClick={() => document.getElementById("file-upload").click()}
+              onClick={() => document.getElementById("file-upload")?.click()}
             >
-              <span className="flex items-center gap-2">
-                <Upload className="file-upload-icon" />
-              </span>
+              <Upload />
             </Button>
 
             <Input
               type="text"
               placeholder="Type your message..."
-              className="flex-grow border-gray-300 rounded-full p-2 mr-2"
+              className="flex-grow rounded-full border border-gray-300 px-4 py-2"
               value={newMessage}
               onChange={(e) => setNewMessage(e.target.value)}
             />
 
-            <Button
-              variant="destructive"
-              disabled={!newMessage.trim()}
-              style={{ marginRight: "8px", padding: "4px 6px" }}
-              onClick={() => {
-                if (newMessage.trim()) {
-                  setMessages([...messages, { text: newMessage, type: "sent" }])
-                  handleSent(newMessage)
-                  setNewMessage("")
-                }
-              }}
-            >
-              <span className="flex items-center gap-2">
-                <SendHorizontal className="sent-icon" />
-              </span>
+            <Button disabled={!newMessage.trim()} type="submit">
+              <SendHorizontal />
             </Button>
           </form>
         </CardContent>
