@@ -348,3 +348,32 @@ usually we only need to modify the displayed theme, i.e, in `component-preview.t
 8. Another team member will check everything done in the above steps and approve/reject
 
 if you tried any of the steps mentioned in this doc that don't work, please try to use search functions to search the whole code to see any other files should be modified to make it happen (usually not but it is better to know), and do not touch anything that is automatically generated (e.g. `apps/www/__registr__/`, `apps/www/public/registry/`)
+
+### How to add new story for new component in Storybook
+1. Configure Storybook (we've already done this step so you can just skip it). you can customize Storybook settings by editing `.storybook/main.ts` or `.storybook/preview.ts`:
+    - `main.ts`: Add file extensions, story paths, or configure addons.
+    - `preview.ts`: Set global decorators, parameters, or theming.
+2. Add your component file to the directory `stories`(e.g. `stories/new-component.tsx`) Ensure your component is functional and styled according to our design system (using Tailwind CSS as configured in tailwind.config.cjs).
+3. Create a new .stories.tsx file in the same directory where your component resides.(e.g.`stories/new-component.stories.tsx`)
+4. Start Storybook locally to preview your new story: `npm run storybook`.
+5. Test and Adjust
+    - Open your browser at http://localhost:6006 to view the new story.
+    - Use Storybook’s controls to test props and appearance.
+    - Adjust the component or story as needed.
+
+### How to add new component documentation
+1. create a new `new-component.mdx` in `apps\www\content\doc\components`, add your documentation detail according to [documentation](./DOCUMENTATION.md).
+2. add new lines in `apps\www\config\docs.ts`
+  ```ts
+    {
+      title: "Components",
+      items: [
+          {
+          title: "New-component",
+          href: "/docs/components/new-component",
+          items: [],
+        },
+      ]
+    }
+  ```
+  3. after your edit of documentation, run `pnpm build:registry`.
