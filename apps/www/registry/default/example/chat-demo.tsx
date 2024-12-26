@@ -27,7 +27,7 @@ export default function NormalChat() {
     })
   }
 
-  const sendMessage = (e) => {
+  const sendMessage = (e: { preventDefault: () => void }) => {
     e.preventDefault()
     if (!newMessage.trim()) return
     setMessages([...messages, { text: newMessage, type: "sent" }])
