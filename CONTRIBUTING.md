@@ -349,14 +349,87 @@ usually we only need to modify the displayed theme, i.e, in `component-preview.t
 
 if you tried any of the steps mentioned in this doc that don't work, please try to use search functions to search the whole code to see any other files should be modified to make it happen (usually not but it is better to know), and do not touch anything that is automatically generated (e.g. `apps/www/__registr__/`, `apps/www/public/registry/`)
 
-### How to add new story for new component in Storybook
-1. Configure Storybook (we've already done this step so you can just skip it). you can customize Storybook settings by editing `.storybook/main.ts` or `.storybook/preview.ts`:
+### How to install Storybook and add storyies for new components912 in Storybook
+1. Run `npm install storybook` on your terminal, choose next.js, please refer to the [storybook official site](https://storybook.js.org/docs/get-started/frameworks/nextjs?renderer=react)
+2. Configure Storybook (we've already done this step so you can just skip it). you can customize Storybook settings by editing `.storybook/main.ts` or `.storybook/preview.ts`:
     - `main.ts`: Add file extensions, story paths, or configure addons.
+      ```ts
+      import { dirname, join } from "path";
+      import type { StorybookConfig } from "@storybook/nextjs";
+
+      /**
+      * This function is used to resolve the absolute path of a package.
+      * It is needed in projects that use Yarn PnP or are set up within a monorepo.
+      */
+      function getAbsolutePath(value: string): any {
+        return dirname(require.resolve(join(value, "package.json")));
+      }
+
+      const config: StorybookConfig = {
+        stories: [
+          "../stories/**/*.mdx",
+          "../stories/**/*.stories.@(js|jsx|mjs|ts|tsx)",
+          "../apps/www/registry/default/example/**/*.stories.@(js|jsx|mjs|ts|tsx)"
+        ],
+
+        addons: [
+          getAbsolutePath("@storybook/addon-onboarding"),
+          getAbsolutePath("@storybook/addon-links"),
+          getAbsolutePath("@storybook/addon-essentials"),
+          getAbsolutePath("@chromatic-com/storybook"),
+          getAbsolutePath("@storybook/addon-interactions"),
+          getAbsolutePath("@storybook/addon-mdx-gfm"),
+          "@chromatic-com/storybook"
+        ],
+        framework: {
+          name: getAbsolutePath("@storybook/nextjs"),
+          options: {},
+        },
+        docs: {},
+        typescript: {
+          reactDocgen: "react-docgen-typescript"
+        },
+        webpackFinal: async (config) => {
+          config.resolve.alias = {
+            ...config.resolve.alias,
+            '@': join(__dirname, '../apps/www'), 
+          };
+          return config;
+        }
+      };
+
+      export default config;
+      ```
     - `preview.ts`: Set global decorators, parameters, or theming.
-2. Add your component file to the directory `stories`(e.g. `stories/new-component.tsx`) Ensure your component is functional and styled according to our design system (using Tailwind CSS as configured in tailwind.config.cjs).
-3. Create a new .stories.tsx file in the same directory where your component resides.(e.g.`stories/new-component.stories.tsx`)
-4. Start Storybook locally to preview your new story: `npm run storybook`.
-5. Test and Adjust
+      ```ts
+      import '../apps/www/styles/globals.css';  
+      import type { Preview } from "@storybook/react"
+      const preview: Preview = {
+        parameters: {
+          controls: {
+            matchers: {
+              color: /(background|color)$/i,
+              date: /Date$/i,
+            },
+          },
+        },
+        tags: ["autodocs"]
+      }
+      export default preview
+      ```
+    - `tailwind.config.cjs`:
+      ```js
+      //...
+      module.exports = {
+      darkMode: ["class"],
+      content: ["app/**/*.{ts,tsx}","components/**/*.{ts,tsx}","stories/**/*.{ts,tsx}","apps/www/registry/default/example/**/*.{ts,tsx}"],
+      //...
+      }
+      ```
+3. Add your component file to the directory `stories`(e.g. `stories/new-component.tsx`) Ensure your component is functional and styled according to our design system (using Tailwind CSS as configured in tailwind.config.cjs).
+4. Create a new .stories.tsx file in the same directory where your component resides.(e.g.`stories/new-component.stories.tsx`)
+5. Start Storybook locally to preview your new story: `npm run storybook`.
+6. Test and Adjust
     - Open your browser at http://localhost:6006 to view the new story.
     - Use Storybook’s controls to test props and appearance.
     - Adjust the component or story as needed.
