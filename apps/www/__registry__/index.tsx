@@ -16024,5 +16024,4010 @@ export const Index: Record<string, any> = {
       subcategory: "Tooltip",
       chunks: []
     },
+  },  "UNSW": {
+    "accordion": {
+      name: "accordion",
+      type: "components:ui",
+      registryDependencies: undefined,
+      component: React.lazy(() => import("@/registry/UNSW/ui/accordion")),
+      source: "",
+      files: ["registry/UNSW/ui/accordion.tsx"],
+      category: "undefined",
+      subcategory: "undefined",
+      chunks: []
+    },
+    "alert": {
+      name: "alert",
+      type: "components:ui",
+      registryDependencies: undefined,
+      component: React.lazy(() => import("@/registry/UNSW/ui/alert")),
+      source: "",
+      files: ["registry/UNSW/ui/alert.tsx"],
+      category: "undefined",
+      subcategory: "undefined",
+      chunks: []
+    },
+    "alert-dialog": {
+      name: "alert-dialog",
+      type: "components:ui",
+      registryDependencies: ["button"],
+      component: React.lazy(() => import("@/registry/UNSW/ui/alert-dialog")),
+      source: "",
+      files: ["registry/UNSW/ui/alert-dialog.tsx"],
+      category: "undefined",
+      subcategory: "undefined",
+      chunks: []
+    },
+    "aspect-ratio": {
+      name: "aspect-ratio",
+      type: "components:ui",
+      registryDependencies: undefined,
+      component: React.lazy(() => import("@/registry/UNSW/ui/aspect-ratio")),
+      source: "",
+      files: ["registry/UNSW/ui/aspect-ratio.tsx"],
+      category: "undefined",
+      subcategory: "undefined",
+      chunks: []
+    },
+    "avatar": {
+      name: "avatar",
+      type: "components:ui",
+      registryDependencies: undefined,
+      component: React.lazy(() => import("@/registry/UNSW/ui/avatar")),
+      source: "",
+      files: ["registry/UNSW/ui/avatar.tsx"],
+      category: "undefined",
+      subcategory: "undefined",
+      chunks: []
+    },
+    "badge": {
+      name: "badge",
+      type: "components:ui",
+      registryDependencies: undefined,
+      component: React.lazy(() => import("@/registry/UNSW/ui/badge")),
+      source: "",
+      files: ["registry/UNSW/ui/badge.tsx"],
+      category: "undefined",
+      subcategory: "undefined",
+      chunks: []
+    },
+    "breadcrumb": {
+      name: "breadcrumb",
+      type: "components:ui",
+      registryDependencies: undefined,
+      component: React.lazy(() => import("@/registry/UNSW/ui/breadcrumb")),
+      source: "",
+      files: ["registry/UNSW/ui/breadcrumb.tsx"],
+      category: "undefined",
+      subcategory: "undefined",
+      chunks: []
+    },
+    "button": {
+      name: "button",
+      type: "components:ui",
+      registryDependencies: undefined,
+      component: React.lazy(() => import("@/registry/UNSW/ui/button")),
+      source: "",
+      files: ["registry/UNSW/ui/button.tsx"],
+      category: "undefined",
+      subcategory: "undefined",
+      chunks: []
+    },
+    "calendar": {
+      name: "calendar",
+      type: "components:ui",
+      registryDependencies: ["button"],
+      component: React.lazy(() => import("@/registry/UNSW/ui/calendar")),
+      source: "",
+      files: ["registry/UNSW/ui/calendar.tsx"],
+      category: "undefined",
+      subcategory: "undefined",
+      chunks: []
+    },
+    "card": {
+      name: "card",
+      type: "components:ui",
+      registryDependencies: undefined,
+      component: React.lazy(() => import("@/registry/UNSW/ui/card")),
+      source: "",
+      files: ["registry/UNSW/ui/card.tsx"],
+      category: "undefined",
+      subcategory: "undefined",
+      chunks: []
+    },
+    "carousel": {
+      name: "carousel",
+      type: "components:ui",
+      registryDependencies: ["button"],
+      component: React.lazy(() => import("@/registry/UNSW/ui/carousel")),
+      source: "",
+      files: ["registry/UNSW/ui/carousel.tsx"],
+      category: "undefined",
+      subcategory: "undefined",
+      chunks: []
+    },
+    "chart": {
+      name: "chart",
+      type: "components:ui",
+      registryDependencies: ["card"],
+      component: React.lazy(() => import("@/registry/UNSW/ui/chart")),
+      source: "",
+      files: ["registry/UNSW/ui/chart.tsx"],
+      category: "undefined",
+      subcategory: "undefined",
+      chunks: []
+    },
+    "checkbox": {
+      name: "checkbox",
+      type: "components:ui",
+      registryDependencies: undefined,
+      component: React.lazy(() => import("@/registry/UNSW/ui/checkbox")),
+      source: "",
+      files: ["registry/UNSW/ui/checkbox.tsx"],
+      category: "undefined",
+      subcategory: "undefined",
+      chunks: []
+    },
+    "collapsible": {
+      name: "collapsible",
+      type: "components:ui",
+      registryDependencies: undefined,
+      component: React.lazy(() => import("@/registry/UNSW/ui/collapsible")),
+      source: "",
+      files: ["registry/UNSW/ui/collapsible.tsx"],
+      category: "undefined",
+      subcategory: "undefined",
+      chunks: []
+    },
+    "command": {
+      name: "command",
+      type: "components:ui",
+      registryDependencies: ["dialog"],
+      component: React.lazy(() => import("@/registry/UNSW/ui/command")),
+      source: "",
+      files: ["registry/UNSW/ui/command.tsx"],
+      category: "undefined",
+      subcategory: "undefined",
+      chunks: []
+    },
+    "context-menu": {
+      name: "context-menu",
+      type: "components:ui",
+      registryDependencies: undefined,
+      component: React.lazy(() => import("@/registry/UNSW/ui/context-menu")),
+      source: "",
+      files: ["registry/UNSW/ui/context-menu.tsx"],
+      category: "undefined",
+      subcategory: "undefined",
+      chunks: []
+    },
+    "dialog": {
+      name: "dialog",
+      type: "components:ui",
+      registryDependencies: undefined,
+      component: React.lazy(() => import("@/registry/UNSW/ui/dialog")),
+      source: "",
+      files: ["registry/UNSW/ui/dialog.tsx"],
+      category: "undefined",
+      subcategory: "undefined",
+      chunks: []
+    },
+    "drawer": {
+      name: "drawer",
+      type: "components:ui",
+      registryDependencies: undefined,
+      component: React.lazy(() => import("@/registry/UNSW/ui/drawer")),
+      source: "",
+      files: ["registry/UNSW/ui/drawer.tsx"],
+      category: "undefined",
+      subcategory: "undefined",
+      chunks: []
+    },
+    "dropdown-menu": {
+      name: "dropdown-menu",
+      type: "components:ui",
+      registryDependencies: undefined,
+      component: React.lazy(() => import("@/registry/UNSW/ui/dropdown-menu")),
+      source: "",
+      files: ["registry/UNSW/ui/dropdown-menu.tsx"],
+      category: "undefined",
+      subcategory: "undefined",
+      chunks: []
+    },
+    "form": {
+      name: "form",
+      type: "components:ui",
+      registryDependencies: ["button","label"],
+      component: React.lazy(() => import("@/registry/UNSW/ui/form")),
+      source: "",
+      files: ["registry/UNSW/ui/form.tsx"],
+      category: "undefined",
+      subcategory: "undefined",
+      chunks: []
+    },
+    "hover-card": {
+      name: "hover-card",
+      type: "components:ui",
+      registryDependencies: undefined,
+      component: React.lazy(() => import("@/registry/UNSW/ui/hover-card")),
+      source: "",
+      files: ["registry/UNSW/ui/hover-card.tsx"],
+      category: "undefined",
+      subcategory: "undefined",
+      chunks: []
+    },
+    "input": {
+      name: "input",
+      type: "components:ui",
+      registryDependencies: undefined,
+      component: React.lazy(() => import("@/registry/UNSW/ui/input")),
+      source: "",
+      files: ["registry/UNSW/ui/input.tsx"],
+      category: "undefined",
+      subcategory: "undefined",
+      chunks: []
+    },
+    "input-otp": {
+      name: "input-otp",
+      type: "components:ui",
+      registryDependencies: undefined,
+      component: React.lazy(() => import("@/registry/UNSW/ui/input-otp")),
+      source: "",
+      files: ["registry/UNSW/ui/input-otp.tsx"],
+      category: "undefined",
+      subcategory: "undefined",
+      chunks: []
+    },
+    "label": {
+      name: "label",
+      type: "components:ui",
+      registryDependencies: undefined,
+      component: React.lazy(() => import("@/registry/UNSW/ui/label")),
+      source: "",
+      files: ["registry/UNSW/ui/label.tsx"],
+      category: "undefined",
+      subcategory: "undefined",
+      chunks: []
+    },
+    "menubar": {
+      name: "menubar",
+      type: "components:ui",
+      registryDependencies: undefined,
+      component: React.lazy(() => import("@/registry/UNSW/ui/menubar")),
+      source: "",
+      files: ["registry/UNSW/ui/menubar.tsx"],
+      category: "undefined",
+      subcategory: "undefined",
+      chunks: []
+    },
+    "navigation-menu": {
+      name: "navigation-menu",
+      type: "components:ui",
+      registryDependencies: undefined,
+      component: React.lazy(() => import("@/registry/UNSW/ui/navigation-menu")),
+      source: "",
+      files: ["registry/UNSW/ui/navigation-menu.tsx"],
+      category: "undefined",
+      subcategory: "undefined",
+      chunks: []
+    },
+    "pagination": {
+      name: "pagination",
+      type: "components:ui",
+      registryDependencies: ["button"],
+      component: React.lazy(() => import("@/registry/UNSW/ui/pagination")),
+      source: "",
+      files: ["registry/UNSW/ui/pagination.tsx"],
+      category: "undefined",
+      subcategory: "undefined",
+      chunks: []
+    },
+    "popover": {
+      name: "popover",
+      type: "components:ui",
+      registryDependencies: undefined,
+      component: React.lazy(() => import("@/registry/UNSW/ui/popover")),
+      source: "",
+      files: ["registry/UNSW/ui/popover.tsx"],
+      category: "undefined",
+      subcategory: "undefined",
+      chunks: []
+    },
+    "progress": {
+      name: "progress",
+      type: "components:ui",
+      registryDependencies: undefined,
+      component: React.lazy(() => import("@/registry/UNSW/ui/progress")),
+      source: "",
+      files: ["registry/UNSW/ui/progress.tsx"],
+      category: "undefined",
+      subcategory: "undefined",
+      chunks: []
+    },
+    "radio-group": {
+      name: "radio-group",
+      type: "components:ui",
+      registryDependencies: undefined,
+      component: React.lazy(() => import("@/registry/UNSW/ui/radio-group")),
+      source: "",
+      files: ["registry/UNSW/ui/radio-group.tsx"],
+      category: "undefined",
+      subcategory: "undefined",
+      chunks: []
+    },
+    "resizable": {
+      name: "resizable",
+      type: "components:ui",
+      registryDependencies: undefined,
+      component: React.lazy(() => import("@/registry/UNSW/ui/resizable")),
+      source: "",
+      files: ["registry/UNSW/ui/resizable.tsx"],
+      category: "undefined",
+      subcategory: "undefined",
+      chunks: []
+    },
+    "scroll-area": {
+      name: "scroll-area",
+      type: "components:ui",
+      registryDependencies: undefined,
+      component: React.lazy(() => import("@/registry/UNSW/ui/scroll-area")),
+      source: "",
+      files: ["registry/UNSW/ui/scroll-area.tsx"],
+      category: "undefined",
+      subcategory: "undefined",
+      chunks: []
+    },
+    "select": {
+      name: "select",
+      type: "components:ui",
+      registryDependencies: undefined,
+      component: React.lazy(() => import("@/registry/UNSW/ui/select")),
+      source: "",
+      files: ["registry/UNSW/ui/select.tsx"],
+      category: "undefined",
+      subcategory: "undefined",
+      chunks: []
+    },
+    "separator": {
+      name: "separator",
+      type: "components:ui",
+      registryDependencies: undefined,
+      component: React.lazy(() => import("@/registry/UNSW/ui/separator")),
+      source: "",
+      files: ["registry/UNSW/ui/separator.tsx"],
+      category: "undefined",
+      subcategory: "undefined",
+      chunks: []
+    },
+    "sheet": {
+      name: "sheet",
+      type: "components:ui",
+      registryDependencies: undefined,
+      component: React.lazy(() => import("@/registry/UNSW/ui/sheet")),
+      source: "",
+      files: ["registry/UNSW/ui/sheet.tsx"],
+      category: "undefined",
+      subcategory: "undefined",
+      chunks: []
+    },
+    "skeleton": {
+      name: "skeleton",
+      type: "components:ui",
+      registryDependencies: undefined,
+      component: React.lazy(() => import("@/registry/UNSW/ui/skeleton")),
+      source: "",
+      files: ["registry/UNSW/ui/skeleton.tsx"],
+      category: "undefined",
+      subcategory: "undefined",
+      chunks: []
+    },
+    "slider": {
+      name: "slider",
+      type: "components:ui",
+      registryDependencies: undefined,
+      component: React.lazy(() => import("@/registry/UNSW/ui/slider")),
+      source: "",
+      files: ["registry/UNSW/ui/slider.tsx"],
+      category: "undefined",
+      subcategory: "undefined",
+      chunks: []
+    },
+    "sonner": {
+      name: "sonner",
+      type: "components:ui",
+      registryDependencies: undefined,
+      component: React.lazy(() => import("@/registry/UNSW/ui/sonner")),
+      source: "",
+      files: ["registry/UNSW/ui/sonner.tsx"],
+      category: "undefined",
+      subcategory: "undefined",
+      chunks: []
+    },
+    "switch": {
+      name: "switch",
+      type: "components:ui",
+      registryDependencies: undefined,
+      component: React.lazy(() => import("@/registry/UNSW/ui/switch")),
+      source: "",
+      files: ["registry/UNSW/ui/switch.tsx"],
+      category: "undefined",
+      subcategory: "undefined",
+      chunks: []
+    },
+    "table": {
+      name: "table",
+      type: "components:ui",
+      registryDependencies: undefined,
+      component: React.lazy(() => import("@/registry/UNSW/ui/table")),
+      source: "",
+      files: ["registry/UNSW/ui/table.tsx"],
+      category: "undefined",
+      subcategory: "undefined",
+      chunks: []
+    },
+    "tabs": {
+      name: "tabs",
+      type: "components:ui",
+      registryDependencies: undefined,
+      component: React.lazy(() => import("@/registry/UNSW/ui/tabs")),
+      source: "",
+      files: ["registry/UNSW/ui/tabs.tsx"],
+      category: "undefined",
+      subcategory: "undefined",
+      chunks: []
+    },
+    "textarea": {
+      name: "textarea",
+      type: "components:ui",
+      registryDependencies: undefined,
+      component: React.lazy(() => import("@/registry/UNSW/ui/textarea")),
+      source: "",
+      files: ["registry/UNSW/ui/textarea.tsx"],
+      category: "undefined",
+      subcategory: "undefined",
+      chunks: []
+    },
+    "toast": {
+      name: "toast",
+      type: "components:ui",
+      registryDependencies: undefined,
+      component: React.lazy(() => import("@/registry/UNSW/ui/toast")),
+      source: "",
+      files: ["registry/UNSW/ui/toast.tsx","registry/UNSW/ui/use-toast.ts","registry/UNSW/ui/toaster.tsx"],
+      category: "undefined",
+      subcategory: "undefined",
+      chunks: []
+    },
+    "toggle": {
+      name: "toggle",
+      type: "components:ui",
+      registryDependencies: undefined,
+      component: React.lazy(() => import("@/registry/UNSW/ui/toggle")),
+      source: "",
+      files: ["registry/UNSW/ui/toggle.tsx"],
+      category: "undefined",
+      subcategory: "undefined",
+      chunks: []
+    },
+    "toggle-group": {
+      name: "toggle-group",
+      type: "components:ui",
+      registryDependencies: ["toggle"],
+      component: React.lazy(() => import("@/registry/UNSW/ui/toggle-group")),
+      source: "",
+      files: ["registry/UNSW/ui/toggle-group.tsx"],
+      category: "undefined",
+      subcategory: "undefined",
+      chunks: []
+    },
+    "tooltip": {
+      name: "tooltip",
+      type: "components:ui",
+      registryDependencies: undefined,
+      component: React.lazy(() => import("@/registry/UNSW/ui/tooltip")),
+      source: "",
+      files: ["registry/UNSW/ui/tooltip.tsx"],
+      category: "undefined",
+      subcategory: "undefined",
+      chunks: []
+    },
+    "accordion-demo": {
+      name: "accordion-demo",
+      type: "components:example",
+      registryDependencies: ["accordion"],
+      component: React.lazy(() => import("@/registry/UNSW/example/accordion-demo")),
+      source: "",
+      files: ["registry/UNSW/example/accordion-demo.tsx"],
+      category: "undefined",
+      subcategory: "undefined",
+      chunks: []
+    },
+    "accordion-button": {
+      name: "accordion-button",
+      type: "components:example",
+      registryDependencies: ["accordion"],
+      component: React.lazy(() => import("@/registry/UNSW/example/accordion-button")),
+      source: "",
+      files: ["registry/UNSW/example/accordion-button.tsx"],
+      category: "undefined",
+      subcategory: "undefined",
+      chunks: []
+    },
+    "accordion-list": {
+      name: "accordion-list",
+      type: "components:example",
+      registryDependencies: ["accordion"],
+      component: React.lazy(() => import("@/registry/UNSW/example/accordion-list")),
+      source: "",
+      files: ["registry/UNSW/example/accordion-list.tsx"],
+      category: "undefined",
+      subcategory: "undefined",
+      chunks: []
+    },
+    "accordion-list-avatar": {
+      name: "accordion-list-avatar",
+      type: "components:example",
+      registryDependencies: ["accordion"],
+      component: React.lazy(() => import("@/registry/UNSW/example/accordion-list-avatar")),
+      source: "",
+      files: ["registry/UNSW/example/accordion-list-avatar.tsx"],
+      category: "undefined",
+      subcategory: "undefined",
+      chunks: []
+    },
+    "accordion-picture-button": {
+      name: "accordion-picture-button",
+      type: "components:example",
+      registryDependencies: ["accordion"],
+      component: React.lazy(() => import("@/registry/UNSW/example/accordion-picture-button")),
+      source: "",
+      files: ["registry/UNSW/example/accordion-picture-button.tsx"],
+      category: "undefined",
+      subcategory: "undefined",
+      chunks: []
+    },
+    "accordion-mix": {
+      name: "accordion-mix",
+      type: "components:example",
+      registryDependencies: ["accordion"],
+      component: React.lazy(() => import("@/registry/UNSW/example/accordion-mix")),
+      source: "",
+      files: ["registry/UNSW/example/accordion-mix.tsx"],
+      category: "undefined",
+      subcategory: "undefined",
+      chunks: []
+    },
+    "alert-demo": {
+      name: "alert-demo",
+      type: "components:example",
+      registryDependencies: ["alert"],
+      component: React.lazy(() => import("@/registry/UNSW/example/alert-demo")),
+      source: "",
+      files: ["registry/UNSW/example/alert-demo.tsx"],
+      category: "undefined",
+      subcategory: "undefined",
+      chunks: []
+    },
+    "alert-destructive": {
+      name: "alert-destructive",
+      type: "components:example",
+      registryDependencies: ["alert"],
+      component: React.lazy(() => import("@/registry/UNSW/example/alert-destructive")),
+      source: "",
+      files: ["registry/UNSW/example/alert-destructive.tsx"],
+      category: "undefined",
+      subcategory: "undefined",
+      chunks: []
+    },
+    "alert-hover": {
+      name: "alert-hover",
+      type: "components:example",
+      registryDependencies: ["alert"],
+      component: React.lazy(() => import("@/registry/UNSW/example/alert-hover")),
+      source: "",
+      files: ["registry/UNSW/example/alert-hover.tsx"],
+      category: "undefined",
+      subcategory: "undefined",
+      chunks: []
+    },
+    "alert-animation": {
+      name: "alert-animation",
+      type: "components:example",
+      registryDependencies: ["alert"],
+      component: React.lazy(() => import("@/registry/UNSW/example/alert-animation")),
+      source: "",
+      files: ["registry/UNSW/example/alert-animation.tsx"],
+      category: "undefined",
+      subcategory: "undefined",
+      chunks: []
+    },
+    "alert-dialog-demo": {
+      name: "alert-dialog-demo",
+      type: "components:example",
+      registryDependencies: ["alert-dialog","button"],
+      component: React.lazy(() => import("@/registry/UNSW/example/alert-dialog-demo")),
+      source: "",
+      files: ["registry/UNSW/example/alert-dialog-demo.tsx"],
+      category: "undefined",
+      subcategory: "undefined",
+      chunks: []
+    },
+    "aspect-ratio-demo": {
+      name: "aspect-ratio-demo",
+      type: "components:example",
+      registryDependencies: ["aspect-ratio"],
+      component: React.lazy(() => import("@/registry/UNSW/example/aspect-ratio-demo")),
+      source: "",
+      files: ["registry/UNSW/example/aspect-ratio-demo.tsx"],
+      category: "undefined",
+      subcategory: "undefined",
+      chunks: []
+    },
+    "avatar-demo": {
+      name: "avatar-demo",
+      type: "components:example",
+      registryDependencies: ["avatar"],
+      component: React.lazy(() => import("@/registry/UNSW/example/avatar-demo")),
+      source: "",
+      files: ["registry/UNSW/example/avatar-demo.tsx"],
+      category: "undefined",
+      subcategory: "undefined",
+      chunks: []
+    },
+    "badge-demo": {
+      name: "badge-demo",
+      type: "components:example",
+      registryDependencies: ["badge"],
+      component: React.lazy(() => import("@/registry/UNSW/example/badge-demo")),
+      source: "",
+      files: ["registry/UNSW/example/badge-demo.tsx"],
+      category: "undefined",
+      subcategory: "undefined",
+      chunks: []
+    },
+    "badge-destructive": {
+      name: "badge-destructive",
+      type: "components:example",
+      registryDependencies: ["badge"],
+      component: React.lazy(() => import("@/registry/UNSW/example/badge-destructive")),
+      source: "",
+      files: ["registry/UNSW/example/badge-destructive.tsx"],
+      category: "undefined",
+      subcategory: "undefined",
+      chunks: []
+    },
+    "badge-outline": {
+      name: "badge-outline",
+      type: "components:example",
+      registryDependencies: ["badge"],
+      component: React.lazy(() => import("@/registry/UNSW/example/badge-outline")),
+      source: "",
+      files: ["registry/UNSW/example/badge-outline.tsx"],
+      category: "undefined",
+      subcategory: "undefined",
+      chunks: []
+    },
+    "badge-secondary": {
+      name: "badge-secondary",
+      type: "components:example",
+      registryDependencies: ["badge"],
+      component: React.lazy(() => import("@/registry/UNSW/example/badge-secondary")),
+      source: "",
+      files: ["registry/UNSW/example/badge-secondary.tsx"],
+      category: "undefined",
+      subcategory: "undefined",
+      chunks: []
+    },
+    "breadcrumb-demo": {
+      name: "breadcrumb-demo",
+      type: "components:example",
+      registryDependencies: ["breadcrumb"],
+      component: React.lazy(() => import("@/registry/UNSW/example/breadcrumb-demo")),
+      source: "",
+      files: ["registry/UNSW/example/breadcrumb-demo.tsx"],
+      category: "undefined",
+      subcategory: "undefined",
+      chunks: []
+    },
+    "breadcrumb-separator": {
+      name: "breadcrumb-separator",
+      type: "components:example",
+      registryDependencies: ["breadcrumb"],
+      component: React.lazy(() => import("@/registry/UNSW/example/breadcrumb-separator")),
+      source: "",
+      files: ["registry/UNSW/example/breadcrumb-separator.tsx"],
+      category: "undefined",
+      subcategory: "undefined",
+      chunks: []
+    },
+    "breadcrumb-dropdown": {
+      name: "breadcrumb-dropdown",
+      type: "components:example",
+      registryDependencies: ["breadcrumb"],
+      component: React.lazy(() => import("@/registry/UNSW/example/breadcrumb-dropdown")),
+      source: "",
+      files: ["registry/UNSW/example/breadcrumb-dropdown.tsx"],
+      category: "undefined",
+      subcategory: "undefined",
+      chunks: []
+    },
+    "breadcrumb-ellipsis": {
+      name: "breadcrumb-ellipsis",
+      type: "components:example",
+      registryDependencies: ["breadcrumb"],
+      component: React.lazy(() => import("@/registry/UNSW/example/breadcrumb-ellipsis")),
+      source: "",
+      files: ["registry/UNSW/example/breadcrumb-ellipsis.tsx"],
+      category: "undefined",
+      subcategory: "undefined",
+      chunks: []
+    },
+    "breadcrumb-link": {
+      name: "breadcrumb-link",
+      type: "components:example",
+      registryDependencies: ["breadcrumb"],
+      component: React.lazy(() => import("@/registry/UNSW/example/breadcrumb-link")),
+      source: "",
+      files: ["registry/UNSW/example/breadcrumb-link.tsx"],
+      category: "undefined",
+      subcategory: "undefined",
+      chunks: []
+    },
+    "breadcrumb-responsive": {
+      name: "breadcrumb-responsive",
+      type: "components:example",
+      registryDependencies: ["breadcrumb"],
+      component: React.lazy(() => import("@/registry/UNSW/example/breadcrumb-responsive")),
+      source: "",
+      files: ["registry/UNSW/example/breadcrumb-responsive.tsx"],
+      category: "undefined",
+      subcategory: "undefined",
+      chunks: []
+    },
+    "breadcrumb-with-border": {
+      name: "breadcrumb-with-border",
+      type: "components:example",
+      registryDependencies: ["breadcrumb"],
+      component: React.lazy(() => import("@/registry/UNSW/example/breadcrumb-with-border")),
+      source: "",
+      files: ["registry/UNSW/example/breadcrumb-with-border.tsx"],
+      category: "undefined",
+      subcategory: "undefined",
+      chunks: []
+    },
+    "browserwindow-demo": {
+      name: "browserwindow-demo",
+      type: "components:example",
+      registryDependencies: ["browserwindow"],
+      component: React.lazy(() => import("@/registry/UNSW/example/browserwindow-demo")),
+      source: "",
+      files: ["registry/UNSW/example/browserwindow-demo.tsx"],
+      category: "undefined",
+      subcategory: "undefined",
+      chunks: []
+    },
+    "button-demo": {
+      name: "button-demo",
+      type: "components:example",
+      registryDependencies: ["button"],
+      component: React.lazy(() => import("@/registry/UNSW/example/button-demo")),
+      source: "",
+      files: ["registry/UNSW/example/button-demo.tsx"],
+      category: "undefined",
+      subcategory: "undefined",
+      chunks: []
+    },
+    "button-secondary": {
+      name: "button-secondary",
+      type: "components:example",
+      registryDependencies: ["button"],
+      component: React.lazy(() => import("@/registry/UNSW/example/button-secondary")),
+      source: "",
+      files: ["registry/UNSW/example/button-secondary.tsx"],
+      category: "undefined",
+      subcategory: "undefined",
+      chunks: []
+    },
+    "button-destructive": {
+      name: "button-destructive",
+      type: "components:example",
+      registryDependencies: ["button"],
+      component: React.lazy(() => import("@/registry/UNSW/example/button-destructive")),
+      source: "",
+      files: ["registry/UNSW/example/button-destructive.tsx"],
+      category: "undefined",
+      subcategory: "undefined",
+      chunks: []
+    },
+    "button-outline": {
+      name: "button-outline",
+      type: "components:example",
+      registryDependencies: ["button"],
+      component: React.lazy(() => import("@/registry/UNSW/example/button-outline")),
+      source: "",
+      files: ["registry/UNSW/example/button-outline.tsx"],
+      category: "undefined",
+      subcategory: "undefined",
+      chunks: []
+    },
+    "button-ghost": {
+      name: "button-ghost",
+      type: "components:example",
+      registryDependencies: ["button"],
+      component: React.lazy(() => import("@/registry/UNSW/example/button-ghost")),
+      source: "",
+      files: ["registry/UNSW/example/button-ghost.tsx"],
+      category: "undefined",
+      subcategory: "undefined",
+      chunks: []
+    },
+    "button-link": {
+      name: "button-link",
+      type: "components:example",
+      registryDependencies: ["button"],
+      component: React.lazy(() => import("@/registry/UNSW/example/button-link")),
+      source: "",
+      files: ["registry/UNSW/example/button-link.tsx"],
+      category: "undefined",
+      subcategory: "undefined",
+      chunks: []
+    },
+    "button-with-icon": {
+      name: "button-with-icon",
+      type: "components:example",
+      registryDependencies: ["button"],
+      component: React.lazy(() => import("@/registry/UNSW/example/button-with-icon")),
+      source: "",
+      files: ["registry/UNSW/example/button-with-icon.tsx"],
+      category: "undefined",
+      subcategory: "undefined",
+      chunks: []
+    },
+    "button-loading": {
+      name: "button-loading",
+      type: "components:example",
+      registryDependencies: ["button"],
+      component: React.lazy(() => import("@/registry/UNSW/example/button-loading")),
+      source: "",
+      files: ["registry/UNSW/example/button-loading.tsx"],
+      category: "undefined",
+      subcategory: "undefined",
+      chunks: []
+    },
+    "button-icon": {
+      name: "button-icon",
+      type: "components:example",
+      registryDependencies: ["button"],
+      component: React.lazy(() => import("@/registry/UNSW/example/button-icon")),
+      source: "",
+      files: ["registry/UNSW/example/button-icon.tsx"],
+      category: "undefined",
+      subcategory: "undefined",
+      chunks: []
+    },
+    "button-as-child": {
+      name: "button-as-child",
+      type: "components:example",
+      registryDependencies: ["button"],
+      component: React.lazy(() => import("@/registry/UNSW/example/button-as-child")),
+      source: "",
+      files: ["registry/UNSW/example/button-as-child.tsx"],
+      category: "undefined",
+      subcategory: "undefined",
+      chunks: []
+    },
+    "calendar-demo": {
+      name: "calendar-demo",
+      type: "components:example",
+      registryDependencies: ["calendar"],
+      component: React.lazy(() => import("@/registry/UNSW/example/calendar-demo")),
+      source: "",
+      files: ["registry/UNSW/example/calendar-demo.tsx"],
+      category: "undefined",
+      subcategory: "undefined",
+      chunks: []
+    },
+    "calendar-form": {
+      name: "calendar-form",
+      type: "components:example",
+      registryDependencies: ["calendar","form","popover"],
+      component: React.lazy(() => import("@/registry/UNSW/example/calendar-form")),
+      source: "",
+      files: ["registry/UNSW/example/calendar-form.tsx"],
+      category: "undefined",
+      subcategory: "undefined",
+      chunks: []
+    },
+    "card-demo": {
+      name: "card-demo",
+      type: "components:example",
+      registryDependencies: ["card","button","switch"],
+      component: React.lazy(() => import("@/registry/UNSW/example/card-demo")),
+      source: "",
+      files: ["registry/UNSW/example/card-demo.tsx"],
+      category: "undefined",
+      subcategory: "undefined",
+      chunks: []
+    },
+    "card-normal": {
+      name: "card-normal",
+      type: "components:example",
+      registryDependencies: ["card","button","switch"],
+      component: React.lazy(() => import("@/registry/UNSW/example/card-normal")),
+      source: "",
+      files: ["registry/UNSW/example/card-normal.tsx"],
+      category: "undefined",
+      subcategory: "undefined",
+      chunks: []
+    },
+    "card-image": {
+      name: "card-image",
+      type: "components:example",
+      registryDependencies: ["card","button","switch"],
+      component: React.lazy(() => import("@/registry/UNSW/example/card-image")),
+      source: "",
+      files: ["registry/UNSW/example/card-image.tsx"],
+      category: "undefined",
+      subcategory: "undefined",
+      chunks: []
+    },
+    "card-large-header": {
+      name: "card-large-header",
+      type: "components:example",
+      registryDependencies: ["card","button","switch"],
+      component: React.lazy(() => import("@/registry/UNSW/example/card-large-header")),
+      source: "",
+      files: ["registry/UNSW/example/card-large-header.tsx"],
+      category: "undefined",
+      subcategory: "undefined",
+      chunks: []
+    },
+    "card-with-action": {
+      name: "card-with-action",
+      type: "components:example",
+      registryDependencies: ["card","button","switch"],
+      component: React.lazy(() => import("@/registry/UNSW/example/card-with-action")),
+      source: "",
+      files: ["registry/UNSW/example/card-with-action.tsx"],
+      category: "undefined",
+      subcategory: "undefined",
+      chunks: []
+    },
+    "card-with-drawer": {
+      name: "card-with-drawer",
+      type: "components:example",
+      registryDependencies: ["card","button","switch"],
+      component: React.lazy(() => import("@/registry/UNSW/example/card-with-drawer")),
+      source: "",
+      files: ["registry/UNSW/example/card-with-drawer.tsx"],
+      category: "undefined",
+      subcategory: "undefined",
+      chunks: []
+    },
+    "card-dynamic": {
+      name: "card-dynamic",
+      type: "components:example",
+      registryDependencies: ["card","button","switch"],
+      component: React.lazy(() => import("@/registry/UNSW/example/card-dynamic")),
+      source: "",
+      files: ["registry/UNSW/example/card-dynamic.tsx"],
+      category: "undefined",
+      subcategory: "undefined",
+      chunks: []
+    },
+    "card-with-form": {
+      name: "card-with-form",
+      type: "components:example",
+      registryDependencies: ["button","card","input","label","select"],
+      component: React.lazy(() => import("@/registry/UNSW/example/card-with-form")),
+      source: "",
+      files: ["registry/UNSW/example/card-with-form.tsx"],
+      category: "undefined",
+      subcategory: "undefined",
+      chunks: []
+    },
+    "carousel-demo": {
+      name: "carousel-demo",
+      type: "components:example",
+      registryDependencies: ["carousel"],
+      component: React.lazy(() => import("@/registry/UNSW/example/carousel-demo")),
+      source: "",
+      files: ["registry/UNSW/example/carousel-demo.tsx"],
+      category: "undefined",
+      subcategory: "undefined",
+      chunks: []
+    },
+    "carousel-size": {
+      name: "carousel-size",
+      type: "components:example",
+      registryDependencies: ["carousel"],
+      component: React.lazy(() => import("@/registry/UNSW/example/carousel-size")),
+      source: "",
+      files: ["registry/UNSW/example/carousel-size.tsx"],
+      category: "undefined",
+      subcategory: "undefined",
+      chunks: []
+    },
+    "carousel-spacing": {
+      name: "carousel-spacing",
+      type: "components:example",
+      registryDependencies: ["carousel"],
+      component: React.lazy(() => import("@/registry/UNSW/example/carousel-spacing")),
+      source: "",
+      files: ["registry/UNSW/example/carousel-spacing.tsx"],
+      category: "undefined",
+      subcategory: "undefined",
+      chunks: []
+    },
+    "carousel-orientation": {
+      name: "carousel-orientation",
+      type: "components:example",
+      registryDependencies: ["carousel"],
+      component: React.lazy(() => import("@/registry/UNSW/example/carousel-orientation")),
+      source: "",
+      files: ["registry/UNSW/example/carousel-orientation.tsx"],
+      category: "undefined",
+      subcategory: "undefined",
+      chunks: []
+    },
+    "carousel-api": {
+      name: "carousel-api",
+      type: "components:example",
+      registryDependencies: ["carousel"],
+      component: React.lazy(() => import("@/registry/UNSW/example/carousel-api")),
+      source: "",
+      files: ["registry/UNSW/example/carousel-api.tsx"],
+      category: "undefined",
+      subcategory: "undefined",
+      chunks: []
+    },
+    "carousel-plugin": {
+      name: "carousel-plugin",
+      type: "components:example",
+      registryDependencies: ["carousel"],
+      component: React.lazy(() => import("@/registry/UNSW/example/carousel-plugin")),
+      source: "",
+      files: ["registry/UNSW/example/carousel-plugin.tsx"],
+      category: "undefined",
+      subcategory: "undefined",
+      chunks: []
+    },
+    "carousel-basic": {
+      name: "carousel-basic",
+      type: "components:example",
+      registryDependencies: ["carousel"],
+      component: React.lazy(() => import("@/registry/UNSW/example/carousel-basic")),
+      source: "",
+      files: ["registry/UNSW/example/carousel-basic.tsx"],
+      category: "undefined",
+      subcategory: "undefined",
+      chunks: []
+    },
+    "carousel-auto": {
+      name: "carousel-auto",
+      type: "components:example",
+      registryDependencies: ["carousel"],
+      component: React.lazy(() => import("@/registry/UNSW/example/carousel-auto")),
+      source: "",
+      files: ["registry/UNSW/example/carousel-auto.tsx"],
+      category: "undefined",
+      subcategory: "undefined",
+      chunks: []
+    },
+    "carousel-images": {
+      name: "carousel-images",
+      type: "components:example",
+      registryDependencies: ["carousel"],
+      component: React.lazy(() => import("@/registry/UNSW/example/carousel-images")),
+      source: "",
+      files: ["registry/UNSW/example/carousel-images.tsx"],
+      category: "undefined",
+      subcategory: "undefined",
+      chunks: []
+    },
+    "chart-bar-demo": {
+      name: "chart-bar-demo",
+      type: "components:example",
+      registryDependencies: undefined,
+      component: React.lazy(() => import("@/registry/UNSW/example/chart-bar-demo")),
+      source: "",
+      files: ["registry/UNSW/example/chart-bar-demo.tsx"],
+      category: "undefined",
+      subcategory: "undefined",
+      chunks: []
+    },
+    "chart-bar-demo-grid": {
+      name: "chart-bar-demo-grid",
+      type: "components:example",
+      registryDependencies: undefined,
+      component: React.lazy(() => import("@/registry/UNSW/example/chart-bar-demo-grid")),
+      source: "",
+      files: ["registry/UNSW/example/chart-bar-demo-grid.tsx"],
+      category: "undefined",
+      subcategory: "undefined",
+      chunks: []
+    },
+    "chart-bar-demo-axis": {
+      name: "chart-bar-demo-axis",
+      type: "components:example",
+      registryDependencies: undefined,
+      component: React.lazy(() => import("@/registry/UNSW/example/chart-bar-demo-axis")),
+      source: "",
+      files: ["registry/UNSW/example/chart-bar-demo-axis.tsx"],
+      category: "undefined",
+      subcategory: "undefined",
+      chunks: []
+    },
+    "chart-bar-demo-tooltip": {
+      name: "chart-bar-demo-tooltip",
+      type: "components:example",
+      registryDependencies: undefined,
+      component: React.lazy(() => import("@/registry/UNSW/example/chart-bar-demo-tooltip")),
+      source: "",
+      files: ["registry/UNSW/example/chart-bar-demo-tooltip.tsx"],
+      category: "undefined",
+      subcategory: "undefined",
+      chunks: []
+    },
+    "chart-bar-demo-legend": {
+      name: "chart-bar-demo-legend",
+      type: "components:example",
+      registryDependencies: undefined,
+      component: React.lazy(() => import("@/registry/UNSW/example/chart-bar-demo-legend")),
+      source: "",
+      files: ["registry/UNSW/example/chart-bar-demo-legend.tsx"],
+      category: "undefined",
+      subcategory: "undefined",
+      chunks: []
+    },
+    "chart-tooltip-demo": {
+      name: "chart-tooltip-demo",
+      type: "components:example",
+      registryDependencies: undefined,
+      component: React.lazy(() => import("@/registry/UNSW/example/chart-tooltip-demo")),
+      source: "",
+      files: ["registry/UNSW/example/chart-tooltip-demo.tsx"],
+      category: "undefined",
+      subcategory: "undefined",
+      chunks: []
+    },
+    "chat-demo": {
+      name: "chat-demo",
+      type: "components:example",
+      registryDependencies: ["card"],
+      component: React.lazy(() => import("@/registry/UNSW/example/chat-demo")),
+      source: "",
+      files: ["registry/UNSW/example/chat-demo.tsx"],
+      category: "undefined",
+      subcategory: "undefined",
+      chunks: []
+    },
+    "chat-attachment": {
+      name: "chat-attachment",
+      type: "components:example",
+      registryDependencies: ["card"],
+      component: React.lazy(() => import("@/registry/UNSW/example/chat-attachment")),
+      source: "",
+      files: ["registry/UNSW/example/chat-attachment.tsx"],
+      category: "undefined",
+      subcategory: "undefined",
+      chunks: []
+    },
+    "checkbox-demo": {
+      name: "checkbox-demo",
+      type: "components:example",
+      registryDependencies: ["checkbox"],
+      component: React.lazy(() => import("@/registry/UNSW/example/checkbox-demo")),
+      source: "",
+      files: ["registry/UNSW/example/checkbox-demo.tsx"],
+      category: "undefined",
+      subcategory: "undefined",
+      chunks: []
+    },
+    "checkbox-disabled": {
+      name: "checkbox-disabled",
+      type: "components:example",
+      registryDependencies: ["checkbox"],
+      component: React.lazy(() => import("@/registry/UNSW/example/checkbox-disabled")),
+      source: "",
+      files: ["registry/UNSW/example/checkbox-disabled.tsx"],
+      category: "undefined",
+      subcategory: "undefined",
+      chunks: []
+    },
+    "checkbox-form-multiple": {
+      name: "checkbox-form-multiple",
+      type: "components:example",
+      registryDependencies: ["checkbox","form"],
+      component: React.lazy(() => import("@/registry/UNSW/example/checkbox-form-multiple")),
+      source: "",
+      files: ["registry/UNSW/example/checkbox-form-multiple.tsx"],
+      category: "undefined",
+      subcategory: "undefined",
+      chunks: []
+    },
+    "checkbox-form-single": {
+      name: "checkbox-form-single",
+      type: "components:example",
+      registryDependencies: ["checkbox","form"],
+      component: React.lazy(() => import("@/registry/UNSW/example/checkbox-form-single")),
+      source: "",
+      files: ["registry/UNSW/example/checkbox-form-single.tsx"],
+      category: "undefined",
+      subcategory: "undefined",
+      chunks: []
+    },
+    "checkbox-with-text": {
+      name: "checkbox-with-text",
+      type: "components:example",
+      registryDependencies: ["checkbox"],
+      component: React.lazy(() => import("@/registry/UNSW/example/checkbox-with-text")),
+      source: "",
+      files: ["registry/UNSW/example/checkbox-with-text.tsx"],
+      category: "undefined",
+      subcategory: "undefined",
+      chunks: []
+    },
+    "collapsible-demo": {
+      name: "collapsible-demo",
+      type: "components:example",
+      registryDependencies: ["collapsible"],
+      component: React.lazy(() => import("@/registry/UNSW/example/collapsible-demo")),
+      source: "",
+      files: ["registry/UNSW/example/collapsible-demo.tsx"],
+      category: "undefined",
+      subcategory: "undefined",
+      chunks: []
+    },
+    "combobox-demo": {
+      name: "combobox-demo",
+      type: "components:example",
+      registryDependencies: ["command"],
+      component: React.lazy(() => import("@/registry/UNSW/example/combobox-demo")),
+      source: "",
+      files: ["registry/UNSW/example/combobox-demo.tsx"],
+      category: "undefined",
+      subcategory: "undefined",
+      chunks: []
+    },
+    "combobox-dropdown-menu": {
+      name: "combobox-dropdown-menu",
+      type: "components:example",
+      registryDependencies: ["command","dropdown-menu","button"],
+      component: React.lazy(() => import("@/registry/UNSW/example/combobox-dropdown-menu")),
+      source: "",
+      files: ["registry/UNSW/example/combobox-dropdown-menu.tsx"],
+      category: "undefined",
+      subcategory: "undefined",
+      chunks: []
+    },
+    "combobox-form": {
+      name: "combobox-form",
+      type: "components:example",
+      registryDependencies: ["command","form"],
+      component: React.lazy(() => import("@/registry/UNSW/example/combobox-form")),
+      source: "",
+      files: ["registry/UNSW/example/combobox-form.tsx"],
+      category: "undefined",
+      subcategory: "undefined",
+      chunks: []
+    },
+    "combobox-popover": {
+      name: "combobox-popover",
+      type: "components:example",
+      registryDependencies: ["combobox","popover"],
+      component: React.lazy(() => import("@/registry/UNSW/example/combobox-popover")),
+      source: "",
+      files: ["registry/UNSW/example/combobox-popover.tsx"],
+      category: "undefined",
+      subcategory: "undefined",
+      chunks: []
+    },
+    "combobox-responsive": {
+      name: "combobox-responsive",
+      type: "components:example",
+      registryDependencies: ["combobox","popover","drawer"],
+      component: React.lazy(() => import("@/registry/UNSW/example/combobox-responsive")),
+      source: "",
+      files: ["registry/UNSW/example/combobox-responsive.tsx"],
+      category: "undefined",
+      subcategory: "undefined",
+      chunks: []
+    },
+    "command-demo": {
+      name: "command-demo",
+      type: "components:example",
+      registryDependencies: ["command"],
+      component: React.lazy(() => import("@/registry/UNSW/example/command-demo")),
+      source: "",
+      files: ["registry/UNSW/example/command-demo.tsx"],
+      category: "undefined",
+      subcategory: "undefined",
+      chunks: []
+    },
+    "command-dialog": {
+      name: "command-dialog",
+      type: "components:example",
+      registryDependencies: ["command","dialog"],
+      component: React.lazy(() => import("@/registry/UNSW/example/command-dialog")),
+      source: "",
+      files: ["registry/UNSW/example/command-dialog.tsx"],
+      category: "undefined",
+      subcategory: "undefined",
+      chunks: []
+    },
+    "comment-demo": {
+      name: "comment-demo",
+      type: "components:example",
+      registryDependencies: ["card","button","use-toast","toaster","avatar","label","textarea"],
+      component: React.lazy(() => import("@/registry/UNSW/example/comment-demo")),
+      source: "",
+      files: ["registry/UNSW/example/comment-demo.tsx"],
+      category: "undefined",
+      subcategory: "undefined",
+      chunks: []
+    },
+    "context-menu-demo": {
+      name: "context-menu-demo",
+      type: "components:example",
+      registryDependencies: ["context-menu"],
+      component: React.lazy(() => import("@/registry/UNSW/example/context-menu-demo")),
+      source: "",
+      files: ["registry/UNSW/example/context-menu-demo.tsx"],
+      category: "undefined",
+      subcategory: "undefined",
+      chunks: []
+    },
+    "data-table-demo": {
+      name: "data-table-demo",
+      type: "components:example",
+      registryDependencies: ["data-table"],
+      component: React.lazy(() => import("@/registry/UNSW/example/data-table-demo")),
+      source: "",
+      files: ["registry/UNSW/example/data-table-demo.tsx"],
+      category: "undefined",
+      subcategory: "undefined",
+      chunks: []
+    },
+    "date-picker-demo": {
+      name: "date-picker-demo",
+      type: "components:example",
+      registryDependencies: ["button","calendar","popover"],
+      component: React.lazy(() => import("@/registry/UNSW/example/date-picker-demo")),
+      source: "",
+      files: ["registry/UNSW/example/date-picker-demo.tsx"],
+      category: "undefined",
+      subcategory: "undefined",
+      chunks: []
+    },
+    "date-picker-form": {
+      name: "date-picker-form",
+      type: "components:example",
+      registryDependencies: ["button","calendar","form","popover"],
+      component: React.lazy(() => import("@/registry/UNSW/example/date-picker-form")),
+      source: "",
+      files: ["registry/UNSW/example/date-picker-form.tsx"],
+      category: "undefined",
+      subcategory: "undefined",
+      chunks: []
+    },
+    "date-picker-with-presets": {
+      name: "date-picker-with-presets",
+      type: "components:example",
+      registryDependencies: ["button","calendar","popover","select"],
+      component: React.lazy(() => import("@/registry/UNSW/example/date-picker-with-presets")),
+      source: "",
+      files: ["registry/UNSW/example/date-picker-with-presets.tsx"],
+      category: "undefined",
+      subcategory: "undefined",
+      chunks: []
+    },
+    "date-picker-with-range": {
+      name: "date-picker-with-range",
+      type: "components:example",
+      registryDependencies: ["button","calendar","popover"],
+      component: React.lazy(() => import("@/registry/UNSW/example/date-picker-with-range")),
+      source: "",
+      files: ["registry/UNSW/example/date-picker-with-range.tsx"],
+      category: "undefined",
+      subcategory: "undefined",
+      chunks: []
+    },
+    "dialog-demo": {
+      name: "dialog-demo",
+      type: "components:example",
+      registryDependencies: ["dialog"],
+      component: React.lazy(() => import("@/registry/UNSW/example/dialog-demo")),
+      source: "",
+      files: ["registry/UNSW/example/dialog-demo.tsx"],
+      category: "undefined",
+      subcategory: "undefined",
+      chunks: []
+    },
+    "dialog-close-button": {
+      name: "dialog-close-button",
+      type: "components:example",
+      registryDependencies: ["dialog","button"],
+      component: React.lazy(() => import("@/registry/UNSW/example/dialog-close-button")),
+      source: "",
+      files: ["registry/UNSW/example/dialog-close-button.tsx"],
+      category: "undefined",
+      subcategory: "undefined",
+      chunks: []
+    },
+    "drawer-demo": {
+      name: "drawer-demo",
+      type: "components:example",
+      registryDependencies: ["drawer"],
+      component: React.lazy(() => import("@/registry/UNSW/example/drawer-demo")),
+      source: "",
+      files: ["registry/UNSW/example/drawer-demo.tsx"],
+      category: "undefined",
+      subcategory: "undefined",
+      chunks: []
+    },
+    "drawer-dialog": {
+      name: "drawer-dialog",
+      type: "components:example",
+      registryDependencies: ["drawer","dialog"],
+      component: React.lazy(() => import("@/registry/UNSW/example/drawer-dialog")),
+      source: "",
+      files: ["registry/UNSW/example/drawer-dialog.tsx"],
+      category: "undefined",
+      subcategory: "undefined",
+      chunks: []
+    },
+    "dropdown-menu-demo": {
+      name: "dropdown-menu-demo",
+      type: "components:example",
+      registryDependencies: ["dropdown-menu"],
+      component: React.lazy(() => import("@/registry/UNSW/example/dropdown-menu-demo")),
+      source: "",
+      files: ["registry/UNSW/example/dropdown-menu-demo.tsx"],
+      category: "undefined",
+      subcategory: "undefined",
+      chunks: []
+    },
+    "dropdown-menu-checkboxes": {
+      name: "dropdown-menu-checkboxes",
+      type: "components:example",
+      registryDependencies: ["dropdown-menu","checkbox"],
+      component: React.lazy(() => import("@/registry/UNSW/example/dropdown-menu-checkboxes")),
+      source: "",
+      files: ["registry/UNSW/example/dropdown-menu-checkboxes.tsx"],
+      category: "undefined",
+      subcategory: "undefined",
+      chunks: []
+    },
+    "dropdown-menu-radio-group": {
+      name: "dropdown-menu-radio-group",
+      type: "components:example",
+      registryDependencies: ["dropdown-menu","radio-group"],
+      component: React.lazy(() => import("@/registry/UNSW/example/dropdown-menu-radio-group")),
+      source: "",
+      files: ["registry/UNSW/example/dropdown-menu-radio-group.tsx"],
+      category: "undefined",
+      subcategory: "undefined",
+      chunks: []
+    },
+    "dropdown-menu-with-divider": {
+      name: "dropdown-menu-with-divider",
+      type: "components:example",
+      registryDependencies: ["dropdown-menu","with-divider"],
+      component: React.lazy(() => import("@/registry/UNSW/example/dropdown-menu-with-divider")),
+      source: "",
+      files: ["registry/UNSW/example/dropdown-menu-with-divider.tsx"],
+      category: "undefined",
+      subcategory: "undefined",
+      chunks: []
+    },
+    "dropdown-menu-with-header": {
+      name: "dropdown-menu-with-header",
+      type: "components:example",
+      registryDependencies: ["dropdown-menu","with-header"],
+      component: React.lazy(() => import("@/registry/UNSW/example/dropdown-menu-with-header")),
+      source: "",
+      files: ["registry/UNSW/example/dropdown-menu-with-header.tsx"],
+      category: "undefined",
+      subcategory: "undefined",
+      chunks: []
+    },
+    "dropdown-menu-with-icon": {
+      name: "dropdown-menu-with-icon",
+      type: "components:example",
+      registryDependencies: ["dropdown-menu","with-icon"],
+      component: React.lazy(() => import("@/registry/UNSW/example/dropdown-menu-with-icon")),
+      source: "",
+      files: ["registry/UNSW/example/dropdown-menu-with-icon.tsx"],
+      category: "undefined",
+      subcategory: "undefined",
+      chunks: []
+    },
+    "dropdown-menu-with-search": {
+      name: "dropdown-menu-with-search",
+      type: "components:example",
+      registryDependencies: ["dropdown-menu","with-search"],
+      component: React.lazy(() => import("@/registry/UNSW/example/dropdown-menu-with-search")),
+      source: "",
+      files: ["registry/UNSW/example/dropdown-menu-with-search.tsx"],
+      category: "undefined",
+      subcategory: "undefined",
+      chunks: []
+    },
+    "fileUpload-demo": {
+      name: "fileUpload-demo",
+      type: "components:example",
+      registryDependencies: undefined,
+      component: React.lazy(() => import("@/registry/UNSW/example/fileUpload-demo")),
+      source: "",
+      files: ["registry/UNSW/example/fileUpload-demo.tsx"],
+      category: "undefined",
+      subcategory: "undefined",
+      chunks: []
+    },
+    "fileUpload-format": {
+      name: "fileUpload-format",
+      type: "components:example",
+      registryDependencies: undefined,
+      component: React.lazy(() => import("@/registry/UNSW/example/fileUpload-format")),
+      source: "",
+      files: ["registry/UNSW/example/fileUpload-format.tsx"],
+      category: "undefined",
+      subcategory: "undefined",
+      chunks: []
+    },
+    "fileUpload-preview": {
+      name: "fileUpload-preview",
+      type: "components:example",
+      registryDependencies: undefined,
+      component: React.lazy(() => import("@/registry/UNSW/example/fileUpload-preview")),
+      source: "",
+      files: ["registry/UNSW/example/fileUpload-preview.tsx"],
+      category: "undefined",
+      subcategory: "undefined",
+      chunks: []
+    },
+    "hover-card-demo": {
+      name: "hover-card-demo",
+      type: "components:example",
+      registryDependencies: ["hover-card"],
+      component: React.lazy(() => import("@/registry/UNSW/example/hover-card-demo")),
+      source: "",
+      files: ["registry/UNSW/example/hover-card-demo.tsx"],
+      category: "undefined",
+      subcategory: "undefined",
+      chunks: []
+    },
+    "image-gallery-demo": {
+      name: "image-gallery-demo",
+      type: "components:example",
+      registryDependencies: ["image-gallery"],
+      component: React.lazy(() => import("@/registry/UNSW/example/image-gallery-demo")),
+      source: "",
+      files: ["registry/UNSW/example/image-gallery-demo.tsx"],
+      category: "undefined",
+      subcategory: "undefined",
+      chunks: []
+    },
+    "image-gallery-masonry-grid": {
+      name: "image-gallery-masonry-grid",
+      type: "components:example",
+      registryDependencies: ["image-gallery","masonry-grid"],
+      component: React.lazy(() => import("@/registry/UNSW/example/image-gallery-masonry-grid")),
+      source: "",
+      files: ["registry/UNSW/example/image-gallery-masonry-grid.tsx"],
+      category: "undefined",
+      subcategory: "undefined",
+      chunks: []
+    },
+    "image-gallery-with-carousel": {
+      name: "image-gallery-with-carousel",
+      type: "components:example",
+      registryDependencies: ["image-gallery","with-carousel"],
+      component: React.lazy(() => import("@/registry/UNSW/example/image-gallery-with-carousel")),
+      source: "",
+      files: ["registry/UNSW/image-gallery-with-carousel.tsx"],
+      category: "undefined",
+      subcategory: "undefined",
+      chunks: []
+    },
+    "image-gallery-with-preview": {
+      name: "image-gallery-with-preview",
+      type: "components:example",
+      registryDependencies: ["image-gallery","with-preview"],
+      component: React.lazy(() => import("@/registry/UNSW/example/image-gallery-with-preview")),
+      source: "",
+      files: ["registry/UNSW/example/image-gallery-with-preview.tsx"],
+      category: "undefined",
+      subcategory: "undefined",
+      chunks: []
+    },
+    "image-gallery-with-tab": {
+      name: "image-gallery-with-tab",
+      type: "components:example",
+      registryDependencies: ["image-gallery","with-tab"],
+      component: React.lazy(() => import("@/registry/UNSW/example/image-gallery-with-tab")),
+      source: "",
+      files: ["registry/UNSW/image-gallery-with-tab.tsx"],
+      category: "undefined",
+      subcategory: "undefined",
+      chunks: []
+    },
+    "input-demo": {
+      name: "input-demo",
+      type: "components:example",
+      registryDependencies: ["input"],
+      component: React.lazy(() => import("@/registry/UNSW/example/input-demo")),
+      source: "",
+      files: ["registry/UNSW/example/input-demo.tsx"],
+      category: "undefined",
+      subcategory: "undefined",
+      chunks: []
+    },
+    "input-disabled": {
+      name: "input-disabled",
+      type: "components:example",
+      registryDependencies: ["input"],
+      component: React.lazy(() => import("@/registry/UNSW/example/input-disabled")),
+      source: "",
+      files: ["registry/UNSW/example/input-disabled.tsx"],
+      category: "undefined",
+      subcategory: "undefined",
+      chunks: []
+    },
+    "input-file": {
+      name: "input-file",
+      type: "components:example",
+      registryDependencies: ["input"],
+      component: React.lazy(() => import("@/registry/UNSW/example/input-file")),
+      source: "",
+      files: ["registry/UNSW/example/input-file.tsx"],
+      category: "undefined",
+      subcategory: "undefined",
+      chunks: []
+    },
+    "input-form": {
+      name: "input-form",
+      type: "components:example",
+      registryDependencies: ["input","button","form"],
+      component: React.lazy(() => import("@/registry/UNSW/example/input-form")),
+      source: "",
+      files: ["registry/UNSW/example/input-form.tsx"],
+      category: "undefined",
+      subcategory: "undefined",
+      chunks: []
+    },
+    "input-with-button": {
+      name: "input-with-button",
+      type: "components:example",
+      registryDependencies: ["input","button"],
+      component: React.lazy(() => import("@/registry/UNSW/example/input-with-button")),
+      source: "",
+      files: ["registry/UNSW/example/input-with-button.tsx"],
+      category: "undefined",
+      subcategory: "undefined",
+      chunks: []
+    },
+    "input-with-label": {
+      name: "input-with-label",
+      type: "components:example",
+      registryDependencies: ["input","button","label"],
+      component: React.lazy(() => import("@/registry/UNSW/example/input-with-label")),
+      source: "",
+      files: ["registry/UNSW/example/input-with-label.tsx"],
+      category: "undefined",
+      subcategory: "undefined",
+      chunks: []
+    },
+    "input-with-text": {
+      name: "input-with-text",
+      type: "components:example",
+      registryDependencies: ["input","button","label"],
+      component: React.lazy(() => import("@/registry/UNSW/example/input-with-text")),
+      source: "",
+      files: ["registry/UNSW/example/input-with-text.tsx"],
+      category: "undefined",
+      subcategory: "undefined",
+      chunks: []
+    },
+    "input-with-number": {
+      name: "input-with-number",
+      type: "components:example",
+      registryDependencies: ["input"],
+      component: React.lazy(() => import("@/registry/UNSW/example/input-with-number")),
+      source: "",
+      files: ["registry/UNSW/example/input-with-number.tsx"],
+      category: "undefined",
+      subcategory: "undefined",
+      chunks: []
+    },
+    "input-with-phonenumber": {
+      name: "input-with-phonenumber",
+      type: "components:example",
+      registryDependencies: ["input","button","dropdown-menu"],
+      component: React.lazy(() => import("@/registry/UNSW/example/input-with-phonenumber")),
+      source: "",
+      files: ["registry/UNSW/example/input-with-phonenumber.tsx"],
+      category: "undefined",
+      subcategory: "undefined",
+      chunks: []
+    },
+    "input-otp-demo": {
+      name: "input-otp-demo",
+      type: "components:example",
+      registryDependencies: ["input-otp"],
+      component: React.lazy(() => import("@/registry/UNSW/example/input-otp-demo")),
+      source: "",
+      files: ["registry/UNSW/example/input-otp-demo.tsx"],
+      category: "undefined",
+      subcategory: "undefined",
+      chunks: []
+    },
+    "input-otp-pattern": {
+      name: "input-otp-pattern",
+      type: "components:example",
+      registryDependencies: ["input-otp"],
+      component: React.lazy(() => import("@/registry/UNSW/example/input-otp-pattern")),
+      source: "",
+      files: ["registry/UNSW/example/input-otp-pattern.tsx"],
+      category: "undefined",
+      subcategory: "undefined",
+      chunks: []
+    },
+    "input-otp-separator": {
+      name: "input-otp-separator",
+      type: "components:example",
+      registryDependencies: ["input-otp"],
+      component: React.lazy(() => import("@/registry/UNSW/example/input-otp-separator")),
+      source: "",
+      files: ["registry/UNSW/example/input-otp-separator.tsx"],
+      category: "undefined",
+      subcategory: "undefined",
+      chunks: []
+    },
+    "input-otp-controlled": {
+      name: "input-otp-controlled",
+      type: "components:example",
+      registryDependencies: ["input-otp"],
+      component: React.lazy(() => import("@/registry/UNSW/example/input-otp-controlled")),
+      source: "",
+      files: ["registry/UNSW/example/input-otp-controlled.tsx"],
+      category: "undefined",
+      subcategory: "undefined",
+      chunks: []
+    },
+    "input-otp-form": {
+      name: "input-otp-form",
+      type: "components:example",
+      registryDependencies: ["input-otp","form"],
+      component: React.lazy(() => import("@/registry/UNSW/example/input-otp-form")),
+      source: "",
+      files: ["registry/UNSW/example/input-otp-form.tsx"],
+      category: "undefined",
+      subcategory: "undefined",
+      chunks: []
+    },
+    "links-demo": {
+      name: "links-demo",
+      type: "components:example",
+      registryDependencies: ["button"],
+      component: React.lazy(() => import("@/registry/UNSW/example/links-demo")),
+      source: "",
+      files: ["registry/UNSW/example/links-demo.tsx"],
+      category: "undefined",
+      subcategory: "undefined",
+      chunks: []
+    },
+    "links-expand": {
+      name: "links-expand",
+      type: "components:example",
+      registryDependencies: ["button"],
+      component: React.lazy(() => import("@/registry/UNSW/example/links-expand")),
+      source: "",
+      files: ["registry/UNSW/example/links-demo.tsx"],
+      category: "undefined",
+      subcategory: "undefined",
+      chunks: []
+    },
+    "label-demo": {
+      name: "label-demo",
+      type: "components:example",
+      registryDependencies: ["label"],
+      component: React.lazy(() => import("@/registry/UNSW/example/label-demo")),
+      source: "",
+      files: ["registry/UNSW/example/label-demo.tsx"],
+      category: "undefined",
+      subcategory: "undefined",
+      chunks: []
+    },
+    "menubar-demo": {
+      name: "menubar-demo",
+      type: "components:example",
+      registryDependencies: ["menubar"],
+      component: React.lazy(() => import("@/registry/UNSW/example/menubar-demo")),
+      source: "",
+      files: ["registry/UNSW/example/menubar-demo.tsx"],
+      category: "undefined",
+      subcategory: "undefined",
+      chunks: []
+    },
+    "message-demo": {
+      name: "message-demo",
+      type: "components:example",
+      registryDependencies: undefined,
+      component: React.lazy(() => import("@/registry/UNSW/example/message-demo")),
+      source: "",
+      files: ["registry/UNSW/example/message-demo.tsx"],
+      category: "undefined",
+      subcategory: "undefined",
+      chunks: []
+    },
+    "message-duration": {
+      name: "message-duration",
+      type: "components:example",
+      registryDependencies: undefined,
+      component: React.lazy(() => import("@/registry/UNSW/example/message-duration")),
+      source: "",
+      files: ["registry/UNSW/example/message-duration.tsx"],
+      category: "undefined",
+      subcategory: "undefined",
+      chunks: []
+    },
+    "message-error": {
+      name: "message-error",
+      type: "components:example",
+      registryDependencies: undefined,
+      component: React.lazy(() => import("@/registry/UNSW/example/message-error")),
+      source: "",
+      files: ["registry/UNSW/example/message-error.tsx"],
+      category: "undefined",
+      subcategory: "undefined",
+      chunks: []
+    },
+    "message-success": {
+      name: "message-success",
+      type: "components:example",
+      registryDependencies: undefined,
+      component: React.lazy(() => import("@/registry/UNSW/example/message-success")),
+      source: "",
+      files: ["registry/UNSW/example/message-success.tsx"],
+      category: "undefined",
+      subcategory: "undefined",
+      chunks: []
+    },
+    "message-warning": {
+      name: "message-warning",
+      type: "components:example",
+      registryDependencies: undefined,
+      component: React.lazy(() => import("@/registry/UNSW/example/message-warning")),
+      source: "",
+      files: ["registry/UNSW/example/message-warning.tsx"],
+      category: "undefined",
+      subcategory: "undefined",
+      chunks: []
+    },
+    "modal-demo": {
+      name: "modal-demo",
+      type: "components:example",
+      registryDependencies: undefined,
+      component: React.lazy(() => import("@/registry/UNSW/example/modal-demo")),
+      source: "",
+      files: ["registry/UNSW/example/modal-demo.tsx"],
+      category: "undefined",
+      subcategory: "undefined",
+      chunks: []
+    },
+    "modal-confirm": {
+      name: "modal-confirm",
+      type: "components:example",
+      registryDependencies: undefined,
+      component: React.lazy(() => import("@/registry/UNSW/example/modal-confirm")),
+      source: "",
+      files: ["registry/UNSW/example/modal-confirm.tsx"],
+      category: "undefined",
+      subcategory: "undefined",
+      chunks: []
+    },
+    "modal-login": {
+      name: "modal-login",
+      type: "components:example",
+      registryDependencies: undefined,
+      component: React.lazy(() => import("@/registry/UNSW/example/modal-login")),
+      source: "",
+      files: ["registry/UNSW/example/modal-login.tsx"],
+      category: "undefined",
+      subcategory: "undefined",
+      chunks: []
+    },
+    "modal-notice": {
+      name: "modal-notice",
+      type: "components:example",
+      registryDependencies: undefined,
+      component: React.lazy(() => import("@/registry/UNSW/example/modal-notice")),
+      source: "",
+      files: ["registry/UNSW/example/modal-notice.tsx"],
+      category: "undefined",
+      subcategory: "undefined",
+      chunks: []
+    },
+    "modal-pic": {
+      name: "modal-pic",
+      type: "components:example",
+      registryDependencies: undefined,
+      component: React.lazy(() => import("@/registry/UNSW/example/modal-pic")),
+      source: "",
+      files: ["registry/UNSW/example/modal-pic.tsx"],
+      category: "undefined",
+      subcategory: "undefined",
+      chunks: []
+    },
+    "modal-signup": {
+      name: "modal-signup",
+      type: "components:example",
+      registryDependencies: undefined,
+      component: React.lazy(() => import("@/registry/UNSW/example/modal-signup")),
+      source: "",
+      files: ["registry/UNSW/example/modal-signup.tsx"],
+      category: "undefined",
+      subcategory: "undefined",
+      chunks: []
+    },
+    "mode-toggle": {
+      name: "mode-toggle",
+      type: "components:example",
+      registryDependencies: undefined,
+      component: React.lazy(() => import("@/registry/UNSW/example/mode-toggle")),
+      source: "",
+      files: ["registry/UNSW/example/mode-toggle.tsx"],
+      category: "undefined",
+      subcategory: "undefined",
+      chunks: []
+    },
+    "navigation-menu-demo": {
+      name: "navigation-menu-demo",
+      type: "components:example",
+      registryDependencies: ["navigation-menu"],
+      component: React.lazy(() => import("@/registry/UNSW/example/navigation-menu-demo")),
+      source: "",
+      files: ["registry/UNSW/example/navigation-menu-demo.tsx"],
+      category: "undefined",
+      subcategory: "undefined",
+      chunks: []
+    },
+    "pagination-demo": {
+      name: "pagination-demo",
+      type: "components:example",
+      registryDependencies: ["pagination"],
+      component: React.lazy(() => import("@/registry/UNSW/example/pagination-demo")),
+      source: "",
+      files: ["registry/UNSW/example/pagination-demo.tsx"],
+      category: "undefined",
+      subcategory: "undefined",
+      chunks: []
+    },
+    "panel-demo": {
+      name: "panel-demo",
+      type: "components:example",
+      registryDependencies: ["panel"],
+      component: React.lazy(() => import("@/registry/UNSW/example/panel-demo")),
+      source: "",
+      files: ["registry/UNSW/example/panel-demo.tsx"],
+      category: "undefined",
+      subcategory: "undefined",
+      chunks: []
+    },
+    "panel-fail": {
+      name: "panel-fail",
+      type: "components:example",
+      registryDependencies: ["panel"],
+      component: React.lazy(() => import("@/registry/UNSW/example/panel-fail")),
+      source: "",
+      files: ["registry/UNSW/example/panel-fail.tsx"],
+      category: "undefined",
+      subcategory: "undefined",
+      chunks: []
+    },
+    "popover-demo": {
+      name: "popover-demo",
+      type: "components:example",
+      registryDependencies: ["popover"],
+      component: React.lazy(() => import("@/registry/UNSW/example/popover-demo")),
+      source: "",
+      files: ["registry/UNSW/example/popover-demo.tsx"],
+      category: "undefined",
+      subcategory: "undefined",
+      chunks: []
+    },
+    "progress-demo": {
+      name: "progress-demo",
+      type: "components:example",
+      registryDependencies: ["progress"],
+      component: React.lazy(() => import("@/registry/UNSW/example/progress-demo")),
+      source: "",
+      files: ["registry/UNSW/example/progress-demo.tsx"],
+      category: "undefined",
+      subcategory: "undefined",
+      chunks: []
+    },
+    "radio-group-demo": {
+      name: "radio-group-demo",
+      type: "components:example",
+      registryDependencies: ["radio-group"],
+      component: React.lazy(() => import("@/registry/UNSW/example/radio-group-demo")),
+      source: "",
+      files: ["registry/UNSW/example/radio-group-demo.tsx"],
+      category: "undefined",
+      subcategory: "undefined",
+      chunks: []
+    },
+    "radio-group-form": {
+      name: "radio-group-form",
+      type: "components:example",
+      registryDependencies: ["radio-group","form"],
+      component: React.lazy(() => import("@/registry/UNSW/example/radio-group-form")),
+      source: "",
+      files: ["registry/UNSW/example/radio-group-form.tsx"],
+      category: "undefined",
+      subcategory: "undefined",
+      chunks: []
+    },
+    "resizable-demo": {
+      name: "resizable-demo",
+      type: "components:example",
+      registryDependencies: ["resizable"],
+      component: React.lazy(() => import("@/registry/UNSW/example/resizable-demo")),
+      source: "",
+      files: ["registry/UNSW/example/resizable-demo.tsx"],
+      category: "undefined",
+      subcategory: "undefined",
+      chunks: []
+    },
+    "resizable-demo-with-handle": {
+      name: "resizable-demo-with-handle",
+      type: "components:example",
+      registryDependencies: ["resizable"],
+      component: React.lazy(() => import("@/registry/UNSW/example/resizable-demo-with-handle")),
+      source: "",
+      files: ["registry/UNSW/example/resizable-demo-with-handle.tsx"],
+      category: "undefined",
+      subcategory: "undefined",
+      chunks: []
+    },
+    "resizable-vertical": {
+      name: "resizable-vertical",
+      type: "components:example",
+      registryDependencies: ["resizable"],
+      component: React.lazy(() => import("@/registry/UNSW/example/resizable-vertical")),
+      source: "",
+      files: ["registry/UNSW/example/resizable-vertical.tsx"],
+      category: "undefined",
+      subcategory: "undefined",
+      chunks: []
+    },
+    "resizable-handle": {
+      name: "resizable-handle",
+      type: "components:example",
+      registryDependencies: ["resizable"],
+      component: React.lazy(() => import("@/registry/UNSW/example/resizable-handle")),
+      source: "",
+      files: ["registry/UNSW/example/resizable-handle.tsx"],
+      category: "undefined",
+      subcategory: "undefined",
+      chunks: []
+    },
+    "scroll-area-demo": {
+      name: "scroll-area-demo",
+      type: "components:example",
+      registryDependencies: ["scroll-area"],
+      component: React.lazy(() => import("@/registry/UNSW/example/scroll-area-demo")),
+      source: "",
+      files: ["registry/UNSW/example/scroll-area-demo.tsx"],
+      category: "undefined",
+      subcategory: "undefined",
+      chunks: []
+    },
+    "scroll-area-horizontal-demo": {
+      name: "scroll-area-horizontal-demo",
+      type: "components:example",
+      registryDependencies: ["scroll-area"],
+      component: React.lazy(() => import("@/registry/UNSW/example/scroll-area-horizontal-demo")),
+      source: "",
+      files: ["registry/UNSW/example/scroll-area-horizontal-demo.tsx"],
+      category: "undefined",
+      subcategory: "undefined",
+      chunks: []
+    },
+    "search-demo": {
+      name: "search-demo",
+      type: "components:example",
+      registryDependencies: ["search"],
+      component: React.lazy(() => import("@/registry/UNSW/example/search-demo")),
+      source: "",
+      files: ["registry/UNSW/example/search-demo.tsx"],
+      category: "undefined",
+      subcategory: "undefined",
+      chunks: []
+    },
+    "search-icon": {
+      name: "search-icon",
+      type: "components:example",
+      registryDependencies: ["search"],
+      component: React.lazy(() => import("@/registry/UNSW/example/search-icon")),
+      source: "",
+      files: ["registry/UNSW/example/search-icon.tsx"],
+      category: "undefined",
+      subcategory: "undefined",
+      chunks: []
+    },
+    "select-demo": {
+      name: "select-demo",
+      type: "components:example",
+      registryDependencies: ["select"],
+      component: React.lazy(() => import("@/registry/UNSW/example/select-demo")),
+      source: "",
+      files: ["registry/UNSW/example/select-demo.tsx"],
+      category: "undefined",
+      subcategory: "undefined",
+      chunks: []
+    },
+    "select-scrollable": {
+      name: "select-scrollable",
+      type: "components:example",
+      registryDependencies: ["select"],
+      component: React.lazy(() => import("@/registry/UNSW/example/select-scrollable")),
+      source: "",
+      files: ["registry/UNSW/example/select-scrollable.tsx"],
+      category: "undefined",
+      subcategory: "undefined",
+      chunks: []
+    },
+    "select-form": {
+      name: "select-form",
+      type: "components:example",
+      registryDependencies: ["select"],
+      component: React.lazy(() => import("@/registry/UNSW/example/select-form")),
+      source: "",
+      files: ["registry/UNSW/example/select-form.tsx"],
+      category: "undefined",
+      subcategory: "undefined",
+      chunks: []
+    },
+    "separator-demo": {
+      name: "separator-demo",
+      type: "components:example",
+      registryDependencies: ["separator"],
+      component: React.lazy(() => import("@/registry/UNSW/example/separator-demo")),
+      source: "",
+      files: ["registry/UNSW/example/separator-demo.tsx"],
+      category: "undefined",
+      subcategory: "undefined",
+      chunks: []
+    },
+    "sheet-demo": {
+      name: "sheet-demo",
+      type: "components:example",
+      registryDependencies: ["sheet"],
+      component: React.lazy(() => import("@/registry/UNSW/example/sheet-demo")),
+      source: "",
+      files: ["registry/UNSW/example/sheet-demo.tsx"],
+      category: "undefined",
+      subcategory: "undefined",
+      chunks: []
+    },
+    "sheet-side": {
+      name: "sheet-side",
+      type: "components:example",
+      registryDependencies: ["sheet"],
+      component: React.lazy(() => import("@/registry/UNSW/example/sheet-side")),
+      source: "",
+      files: ["registry/UNSW/example/sheet-side.tsx"],
+      category: "undefined",
+      subcategory: "undefined",
+      chunks: []
+    },
+    "skeleton-demo": {
+      name: "skeleton-demo",
+      type: "components:example",
+      registryDependencies: ["skeleton"],
+      component: React.lazy(() => import("@/registry/UNSW/example/skeleton-demo")),
+      source: "",
+      files: ["registry/UNSW/example/skeleton-demo.tsx"],
+      category: "undefined",
+      subcategory: "undefined",
+      chunks: []
+    },
+    "skeleton-card": {
+      name: "skeleton-card",
+      type: "components:example",
+      registryDependencies: ["skeleton"],
+      component: React.lazy(() => import("@/registry/UNSW/example/skeleton-card")),
+      source: "",
+      files: ["registry/UNSW/example/skeleton-card.tsx"],
+      category: "undefined",
+      subcategory: "undefined",
+      chunks: []
+    },
+    "slider-demo": {
+      name: "slider-demo",
+      type: "components:example",
+      registryDependencies: ["slider"],
+      component: React.lazy(() => import("@/registry/UNSW/example/slider-demo")),
+      source: "",
+      files: ["registry/UNSW/example/slider-demo.tsx"],
+      category: "undefined",
+      subcategory: "undefined",
+      chunks: []
+    },
+    "sonner-demo": {
+      name: "sonner-demo",
+      type: "components:example",
+      registryDependencies: ["sonner"],
+      component: React.lazy(() => import("@/registry/UNSW/example/sonner-demo")),
+      source: "",
+      files: ["registry/UNSW/example/sonner-demo.tsx"],
+      category: "undefined",
+      subcategory: "undefined",
+      chunks: []
+    },
+    "statistic-demo": {
+      name: "statistic-demo",
+      type: "components:example",
+      registryDependencies: ["statistic","button"],
+      component: React.lazy(() => import("@/registry/UNSW/example/statistic-demo")),
+      source: "",
+      files: ["registry/UNSW/example/statistic-demo.tsx"],
+      category: "undefined",
+      subcategory: "undefined",
+      chunks: []
+    },
+    "statistic-incard": {
+      name: "statistic-incard",
+      type: "components:example",
+      registryDependencies: ["statistic","card","icons"],
+      component: React.lazy(() => import("@/registry/UNSW/example/statistic-incard")),
+      source: "",
+      files: ["registry/UNSW/example/statistic-incard.tsx"],
+      category: "undefined",
+      subcategory: "undefined",
+      chunks: []
+    },
+    "steps-demo": {
+      name: "steps-demo",
+      type: "components:example",
+      registryDependencies: ["steps"],
+      component: React.lazy(() => import("@/registry/UNSW/example/steps-demo")),
+      source: "",
+      files: ["registry/UNSW/example/steps-demo.tsx"],
+      category: "undefined",
+      subcategory: "undefined",
+      chunks: []
+    },
+    "steps-with-content": {
+      name: "steps-with-content",
+      type: "components:example",
+      registryDependencies: ["steps","with-content"],
+      component: React.lazy(() => import("@/registry/UNSW/example/steps-with-content")),
+      source: "",
+      files: ["registry/UNSW/example/steps-with-content.tsx"],
+      category: "undefined",
+      subcategory: "undefined",
+      chunks: []
+    },
+    "steps-with-dots": {
+      name: "steps-with-dots",
+      type: "components:example",
+      registryDependencies: ["steps","with-dots"],
+      component: React.lazy(() => import("@/registry/UNSW/example/steps-with-dots")),
+      source: "",
+      files: ["registry/UNSW/example/steps-with-dots.tsx"],
+      category: "undefined",
+      subcategory: "undefined",
+      chunks: []
+    },
+    "steps-with-icon": {
+      name: "steps-with-icon",
+      type: "components:example",
+      registryDependencies: ["steps","with-icon"],
+      component: React.lazy(() => import("@/registry/UNSW/example/steps-with-icon")),
+      source: "",
+      files: ["registry/UNSW/example/steps-with-icon.tsx"],
+      category: "undefined",
+      subcategory: "undefined",
+      chunks: []
+    },
+    "switch-demo": {
+      name: "switch-demo",
+      type: "components:example",
+      registryDependencies: ["switch"],
+      component: React.lazy(() => import("@/registry/UNSW/example/switch-demo")),
+      source: "",
+      files: ["registry/UNSW/example/switch-demo.tsx"],
+      category: "undefined",
+      subcategory: "undefined",
+      chunks: []
+    },
+    "switch-form": {
+      name: "switch-form",
+      type: "components:example",
+      registryDependencies: ["switch","form"],
+      component: React.lazy(() => import("@/registry/UNSW/example/switch-form")),
+      source: "",
+      files: ["registry/UNSW/example/switch-form.tsx"],
+      category: "undefined",
+      subcategory: "undefined",
+      chunks: []
+    },
+    "table-demo": {
+      name: "table-demo",
+      type: "components:example",
+      registryDependencies: ["table"],
+      component: React.lazy(() => import("@/registry/UNSW/example/table-demo")),
+      source: "",
+      files: ["registry/UNSW/example/table-demo.tsx"],
+      category: "undefined",
+      subcategory: "undefined",
+      chunks: []
+    },
+    "table-colorful": {
+      name: "table-colorful",
+      type: "components:example",
+      registryDependencies: ["table"],
+      component: React.lazy(() => import("@/registry/UNSW/example/table-colorful")),
+      source: "",
+      files: ["registry/UNSW/example/table-colorful.tsx"],
+      category: "undefined",
+      subcategory: "undefined",
+      chunks: []
+    },
+    "tabs-demo": {
+      name: "tabs-demo",
+      type: "components:example",
+      registryDependencies: ["tabs"],
+      component: React.lazy(() => import("@/registry/UNSW/example/tabs-demo")),
+      source: "",
+      files: ["registry/UNSW/example/tabs-demo.tsx"],
+      category: "undefined",
+      subcategory: "undefined",
+      chunks: []
+    },
+    "tabs-variant": {
+      name: "tabs-variant",
+      type: "components:example",
+      registryDependencies: ["tabs"],
+      component: React.lazy(() => import("@/registry/UNSW/example/tabs-variant")),
+      source: "",
+      files: ["registry/UNSW/example/tabs-variant.tsx"],
+      category: "undefined",
+      subcategory: "undefined",
+      chunks: []
+    },
+    "tags-innovativetags": {
+      name: "tags-innovativetags",
+      type: "components:example",
+      registryDependencies: ["tags"],
+      component: React.lazy(() => import("@/registry/UNSW/example/tags-innovativetags")),
+      source: "",
+      files: ["registry/UNSW/example/tags-innovativetags.tsx"],
+      category: "undefined",
+      subcategory: "undefined",
+      chunks: []
+    },
+    "textarea-demo": {
+      name: "textarea-demo",
+      type: "components:example",
+      registryDependencies: ["textarea"],
+      component: React.lazy(() => import("@/registry/UNSW/example/textarea-demo")),
+      source: "",
+      files: ["registry/UNSW/example/textarea-demo.tsx"],
+      category: "undefined",
+      subcategory: "undefined",
+      chunks: []
+    },
+    "textarea-disabled": {
+      name: "textarea-disabled",
+      type: "components:example",
+      registryDependencies: ["textarea"],
+      component: React.lazy(() => import("@/registry/UNSW/example/textarea-disabled")),
+      source: "",
+      files: ["registry/UNSW/example/textarea-disabled.tsx"],
+      category: "undefined",
+      subcategory: "undefined",
+      chunks: []
+    },
+    "textarea-form": {
+      name: "textarea-form",
+      type: "components:example",
+      registryDependencies: ["textarea","form"],
+      component: React.lazy(() => import("@/registry/UNSW/example/textarea-form")),
+      source: "",
+      files: ["registry/UNSW/example/textarea-form.tsx"],
+      category: "undefined",
+      subcategory: "undefined",
+      chunks: []
+    },
+    "textarea-with-button": {
+      name: "textarea-with-button",
+      type: "components:example",
+      registryDependencies: ["textarea","button"],
+      component: React.lazy(() => import("@/registry/UNSW/example/textarea-with-button")),
+      source: "",
+      files: ["registry/UNSW/example/textarea-with-button.tsx"],
+      category: "undefined",
+      subcategory: "undefined",
+      chunks: []
+    },
+    "textarea-with-label": {
+      name: "textarea-with-label",
+      type: "components:example",
+      registryDependencies: ["textarea","label"],
+      component: React.lazy(() => import("@/registry/UNSW/example/textarea-with-label")),
+      source: "",
+      files: ["registry/UNSW/example/textarea-with-label.tsx"],
+      category: "undefined",
+      subcategory: "undefined",
+      chunks: []
+    },
+    "textarea-with-text": {
+      name: "textarea-with-text",
+      type: "components:example",
+      registryDependencies: ["textarea","label"],
+      component: React.lazy(() => import("@/registry/UNSW/example/textarea-with-text")),
+      source: "",
+      files: ["registry/UNSW/example/textarea-with-text.tsx"],
+      category: "undefined",
+      subcategory: "undefined",
+      chunks: []
+    },
+    "toast-demo": {
+      name: "toast-demo",
+      type: "components:example",
+      registryDependencies: ["toast"],
+      component: React.lazy(() => import("@/registry/UNSW/example/toast-demo")),
+      source: "",
+      files: ["registry/UNSW/example/toast-demo.tsx"],
+      category: "undefined",
+      subcategory: "undefined",
+      chunks: []
+    },
+    "toast-destructive": {
+      name: "toast-destructive",
+      type: "components:example",
+      registryDependencies: ["toast"],
+      component: React.lazy(() => import("@/registry/UNSW/example/toast-destructive")),
+      source: "",
+      files: ["registry/UNSW/example/toast-destructive.tsx"],
+      category: "undefined",
+      subcategory: "undefined",
+      chunks: []
+    },
+    "toast-simple": {
+      name: "toast-simple",
+      type: "components:example",
+      registryDependencies: ["toast"],
+      component: React.lazy(() => import("@/registry/UNSW/example/toast-simple")),
+      source: "",
+      files: ["registry/UNSW/example/toast-simple.tsx"],
+      category: "undefined",
+      subcategory: "undefined",
+      chunks: []
+    },
+    "toast-with-action": {
+      name: "toast-with-action",
+      type: "components:example",
+      registryDependencies: ["toast"],
+      component: React.lazy(() => import("@/registry/UNSW/example/toast-with-action")),
+      source: "",
+      files: ["registry/UNSW/example/toast-with-action.tsx"],
+      category: "undefined",
+      subcategory: "undefined",
+      chunks: []
+    },
+    "toast-with-title": {
+      name: "toast-with-title",
+      type: "components:example",
+      registryDependencies: ["toast"],
+      component: React.lazy(() => import("@/registry/UNSW/example/toast-with-title")),
+      source: "",
+      files: ["registry/UNSW/example/toast-with-title.tsx"],
+      category: "undefined",
+      subcategory: "undefined",
+      chunks: []
+    },
+    "toggle-group-demo": {
+      name: "toggle-group-demo",
+      type: "components:example",
+      registryDependencies: ["toggle-group"],
+      component: React.lazy(() => import("@/registry/UNSW/example/toggle-group-demo")),
+      source: "",
+      files: ["registry/UNSW/example/toggle-group-demo.tsx"],
+      category: "undefined",
+      subcategory: "undefined",
+      chunks: []
+    },
+    "toggle-group-disabled": {
+      name: "toggle-group-disabled",
+      type: "components:example",
+      registryDependencies: ["toggle-group"],
+      component: React.lazy(() => import("@/registry/UNSW/example/toggle-group-disabled")),
+      source: "",
+      files: ["registry/UNSW/example/toggle-group-disabled.tsx"],
+      category: "undefined",
+      subcategory: "undefined",
+      chunks: []
+    },
+    "toggle-group-lg": {
+      name: "toggle-group-lg",
+      type: "components:example",
+      registryDependencies: ["toggle-group"],
+      component: React.lazy(() => import("@/registry/UNSW/example/toggle-group-lg")),
+      source: "",
+      files: ["registry/UNSW/example/toggle-group-lg.tsx"],
+      category: "undefined",
+      subcategory: "undefined",
+      chunks: []
+    },
+    "toggle-group-outline": {
+      name: "toggle-group-outline",
+      type: "components:example",
+      registryDependencies: ["toggle-group"],
+      component: React.lazy(() => import("@/registry/UNSW/example/toggle-group-outline")),
+      source: "",
+      files: ["registry/UNSW/example/toggle-group-outline.tsx"],
+      category: "undefined",
+      subcategory: "undefined",
+      chunks: []
+    },
+    "toggle-group-sm": {
+      name: "toggle-group-sm",
+      type: "components:example",
+      registryDependencies: ["toggle-group"],
+      component: React.lazy(() => import("@/registry/UNSW/example/toggle-group-sm")),
+      source: "",
+      files: ["registry/UNSW/example/toggle-group-sm.tsx"],
+      category: "undefined",
+      subcategory: "undefined",
+      chunks: []
+    },
+    "toggle-group-single": {
+      name: "toggle-group-single",
+      type: "components:example",
+      registryDependencies: ["toggle-group"],
+      component: React.lazy(() => import("@/registry/UNSW/example/toggle-group-single")),
+      source: "",
+      files: ["registry/UNSW/example/toggle-group-single.tsx"],
+      category: "undefined",
+      subcategory: "undefined",
+      chunks: []
+    },
+    "toggle-demo": {
+      name: "toggle-demo",
+      type: "components:example",
+      registryDependencies: ["toggle"],
+      component: React.lazy(() => import("@/registry/UNSW/example/toggle-demo")),
+      source: "",
+      files: ["registry/UNSW/example/toggle-demo.tsx"],
+      category: "undefined",
+      subcategory: "undefined",
+      chunks: []
+    },
+    "toggle-disabled": {
+      name: "toggle-disabled",
+      type: "components:example",
+      registryDependencies: ["toggle"],
+      component: React.lazy(() => import("@/registry/UNSW/example/toggle-disabled")),
+      source: "",
+      files: ["registry/UNSW/example/toggle-disabled.tsx"],
+      category: "undefined",
+      subcategory: "undefined",
+      chunks: []
+    },
+    "toggle-lg": {
+      name: "toggle-lg",
+      type: "components:example",
+      registryDependencies: ["toggle"],
+      component: React.lazy(() => import("@/registry/UNSW/example/toggle-lg")),
+      source: "",
+      files: ["registry/UNSW/example/toggle-lg.tsx"],
+      category: "undefined",
+      subcategory: "undefined",
+      chunks: []
+    },
+    "toggle-outline": {
+      name: "toggle-outline",
+      type: "components:example",
+      registryDependencies: ["toggle"],
+      component: React.lazy(() => import("@/registry/UNSW/example/toggle-outline")),
+      source: "",
+      files: ["registry/UNSW/example/toggle-outline.tsx"],
+      category: "undefined",
+      subcategory: "undefined",
+      chunks: []
+    },
+    "toggle-sm": {
+      name: "toggle-sm",
+      type: "components:example",
+      registryDependencies: ["toggle"],
+      component: React.lazy(() => import("@/registry/UNSW/example/toggle-sm")),
+      source: "",
+      files: ["registry/UNSW/example/toggle-sm.tsx"],
+      category: "undefined",
+      subcategory: "undefined",
+      chunks: []
+    },
+    "toggle-with-text": {
+      name: "toggle-with-text",
+      type: "components:example",
+      registryDependencies: ["toggle"],
+      component: React.lazy(() => import("@/registry/UNSW/example/toggle-with-text")),
+      source: "",
+      files: ["registry/UNSW/example/toggle-with-text.tsx"],
+      category: "undefined",
+      subcategory: "undefined",
+      chunks: []
+    },
+    "tooltip-demo": {
+      name: "tooltip-demo",
+      type: "components:example",
+      registryDependencies: ["tooltip"],
+      component: React.lazy(() => import("@/registry/UNSW/example/tooltip-demo")),
+      source: "",
+      files: ["registry/UNSW/example/tooltip-demo.tsx"],
+      category: "undefined",
+      subcategory: "undefined",
+      chunks: []
+    },
+    "tooltip-basic": {
+      name: "tooltip-basic",
+      type: "components:example",
+      registryDependencies: ["tooltip"],
+      component: React.lazy(() => import("@/registry/UNSW/example/tooltip-basic")),
+      source: "",
+      files: ["registry/UNSW/example/tooltip-basic.tsx"],
+      category: "undefined",
+      subcategory: "undefined",
+      chunks: []
+    },
+    "tooltip-disabled": {
+      name: "tooltip-disabled",
+      type: "components:example",
+      registryDependencies: ["tooltip"],
+      component: React.lazy(() => import("@/registry/UNSW/example/tooltip-disabled")),
+      source: "",
+      files: ["registry/UNSW/example/tooltip-disabled.tsx"],
+      category: "undefined",
+      subcategory: "undefined",
+      chunks: []
+    },
+    "typography-blockquote": {
+      name: "typography-blockquote",
+      type: "components:example",
+      registryDependencies: undefined,
+      component: React.lazy(() => import("@/registry/UNSW/example/typography-blockquote")),
+      source: "",
+      files: ["registry/UNSW/example/typography-blockquote.tsx"],
+      category: "undefined",
+      subcategory: "undefined",
+      chunks: []
+    },
+    "typography-demo": {
+      name: "typography-demo",
+      type: "components:example",
+      registryDependencies: undefined,
+      component: React.lazy(() => import("@/registry/UNSW/example/typography-demo")),
+      source: "",
+      files: ["registry/UNSW/example/typography-demo.tsx"],
+      category: "undefined",
+      subcategory: "undefined",
+      chunks: []
+    },
+    "typography-h1": {
+      name: "typography-h1",
+      type: "components:example",
+      registryDependencies: undefined,
+      component: React.lazy(() => import("@/registry/UNSW/example/typography-h1")),
+      source: "",
+      files: ["registry/UNSW/example/typography-h1.tsx"],
+      category: "undefined",
+      subcategory: "undefined",
+      chunks: []
+    },
+    "typography-h2": {
+      name: "typography-h2",
+      type: "components:example",
+      registryDependencies: undefined,
+      component: React.lazy(() => import("@/registry/UNSW/example/typography-h2")),
+      source: "",
+      files: ["registry/UNSW/example/typography-h2.tsx"],
+      category: "undefined",
+      subcategory: "undefined",
+      chunks: []
+    },
+    "typography-h3": {
+      name: "typography-h3",
+      type: "components:example",
+      registryDependencies: undefined,
+      component: React.lazy(() => import("@/registry/UNSW/example/typography-h3")),
+      source: "",
+      files: ["registry/UNSW/example/typography-h3.tsx"],
+      category: "undefined",
+      subcategory: "undefined",
+      chunks: []
+    },
+    "typography-h4": {
+      name: "typography-h4",
+      type: "components:example",
+      registryDependencies: undefined,
+      component: React.lazy(() => import("@/registry/UNSW/example/typography-h4")),
+      source: "",
+      files: ["registry/UNSW/example/typography-h4.tsx"],
+      category: "undefined",
+      subcategory: "undefined",
+      chunks: []
+    },
+    "typography-inline-code": {
+      name: "typography-inline-code",
+      type: "components:example",
+      registryDependencies: undefined,
+      component: React.lazy(() => import("@/registry/UNSW/example/typography-inline-code")),
+      source: "",
+      files: ["registry/UNSW/example/typography-inline-code.tsx"],
+      category: "undefined",
+      subcategory: "undefined",
+      chunks: []
+    },
+    "typography-large": {
+      name: "typography-large",
+      type: "components:example",
+      registryDependencies: undefined,
+      component: React.lazy(() => import("@/registry/UNSW/example/typography-large")),
+      source: "",
+      files: ["registry/UNSW/example/typography-large.tsx"],
+      category: "undefined",
+      subcategory: "undefined",
+      chunks: []
+    },
+    "typography-lead": {
+      name: "typography-lead",
+      type: "components:example",
+      registryDependencies: undefined,
+      component: React.lazy(() => import("@/registry/UNSW/example/typography-lead")),
+      source: "",
+      files: ["registry/UNSW/example/typography-lead.tsx"],
+      category: "undefined",
+      subcategory: "undefined",
+      chunks: []
+    },
+    "typography-list": {
+      name: "typography-list",
+      type: "components:example",
+      registryDependencies: undefined,
+      component: React.lazy(() => import("@/registry/UNSW/example/typography-list")),
+      source: "",
+      files: ["registry/UNSW/example/typography-list.tsx"],
+      category: "undefined",
+      subcategory: "undefined",
+      chunks: []
+    },
+    "typography-muted": {
+      name: "typography-muted",
+      type: "components:example",
+      registryDependencies: undefined,
+      component: React.lazy(() => import("@/registry/UNSW/example/typography-muted")),
+      source: "",
+      files: ["registry/UNSW/example/typography-muted.tsx"],
+      category: "undefined",
+      subcategory: "undefined",
+      chunks: []
+    },
+    "typography-p": {
+      name: "typography-p",
+      type: "components:example",
+      registryDependencies: undefined,
+      component: React.lazy(() => import("@/registry/UNSW/example/typography-p")),
+      source: "",
+      files: ["registry/UNSW/example/typography-p.tsx"],
+      category: "undefined",
+      subcategory: "undefined",
+      chunks: []
+    },
+    "typography-small": {
+      name: "typography-small",
+      type: "components:example",
+      registryDependencies: undefined,
+      component: React.lazy(() => import("@/registry/UNSW/example/typography-small")),
+      source: "",
+      files: ["registry/UNSW/example/typography-small.tsx"],
+      category: "undefined",
+      subcategory: "undefined",
+      chunks: []
+    },
+    "typography-table": {
+      name: "typography-table",
+      type: "components:example",
+      registryDependencies: undefined,
+      component: React.lazy(() => import("@/registry/UNSW/example/typography-table")),
+      source: "",
+      files: ["registry/UNSW/example/typography-table.tsx"],
+      category: "undefined",
+      subcategory: "undefined",
+      chunks: []
+    },
+    "watermark-demo": {
+      name: "watermark-demo",
+      type: "components:example",
+      registryDependencies: undefined,
+      component: React.lazy(() => import("@/registry/UNSW/example/watermark-demo")),
+      source: "",
+      files: ["registry/UNSW/example/watermark-demo.tsx"],
+      category: "undefined",
+      subcategory: "undefined",
+      chunks: []
+    },
+    "charts-01": {
+      name: "charts-01",
+      type: "components:block",
+      registryDependencies: ["chart"],
+      component: React.lazy(() => import("@/registry/UNSW/block/charts-01")),
+      source: "__registry__/UNSW/block/charts-01.tsx",
+      files: ["registry/UNSW/block/charts-01.tsx"],
+      category: "Application",
+      subcategory: "Charts",
+      chunks: [{
+        name: "charts-01-chunk-0",
+        description: "A bar chart showing the number of steps you have walked in the past 7 days.",
+        component: React.lazy(() => import("@/registry/UNSW/block/charts-01-chunk-0")),
+        file: "registry/UNSW/block/charts-01-chunk-0.tsx",
+        container: {
+          className: "undefined"
+        }
+      },{
+        name: "charts-01-chunk-1",
+        description: "A line chart showing the resting heart rate for the past 7 days.",
+        component: React.lazy(() => import("@/registry/UNSW/block/charts-01-chunk-1")),
+        file: "registry/UNSW/block/charts-01-chunk-1.tsx",
+        container: {
+          className: "undefined"
+        }
+      },{
+        name: "charts-01-chunk-2",
+        description: "Two horizontal bar charts showing total steps taken during the current year and last year.",
+        component: React.lazy(() => import("@/registry/UNSW/block/charts-01-chunk-2")),
+        file: "registry/UNSW/block/charts-01-chunk-2.tsx",
+        container: {
+          className: "undefined"
+        }
+      },{
+        name: "charts-01-chunk-3",
+        description: "A bar chart showing the walking and running distance for the past 7 days.",
+        component: React.lazy(() => import("@/registry/UNSW/block/charts-01-chunk-3")),
+        file: "registry/UNSW/block/charts-01-chunk-3.tsx",
+        container: {
+          className: "undefined"
+        }
+      },{
+        name: "charts-01-chunk-4",
+        description: "A bar chart showing move, exercise, and stand progress.",
+        component: React.lazy(() => import("@/registry/UNSW/block/charts-01-chunk-4")),
+        file: "registry/UNSW/block/charts-01-chunk-4.tsx",
+        container: {
+          className: "undefined"
+        }
+      },{
+        name: "charts-01-chunk-5",
+        description: "A radial bar chart showing the percentage of time spent moving, exercising, and standing.",
+        component: React.lazy(() => import("@/registry/UNSW/block/charts-01-chunk-5")),
+        file: "registry/UNSW/block/charts-01-chunk-5.tsx",
+        container: {
+          className: "undefined"
+        }
+      },{
+        name: "charts-01-chunk-6",
+        description: "A bar chart showing active energy in the past 7 days.",
+        component: React.lazy(() => import("@/registry/UNSW/block/charts-01-chunk-6")),
+        file: "registry/UNSW/block/charts-01-chunk-6.tsx",
+        container: {
+          className: "undefined"
+        }
+      },{
+        name: "charts-01-chunk-7",
+        description: "An area chart showing the time spent in bed for the past 7 days.",
+        component: React.lazy(() => import("@/registry/UNSW/block/charts-01-chunk-7")),
+        file: "registry/UNSW/block/charts-01-chunk-7.tsx",
+        container: {
+          className: "undefined"
+        }
+      }]
+    },
+    "dashboard-05": {
+      name: "dashboard-05",
+      type: "components:block",
+      registryDependencies: ["badge","breadcrumb","button","card","dropdown-menu","input","pagination","progress","separator","sheet","table","tabs","tooltip"],
+      component: React.lazy(() => import("@/registry/UNSW/block/dashboard-05")),
+      source: "__registry__/UNSW/block/dashboard-05.tsx",
+      files: ["registry/UNSW/block/dashboard-05.tsx"],
+      category: "Application",
+      subcategory: "Dashboard",
+      chunks: [{
+        name: "dashboard-05-chunk-0",
+        description: "A card for an orders dashboard with a description and a button to create a new order.",
+        component: React.lazy(() => import("@/registry/UNSW/block/dashboard-05-chunk-0")),
+        file: "registry/UNSW/block/dashboard-05-chunk-0.tsx",
+        container: {
+          className: "undefined"
+        }
+      },{
+        name: "dashboard-05-chunk-1",
+        description: "A stats card showing this week's total sales in USD, the percentage difference from last week, and a progress bar.",
+        component: React.lazy(() => import("@/registry/UNSW/block/dashboard-05-chunk-1")),
+        file: "registry/UNSW/block/dashboard-05-chunk-1.tsx",
+        container: {
+          className: "undefined"
+        }
+      },{
+        name: "dashboard-05-chunk-2",
+        description: "A stats card showing this month's total sales in USD, the percentage difference from last month, and a progress bar.",
+        component: React.lazy(() => import("@/registry/UNSW/block/dashboard-05-chunk-2")),
+        file: "registry/UNSW/block/dashboard-05-chunk-2.tsx",
+        container: {
+          className: "undefined"
+        }
+      },{
+        name: "dashboard-05-chunk-3",
+        description: "A table of recent orders showing the following columns: Customer, Type, Status, Date, and Amount.",
+        component: React.lazy(() => import("@/registry/UNSW/block/dashboard-05-chunk-3")),
+        file: "registry/UNSW/block/dashboard-05-chunk-3.tsx",
+        container: {
+          className: "undefined"
+        }
+      },{
+        name: "dashboard-05-chunk-4",
+        description: "An order details card with order details, shipping information, customer information and payment information.",
+        component: React.lazy(() => import("@/registry/UNSW/block/dashboard-05-chunk-4")),
+        file: "registry/UNSW/block/dashboard-05-chunk-4.tsx",
+        container: {
+          className: "undefined"
+        }
+      }]
+    },
+    "dashboard-06": {
+      name: "dashboard-06",
+      type: "components:block",
+      registryDependencies: ["badge","breadcrumb","button","card","dropdown-menu","input","sheet","table","tabs","tooltip"],
+      component: React.lazy(() => import("@/registry/UNSW/block/dashboard-06")),
+      source: "__registry__/UNSW/block/dashboard-06.tsx",
+      files: ["registry/UNSW/block/dashboard-06.tsx"],
+      category: "Application",
+      subcategory: "Dashboard",
+      chunks: [{
+        name: "dashboard-06-chunk-0",
+        description: "A list of products in a table with actions. Each row has an image, name, status, price, total sales, created at and actions.",
+        component: React.lazy(() => import("@/registry/UNSW/block/dashboard-06-chunk-0")),
+        file: "registry/UNSW/block/dashboard-06-chunk-0.tsx",
+        container: {
+          className: "undefined"
+        }
+      }]
+    },
+    "dashboard-07": {
+      name: "dashboard-07",
+      type: "components:block",
+      registryDependencies: ["badge","breadcrumb","button","card","dropdown-menu","input","pagination","progress","separator","sheet","table","tabs","tooltip"],
+      component: React.lazy(() => import("@/registry/UNSW/block/dashboard-07")),
+      source: "__registry__/UNSW/block/dashboard-07.tsx",
+      files: ["registry/UNSW/block/dashboard-07.tsx"],
+      category: "Application",
+      subcategory: "Dashboard",
+      chunks: [{
+        name: "dashboard-07-chunk-0",
+        description: "A card with a form to edit the product details",
+        component: React.lazy(() => import("@/registry/UNSW/block/dashboard-07-chunk-0")),
+        file: "registry/UNSW/block/dashboard-07-chunk-0.tsx",
+        container: {
+          className: "undefined"
+        }
+      },{
+        name: "dashboard-07-chunk-1",
+        description: "A card with a form to edit the product stock and variants",
+        component: React.lazy(() => import("@/registry/UNSW/block/dashboard-07-chunk-1")),
+        file: "registry/UNSW/block/dashboard-07-chunk-1.tsx",
+        container: {
+          className: "undefined"
+        }
+      },{
+        name: "dashboard-07-chunk-2",
+        description: "A card with a form to edit the product category and subcategory",
+        component: React.lazy(() => import("@/registry/UNSW/block/dashboard-07-chunk-2")),
+        file: "registry/UNSW/block/dashboard-07-chunk-2.tsx",
+        container: {
+          className: "undefined"
+        }
+      },{
+        name: "dashboard-07-chunk-3",
+        description: "A card with a form to edit the product status",
+        component: React.lazy(() => import("@/registry/UNSW/block/dashboard-07-chunk-3")),
+        file: "registry/UNSW/block/dashboard-07-chunk-3.tsx",
+        container: {
+          className: "undefined"
+        }
+      },{
+        name: "dashboard-07-chunk-4",
+        description: "A card with a form to upload product images",
+        component: React.lazy(() => import("@/registry/UNSW/block/dashboard-07-chunk-4")),
+        file: "registry/UNSW/block/dashboard-07-chunk-4.tsx",
+        container: {
+          className: "undefined"
+        }
+      },{
+        name: "dashboard-07-chunk-5",
+        description: "A card with a call to action to archive the product",
+        component: React.lazy(() => import("@/registry/UNSW/block/dashboard-07-chunk-5")),
+        file: "registry/UNSW/block/dashboard-07-chunk-5.tsx",
+        container: {
+          className: "undefined"
+        }
+      }]
+    },
+    "dashboard-04": {
+      name: "dashboard-04",
+      type: "components:block",
+      registryDependencies: ["button","card","dropdown-menu","input"],
+      component: React.lazy(() => import("@/registry/UNSW/block/dashboard-04")),
+      source: "__registry__/UNSW/block/dashboard-04.tsx",
+      files: ["registry/UNSW/block/dashboard-04.tsx"],
+      category: "Application",
+      subcategory: "Dashboard",
+      chunks: [{
+        name: "dashboard-04-chunk-0",
+        description: "A sidebar navigation with links to general, security, integrations, support, organizations, and advanced settings.",
+        component: React.lazy(() => import("@/registry/UNSW/block/dashboard-04-chunk-0")),
+        file: "registry/UNSW/block/dashboard-04-chunk-0.tsx",
+        container: {
+          className: "chunk-container after:right-0"
+        }
+      },{
+        name: "dashboard-04-chunk-1",
+        description: "A form to update the store name.",
+        component: React.lazy(() => import("@/registry/UNSW/block/dashboard-04-chunk-1")),
+        file: "registry/UNSW/block/dashboard-04-chunk-1.tsx",
+        container: {
+          className: "undefined"
+        }
+      },{
+        name: "dashboard-04-chunk-2",
+        description: "A form to update the plugins directory with a checkbox to allow administrators to change the directory.",
+        component: React.lazy(() => import("@/registry/UNSW/block/dashboard-04-chunk-2")),
+        file: "registry/UNSW/block/dashboard-04-chunk-2.tsx",
+        container: {
+          className: "undefined"
+        }
+      }]
+    },
+    "dashboard-03": {
+      name: "dashboard-03",
+      type: "components:block",
+      registryDependencies: ["badge","button","drawer","input","label","select","textarea","tooltip"],
+      component: React.lazy(() => import("@/registry/UNSW/block/dashboard-03")),
+      source: "__registry__/UNSW/block/dashboard-03.tsx",
+      files: ["registry/UNSW/block/dashboard-03.tsx"],
+      category: "Application",
+      subcategory: "Dashboard",
+      chunks: [{
+        name: "dashboard-03-chunk-0",
+        description: "A settings form a configuring an AI model and messages.",
+        component: React.lazy(() => import("@/registry/UNSW/block/dashboard-03-chunk-0")),
+        file: "registry/UNSW/block/dashboard-03-chunk-0.tsx",
+        container: {
+          className: "undefined"
+        }
+      },{
+        name: "dashboard-03-chunk-1",
+        description: "A form for sending a message to an AI chatbot. The form has a textarea and buttons to upload files and record audio.",
+        component: React.lazy(() => import("@/registry/UNSW/block/dashboard-03-chunk-1")),
+        file: "registry/UNSW/block/dashboard-03-chunk-1.tsx",
+        container: {
+          className: "undefined"
+        }
+      }]
+    },
+    "dashboard-02": {
+      name: "dashboard-02",
+      type: "components:block",
+      registryDependencies: ["badge","button","card","dropdown-menu","input"],
+      component: React.lazy(() => import("@/registry/UNSW/block/dashboard-02")),
+      source: "__registry__/UNSW/block/dashboard-02.tsx",
+      files: ["registry/UNSW/block/dashboard-02.tsx"],
+      category: "Application",
+      subcategory: "Dashboard",
+      chunks: [{
+        name: "dashboard-02-chunk-0",
+        description: "A card with a call to action",
+        component: React.lazy(() => import("@/registry/UNSW/block/dashboard-02-chunk-0")),
+        file: "registry/UNSW/block/dashboard-02-chunk-0.tsx",
+        container: {
+          className: "undefined"
+        }
+      },{
+        name: "dashboard-02-chunk-1",
+        description: "An empty state showing no products with a heading, description and a call to action to add a product.",
+        component: React.lazy(() => import("@/registry/UNSW/block/dashboard-02-chunk-1")),
+        file: "registry/UNSW/block/dashboard-02-chunk-1.tsx",
+        container: {
+          className: "undefined"
+        }
+      }]
+    },
+    "dashboard-01": {
+      name: "dashboard-01",
+      type: "components:block",
+      registryDependencies: ["button","dropdown-menu","input","sheet"],
+      component: React.lazy(() => import("@/registry/UNSW/block/dashboard-01")),
+      source: "__registry__/UNSW/block/dashboard-01.tsx",
+      files: ["registry/UNSW/block/dashboard-01.tsx"],
+      category: "Application",
+      subcategory: "Dashboard",
+      chunks: [{
+        name: "dashboard-01-chunk-0",
+        description: "A card showing the total revenue in USD and the percentage difference from last month.",
+        component: React.lazy(() => import("@/registry/UNSW/block/dashboard-01-chunk-0")),
+        file: "registry/UNSW/block/dashboard-01-chunk-0.tsx",
+        container: {
+          className: "undefined"
+        }
+      },{
+        name: "dashboard-01-chunk-1",
+        description: "A card showing the total subscriptions and the percentage difference from last month.",
+        component: React.lazy(() => import("@/registry/UNSW/block/dashboard-01-chunk-1")),
+        file: "registry/UNSW/block/dashboard-01-chunk-1.tsx",
+        container: {
+          className: "undefined"
+        }
+      },{
+        name: "dashboard-01-chunk-2",
+        description: "A card showing the total sales and the percentage difference from last month.",
+        component: React.lazy(() => import("@/registry/UNSW/block/dashboard-01-chunk-2")),
+        file: "registry/UNSW/block/dashboard-01-chunk-2.tsx",
+        container: {
+          className: "undefined"
+        }
+      },{
+        name: "dashboard-01-chunk-3",
+        description: "A card showing the total active users and the percentage difference from last hour.",
+        component: React.lazy(() => import("@/registry/UNSW/block/dashboard-01-chunk-3")),
+        file: "registry/UNSW/block/dashboard-01-chunk-3.tsx",
+        container: {
+          className: "undefined"
+        }
+      },{
+        name: "dashboard-01-chunk-4",
+        description: "A card showing a table of recent transactions with a link to view all transactions.",
+        component: React.lazy(() => import("@/registry/UNSW/block/dashboard-01-chunk-4")),
+        file: "registry/UNSW/block/dashboard-01-chunk-4.tsx",
+        container: {
+          className: "undefined"
+        }
+      },{
+        name: "dashboard-01-chunk-5",
+        description: "A card showing a list of recent sales with customer names and email addresses.",
+        component: React.lazy(() => import("@/registry/UNSW/block/dashboard-01-chunk-5")),
+        file: "registry/UNSW/block/dashboard-01-chunk-5.tsx",
+        container: {
+          className: "undefined"
+        }
+      }]
+    },
+    "authentication-01": {
+      name: "authentication-01",
+      type: "components:block",
+      registryDependencies: ["button","card","input","label"],
+      component: React.lazy(() => import("@/registry/UNSW/block/authentication-01")),
+      source: "__registry__/UNSW/block/authentication-01.tsx",
+      files: ["registry/UNSW/block/authentication-01.tsx"],
+      category: "Authentication",
+      subcategory: "Login",
+      chunks: []
+    },
+    "authentication-02": {
+      name: "authentication-02",
+      type: "components:block",
+      registryDependencies: ["button","card","input","label"],
+      component: React.lazy(() => import("@/registry/UNSW/block/authentication-02")),
+      source: "__registry__/UNSW/block/authentication-02.tsx",
+      files: ["registry/UNSW/block/authentication-02.tsx"],
+      category: "Authentication",
+      subcategory: "Login",
+      chunks: []
+    },
+    "authentication-03": {
+      name: "authentication-03",
+      type: "components:block",
+      registryDependencies: ["button","card","input","label"],
+      component: React.lazy(() => import("@/registry/UNSW/block/authentication-03")),
+      source: "__registry__/UNSW/block/authentication-03.tsx",
+      files: ["registry/UNSW/block/authentication-03.tsx"],
+      category: "Authentication",
+      subcategory: "Login",
+      chunks: []
+    },
+    "authentication-04": {
+      name: "authentication-04",
+      type: "components:block",
+      registryDependencies: ["button","card","input","label"],
+      component: React.lazy(() => import("@/registry/UNSW/block/authentication-04")),
+      source: "__registry__/UNSW/block/authentication-04.tsx",
+      files: ["registry/UNSW/block/authentication-04.tsx"],
+      category: "Authentication",
+      subcategory: "Login",
+      chunks: []
+    },
+    "chart-area-axes": {
+      name: "chart-area-axes",
+      type: "components:block",
+      registryDependencies: ["card","chart"],
+      component: React.lazy(() => import("@/registry/UNSW/block/chart-area-axes")),
+      source: "__registry__/UNSW/block/chart-area-axes.tsx",
+      files: ["registry/UNSW/block/chart-area-axes.tsx"],
+      category: "Charts",
+      subcategory: "Area",
+      chunks: []
+    },
+    "chart-area-default": {
+      name: "chart-area-default",
+      type: "components:block",
+      registryDependencies: ["card","chart"],
+      component: React.lazy(() => import("@/registry/UNSW/block/chart-area-default")),
+      source: "__registry__/UNSW/block/chart-area-default.tsx",
+      files: ["registry/UNSW/block/chart-area-default.tsx"],
+      category: "Charts",
+      subcategory: "Area",
+      chunks: []
+    },
+    "chart-area-gradient": {
+      name: "chart-area-gradient",
+      type: "components:block",
+      registryDependencies: ["card","chart"],
+      component: React.lazy(() => import("@/registry/UNSW/block/chart-area-gradient")),
+      source: "__registry__/UNSW/block/chart-area-gradient.tsx",
+      files: ["registry/UNSW/block/chart-area-gradient.tsx"],
+      category: "Charts",
+      subcategory: "Area",
+      chunks: []
+    },
+    "chart-area-icons": {
+      name: "chart-area-icons",
+      type: "components:block",
+      registryDependencies: ["card","chart"],
+      component: React.lazy(() => import("@/registry/UNSW/block/chart-area-icons")),
+      source: "__registry__/UNSW/block/chart-area-icons.tsx",
+      files: ["registry/UNSW/block/chart-area-icons.tsx"],
+      category: "Charts",
+      subcategory: "Area",
+      chunks: []
+    },
+    "chart-area-interactive": {
+      name: "chart-area-interactive",
+      type: "components:block",
+      registryDependencies: ["card","chart"],
+      component: React.lazy(() => import("@/registry/UNSW/block/chart-area-interactive")),
+      source: "__registry__/UNSW/block/chart-area-interactive.tsx",
+      files: ["registry/UNSW/block/chart-area-interactive.tsx"],
+      category: "Charts",
+      subcategory: "Area",
+      chunks: []
+    },
+    "chart-area-legend": {
+      name: "chart-area-legend",
+      type: "components:block",
+      registryDependencies: ["card","chart"],
+      component: React.lazy(() => import("@/registry/UNSW/block/chart-area-legend")),
+      source: "__registry__/UNSW/block/chart-area-legend.tsx",
+      files: ["registry/UNSW/block/chart-area-legend.tsx"],
+      category: "Charts",
+      subcategory: "Area",
+      chunks: []
+    },
+    "chart-area-linear": {
+      name: "chart-area-linear",
+      type: "components:block",
+      registryDependencies: ["card","chart"],
+      component: React.lazy(() => import("@/registry/UNSW/block/chart-area-linear")),
+      source: "__registry__/UNSW/block/chart-area-linear.tsx",
+      files: ["registry/UNSW/block/chart-area-linear.tsx"],
+      category: "Charts",
+      subcategory: "Area",
+      chunks: []
+    },
+    "chart-area-stacked-expand": {
+      name: "chart-area-stacked-expand",
+      type: "components:block",
+      registryDependencies: ["card","chart"],
+      component: React.lazy(() => import("@/registry/UNSW/block/chart-area-stacked-expand")),
+      source: "__registry__/UNSW/block/chart-area-stacked-expand.tsx",
+      files: ["registry/UNSW/block/chart-area-stacked-expand.tsx"],
+      category: "Charts",
+      subcategory: "Area",
+      chunks: []
+    },
+    "chart-area-stacked": {
+      name: "chart-area-stacked",
+      type: "components:block",
+      registryDependencies: ["card","chart"],
+      component: React.lazy(() => import("@/registry/UNSW/block/chart-area-stacked")),
+      source: "__registry__/UNSW/block/chart-area-stacked.tsx",
+      files: ["registry/UNSW/block/chart-area-stacked.tsx"],
+      category: "Charts",
+      subcategory: "Area",
+      chunks: []
+    },
+    "chart-area-step": {
+      name: "chart-area-step",
+      type: "components:block",
+      registryDependencies: ["card","chart"],
+      component: React.lazy(() => import("@/registry/UNSW/block/chart-area-step")),
+      source: "__registry__/UNSW/block/chart-area-step.tsx",
+      files: ["registry/UNSW/block/chart-area-step.tsx"],
+      category: "Charts",
+      subcategory: "Area",
+      chunks: []
+    },
+    "chart-bar-active": {
+      name: "chart-bar-active",
+      type: "components:block",
+      registryDependencies: ["card","chart"],
+      component: React.lazy(() => import("@/registry/UNSW/block/chart-bar-active")),
+      source: "__registry__/UNSW/block/chart-bar-active.tsx",
+      files: ["registry/UNSW/block/chart-bar-active.tsx"],
+      category: "Charts",
+      subcategory: "Bar",
+      chunks: []
+    },
+    "chart-bar-default": {
+      name: "chart-bar-default",
+      type: "components:block",
+      registryDependencies: ["card","chart"],
+      component: React.lazy(() => import("@/registry/UNSW/block/chart-bar-default")),
+      source: "__registry__/UNSW/block/chart-bar-default.tsx",
+      files: ["registry/UNSW/block/chart-bar-default.tsx"],
+      category: "Charts",
+      subcategory: "Bar",
+      chunks: []
+    },
+    "chart-bar-horizontal": {
+      name: "chart-bar-horizontal",
+      type: "components:block",
+      registryDependencies: ["card","chart"],
+      component: React.lazy(() => import("@/registry/UNSW/block/chart-bar-horizontal")),
+      source: "__registry__/UNSW/block/chart-bar-horizontal.tsx",
+      files: ["registry/UNSW/block/chart-bar-horizontal.tsx"],
+      category: "Charts",
+      subcategory: "Bar",
+      chunks: []
+    },
+    "chart-bar-interactive": {
+      name: "chart-bar-interactive",
+      type: "components:block",
+      registryDependencies: ["card","chart"],
+      component: React.lazy(() => import("@/registry/UNSW/block/chart-bar-interactive")),
+      source: "__registry__/UNSW/block/chart-bar-interactive.tsx",
+      files: ["registry/UNSW/block/chart-bar-interactive.tsx"],
+      category: "Charts",
+      subcategory: "Bar",
+      chunks: []
+    },
+    "chart-bar-label-custom": {
+      name: "chart-bar-label-custom",
+      type: "components:block",
+      registryDependencies: ["card","chart"],
+      component: React.lazy(() => import("@/registry/UNSW/block/chart-bar-label-custom")),
+      source: "__registry__/UNSW/block/chart-bar-label-custom.tsx",
+      files: ["registry/UNSW/block/chart-bar-label-custom.tsx"],
+      category: "Charts",
+      subcategory: "Bar",
+      chunks: []
+    },
+    "chart-bar-label": {
+      name: "chart-bar-label",
+      type: "components:block",
+      registryDependencies: ["card","chart"],
+      component: React.lazy(() => import("@/registry/UNSW/block/chart-bar-label")),
+      source: "__registry__/UNSW/block/chart-bar-label.tsx",
+      files: ["registry/UNSW/block/chart-bar-label.tsx"],
+      category: "Charts",
+      subcategory: "Bar",
+      chunks: []
+    },
+    "chart-bar-mixed": {
+      name: "chart-bar-mixed",
+      type: "components:block",
+      registryDependencies: ["card","chart"],
+      component: React.lazy(() => import("@/registry/UNSW/block/chart-bar-mixed")),
+      source: "__registry__/UNSW/block/chart-bar-mixed.tsx",
+      files: ["registry/UNSW/block/chart-bar-mixed.tsx"],
+      category: "Charts",
+      subcategory: "Bar",
+      chunks: []
+    },
+    "chart-bar-multiple": {
+      name: "chart-bar-multiple",
+      type: "components:block",
+      registryDependencies: ["card","chart"],
+      component: React.lazy(() => import("@/registry/UNSW/block/chart-bar-multiple")),
+      source: "__registry__/UNSW/block/chart-bar-multiple.tsx",
+      files: ["registry/UNSW/block/chart-bar-multiple.tsx"],
+      category: "Charts",
+      subcategory: "Bar",
+      chunks: []
+    },
+    "chart-bar-negative": {
+      name: "chart-bar-negative",
+      type: "components:block",
+      registryDependencies: ["card","chart"],
+      component: React.lazy(() => import("@/registry/UNSW/block/chart-bar-negative")),
+      source: "__registry__/UNSW/block/chart-bar-negative.tsx",
+      files: ["registry/UNSW/block/chart-bar-negative.tsx"],
+      category: "Charts",
+      subcategory: "Bar",
+      chunks: []
+    },
+    "chart-bar-stacked": {
+      name: "chart-bar-stacked",
+      type: "components:block",
+      registryDependencies: ["card","chart"],
+      component: React.lazy(() => import("@/registry/UNSW/block/chart-bar-stacked")),
+      source: "__registry__/UNSW/block/chart-bar-stacked.tsx",
+      files: ["registry/UNSW/block/chart-bar-stacked.tsx"],
+      category: "Charts",
+      subcategory: "Bar",
+      chunks: []
+    },
+    "chart-line-default": {
+      name: "chart-line-default",
+      type: "components:block",
+      registryDependencies: ["card","chart"],
+      component: React.lazy(() => import("@/registry/UNSW/block/chart-line-default")),
+      source: "__registry__/UNSW/block/chart-line-default.tsx",
+      files: ["registry/UNSW/block/chart-line-default.tsx"],
+      category: "Charts",
+      subcategory: "Line",
+      chunks: []
+    },
+    "chart-line-dots-colors": {
+      name: "chart-line-dots-colors",
+      type: "components:block",
+      registryDependencies: ["card","chart"],
+      component: React.lazy(() => import("@/registry/UNSW/block/chart-line-dots-colors")),
+      source: "__registry__/UNSW/block/chart-line-dots-colors.tsx",
+      files: ["registry/UNSW/block/chart-line-dots-colors.tsx"],
+      category: "Charts",
+      subcategory: "Line",
+      chunks: []
+    },
+    "chart-line-dots-custom": {
+      name: "chart-line-dots-custom",
+      type: "components:block",
+      registryDependencies: ["card","chart"],
+      component: React.lazy(() => import("@/registry/UNSW/block/chart-line-dots-custom")),
+      source: "__registry__/UNSW/block/chart-line-dots-custom.tsx",
+      files: ["registry/UNSW/block/chart-line-dots-custom.tsx"],
+      category: "Charts",
+      subcategory: "Line",
+      chunks: []
+    },
+    "chart-line-dots": {
+      name: "chart-line-dots",
+      type: "components:block",
+      registryDependencies: ["card","chart"],
+      component: React.lazy(() => import("@/registry/UNSW/block/chart-line-dots")),
+      source: "__registry__/UNSW/block/chart-line-dots.tsx",
+      files: ["registry/UNSW/block/chart-line-dots.tsx"],
+      category: "Charts",
+      subcategory: "Line",
+      chunks: []
+    },
+    "chart-line-interactive": {
+      name: "chart-line-interactive",
+      type: "components:block",
+      registryDependencies: ["card","chart"],
+      component: React.lazy(() => import("@/registry/UNSW/block/chart-line-interactive")),
+      source: "__registry__/UNSW/block/chart-line-interactive.tsx",
+      files: ["registry/UNSW/block/chart-line-interactive.tsx"],
+      category: "Charts",
+      subcategory: "Line",
+      chunks: []
+    },
+    "chart-line-label-custom": {
+      name: "chart-line-label-custom",
+      type: "components:block",
+      registryDependencies: ["card","chart"],
+      component: React.lazy(() => import("@/registry/UNSW/block/chart-line-label-custom")),
+      source: "__registry__/UNSW/block/chart-line-label-custom.tsx",
+      files: ["registry/UNSW/block/chart-line-label-custom.tsx"],
+      category: "Charts",
+      subcategory: "Line",
+      chunks: []
+    },
+    "chart-line-label": {
+      name: "chart-line-label",
+      type: "components:block",
+      registryDependencies: ["card","chart"],
+      component: React.lazy(() => import("@/registry/UNSW/block/chart-line-label")),
+      source: "__registry__/UNSW/block/chart-line-label.tsx",
+      files: ["registry/UNSW/block/chart-line-label.tsx"],
+      category: "Charts",
+      subcategory: "Line",
+      chunks: []
+    },
+    "chart-line-linear": {
+      name: "chart-line-linear",
+      type: "components:block",
+      registryDependencies: ["card","chart"],
+      component: React.lazy(() => import("@/registry/UNSW/block/chart-line-linear")),
+      source: "__registry__/UNSW/block/chart-line-linear.tsx",
+      files: ["registry/UNSW/block/chart-line-linear.tsx"],
+      category: "Charts",
+      subcategory: "Line",
+      chunks: []
+    },
+    "chart-line-multiple": {
+      name: "chart-line-multiple",
+      type: "components:block",
+      registryDependencies: ["card","chart"],
+      component: React.lazy(() => import("@/registry/UNSW/block/chart-line-multiple")),
+      source: "__registry__/UNSW/block/chart-line-multiple.tsx",
+      files: ["registry/UNSW/block/chart-line-multiple.tsx"],
+      category: "Charts",
+      subcategory: "Line",
+      chunks: []
+    },
+    "chart-line-step": {
+      name: "chart-line-step",
+      type: "components:block",
+      registryDependencies: ["card","chart"],
+      component: React.lazy(() => import("@/registry/UNSW/block/chart-line-step")),
+      source: "__registry__/UNSW/block/chart-line-step.tsx",
+      files: ["registry/UNSW/block/chart-line-step.tsx"],
+      category: "Charts",
+      subcategory: "Line",
+      chunks: []
+    },
+    "chart-pie-donut-active": {
+      name: "chart-pie-donut-active",
+      type: "components:block",
+      registryDependencies: ["card","chart"],
+      component: React.lazy(() => import("@/registry/UNSW/block/chart-pie-donut-active")),
+      source: "__registry__/UNSW/block/chart-pie-donut-active.tsx",
+      files: ["registry/UNSW/block/chart-pie-donut-active.tsx"],
+      category: "Charts",
+      subcategory: "Pie",
+      chunks: []
+    },
+    "chart-pie-donut-text": {
+      name: "chart-pie-donut-text",
+      type: "components:block",
+      registryDependencies: ["card","chart"],
+      component: React.lazy(() => import("@/registry/UNSW/block/chart-pie-donut-text")),
+      source: "__registry__/UNSW/block/chart-pie-donut-text.tsx",
+      files: ["registry/UNSW/block/chart-pie-donut-text.tsx"],
+      category: "Charts",
+      subcategory: "Pie",
+      chunks: []
+    },
+    "chart-pie-donut": {
+      name: "chart-pie-donut",
+      type: "components:block",
+      registryDependencies: ["card","chart"],
+      component: React.lazy(() => import("@/registry/UNSW/block/chart-pie-donut")),
+      source: "__registry__/UNSW/block/chart-pie-donut.tsx",
+      files: ["registry/UNSW/block/chart-pie-donut.tsx"],
+      category: "Charts",
+      subcategory: "Pie",
+      chunks: []
+    },
+    "chart-pie-interactive": {
+      name: "chart-pie-interactive",
+      type: "components:block",
+      registryDependencies: ["card","chart"],
+      component: React.lazy(() => import("@/registry/UNSW/block/chart-pie-interactive")),
+      source: "__registry__/UNSW/block/chart-pie-interactive.tsx",
+      files: ["registry/UNSW/block/chart-pie-interactive.tsx"],
+      category: "Charts",
+      subcategory: "Pie",
+      chunks: []
+    },
+    "chart-pie-label-custom": {
+      name: "chart-pie-label-custom",
+      type: "components:block",
+      registryDependencies: ["card","chart"],
+      component: React.lazy(() => import("@/registry/UNSW/block/chart-pie-label-custom")),
+      source: "__registry__/UNSW/block/chart-pie-label-custom.tsx",
+      files: ["registry/UNSW/block/chart-pie-label-custom.tsx"],
+      category: "Charts",
+      subcategory: "Pie",
+      chunks: []
+    },
+    "chart-pie-label-list": {
+      name: "chart-pie-label-list",
+      type: "components:block",
+      registryDependencies: ["card","chart"],
+      component: React.lazy(() => import("@/registry/UNSW/block/chart-pie-label-list")),
+      source: "__registry__/UNSW/block/chart-pie-label-list.tsx",
+      files: ["registry/UNSW/block/chart-pie-label-list.tsx"],
+      category: "Charts",
+      subcategory: "Pie",
+      chunks: []
+    },
+    "chart-pie-label": {
+      name: "chart-pie-label",
+      type: "components:block",
+      registryDependencies: ["card","chart"],
+      component: React.lazy(() => import("@/registry/UNSW/block/chart-pie-label")),
+      source: "__registry__/UNSW/block/chart-pie-label.tsx",
+      files: ["registry/UNSW/block/chart-pie-label.tsx"],
+      category: "Charts",
+      subcategory: "Pie",
+      chunks: []
+    },
+    "chart-pie-legend": {
+      name: "chart-pie-legend",
+      type: "components:block",
+      registryDependencies: ["card","chart"],
+      component: React.lazy(() => import("@/registry/UNSW/block/chart-pie-legend")),
+      source: "__registry__/UNSW/block/chart-pie-legend.tsx",
+      files: ["registry/UNSW/block/chart-pie-legend.tsx"],
+      category: "Charts",
+      subcategory: "Pie",
+      chunks: []
+    },
+    "chart-pie-separator-none": {
+      name: "chart-pie-separator-none",
+      type: "components:block",
+      registryDependencies: ["card","chart"],
+      component: React.lazy(() => import("@/registry/UNSW/block/chart-pie-separator-none")),
+      source: "__registry__/UNSW/block/chart-pie-separator-none.tsx",
+      files: ["registry/UNSW/block/chart-pie-separator-none.tsx"],
+      category: "Charts",
+      subcategory: "Pie",
+      chunks: []
+    },
+    "chart-pie-simple": {
+      name: "chart-pie-simple",
+      type: "components:block",
+      registryDependencies: ["card","chart"],
+      component: React.lazy(() => import("@/registry/UNSW/block/chart-pie-simple")),
+      source: "__registry__/UNSW/block/chart-pie-simple.tsx",
+      files: ["registry/UNSW/block/chart-pie-simple.tsx"],
+      category: "Charts",
+      subcategory: "Pie",
+      chunks: []
+    },
+    "chart-pie-stacked": {
+      name: "chart-pie-stacked",
+      type: "components:block",
+      registryDependencies: ["card","chart"],
+      component: React.lazy(() => import("@/registry/UNSW/block/chart-pie-stacked")),
+      source: "__registry__/UNSW/block/chart-pie-stacked.tsx",
+      files: ["registry/UNSW/block/chart-pie-stacked.tsx"],
+      category: "Charts",
+      subcategory: "Pie",
+      chunks: []
+    },
+    "chart-radar-default": {
+      name: "chart-radar-default",
+      type: "components:block",
+      registryDependencies: ["card","chart"],
+      component: React.lazy(() => import("@/registry/UNSW/block/chart-radar-default")),
+      source: "__registry__/UNSW/block/chart-radar-default.tsx",
+      files: ["registry/UNSW/block/chart-radar-default.tsx"],
+      category: "Charts",
+      subcategory: "Radar",
+      chunks: []
+    },
+    "chart-radar-dots": {
+      name: "chart-radar-dots",
+      type: "components:block",
+      registryDependencies: ["card","chart"],
+      component: React.lazy(() => import("@/registry/UNSW/block/chart-radar-dots")),
+      source: "__registry__/UNSW/block/chart-radar-dots.tsx",
+      files: ["registry/UNSW/block/chart-radar-dots.tsx"],
+      category: "Charts",
+      subcategory: "Radar",
+      chunks: []
+    },
+    "chart-radar-grid-circle-fill": {
+      name: "chart-radar-grid-circle-fill",
+      type: "components:block",
+      registryDependencies: ["card","chart"],
+      component: React.lazy(() => import("@/registry/UNSW/block/chart-radar-grid-circle-fill")),
+      source: "__registry__/UNSW/block/chart-radar-grid-circle-fill.tsx",
+      files: ["registry/UNSW/block/chart-radar-grid-circle-fill.tsx"],
+      category: "Charts",
+      subcategory: "Radar",
+      chunks: []
+    },
+    "chart-radar-grid-circle-no-lines": {
+      name: "chart-radar-grid-circle-no-lines",
+      type: "components:block",
+      registryDependencies: ["card","chart"],
+      component: React.lazy(() => import("@/registry/UNSW/block/chart-radar-grid-circle-no-lines")),
+      source: "__registry__/UNSW/block/chart-radar-grid-circle-no-lines.tsx",
+      files: ["registry/UNSW/block/chart-radar-grid-circle-no-lines.tsx"],
+      category: "Charts",
+      subcategory: "Radar",
+      chunks: []
+    },
+    "chart-radar-grid-circle": {
+      name: "chart-radar-grid-circle",
+      type: "components:block",
+      registryDependencies: ["card","chart"],
+      component: React.lazy(() => import("@/registry/UNSW/block/chart-radar-grid-circle")),
+      source: "__registry__/UNSW/block/chart-radar-grid-circle.tsx",
+      files: ["registry/UNSW/block/chart-radar-grid-circle.tsx"],
+      category: "Charts",
+      subcategory: "Radar",
+      chunks: []
+    },
+    "chart-radar-grid-custom": {
+      name: "chart-radar-grid-custom",
+      type: "components:block",
+      registryDependencies: ["card","chart"],
+      component: React.lazy(() => import("@/registry/UNSW/block/chart-radar-grid-custom")),
+      source: "__registry__/UNSW/block/chart-radar-grid-custom.tsx",
+      files: ["registry/UNSW/block/chart-radar-grid-custom.tsx"],
+      category: "Charts",
+      subcategory: "Radar",
+      chunks: []
+    },
+    "chart-radar-grid-fill": {
+      name: "chart-radar-grid-fill",
+      type: "components:block",
+      registryDependencies: ["card","chart"],
+      component: React.lazy(() => import("@/registry/UNSW/block/chart-radar-grid-fill")),
+      source: "__registry__/UNSW/block/chart-radar-grid-fill.tsx",
+      files: ["registry/UNSW/block/chart-radar-grid-fill.tsx"],
+      category: "Charts",
+      subcategory: "Radar",
+      chunks: []
+    },
+    "chart-radar-grid-none": {
+      name: "chart-radar-grid-none",
+      type: "components:block",
+      registryDependencies: ["card","chart"],
+      component: React.lazy(() => import("@/registry/UNSW/block/chart-radar-grid-none")),
+      source: "__registry__/UNSW/block/chart-radar-grid-none.tsx",
+      files: ["registry/UNSW/block/chart-radar-grid-none.tsx"],
+      category: "Charts",
+      subcategory: "Radar",
+      chunks: []
+    },
+    "chart-radar-icons": {
+      name: "chart-radar-icons",
+      type: "components:block",
+      registryDependencies: ["card","chart"],
+      component: React.lazy(() => import("@/registry/UNSW/block/chart-radar-icons")),
+      source: "__registry__/UNSW/block/chart-radar-icons.tsx",
+      files: ["registry/UNSW/block/chart-radar-icons.tsx"],
+      category: "Charts",
+      subcategory: "Radar",
+      chunks: []
+    },
+    "chart-radar-label-custom": {
+      name: "chart-radar-label-custom",
+      type: "components:block",
+      registryDependencies: ["card","chart"],
+      component: React.lazy(() => import("@/registry/UNSW/block/chart-radar-label-custom")),
+      source: "__registry__/UNSW/block/chart-radar-label-custom.tsx",
+      files: ["registry/UNSW/block/chart-radar-label-custom.tsx"],
+      category: "Charts",
+      subcategory: "Radar",
+      chunks: []
+    },
+    "chart-radar-legend": {
+      name: "chart-radar-legend",
+      type: "components:block",
+      registryDependencies: ["card","chart"],
+      component: React.lazy(() => import("@/registry/UNSW/block/chart-radar-legend")),
+      source: "__registry__/UNSW/block/chart-radar-legend.tsx",
+      files: ["registry/UNSW/block/chart-radar-legend.tsx"],
+      category: "Charts",
+      subcategory: "Radar",
+      chunks: []
+    },
+    "chart-radar-lines-only": {
+      name: "chart-radar-lines-only",
+      type: "components:block",
+      registryDependencies: ["card","chart"],
+      component: React.lazy(() => import("@/registry/UNSW/block/chart-radar-lines-only")),
+      source: "__registry__/UNSW/block/chart-radar-lines-only.tsx",
+      files: ["registry/UNSW/block/chart-radar-lines-only.tsx"],
+      category: "Charts",
+      subcategory: "Radar",
+      chunks: []
+    },
+    "chart-radar-multiple": {
+      name: "chart-radar-multiple",
+      type: "components:block",
+      registryDependencies: ["card","chart"],
+      component: React.lazy(() => import("@/registry/UNSW/block/chart-radar-multiple")),
+      source: "__registry__/UNSW/block/chart-radar-multiple.tsx",
+      files: ["registry/UNSW/block/chart-radar-multiple.tsx"],
+      category: "Charts",
+      subcategory: "Radar",
+      chunks: []
+    },
+    "chart-radar-radius": {
+      name: "chart-radar-radius",
+      type: "components:block",
+      registryDependencies: ["card","chart"],
+      component: React.lazy(() => import("@/registry/UNSW/block/chart-radar-radius")),
+      source: "__registry__/UNSW/block/chart-radar-radius.tsx",
+      files: ["registry/UNSW/block/chart-radar-radius.tsx"],
+      category: "Charts",
+      subcategory: "Radar",
+      chunks: []
+    },
+    "chart-radial-grid": {
+      name: "chart-radial-grid",
+      type: "components:block",
+      registryDependencies: ["card","chart"],
+      component: React.lazy(() => import("@/registry/UNSW/block/chart-radial-grid")),
+      source: "__registry__/UNSW/block/chart-radial-grid.tsx",
+      files: ["registry/UNSW/block/chart-radial-grid.tsx"],
+      category: "Charts",
+      subcategory: "Radial",
+      chunks: []
+    },
+    "chart-radial-label": {
+      name: "chart-radial-label",
+      type: "components:block",
+      registryDependencies: ["card","chart"],
+      component: React.lazy(() => import("@/registry/UNSW/block/chart-radial-label")),
+      source: "__registry__/UNSW/block/chart-radial-label.tsx",
+      files: ["registry/UNSW/block/chart-radial-label.tsx"],
+      category: "Charts",
+      subcategory: "Radial",
+      chunks: []
+    },
+    "chart-radial-shape": {
+      name: "chart-radial-shape",
+      type: "components:block",
+      registryDependencies: ["card","chart"],
+      component: React.lazy(() => import("@/registry/UNSW/block/chart-radial-shape")),
+      source: "__registry__/UNSW/block/chart-radial-shape.tsx",
+      files: ["registry/UNSW/block/chart-radial-shape.tsx"],
+      category: "Charts",
+      subcategory: "Radial",
+      chunks: []
+    },
+    "chart-radial-simple": {
+      name: "chart-radial-simple",
+      type: "components:block",
+      registryDependencies: ["card","chart"],
+      component: React.lazy(() => import("@/registry/UNSW/block/chart-radial-simple")),
+      source: "__registry__/UNSW/block/chart-radial-simple.tsx",
+      files: ["registry/UNSW/block/chart-radial-simple.tsx"],
+      category: "Charts",
+      subcategory: "Radial",
+      chunks: []
+    },
+    "chart-radial-stacked": {
+      name: "chart-radial-stacked",
+      type: "components:block",
+      registryDependencies: ["card","chart"],
+      component: React.lazy(() => import("@/registry/UNSW/block/chart-radial-stacked")),
+      source: "__registry__/UNSW/block/chart-radial-stacked.tsx",
+      files: ["registry/UNSW/block/chart-radial-stacked.tsx"],
+      category: "Charts",
+      subcategory: "Radial",
+      chunks: []
+    },
+    "chart-radial-text": {
+      name: "chart-radial-text",
+      type: "components:block",
+      registryDependencies: ["card","chart"],
+      component: React.lazy(() => import("@/registry/UNSW/block/chart-radial-text")),
+      source: "__registry__/UNSW/block/chart-radial-text.tsx",
+      files: ["registry/UNSW/block/chart-radial-text.tsx"],
+      category: "Charts",
+      subcategory: "Radial",
+      chunks: []
+    },
+    "chart-tooltip-default": {
+      name: "chart-tooltip-default",
+      type: "components:block",
+      registryDependencies: ["card","chart"],
+      component: React.lazy(() => import("@/registry/UNSW/block/chart-tooltip-default")),
+      source: "__registry__/UNSW/block/chart-tooltip-default.tsx",
+      files: ["registry/UNSW/block/chart-tooltip-default.tsx"],
+      category: "Charts",
+      subcategory: "Tooltip",
+      chunks: []
+    },
+    "chart-tooltip-indicator-line": {
+      name: "chart-tooltip-indicator-line",
+      type: "components:block",
+      registryDependencies: ["card","chart"],
+      component: React.lazy(() => import("@/registry/UNSW/block/chart-tooltip-indicator-line")),
+      source: "__registry__/UNSW/block/chart-tooltip-indicator-line.tsx",
+      files: ["registry/UNSW/block/chart-tooltip-indicator-line.tsx"],
+      category: "Charts",
+      subcategory: "Tooltip",
+      chunks: []
+    },
+    "chart-tooltip-indicator-none": {
+      name: "chart-tooltip-indicator-none",
+      type: "components:block",
+      registryDependencies: ["card","chart"],
+      component: React.lazy(() => import("@/registry/UNSW/block/chart-tooltip-indicator-none")),
+      source: "__registry__/UNSW/block/chart-tooltip-indicator-none.tsx",
+      files: ["registry/UNSW/block/chart-tooltip-indicator-none.tsx"],
+      category: "Charts",
+      subcategory: "Tooltip",
+      chunks: []
+    },
+    "chart-tooltip-label-none": {
+      name: "chart-tooltip-label-none",
+      type: "components:block",
+      registryDependencies: ["card","chart"],
+      component: React.lazy(() => import("@/registry/UNSW/block/chart-tooltip-label-none")),
+      source: "__registry__/UNSW/block/chart-tooltip-label-none.tsx",
+      files: ["registry/UNSW/block/chart-tooltip-label-none.tsx"],
+      category: "Charts",
+      subcategory: "Tooltip",
+      chunks: []
+    },
+    "chart-tooltip-label-custom": {
+      name: "chart-tooltip-label-custom",
+      type: "components:block",
+      registryDependencies: ["card","chart"],
+      component: React.lazy(() => import("@/registry/UNSW/block/chart-tooltip-label-custom")),
+      source: "__registry__/UNSW/block/chart-tooltip-label-custom.tsx",
+      files: ["registry/UNSW/block/chart-tooltip-label-custom.tsx"],
+      category: "Charts",
+      subcategory: "Tooltip",
+      chunks: []
+    },
+    "chart-tooltip-label-formatter": {
+      name: "chart-tooltip-label-formatter",
+      type: "components:block",
+      registryDependencies: ["card","chart"],
+      component: React.lazy(() => import("@/registry/UNSW/block/chart-tooltip-label-formatter")),
+      source: "__registry__/UNSW/block/chart-tooltip-label-formatter.tsx",
+      files: ["registry/UNSW/block/chart-tooltip-label-formatter.tsx"],
+      category: "Charts",
+      subcategory: "Tooltip",
+      chunks: []
+    },
+    "chart-tooltip-formatter": {
+      name: "chart-tooltip-formatter",
+      type: "components:block",
+      registryDependencies: ["card","chart"],
+      component: React.lazy(() => import("@/registry/UNSW/block/chart-tooltip-formatter")),
+      source: "__registry__/UNSW/block/chart-tooltip-formatter.tsx",
+      files: ["registry/UNSW/block/chart-tooltip-formatter.tsx"],
+      category: "Charts",
+      subcategory: "Tooltip",
+      chunks: []
+    },
+    "chart-tooltip-icons": {
+      name: "chart-tooltip-icons",
+      type: "components:block",
+      registryDependencies: ["card","chart"],
+      component: React.lazy(() => import("@/registry/UNSW/block/chart-tooltip-icons")),
+      source: "__registry__/UNSW/block/chart-tooltip-icons.tsx",
+      files: ["registry/UNSW/block/chart-tooltip-icons.tsx"],
+      category: "Charts",
+      subcategory: "Tooltip",
+      chunks: []
+    },
+    "chart-tooltip-advanced": {
+      name: "chart-tooltip-advanced",
+      type: "components:block",
+      registryDependencies: ["card","chart"],
+      component: React.lazy(() => import("@/registry/UNSW/block/chart-tooltip-advanced")),
+      source: "__registry__/UNSW/block/chart-tooltip-advanced.tsx",
+      files: ["registry/UNSW/block/chart-tooltip-advanced.tsx"],
+      category: "Charts",
+      subcategory: "Tooltip",
+      chunks: []
+    },
   },
 }
