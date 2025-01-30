@@ -301,7 +301,7 @@ apps
 },
 ```
 
-3. Run `pnpm build:registry` to update the registry. This will compile the registry and ensure the changes are reflected.
+3. Run `pnpm build:registry` to update the registry. This will compile the registry and ensure the changes are reflected. The files in `public/registry/styles` will be modified automatically.
 
 4. Run `pnpm --filter=www dev` to verify the changes. Update relevant files (usually in the ui folder) for the new style.
 
