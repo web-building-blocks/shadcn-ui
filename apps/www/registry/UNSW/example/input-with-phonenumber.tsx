@@ -1,13 +1,13 @@
 import * as React from "react"
 
-import { Button } from "@/registry/default/ui/button"
+import { Button } from "@/registry/UNSW/ui/button"
 import {
   DropdownMenu,
   DropdownMenuCheckboxItem,
   DropdownMenuContent,
   DropdownMenuTrigger,
-} from "@/registry/default/ui/dropdown-menu"
-import { Input } from "@/registry/default/ui/input"
+} from "@/registry/UNSW/ui/dropdown-menu"
+import { Input } from "@/registry/UNSW/ui/input"
 
 export function InputPhoneNumber() {
   const [selectedCountry, setSelectedCountry] = React.useState("+61")

@@ -1,6 +1,6 @@
 import * as React from "react"
 
-import { Input } from "@/registry/default/ui/input"
+import { Input } from "@/registry/UNSW/ui/input"
 
 export function InputNumber() {
   const [value, setValue] = React.useState("")

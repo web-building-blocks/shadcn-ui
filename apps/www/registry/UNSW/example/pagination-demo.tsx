@@ -8,7 +8,7 @@ import {
   PaginationLink,
   PaginationNext,
   PaginationPrevious,
-} from "@/registry/new-york/ui/pagination"
+} from "@/registry/UNSW/ui/pagination"
 
 export function PaginationDemo() {
   const totalPages = 10 // Total number of pages.
