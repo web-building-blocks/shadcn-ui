@@ -301,9 +301,18 @@ apps
 },
 ```
 
-3. Run `pnpm build:registry` to update the registry. This will compile the registry and ensure the changes are reflected.
+3. Modify the schema definition to include your new style. Locate the blockSchema definition inside `apps/www/registry/schema.ts` and add your style to the z.enum list. Ensure the name matches the one used in the previous steps.
+```ts
+export const blockSchema = registryEntrySchema.extend({
+  //...
+  style: z.enum(["default", "new-york", "sydney", "ibm", "your-new-style"]),
+  //...
+})
+```
 
-4. Run `pnpm --filter=www dev` to verify the changes. Update relevant files (usually in the ui folder) for the new style.
+4. Run `pnpm build:registry` to update the registry. This will compile the registry and ensure the changes are reflected. The files in `public/registry/styles` will be modified automatically.
+
+5. Run `pnpm --filter=www dev` to verify the changes. Update relevant files (usually in the ui folder) for the new style.
 
 ### Add a new theme
 
