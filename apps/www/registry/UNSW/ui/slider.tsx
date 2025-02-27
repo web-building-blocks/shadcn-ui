@@ -17,8 +17,8 @@ const Slider = React.forwardRef<
   (
     {
       className,
-      backgroundColor = "bg-gray-200",
-      trackColor = "bg-black",
+      backgroundColor = "bg-[#E6E6E6]", // UNSW gray
+      trackColor = "bg-[#FFDC00]", // UNSW yellow
       thumbColor = "bg-black",
       size = "medium",
       ...props
@@ -62,8 +62,10 @@ const Slider = React.forwardRef<
         </SliderPrimitive.Track>
         <SliderPrimitive.Thumb
           className={cn(
-            "block rounded-full transition-colors",
-            thumbColor,
+            "block rounded-full transition-all duration-300", // smooth transition animation
+            "bg-black", // Always black core
+            "hover:bg-white hover:border-2 hover:border-black",
+            "active:bg-white active:border-2 active:border-black",
             size === "small"
               ? "h-3 w-3"
               : size === "large"
