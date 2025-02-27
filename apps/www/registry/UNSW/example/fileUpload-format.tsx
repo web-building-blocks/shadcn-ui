@@ -1,7 +1,7 @@
 import React, { useState } from "react"
 
-import { Button } from "@/registry/default/ui/button"
-import { toast } from "@/registry/default/ui/use-toast"
+import { Button } from "@/registry/UNSW/ui/button"
+import { toast } from "@/registry/UNSW/ui/use-toast"
 
 export default function FileUploadImage() {
   const [selectedFileName, setSelectedFileName] = useState("")

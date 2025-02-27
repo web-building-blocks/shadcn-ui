@@ -51,6 +51,7 @@ const BreadcrumbLink = React.forwardRef<
     <Comp
       ref={ref}
       className={cn("transition-colors hover:text-foreground", className)}
+      style={{ fontFamily: "RobotoMono, Arial, sans-serif" }}
       {...props}
     />
   )
@@ -67,6 +68,7 @@ const BreadcrumbPage = React.forwardRef<
     aria-disabled="true"
     aria-current="page"
     className={cn("font-normal text-foreground", className)}
+    style={{ fontFamily: "RobotoMono, Arial, sans-serif" }}
     {...props}
   />
 ))
@@ -81,6 +83,7 @@ const BreadcrumbSeparator = ({
     role="presentation"
     aria-hidden="true"
     className={cn("[&>svg]:size-3.5", className)}
+    style={{ fontFamily: "RobotoMono, Arial, sans-serif" }}
     {...props}
   >
     {children ?? <ChevronRight />}
@@ -96,6 +99,7 @@ const BreadcrumbEllipsis = ({
     role="presentation"
     aria-hidden="true"
     className={cn("flex h-9 w-9 items-center justify-center", className)}
+    style={{ fontFamily: "RobotoMono, Arial, sans-serif" }}
     {...props}
   >
     <MoreHorizontal className="h-4 w-4" />

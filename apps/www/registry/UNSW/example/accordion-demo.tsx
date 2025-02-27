@@ -5,13 +5,13 @@ import {
   AccordionContent,
   AccordionItem,
   AccordionTrigger,
-} from "@/registry/default/ui/accordion"
+} from "@/registry/UNSW/ui/accordion"
 
 export default function AccordionDemo() {
   return (
-    <div className="flex w-[600px] items-center justify-center bg-white">
-      <div className="w-[500px] bg-white">
-        <Accordion type="single" collapsible className="w-full">
+    <div className="flex w-full items-center justify-center bg-white py-10">
+      <div className="w-[500px] rounded-lg bg-white">
+        <Accordion type="multiple" className="w-full space-y-2">
           <AccordionItem value="item-1">
             <AccordionTrigger>Is it accessible?</AccordionTrigger>
             <AccordionContent>

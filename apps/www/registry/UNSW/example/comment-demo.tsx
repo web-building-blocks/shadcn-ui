@@ -1,13 +1,13 @@
 import React, { useState } from "react"
 import { Forward, Heart, MessageCircleMore } from "lucide-react"
 
-import { Avatar, AvatarImage } from "@/registry/default/ui/avatar"
-import { Button } from "@/registry/default/ui/button"
-import { Card, CardContent, CardHeader } from "@/registry/default/ui/card"
-import { Label } from "@/registry/default/ui/label"
-import { Textarea } from "@/registry/default/ui/textarea"
-import { Toaster } from "@/registry/default/ui/toaster"
-import { useToast } from "@/registry/default/ui/use-toast"
+import { Avatar, AvatarImage } from "@/registry/UNSW/ui/avatar"
+import { Button } from "@/registry/UNSW/ui/button"
+import { Card, CardContent, CardHeader } from "@/registry/UNSW/ui/card"
+import { Label } from "@/registry/UNSW/ui/label"
+import { Textarea } from "@/registry/UNSW/ui/textarea"
+import { Toaster } from "@/registry/UNSW/ui/toaster"
+import { useToast } from "@/registry/UNSW/ui/use-toast"
 
 export function BasicComment() {
   const initialMessage = {

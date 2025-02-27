@@ -1,11 +1,11 @@
 import React, { useState } from "react"
 import { SendHorizontal } from "lucide-react"
 
-import { Button } from "@/registry/default/ui/button"
-import { Card, CardContent, CardHeader } from "@/registry/default/ui/card"
-import { Input } from "@/registry/default/ui/input"
-import { Toaster } from "@/registry/default/ui/toaster"
-import { useToast } from "@/registry/default/ui/use-toast"
+import { Button } from "@/registry/UNSW/ui/button"
+import { Card, CardContent, CardHeader } from "@/registry/UNSW/ui/card"
+import { Input } from "@/registry/UNSW/ui/input"
+import { Toaster } from "@/registry/UNSW/ui/toaster"
+import { useToast } from "@/registry/UNSW/ui/use-toast"
 
 export default function NormalChat() {
   const [messages, setMessages] = useState([

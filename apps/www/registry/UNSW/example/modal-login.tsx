@@ -1,6 +1,6 @@
 import React, { useState } from "react"
 
-import { Button } from "@/registry/default/ui/button"
+import { Button } from "@/registry/UNSW/ui/button"
 import {
   Dialog,
   DialogClose,
@@ -10,11 +10,11 @@ import {
   DialogHeader,
   DialogTitle,
   DialogTrigger,
-} from "@/registry/default/ui/dialog"
-import { Input } from "@/registry/default/ui/input"
-import { Label } from "@/registry/default/ui/label"
-import { Toaster } from "@/registry/default/ui/toaster"
-import { useToast } from "@/registry/default/ui/use-toast"
+} from "@/registry/UNSW/ui/dialog"
+import { Input } from "@/registry/UNSW/ui/input"
+import { Label } from "@/registry/UNSW/ui/label"
+import { Toaster } from "@/registry/UNSW/ui/toaster"
+import { useToast } from "@/registry/UNSW/ui/use-toast"
 
 export default function LoginModal() {
   const [formMode, setFormMode] = useState("login")

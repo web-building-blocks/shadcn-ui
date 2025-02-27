@@ -1,6 +1,6 @@
 import React from "react"
 
-import { Button } from "@/registry/default/ui/button"
+import { Button } from "@/registry/UNSW/ui/button"
 import {
   Dialog,
   DialogClose,
@@ -10,9 +10,9 @@ import {
   DialogHeader,
   DialogTitle,
   DialogTrigger,
-} from "@/registry/default/ui/dialog"
-import { Toaster } from "@/registry/default/ui/toaster"
-import { useToast } from "@/registry/default/ui/use-toast"
+} from "@/registry/UNSW/ui/dialog"
+import { Toaster } from "@/registry/UNSW/ui/toaster"
+import { useToast } from "@/registry/UNSW/ui/use-toast"
 
 export default function ConfirmModal() {
   const { toast } = useToast()
@@ -25,7 +25,7 @@ export default function ConfirmModal() {
         </DialogTrigger>
         <DialogContent
           style={{ backgroundColor: "white" }}
-          className="p-6 rounded-md"
+          className="rounded-md p-6"
         >
           <DialogHeader>
             <DialogTitle>Submit Application</DialogTitle>
@@ -34,7 +34,7 @@ export default function ConfirmModal() {
             Are you sure you want to submit your application? You will not be
             able to make changes after that.
           </DialogDescription>
-          <DialogFooter className="flex justify-center space-x-4 mt-4">
+          <DialogFooter className="mt-4 flex justify-center space-x-4">
             <Button
               variant="default"
               onClick={() => {
