@@ -7,10 +7,10 @@ import {
   AccordionContent,
   AccordionItem,
   AccordionTrigger,
-} from "@/registry/default/ui/accordion"
-import { Button } from "@/registry/default/ui/button"
-import { Toaster } from "@/registry/default/ui/toaster"
-import { useToast } from "@/registry/default/ui/use-toast"
+} from "@/registry/UNSW/ui/accordion"
+import { Button } from "@/registry/UNSW/ui/button"
+import { Toaster } from "@/registry/UNSW/ui/toaster"
+import { useToast } from "@/registry/UNSW/ui/use-toast"
 
 export default function AccordionMix() {
   const { toast } = useToast()

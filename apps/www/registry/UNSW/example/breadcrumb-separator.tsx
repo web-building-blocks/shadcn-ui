@@ -7,7 +7,7 @@ import {
   BreadcrumbList,
   BreadcrumbPage,
   BreadcrumbSeparator,
-} from "@/registry/default/ui/breadcrumb"
+} from "@/registry/UNSW/ui/breadcrumb"
 
 export default function BreadcrumbWithCustomSeparator() {
   return (

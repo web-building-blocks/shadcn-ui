@@ -5,15 +5,10 @@ import {
   AccordionContent,
   AccordionItem,
   AccordionTrigger,
-} from "@/registry/default/ui/accordion"
-import {
-  Table,
-  TableBody,
-  TableCell,
-  TableRow,
-} from "@/registry/default/ui/table"
-import { Toaster } from "@/registry/default/ui/toaster"
-import { useToast } from "@/registry/default/ui/use-toast"
+} from "@/registry/UNSW/ui/accordion"
+import { Table, TableBody, TableCell, TableRow } from "@/registry/UNSW/ui/table"
+import { Toaster } from "@/registry/UNSW/ui/toaster"
+import { useToast } from "@/registry/UNSW/ui/use-toast"
 
 export default function AccordionList() {
   const { toast } = useToast()

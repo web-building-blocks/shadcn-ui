@@ -5,10 +5,10 @@ import {
   AccordionContent,
   AccordionItem,
   AccordionTrigger,
-} from "@/registry/default/ui/accordion"
-import { Button } from "@/registry/default/ui/button"
-import { Toaster } from "@/registry/default/ui/toaster"
-import { useToast } from "@/registry/default/ui/use-toast"
+} from "@/registry/UNSW/ui/accordion"
+import { Button } from "@/registry/UNSW/ui/button"
+import { Toaster } from "@/registry/UNSW/ui/toaster"
+import { useToast } from "@/registry/UNSW/ui/use-toast"
 
 export default function AccordionButton() {
   const { toast } = useToast()
@@ -23,7 +23,7 @@ export default function AccordionButton() {
   return (
     <div className="flex w-[600px] items-center justify-center bg-white">
       <div className="w-[500px] bg-white">
-        <Accordion type="single" collapsible className="w-full">
+        <Accordion type="multiple" className="w-full">
           <AccordionItem value="item-1">
             <AccordionTrigger>How do I enrol?</AccordionTrigger>
             <AccordionContent>

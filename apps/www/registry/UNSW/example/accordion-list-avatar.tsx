@@ -6,12 +6,8 @@ import {
   AccordionContent,
   AccordionItem,
   AccordionTrigger,
-} from "@/registry/default/ui/accordion"
-import {
-  Avatar,
-  AvatarFallback,
-  AvatarImage,
-} from "@/registry/default/ui/avatar"
+} from "@/registry/UNSW/ui/accordion"
+import { Avatar, AvatarFallback, AvatarImage } from "@/registry/UNSW/ui/avatar"
 import {
   Dialog,
   DialogContent,
@@ -19,13 +15,8 @@ import {
   DialogHeader,
   DialogTitle,
   DialogTrigger,
-} from "@/registry/default/ui/dialog"
-import {
-  Table,
-  TableBody,
-  TableCell,
-  TableRow,
-} from "@/registry/default/ui/table"
+} from "@/registry/UNSW/ui/dialog"
+import { Table, TableBody, TableCell, TableRow } from "@/registry/UNSW/ui/table"
 
 export default function AccordionDemo() {
   // Define a state to hold the active dialog's content.
