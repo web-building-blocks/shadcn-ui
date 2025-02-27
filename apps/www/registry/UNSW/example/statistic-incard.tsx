@@ -1,11 +1,11 @@
 import React from "react"
 
-import { Card } from "@/registry/default/ui/card"
+import { Card } from "@/registry/UNSW/ui/card"
 import {
   ArrowDownOutlined,
   ArrowUpOutlined,
   Statistic,
-} from "@/registry/default/ui/statistic"
+} from "@/registry/UNSW/ui/statistic"
 
 function IncardStatistic() {
   // Style for the title text in each card

@@ -7,8 +7,8 @@ import {
   ToastProvider,
   ToastTitle,
   ToastViewport,
-} from "@/registry/default/ui/toast"
-import { useToast } from "@/registry/default/ui/use-toast"
+} from "@/registry/UNSW/ui/toast"
+import { useToast } from "@/registry/UNSW/ui/use-toast"
 
 export function Toaster() {
   const { toasts } = useToast()

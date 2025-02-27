@@ -19,7 +19,7 @@ import {
   Users,
 } from "lucide-react"
 
-import { Button } from "@/registry/sydney/ui/button"
+import { Button } from "@/registry/UNSW/ui/button"
 import {
   DropdownMenu,
   DropdownMenuContent,
@@ -33,7 +33,7 @@ import {
   DropdownMenuSubContent,
   DropdownMenuSubTrigger,
   DropdownMenuTrigger,
-} from "@/registry/sydney/ui/dropdown-menu"
+} from "@/registry/UNSW/ui/dropdown-menu"
 
 export function DropdownMenuwithIcon() {
   const openGitHub = () => {
