@@ -1,7 +1,7 @@
 import React from "react"
 
-import { Button } from "@/registry/default/ui/button"
-import { Statistic } from "@/registry/default/ui/statistic"
+import { Button } from "@/registry/UNSW/ui/button"
+import { Statistic } from "@/registry/UNSW/ui/statistic"
 
 function StatisticNormal() {
   return (
