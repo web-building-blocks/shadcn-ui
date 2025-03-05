@@ -5,8 +5,9 @@ import * as ToggleGroupPrimitive from "@radix-ui/react-toggle-group"
 import { type VariantProps } from "class-variance-authority"
 
 import { cn } from "@/lib/utils"
-import { toggleVariants } from "@/registry/default/ui/toggle"
+import { toggleVariants } from "@/registry/UNSW/ui/toggle"
 
+// Create context to manage ToggleGroup settings like variant and size
 const ToggleGroupContext = React.createContext<
   VariantProps<typeof toggleVariants>
 >({
@@ -21,7 +22,7 @@ const ToggleGroup = React.forwardRef<
 >(({ className, variant, size, children, ...props }, ref) => (
   <ToggleGroupPrimitive.Root
     ref={ref}
-    className={cn("flex items-center justify-center gap-1", className)}
+    className={cn("flex items-center justify-center gap-1", className)} // Keep default layout settings
     {...props}
   >
     <ToggleGroupContext.Provider value={{ variant, size }}>
@@ -43,6 +44,7 @@ const ToggleGroupItem = React.forwardRef<
     <ToggleGroupPrimitive.Item
       ref={ref}
       className={cn(
+        // Use the toggleVariants to apply correct styles with the UNSW theme
         toggleVariants({
           variant: context.variant || variant,
           size: context.size || size,

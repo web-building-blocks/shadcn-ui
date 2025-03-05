@@ -1,5 +1,5 @@
-import { Label } from "@/registry/default/ui/label"
-import { Textarea } from "@/registry/default/ui/textarea"
+import { Label } from "@/registry/UNSW/ui/label"
+import { Textarea } from "@/registry/UNSW/ui/textarea"
 
 export default function TextareaWithText() {
   return (

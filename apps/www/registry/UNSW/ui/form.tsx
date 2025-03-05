@@ -13,7 +13,7 @@ import {
 } from "react-hook-form"
 
 import { cn } from "@/lib/utils"
-import { Label } from "@/registry/default/ui/label"
+import { Label } from "@/registry/UNSW/ui/label"
 
 const Form = FormProvider
 
@@ -72,6 +72,7 @@ const FormItemContext = React.createContext<FormItemContextValue>(
   {} as FormItemContextValue
 )
 
+// FormItem component with UNSW theme styles
 const FormItem = React.forwardRef<
   HTMLDivElement,
   React.HTMLAttributes<HTMLDivElement>
@@ -86,6 +87,7 @@ const FormItem = React.forwardRef<
 })
 FormItem.displayName = "FormItem"
 
+// FormLabel component with UNSW colors
 const FormLabel = React.forwardRef<
   React.ElementRef<typeof LabelPrimitive.Root>,
   React.ComponentPropsWithoutRef<typeof LabelPrimitive.Root>
@@ -95,7 +97,7 @@ const FormLabel = React.forwardRef<
   return (
     <Label
       ref={ref}
-      className={cn(error && "text-destructive", className)}
+      className={cn(error ? "text-red-600" : "text-[#181716]", className)} // Dark UNSW text
       htmlFor={formItemId}
       {...props}
     />
@@ -103,6 +105,7 @@ const FormLabel = React.forwardRef<
 })
 FormLabel.displayName = "FormLabel"
 
+// FormControl with UNSW theme styles
 const FormControl = React.forwardRef<
   React.ElementRef<typeof Slot>,
   React.ComponentPropsWithoutRef<typeof Slot>
@@ -119,12 +122,14 @@ const FormControl = React.forwardRef<
           : `${formDescriptionId} ${formMessageId}`
       }
       aria-invalid={!!error}
+      className="border border-[#FFDC00] bg-white p-2 focus:outline-none focus:ring-2 focus:ring-[#FFDC00]" // Straight edges & UNSW yellow border
       {...props}
     />
   )
 })
 FormControl.displayName = "FormControl"
 
+// FormDescription with UNSW muted foreground
 const FormDescription = React.forwardRef<
   HTMLParagraphElement,
   React.HTMLAttributes<HTMLParagraphElement>
@@ -135,13 +140,14 @@ const FormDescription = React.forwardRef<
     <p
       ref={ref}
       id={formDescriptionId}
-      className={cn("text-sm text-muted-foreground", className)}
+      className={cn("text-sm text-[#666]", className)} // Muted text for description
       {...props}
     />
   )
 })
 FormDescription.displayName = "FormDescription"
 
+// FormMessage with error handling in UNSW style
 const FormMessage = React.forwardRef<
   HTMLParagraphElement,
   React.HTMLAttributes<HTMLParagraphElement>
@@ -157,7 +163,7 @@ const FormMessage = React.forwardRef<
     <p
       ref={ref}
       id={formMessageId}
-      className={cn("text-sm font-medium text-destructive", className)}
+      className={cn("text-sm font-medium text-red-600", className)} // Red color for errors
       {...props}
     >
       {body}
