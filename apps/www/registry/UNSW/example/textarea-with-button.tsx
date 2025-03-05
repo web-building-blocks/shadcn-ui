@@ -1,5 +1,5 @@
-import { Button } from "@/registry/default/ui/button"
-import { Textarea } from "@/registry/default/ui/textarea"
+import { Button } from "@/registry/UNSW/ui/button"
+import { Textarea } from "@/registry/UNSW/ui/textarea"
 
 export default function TextareaWithButton() {
   return (
