@@ -14,7 +14,7 @@ import { Label } from "@/registry/UNSW/ui/label"
 export default function SuccessPanel() {
   return (
     <Card className="w-[350px] rounded-md bg-white shadow-md">
-      <CardHeader className="rounded-t-md bg-gray-100 p-4">
+      <CardHeader className="rounded-t-md bg-[#FFDC00] p-4">
         <CardTitle className="text-center font-semibold text-gray-800">
           Application Complete
         </CardTitle>
