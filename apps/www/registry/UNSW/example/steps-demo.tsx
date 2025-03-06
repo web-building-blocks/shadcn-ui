@@ -1,7 +1,7 @@
 import React from "react"
 
-import { Button } from "@/registry/default/ui/button"
-import { Step, Stepper } from "@/registry/default/ui/stepper"
+import { Button } from "@/registry/UNSW/ui/button"
+import { Step, Stepper } from "@/registry/UNSW/ui/stepper"
 
 export function StepsBasic() {
   const [activeStep, setActiveStep] = React.useState(0)

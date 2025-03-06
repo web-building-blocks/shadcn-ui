@@ -1,15 +1,15 @@
 import * as React from "react"
 
-import { Avatar, AvatarImage } from "@/registry/default/ui/avatar"
-import { Button } from "@/registry/default/ui/button"
+import { Avatar, AvatarImage } from "@/registry/UNSW/ui/avatar"
+import { Button } from "@/registry/UNSW/ui/button"
 import {
   Card,
   CardContent,
   CardDescription,
   CardHeader,
   CardTitle,
-} from "@/registry/default/ui/card"
-import { Label } from "@/registry/default/ui/label"
+} from "@/registry/UNSW/ui/card"
+import { Label } from "@/registry/UNSW/ui/label"
 
 export default function SuccessPanel() {
   return (

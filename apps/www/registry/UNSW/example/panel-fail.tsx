@@ -1,13 +1,13 @@
 import * as React from "react"
 
-import { Button } from "@/registry/default/ui/button"
+import { Button } from "@/registry/UNSW/ui/button"
 import {
   Card,
   CardContent,
   CardDescription,
   CardHeader,
   CardTitle,
-} from "@/registry/default/ui/card"
+} from "@/registry/UNSW/ui/card"
 
 export default function FailPanel() {
   return (

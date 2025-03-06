@@ -1,9 +1,8 @@
 import * as React from "react"
 import Image from "next/image"
+import checkMarkIcon from "@/public/card/check-mark.png"
 
-// Only if you're using Next.js
-
-import { Button } from "@/registry/default/ui/button"
+import { Button } from "@/registry/UNSW/ui/button"
 import {
   Card,
   CardContent,
@@ -11,23 +10,14 @@ import {
   CardTitle,
 } from "@/registry/default/ui/card"
 
-import checkMarkIcon from "./check-mark.png"
-
-// Ensure this is the correct path
-
 export function EnquirySubmittedCard() {
   return (
-    <Card className="max-w-md mx-auto bg-white rounded-lg shadow-sm overflow-hidden p-4 text-center flex flex-col items-center justify-center">
-      <div className="flex justify-center items-center w-full">
+    <Card className="mx-auto flex max-w-md flex-col items-center justify-center overflow-hidden rounded-lg bg-white p-4 text-center shadow-sm">
+      <div className="flex w-full items-center justify-center">
         {/* Replace 'img' with 'Image' if using Next.js */}
-        <Image
-          src={checkMarkIcon}
-          alt="Checkmark"
-          width={50} // Set the size of your image accordingly
-          height={50} // Set the size of your image accordingly
-        />
+        <Image src={checkMarkIcon} alt="Checkmark" width={50} height={50} />
       </div>
-      <CardTitle className="text-lg font-semibold my-2 mt-4">
+      <CardTitle className="my-2 mt-4 text-lg font-semibold">
         Enquiry Submitted
       </CardTitle>
       <CardContent className="mb-4 mt-4">
@@ -36,7 +26,7 @@ export function EnquirySubmittedCard() {
           <br /> you as soon as we can.
         </p>
       </CardContent>
-      <Button className="py-2 px-4 mt-2">Return to Page</Button>
+      <Button className="mt-2 px-4 py-2">Return to Page</Button>
     </Card>
   )
 }

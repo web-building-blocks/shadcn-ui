@@ -1,23 +1,23 @@
 import * as React from "react"
 
-import { Button } from "@/registry/default/ui/button"
+import { Button } from "@/registry/UNSW/ui/button"
 import {
   Card,
   CardContent,
   CardDescription,
   CardHeader,
   CardTitle,
-} from "@/registry/default/ui/card"
+} from "@/registry/UNSW/ui/card"
 
 export function LargeHeaderCard() {
   return (
-    <Card className="max-w-xl mx-auto bg-white rounded-lg shadow-sm overflow-hidden p-2">
+    <Card className="mx-auto max-w-xl overflow-hidden rounded-lg bg-white p-2 shadow-sm">
       <div>
-        <CardHeader className="text-2xl font-bold mb-2">
+        <CardHeader className="mb-2 text-2xl font-bold">
           The University of Sydney is ranked 19th <br /> in the 2024 QS World
           University Rankings
         </CardHeader>
-        <CardDescription className="text-sm mb-4 ml-6">
+        <CardDescription className="mb-4 ml-6 text-sm">
           The University of Sydney was founded on the principle of giving
           everyone
           <br />
@@ -27,8 +27,8 @@ export function LargeHeaderCard() {
           that belief just as strongly today.
         </CardDescription>
       </div>
-      <div className="text-right ml-6">
-        <Button className="mt-2 py-1 px-4">Explore your study options →</Button>
+      <div className="ml-6 text-right">
+        <Button className="mt-2 px-4 py-1">Explore your study options →</Button>
       </div>
     </Card>
   )

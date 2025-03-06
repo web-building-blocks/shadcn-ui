@@ -918,6 +918,17 @@ export const Index: Record<string, any> = {
       subcategory: "undefined",
       chunks: []
     },
+    "calendar-react-hook-form": {
+      name: "calendar-react-hook-form",
+      type: "components:example",
+      registryDependencies: ["calendar","form","popover"],
+      component: React.lazy(() => import("@/registry/default/example/calendar-react-hook-form")),
+      source: "",
+      files: ["registry/default/example/calendar-react-hook-form.tsx"],
+      category: "undefined",
+      subcategory: "undefined",
+      chunks: []
+    },
     "card-demo": {
       name: "card-demo",
       type: "components:example",
@@ -4919,6 +4930,17 @@ export const Index: Record<string, any> = {
       component: React.lazy(() => import("@/registry/new-york/example/calendar-form")),
       source: "",
       files: ["registry/new-york/example/calendar-form.tsx"],
+      category: "undefined",
+      subcategory: "undefined",
+      chunks: []
+    },
+    "calendar-react-hook-form": {
+      name: "calendar-react-hook-form",
+      type: "components:example",
+      registryDependencies: ["calendar","form","popover"],
+      component: React.lazy(() => import("@/registry/new-york/example/calendar-react-hook-form")),
+      source: "",
+      files: ["registry/new-york/example/calendar-react-hook-form.tsx"],
       category: "undefined",
       subcategory: "undefined",
       chunks: []
@@ -8928,6 +8950,17 @@ export const Index: Record<string, any> = {
       subcategory: "undefined",
       chunks: []
     },
+    "calendar-react-hook-form": {
+      name: "calendar-react-hook-form",
+      type: "components:example",
+      registryDependencies: ["calendar","form","popover"],
+      component: React.lazy(() => import("@/registry/sydney/example/calendar-react-hook-form")),
+      source: "",
+      files: ["registry/sydney/example/calendar-react-hook-form.tsx"],
+      category: "undefined",
+      subcategory: "undefined",
+      chunks: []
+    },
     "card-demo": {
       name: "card-demo",
       type: "components:example",
@@ -12933,6 +12966,17 @@ export const Index: Record<string, any> = {
       subcategory: "undefined",
       chunks: []
     },
+    "calendar-react-hook-form": {
+      name: "calendar-react-hook-form",
+      type: "components:example",
+      registryDependencies: ["calendar","form","popover"],
+      component: React.lazy(() => import("@/registry/ibm/example/calendar-react-hook-form")),
+      source: "",
+      files: ["registry/ibm/example/calendar-react-hook-form.tsx"],
+      category: "undefined",
+      subcategory: "undefined",
+      chunks: []
+    },
     "card-demo": {
       name: "card-demo",
       type: "components:example",
@@ -16934,6 +16978,17 @@ export const Index: Record<string, any> = {
       component: React.lazy(() => import("@/registry/UNSW/example/calendar-form")),
       source: "",
       files: ["registry/UNSW/example/calendar-form.tsx"],
+      category: "undefined",
+      subcategory: "undefined",
+      chunks: []
+    },
+    "calendar-react-hook-form": {
+      name: "calendar-react-hook-form",
+      type: "components:example",
+      registryDependencies: ["calendar","form","popover"],
+      component: React.lazy(() => import("@/registry/UNSW/example/calendar-react-hook-form")),
+      source: "",
+      files: ["registry/UNSW/example/calendar-react-hook-form.tsx"],
       category: "undefined",
       subcategory: "undefined",
       chunks: []

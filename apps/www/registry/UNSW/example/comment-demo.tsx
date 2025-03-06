@@ -11,10 +11,10 @@ import { useToast } from "@/registry/UNSW/ui/use-toast"
 
 export function BasicComment() {
   const initialMessage = {
-    user: "USYD Student",
+    user: "UNSW Student",
     avatarUrl: "https://api.dicebear.com/7.x/miniavs/svg?seed=1",
     description:
-      "I am a student of USYD and majoring in Master of Computer Science.",
+      "I am a student of UNSW and majoring in Master of Computer Science.",
     content:
       "Education for all, leadership for good. Progressive thinking, breaking with convention, challenging the status quo and improving the world around us is in our DNA.",
     likes: 156,
@@ -55,7 +55,10 @@ export function BasicComment() {
       <Card className="mb-4">
         <CardHeader
           className="flex flex-col p-4"
-          style={{ borderBottom: "1px solid #e8e8e8" }}
+          style={{
+            backgroundColor: "#FFDC00",
+            borderBottom: "1px solid #e8e8e8",
+          }}
         >
           <div className="flex items-center mb-2">
             <Avatar style={{ marginRight: "10px" }}>
