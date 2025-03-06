@@ -7,7 +7,7 @@ import {
   CardFooter,
   CardHeader,
   CardTitle,
-} from "@/registry/default/ui/card"
+} from "@/registry/UNSW/ui/card"
 
 function DynamicCardComponent() {
   const [hovered, setHovered] = useState<string | null>(null)
@@ -35,13 +35,13 @@ function DynamicCardComponent() {
   }
 
   return (
-    <Card className="w-full p-4 bg-white shadow-md rounded-lg">
-      <CardHeader className="flex justify-between items-center mb-4">
-        <div className="flex justify-start items-center">
+    <Card className="w-full rounded-lg bg-white p-4 shadow-md">
+      <CardHeader className="mb-4 flex items-center justify-between">
+        <div className="flex items-center justify-start">
           <CardTitle className="text-xl font-bold">Events Triggered</CardTitle>
         </div>
         <div className="flex items-center">
-          <span className="text-sm font-medium text-gray-500 mr-4">
+          <span className="mr-4 text-sm font-medium text-gray-500">
             Production
           </span>
         </div>
@@ -50,16 +50,16 @@ function DynamicCardComponent() {
         {data.map((item, index) => (
           <div
             key={item.name}
-            className="flex justify-between items-center mb-2 rounded-lg border"
+            className="mb-2 flex items-center justify-between rounded-lg border"
             style={{ padding: "10px", borderColor: "#e2e8f0" }}
             onMouseEnter={() => setHovered(item.name)}
             onMouseLeave={() => setHovered(null)}
           >
             <div className="flex-1">
-              <span className="font-semibold text-lg">{item.name}</span>
+              <span className="text-lg font-semibold">{item.name}</span>
             </div>
             <div className="flex-1 text-right">
-              <span className="text-gray-900 text-lg">{item.value}</span>
+              <span className="text-lg text-gray-900">{item.value}</span>
             </div>
             <div className="flex-1 text-right">
               <span className="text-sm text-green-600">{item.change}</span>
@@ -93,7 +93,7 @@ function DynamicCardComponent() {
           </CardDescription>
         )}
         {!hovered && (
-          <CardDescription className="text-gray-800 font-medium">
+          <CardDescription className="font-medium text-gray-800">
             Total Events Triggered: 35,968
           </CardDescription>
         )}

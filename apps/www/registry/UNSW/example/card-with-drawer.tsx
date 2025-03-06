@@ -1,7 +1,7 @@
 import React, { useState } from "react"
 
-import { Button } from "@/registry/default/ui/button"
-import { Card, CardContent } from "@/registry/default/ui/card"
+import { Button } from "@/registry/UNSW/ui/button"
+import { Card, CardContent } from "@/registry/UNSW/ui/card"
 
 export function CardWithDrawer() {
   const [isHovered, setIsHovered] = useState(false)
@@ -15,14 +15,14 @@ export function CardWithDrawer() {
 
   return (
     <Card
-      className="relative w-1/2 h-64 overflow-hidden shadow-lg rounded-lg"
+      className="relative h-64 w-1/2 overflow-hidden rounded-lg shadow-lg"
       onMouseEnter={() => setIsHovered(true)}
       onMouseLeave={() => setIsHovered(false)}
     >
       <img
         src={imageUrl}
         alt="Image Models"
-        className="w-full h-64 object-cover rounded-t-lg"
+        className="h-64 w-full rounded-t-lg object-cover"
       />
       <CardContent
         style={{
@@ -38,11 +38,11 @@ export function CardWithDrawer() {
         }}
       >
         <h3 className="font-bold">University of Sydney</h3>
-        <div className="flex items-center mt-4">
+        <div className="mt-4 flex items-center">
           <img
             src="https://www.woodsbagot.com/wp-content/uploads/legacy/93/0-2048x1739.jpg"
             alt="User Avatar"
-            className="w-8 h-8 rounded-full mr-2"
+            className="mr-2 h-8 w-8 rounded-full"
           />
           <span>Logged in as Mariana</span>
         </div>

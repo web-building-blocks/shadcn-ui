@@ -1,19 +1,19 @@
 import * as React from "react"
 
-import { Button } from "@/registry/default/ui/button"
+import { Button } from "@/registry/UNSW/ui/button"
 import {
   Card,
   CardContent,
   CardDescription,
   CardHeader,
   CardTitle,
-} from "@/registry/default/ui/card"
+} from "@/registry/UNSW/ui/card"
 
 export default function FailPanel() {
   return (
     <Card className="w-[350px] rounded-md bg-white shadow-md">
-      <CardHeader className="rounded-t-md bg-black p-4 font-semibold">
-        <CardTitle className="text-center font-bold text-white">
+      <CardHeader className="rounded-t-md bg-[#FFDC00] p-4 font-semibold">
+        <CardTitle className="text-center font-bold text-black">
           Application Failed
         </CardTitle>
       </CardHeader>
@@ -23,7 +23,7 @@ export default function FailPanel() {
         </CardDescription>
 
         <CardDescription className="text-center">
-          <Button className="mt-4 bg-black font-semibold text-white">
+          <Button className="mt-4 bg-[#FFDC00] font-semibold text-black">
             Back
           </Button>
         </CardDescription>

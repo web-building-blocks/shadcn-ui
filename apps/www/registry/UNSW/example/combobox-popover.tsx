@@ -11,7 +11,7 @@ import {
 } from "lucide-react"
 
 import { cn } from "@/lib/utils"
-import { Button } from "@/registry/default/ui/button"
+import { Button } from "@/registry/UNSW/ui/button"
 import {
   Command,
   CommandEmpty,
@@ -19,12 +19,12 @@ import {
   CommandInput,
   CommandItem,
   CommandList,
-} from "@/registry/default/ui/command"
+} from "@/registry/UNSW/ui/command"
 import {
   Popover,
   PopoverContent,
   PopoverTrigger,
-} from "@/registry/default/ui/popover"
+} from "@/registry/UNSW/ui/popover"
 
 type Status = {
   value: string

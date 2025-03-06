@@ -62,7 +62,7 @@ export function BasicComment() {
             borderTopRightRadius: "8px",
           }}
         >
-          <div className="flex items-center mb-2">
+          <div className="mb-2 flex items-center">
             <Avatar style={{ marginRight: "10px" }}>
               <AvatarImage src={message.avatarUrl} alt={message.user} />
             </Avatar>
@@ -105,7 +105,7 @@ export function BasicComment() {
             {message.content}
           </div>
           <div
-            className="flex mt-2 justify-left text-sm space-x-2"
+            className="justify-left mt-2 flex space-x-2 text-sm"
             style={{ color: "#666666", marginTop: "20px" }}
           >
             <Button
@@ -116,7 +116,7 @@ export function BasicComment() {
               <Heart size={20} style={{ marginRight: "5px" }} />
               {message.likes}
             </Button>
-            <span className="text-gray-300 mx-1" style={{ color: "#EAEAEA" }}>
+            <span className="mx-1 text-gray-300" style={{ color: "#EAEAEA" }}>
               |
             </span>
             <Button
@@ -127,7 +127,7 @@ export function BasicComment() {
               <MessageCircleMore size={20} style={{ marginRight: "5px" }} />
               {message.comments}
             </Button>
-            <span className="text-gray-300 mx-1" style={{ color: "#EAEAEA" }}>
+            <span className="mx-1 text-gray-300" style={{ color: "#EAEAEA" }}>
               |
             </span>
             <Button
@@ -140,7 +140,7 @@ export function BasicComment() {
             </Button>
           </div>
           {isTextareaActive && (
-            <div className="grid w-full gap-2 mt-2">
+            <div className="mt-2 grid w-full gap-2">
               <Textarea
                 value={commentText}
                 placeholder="Inspire others with your thoughts."

@@ -3,7 +3,7 @@
 import * as React from "react"
 
 import { useMediaQuery } from "@/hooks/use-media-query"
-import { Button } from "@/registry/default/ui/button"
+import { Button } from "@/registry/UNSW/ui/button"
 import {
   Command,
   CommandEmpty,
@@ -11,17 +11,13 @@ import {
   CommandInput,
   CommandItem,
   CommandList,
-} from "@/registry/default/ui/command"
-import {
-  Drawer,
-  DrawerContent,
-  DrawerTrigger,
-} from "@/registry/default/ui/drawer"
+} from "@/registry/UNSW/ui/command"
+import { Drawer, DrawerContent, DrawerTrigger } from "@/registry/UNSW/ui/drawer"
 import {
   Popover,
   PopoverContent,
   PopoverTrigger,
-} from "@/registry/default/ui/popover"
+} from "@/registry/UNSW/ui/popover"
 
 type Status = {
   value: string

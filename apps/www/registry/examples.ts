@@ -224,6 +224,12 @@ export const examples: Registry = [
     files: ["example/calendar-form.tsx"],
   },
   {
+    name: "calendar-react-hook-form",
+    type: "components:example",
+    registryDependencies: ["calendar", "form", "popover"],
+    files: ["example/calendar-react-hook-form.tsx"],
+  },
+  {
     name: "card-demo",
     type: "components:example",
     registryDependencies: ["card", "button", "switch"],
