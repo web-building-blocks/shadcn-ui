@@ -1,8 +1,8 @@
 "use client"
 
-import { Button } from "@/registry/default/ui/button"
-import { Input } from "@/registry/default/ui/input"
-import { Label } from "@/registry/default/ui/label"
+import { Button } from "@/registry/UNSW/ui/button"
+import { Input } from "@/registry/UNSW/ui/input"
+import { Label } from "@/registry/UNSW/ui/label"
 import {
   Sheet,
   SheetClose,
@@ -12,7 +12,7 @@ import {
   SheetHeader,
   SheetTitle,
   SheetTrigger,
-} from "@/registry/default/ui/sheet"
+} from "@/registry/UNSW/ui/sheet"
 
 const SHEET_SIDES = ["top", "right", "bottom", "left"] as const
 

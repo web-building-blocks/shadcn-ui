@@ -1,11 +1,11 @@
-import { Button } from "@/registry/default/ui/button"
-import { Input } from "@/registry/default/ui/input"
-import { Label } from "@/registry/default/ui/label"
+import { Button } from "@/registry/UNSW/ui/button"
+import { Input } from "@/registry/UNSW/ui/input"
+import { Label } from "@/registry/UNSW/ui/label"
 import {
   Popover,
   PopoverContent,
   PopoverTrigger,
-} from "@/registry/default/ui/popover"
+} from "@/registry/UNSW/ui/popover"
 
 export default function PopoverDemo() {
   return (

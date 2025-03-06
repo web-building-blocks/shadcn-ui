@@ -2,9 +2,9 @@
 
 import React from "react"
 
-import { Checkbox } from "@/registry/default/ui/checkbox"
-import { Toaster } from "@/registry/default/ui/toaster"
-import { useToast } from "@/registry/default/ui/use-toast"
+import { Checkbox } from "@/registry/UNSW/ui/checkbox"
+import { Toaster } from "@/registry/UNSW/ui/toaster"
+import { useToast } from "@/registry/UNSW/ui/use-toast"
 
 export default function CheckboxDemo() {
   const { toast } = useToast()

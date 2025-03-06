@@ -1,4 +1,4 @@
-import { Checkbox } from "@/registry/default/ui/checkbox"
+import { Checkbox } from "@/registry/UNSW/ui/checkbox"
 
 export default function CheckboxDisabled() {
   return (

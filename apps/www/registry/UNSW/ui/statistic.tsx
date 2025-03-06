@@ -15,14 +15,14 @@ const Statistic: React.FC<StatisticProps> = (props) => {
   const { title, value, precision, loading, valueStyle, prefix, suffix } = props
   return (
     <div style={{ textAlign: "center" }}>
-      <h3 style={{ margin: 0 }}>{title}</h3>
+      <h3 style={{ margin: 0, color: "#000" }}>{title}</h3>
       {loading ? (
         <div
           style={{
-            width: "100%", //
+            width: "100%",
             height: "10px",
-            backgroundColor: "#ddd",
-            borderRadius: "4px",
+            backgroundColor: "#FFDC00",
+            borderRadius: "0",
           }}
         />
       ) : (
@@ -32,9 +32,9 @@ const Statistic: React.FC<StatisticProps> = (props) => {
             fontWeight: "bold",
             color: "#000",
             display: "flex",
-            alignItems: "center", //
-            justifyContent: "center", //
-            ...valueStyle, //
+            alignItems: "center",
+            justifyContent: "center",
+            ...valueStyle,
           }}
         >
           {prefix && <span style={{ marginRight: "4px" }}>{prefix}</span>}
@@ -53,7 +53,7 @@ const ArrowUpOutlined: React.FC = () => (
     viewBox="64 64 896 896"
     focusable="false"
     data-icon="arrow-up"
-    width="1em" //
+    width="1em"
     height="1em"
     fill="currentColor"
     aria-hidden="true"
