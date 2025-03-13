@@ -1,3 +1,5 @@
+"use client"
+
 import React, { useState } from "react"
 import { Forward, Heart, MessageCircleMore } from "lucide-react"
 
@@ -60,7 +62,7 @@ export function BasicComment() {
             borderBottom: "1px solid #e8e8e8",
           }}
         >
-          <div className="flex items-center mb-2">
+          <div className="mb-2 flex items-center">
             <Avatar style={{ marginRight: "10px" }}>
               <AvatarImage src={message.avatarUrl} alt={message.user} />
             </Avatar>
@@ -88,7 +90,7 @@ export function BasicComment() {
             {message.content}
           </div>
           <div
-            className="flex mt-2 justify-left text-sm text-gray-400 space-x-1"
+            className="justify-left mt-2 flex space-x-1 text-sm text-gray-400"
             style={{ marginTop: "20px" }}
           >
             <Button
@@ -100,7 +102,7 @@ export function BasicComment() {
               {message.likes}
             </Button>
             <span
-              className="text-gray-100 mx-1"
+              className="mx-1 text-gray-100"
               style={{ marginTop: "10px", color: "gray" }}
             >
               |
@@ -114,7 +116,7 @@ export function BasicComment() {
               {message.comments}
             </Button>
             <span
-              className="text-gray-400 mx-1"
+              className="mx-1 text-gray-400"
               style={{ marginTop: "10px", color: "gray" }}
             >
               |
@@ -129,7 +131,7 @@ export function BasicComment() {
             </Button>
           </div>
           {isTextareaActive && (
-            <div className="grid w-full gap-2 mt-2">
+            <div className="mt-2 grid w-full gap-2">
               <Textarea
                 value={commentText}
                 placeholder="Type your comment here."

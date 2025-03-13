@@ -5,8 +5,8 @@ import { addDays, format } from "date-fns"
 import { Calendar as CalendarIcon } from "lucide-react"
 
 import { cn } from "@/lib/utils"
-import { Button } from "@/registry/default/ui/button"
-import { Calendar } from "@/registry/default/ui/calendar"
+import { Button } from "@/registry/UNSW/ui/button"
+import { Calendar } from "@/registry/UNSW/ui/calendar"
 import {
   Popover,
   PopoverContent,

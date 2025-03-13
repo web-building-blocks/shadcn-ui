@@ -7,8 +7,8 @@ import { useForm } from "react-hook-form"
 import { z } from "zod"
 
 import { cn } from "@/lib/utils"
-import { Button } from "@/registry/default/ui/button"
-import { Calendar } from "@/registry/default/ui/calendar"
+import { Button } from "@/registry/sydney/ui/button"
+import { Calendar } from "@/registry/sydney/ui/calendar"
 import {
   Form,
   FormControl,
@@ -17,13 +17,13 @@ import {
   FormItem,
   FormLabel,
   FormMessage,
-} from "@/registry/default/ui/form"
+} from "@/registry/sydney/ui/form"
 import {
   Popover,
   PopoverContent,
   PopoverTrigger,
-} from "@/registry/default/ui/popover"
-import { toast } from "@/registry/default/ui/use-toast"
+} from "@/registry/sydney/ui/popover"
+import { toast } from "@/registry/sydney/ui/use-toast"
 
 const FormSchema = z.object({
   dob: z.date({
