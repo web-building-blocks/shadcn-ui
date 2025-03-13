@@ -2,7 +2,7 @@ import React, { useState } from "react"
 import styled from "styled-components"
 
 const StyledBrowserWindow = styled.div`
-  font-family: "Inter", sans-serif;
+  font-family: "Clancy", "Roboto Mono", sans-serif;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -13,9 +13,9 @@ const StyledBrowserWindow = styled.div`
 const BrowserWindow = styled.div`
   width: 100%;
   height: 100%;
-  border: 1px solid #ccc;
+  border: 1px solid #ffcd00;
   background-color: #fff;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
   overflow: hidden;
 `
 
@@ -23,8 +23,8 @@ const BrowserHeader = styled.div`
   display: flex;
   align-items: center;
   padding: 10px;
-  background-color: #f0f0f0;
-  border-bottom: 1px solid #ccc;
+  background-color: #ffcd00;
+  border-bottom: 1px solid #ffcd00;
 `
 
 const BrowserButtons = styled.div`
@@ -44,12 +44,21 @@ const BrowserUrlBar = styled.div`
   flex: 1;
   margin-left: 10px;
   padding: 5px 10px;
-  border: 1px solid #ccc;
-  border-radius: 3px;
+  border: 1px solid #ffcd00;
+  border-radius: 15px;
+  background: white;
+  transition: all 0.2s ease-in-out;
+
+  &:focus-within {
+    border-color: #cc9a00; // 🟡 聚焦时变深黄色
+  }
   input {
     width: 100%;
     border: none;
     background: transparent;
+    font-size: 14px;
+    color: #cc9a00; // 🟡 文字变深黄色，增加对比度
+    outline: none;
   }
 `
 
