@@ -1,5 +1,5 @@
-import { Label } from "@/registry/default/ui/label"
-import { Switch } from "@/registry/default/ui/switch"
+import { Label } from "@/registry/UNSW/ui/label"
+import { Switch } from "@/registry/UNSW/ui/switch"
 
 export default function SwitchDemo() {
   return (

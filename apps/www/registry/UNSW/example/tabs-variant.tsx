@@ -7,13 +7,13 @@ import {
   CardFooter,
   CardHeader,
   CardTitle,
-} from "@/registry/sydney/ui/card"
+} from "@/registry/UNSW/ui/card"
 import {
   Tabs,
   TabsContent,
   TabsList,
   TabsTrigger,
-} from "@/registry/sydney/ui/tabs"
+} from "@/registry/UNSW/ui/tabs"
 
 export function TabsDemo() {
   return (

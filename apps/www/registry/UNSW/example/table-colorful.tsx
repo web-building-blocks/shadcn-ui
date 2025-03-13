@@ -7,7 +7,7 @@ import {
   TableHead,
   TableHeader,
   TableRow,
-} from "@/registry/sydney/ui/table"
+} from "@/registry/UNSW/ui/table"
 
 const invoices = [
   {
@@ -56,23 +56,19 @@ const invoices = [
 
 export default function TableDemo() {
   return (
-    <div className="border-2 border-orange-600 rounded-xl overflow-hidden shadow-lg w-full max-w-full">
+    <div className="first-of-type:border-none border border-[#FFCD00] rounded-lg overflow-hidden shadow-md w-full max-w-full">
       <Table className="w-full bg-white">
-        <TableCaption className="text-orange-600">
+        <TableCaption className="text-gray-600">
           A list of your recent invoices.
         </TableCaption>
         <TableHeader>
           <TableRow className="bg-orange-50">
-            <TableHead className="w-[100px] border-b-2 border-orange-600 text-orange-800">
+            <TableHead className="w-[100px] text-black font-semibold">
               Invoice
             </TableHead>
-            <TableHead className="border-b-2 border-orange-600 text-orange-800">
-              Status
-            </TableHead>
-            <TableHead className="border-b-2 border-orange-600 text-orange-800">
-              Method
-            </TableHead>
-            <TableHead className="text-right border-b-2 border-orange-600 text-orange-800">
+            <TableHead className="text-black font-semibold">Status</TableHead>
+            <TableHead className="text-black font-semibold">Method</TableHead>
+            <TableHead className="text-right text-black font-semibold">
               Amount
             </TableHead>
           </TableRow>
@@ -81,29 +77,23 @@ export default function TableDemo() {
           {invoices.map((invoice) => (
             <TableRow
               key={invoice.invoice}
-              className="hover:bg-orange-100 even:bg-orange-50"
+              className="hover:bg-[#FFF7D1] even:bg-[#FFFDE7]"
             >
-              <TableCell className="font-medium border-b border-orange-300">
-                {invoice.invoice}
-              </TableCell>
-              <TableCell className="border-b border-orange-300">
-                {invoice.paymentStatus}
-              </TableCell>
-              <TableCell className="border-b border-orange-300">
-                {invoice.paymentMethod}
-              </TableCell>
-              <TableCell className="text-right border-b border-orange-300">
+              <TableCell className="font-medium">{invoice.invoice}</TableCell>
+              <TableCell>{invoice.paymentStatus}</TableCell>
+              <TableCell>{invoice.paymentMethod}</TableCell>
+              <TableCell className="text-right">
                 {invoice.totalAmount}
               </TableCell>
             </TableRow>
           ))}
         </TableBody>
         <TableFooter>
-          <TableRow className="bg-orange-100">
-            <TableCell colSpan={3} className="font-semibold text-orange-800">
+          <TableRow className="bg-[#FFF3B0]">
+            <TableCell colSpan={3} className="font-semibold text-black">
               Total
             </TableCell>
-            <TableCell className="text-right font-semibold text-orange-800">
+            <TableCell className="text-right font-semibold text-black">
               $2,500.00
             </TableCell>
           </TableRow>

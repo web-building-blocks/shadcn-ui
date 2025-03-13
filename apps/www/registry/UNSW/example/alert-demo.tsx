@@ -1,10 +1,6 @@
 import { Terminal } from "lucide-react"
 
-import {
-  Alert,
-  AlertDescription,
-  AlertTitle,
-} from "@/registry/default/ui/alert"
+import { Alert, AlertDescription, AlertTitle } from "@/registry/UNSW/ui/alert"
 
 export default function AlertDemo() {
   return (
