@@ -1,4 +1,4 @@
-import { Button } from "@/registry/default/ui/button"
+import { Button } from "@/registry/UNSW/ui/button"
 import {
   Dialog,
   DialogContent,
@@ -7,9 +7,9 @@ import {
   DialogHeader,
   DialogTitle,
   DialogTrigger,
-} from "@/registry/default/ui/dialog"
-import { Input } from "@/registry/default/ui/input"
-import { Label } from "@/registry/default/ui/label"
+} from "@/registry/UNSW/ui/dialog"
+import { Input } from "@/registry/UNSW/ui/input"
+import { Label } from "@/registry/UNSW/ui/label"
 
 export default function DialogDemo() {
   return (

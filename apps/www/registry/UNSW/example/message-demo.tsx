@@ -1,8 +1,8 @@
 import React, { useState } from "react"
 import { InfoCircledIcon } from "@radix-ui/react-icons"
 
-import { Button } from "@/registry/sydney/ui/button"
-import Messages from "@/registry/sydney/ui/messages"
+import { Button } from "@/registry/UNSW/ui/button"
+import Messages from "@/registry/UNSW/ui/messages"
 
 export function MessageNormal() {
   const [isVisible, setIsVisible] = useState(false)

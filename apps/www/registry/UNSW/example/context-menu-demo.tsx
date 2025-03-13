@@ -12,7 +12,7 @@ import {
   ContextMenuSubContent,
   ContextMenuSubTrigger,
   ContextMenuTrigger,
-} from "@/registry/default/ui/context-menu"
+} from "@/registry/UNSW/ui/context-menu"
 
 export default function ContextMenuDemo() {
   return (

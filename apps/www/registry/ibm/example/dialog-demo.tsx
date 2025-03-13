@@ -1,4 +1,4 @@
-import { Button } from "@/registry/default/ui/button"
+import { Button } from "@/registry/ibm/ui/button"
 import {
   Dialog,
   DialogContent,
@@ -7,9 +7,9 @@ import {
   DialogHeader,
   DialogTitle,
   DialogTrigger,
-} from "@/registry/default/ui/dialog"
-import { Input } from "@/registry/default/ui/input"
-import { Label } from "@/registry/default/ui/label"
+} from "@/registry/ibm/ui/dialog"
+import { Input } from "@/registry/ibm/ui/input"
+import { Label } from "@/registry/ibm/ui/label"
 
 export default function DialogDemo() {
   return (
