@@ -9,7 +9,7 @@ import {
   AlertDialogTitle,
   AlertDialogTrigger,
 } from "@/registry/UNSW/ui/alert-dialog"
-import { Button } from "@/registry/UNSW/ui/button"
+import { Button } from "@/registry/default/ui/button"
 
 export default function AlertDialogDemo() {
   return (
