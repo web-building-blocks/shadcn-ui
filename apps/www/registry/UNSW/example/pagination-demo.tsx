@@ -12,8 +12,8 @@ import {
 
 export function PaginationDemo() {
   const totalPages = 10 // Total number of pages.
-  const [currentPage, setCurrentPage] = useState(1)
-  const maxPageNumbersToShow = 5 // Maximum number of page numbers to display at once.
+  const [currentPage, setCurrentPage] = useState<number>(1)
+  const [hoveredPage, setHoveredPage] = useState<number | null>(null) // Updated to accept number or null
 
   // Inline styles
   const paginationStyle = {
@@ -26,31 +26,33 @@ export function PaginationDemo() {
   const paginationItemStyle = {
     margin: "0 4px",
   }
-  const paginationLinkStyle = {
-    border: "1px solid hsl(var(--border))",
-    borderRadius: "4px",
+
+  // Define paginationLinkStyle with a type for isHovered
+  const paginationLinkStyle = (isHovered: boolean) => ({
+    border: "none",
+    borderRadius: "0px",
     padding: "8px 12px",
     cursor: "pointer",
     textDecoration: "none",
-    backgroundColor: "hsl(var(--background))",
-    color: "hsl(var(--foreground))", // Text color.
-  }
+    backgroundColor: isHovered ? "#f0f0f0" : "hsl(var(--background))", // Updated light gray hover color
+    color: "hsl(var(--foreground))",
+    transition: "background-color 0.3s",
+  })
 
   const activePaginationLinkStyle = {
-    ...paginationLinkStyle,
-    backgroundColor: "hsl(var(--primary))", // Background color for the active item.
-    borderColor: "hsl(var(--primary))", // Border color for the active item.
+    ...paginationLinkStyle(false),
+    backgroundColor: "#FFD000", // Background color for the active item.
     color: "hsl(var(--primary-foreground))", // Text color for the active item.
   }
 
   // Styles for the "Previous" and "Next" arrows.
   const normalArrowStyle = {
-    ...paginationLinkStyle,
+    ...paginationLinkStyle(false),
     backgroundColor: "hsl(var(--background))",
   }
 
   const disabledArrowStyle = {
-    ...paginationLinkStyle,
+    ...paginationLinkStyle(false),
     backgroundColor: "hsl(var(--muted))",
     cursor: "default",
     color: "hsl(var(--muted-foreground))",
@@ -69,15 +71,15 @@ export function PaginationDemo() {
   const generatePageLinks = () => {
     let pages = []
     let startPage, endPage
-    if (totalPages <= maxPageNumbersToShow) {
+    if (totalPages <= 5) {
       startPage = 1
       endPage = totalPages
     } else {
       if (currentPage <= 3) {
         startPage = 1
-        endPage = maxPageNumbersToShow
+        endPage = 5
       } else if (currentPage + 2 >= totalPages) {
-        startPage = totalPages - maxPageNumbersToShow + 1
+        startPage = totalPages - 4
         endPage = totalPages
       } else {
         startPage = currentPage - 2
@@ -91,10 +93,12 @@ export function PaginationDemo() {
           <PaginationLink
             href="#"
             onClick={(e) => handlePageChange(e, page)}
+            onMouseEnter={() => setHoveredPage(page)} // Set hover
+            onMouseLeave={() => setHoveredPage(null)} // Remove hover
             style={
               currentPage === page
                 ? activePaginationLinkStyle
-                : paginationLinkStyle
+                : paginationLinkStyle(hoveredPage === page)
             }
           >
             {page}
